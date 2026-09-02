@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Santa Cruz de Tenerife",
+    "slug": "santa-cruz-de-tenerife",
+    "region": "canarias",
+    "island": "tenerife",
+    "latitude": 28.4636,
+    "longitude": -16.2518,
+    "aemet_code": "38038"
+  },
+  {
+    "name": "Puerto de la Cruz",
+    "slug": "puerto-de-la-cruz",
+    "region": "canarias",
+    "island": "tenerife",
+    "latitude": 28.4167,
+    "longitude": -16.55,
+    "aemet_code": "38028"
+  },
+  {
+    "name": "Las Palmas de Gran Canaria",
+    "slug": "las-palmas-de-gran-canaria",
+    "region": "canarias",
+    "island": "gran-canaria",
+    "latitude": 28.1235,
+    "longitude": -15.4363,
+    "aemet_code": "35016"
+  },
+  {
+    "name": "Arrecife",
+    "slug": "arrecife",
+    "region": "canarias",
+    "island": "lanzarote",
+    "latitude": 28.963,
+    "longitude": -13.5477,
+    "aemet_code": "35004"
+  },
+  {
+    "name": "Puerto del Rosario",
+    "slug": "puerto-del-rosario",
+    "region": "canarias",
+    "island": "fuerteventura",
+    "latitude": 28.5004,
+    "longitude": -13.8627,
+    "aemet_code": "35017"
+  },
+  {
+    "name": "San Sebastián de La Gomera",
+    "slug": "san-sebastian-de-la-gomera",
+    "region": "canarias",
+    "island": "la-gomera",
+    "latitude": 28.0916,
+    "longitude": -17.1133,
+    "aemet_code": "38036"
+  },
+  {
+    "name": "Santa Cruz de La Palma",
+    "slug": "santa-cruz-de-la-palma",
+    "region": "canarias",
+    "island": "la-palma",
+    "latitude": 28.6835,
+    "longitude": -17.7642,
+    "aemet_code": "38037"
+  },
+  {
+    "name": "Valverde",
+    "slug": "valverde",
+    "region": "canarias",
+    "island": "el-hierro",
+    "latitude": 27.8063,
+    "longitude": -17.9158,
+    "aemet_code": "38048"
+  }
+]

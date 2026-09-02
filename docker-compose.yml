@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgis/postgis:17-3.5
+    container_name: canarias-db
+
+    environment:
+      POSTGRES_DB: canarias
+      POSTGRES_USER: canarias
+      POSTGRES_PASSWORD: canarias_dev
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
