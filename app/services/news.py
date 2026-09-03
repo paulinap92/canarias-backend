@@ -9,10 +9,17 @@ NEWS_RSS_URL = (
 )
 
 
-async def fetch_news(limit: int = 20) -> list[dict[str, Any]]:
-    items = await fetch_rss(NEWS_RSS_URL, limit)
+async def fetch_news(
+    limit: int = 20,
+) -> list[dict[str, Any]]:
+    items = await fetch_rss(
+        NEWS_RSS_URL,
+        limit,
+    )
 
     for item in items:
         item["source"] = "Gobierno de Canarias"
+        item["scope"] = "canarias"
+        item["island"] = None
 
     return items

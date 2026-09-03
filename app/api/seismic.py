@@ -1,8 +1,9 @@
 from typing import Any
 
-from fastapi import APIRouter
+from fastapi import APIRouter, Query
 
 from app.services.seismic import fetch_canary_earthquakes
+from app.utils.islands import filter_feature_collection_by_island
 
 
 router = APIRouter(
@@ -12,5 +13,12 @@ router = APIRouter(
 
 
 @router.get("")
-async def get_canary_earthquakes() -> dict[str, Any]:
-    return await fetch_canary_earthquakes()
+async def get_canary_earthquakes(
+    island: str | None = Query(None),
+) -> dict[str, Any]:
+    data = await fetch_canary_earthquakes()
+
+    return filter_feature_collection_by_island(
+        data,
+        island,
+    )

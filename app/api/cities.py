@@ -2,7 +2,9 @@ import json
 from pathlib import Path
 from typing import Any
 
-from fastapi import APIRouter
+from fastapi import APIRouter, Query
+
+from app.utils.islands import filter_records_by_island
 
 
 router = APIRouter(
@@ -19,9 +21,16 @@ DATA_FILE = (
 
 
 @router.get("")
-async def get_cities() -> list[dict[str, Any]]:
+async def get_cities(
+    island: str | None = Query(None),
+) -> list[dict[str, Any]]:
     with DATA_FILE.open(
         "r",
         encoding="utf-8",
     ) as file:
-        return json.load(file)
+        cities: list[dict[str, Any]] = json.load(file)
+
+    return filter_records_by_island(
+        cities,
+        island,
+    )
