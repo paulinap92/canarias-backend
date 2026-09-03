@@ -1,0 +1,184 @@
+[
+  {
+    "id": "auditorio-tenerife",
+    "name": "Auditorio de Tenerife",
+    "category": "architecture",
+    "island": "tenerife",
+    "latitude": 28.4564,
+    "longitude": -16.2518
+  },
+  {
+    "id": "la-laguna-historic-centre",
+    "name": "Centro Histórico de La Laguna",
+    "category": "historic",
+    "island": "tenerife",
+    "latitude": 28.4874,
+    "longitude": -16.3159
+  },
+  {
+    "id": "basilica-candelaria",
+    "name": "Basílica de Nuestra Señora de Candelaria",
+    "category": "church",
+    "island": "tenerife",
+    "latitude": 28.3512,
+    "longitude": -16.3704
+  },
+  {
+    "id": "casa-balcones",
+    "name": "Casa de los Balcones",
+    "category": "historic",
+    "island": "tenerife",
+    "latitude": 28.3896,
+    "longitude": -16.5256
+  },
+
+  {
+    "id": "casa-colon",
+    "name": "Casa de Colón",
+    "category": "museum",
+    "island": "gran-canaria",
+    "latitude": 28.1005,
+    "longitude": -15.4155
+  },
+  {
+    "id": "catedral-santa-ana",
+    "name": "Catedral de Santa Ana",
+    "category": "church",
+    "island": "gran-canaria",
+    "latitude": 28.0996,
+    "longitude": -15.4154
+  },
+  {
+    "id": "castillo-luz",
+    "name": "Castillo de la Luz",
+    "category": "fort",
+    "island": "gran-canaria",
+    "latitude": 28.1435,
+    "longitude": -15.4301
+  },
+
+  {
+    "id": "castillo-san-gabriel",
+    "name": "Castillo de San Gabriel",
+    "category": "fort",
+    "island": "lanzarote",
+    "latitude": 28.9588,
+    "longitude": -13.5441
+  },
+  {
+    "id": "castillo-san-jose",
+    "name": "Castillo de San José",
+    "category": "fort",
+    "island": "lanzarote",
+    "latitude": 28.9764,
+    "longitude": -13.5372
+  },
+  {
+    "id": "jameos-del-agua",
+    "name": "Jameos del Agua",
+    "category": "architecture",
+    "island": "lanzarote",
+    "latitude": 29.1572,
+    "longitude": -13.4327
+  },
+
+  {
+    "id": "casa-coroneles",
+    "name": "Casa de los Coroneles",
+    "category": "historic",
+    "island": "fuerteventura",
+    "latitude": 28.6118,
+    "longitude": -13.9283
+  },
+  {
+    "id": "iglesia-betancuria",
+    "name": "Iglesia de Santa María de Betancuria",
+    "category": "church",
+    "island": "fuerteventura",
+    "latitude": 28.4238,
+    "longitude": -14.0558
+  },
+  {
+    "id": "faro-entallada",
+    "name": "Faro de La Entallada",
+    "category": "lighthouse",
+    "island": "fuerteventura",
+    "latitude": 28.2317,
+    "longitude": -13.9466
+  },
+
+  {
+    "id": "castillo-santa-catalina",
+    "name": "Castillo de Santa Catalina",
+    "category": "fort",
+    "island": "la-palma",
+    "latitude": 28.6872,
+    "longitude": -17.7647
+  },
+  {
+    "id": "santuario-nieves",
+    "name": "Santuario de Nuestra Señora de las Nieves",
+    "category": "church",
+    "island": "la-palma",
+    "latitude": 28.6953,
+    "longitude": -17.7892
+  },
+  {
+    "id": "balcones-avenida-maritima",
+    "name": "Balcones de la Avenida Marítima",
+    "category": "historic",
+    "island": "la-palma",
+    "latitude": 28.6832,
+    "longitude": -17.7642
+  },
+
+  {
+    "id": "torre-conde",
+    "name": "Torre del Conde",
+    "category": "fort",
+    "island": "la-gomera",
+    "latitude": 28.0919,
+    "longitude": -17.1102
+  },
+  {
+    "id": "iglesia-asuncion-gomera",
+    "name": "Iglesia de la Asunción",
+    "category": "church",
+    "island": "la-gomera",
+    "latitude": 28.0911,
+    "longitude": -17.1117
+  },
+  {
+    "id": "casa-colon-gomera",
+    "name": "Casa de Colón",
+    "category": "museum",
+    "island": "la-gomera",
+    "latitude": 28.0915,
+    "longitude": -17.1126
+  },
+
+  {
+    "id": "iglesia-concepcion-valverde",
+    "name": "Iglesia de Nuestra Señora de la Concepción",
+    "category": "church",
+    "island": "el-hierro",
+    "latitude": 27.8062,
+    "longitude": -17.9155
+  },
+  {
+    "id": "ermita-reyes",
+    "name": "Ermita de Nuestra Señora de los Reyes",
+    "category": "church",
+    "island": "el-hierro",
+    "latitude": 27.7432,
+    "longitude": -18.1326
+  },
+  {
+    "id": "faro-orchilla",
+    "name": "Faro de Orchilla",
+    "category": "lighthouse",
+    "island": "el-hierro",
+    "latitude": 27.7055,
+    "longitude": -18.1476
+  }
+]
