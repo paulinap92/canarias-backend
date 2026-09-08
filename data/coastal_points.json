@@ -1,0 +1,156 @@
+[
+  {
+    "id": "sc-tf",
+    "name": "Santa Cruz de Tenerife",
+    "island": "tenerife",
+    "latitude": 28.4723,
+    "longitude": -16.2414
+  },
+  {
+    "id": "pc-tf",
+    "name": "Puerto de la Cruz",
+    "island": "tenerife",
+    "latitude": 28.416,
+    "longitude": -16.548
+  },
+  {
+    "id": "lc-tf",
+    "name": "Los Cristianos",
+    "island": "tenerife",
+    "latitude": 28.0494,
+    "longitude": -16.7177
+  },
+  {
+    "id": "lg-tf",
+    "name": "Los Gigantes",
+    "island": "tenerife",
+    "latitude": 28.2433,
+    "longitude": -16.8406
+  },
+  {
+    "id": "lp-gc",
+    "name": "Las Palmas",
+    "island": "gran-canaria",
+    "latitude": 28.14,
+    "longitude": -15.4255
+  },
+  {
+    "id": "ag-gc",
+    "name": "Agaete",
+    "island": "gran-canaria",
+    "latitude": 28.1007,
+    "longitude": -15.7102
+  },
+  {
+    "id": "ma-gc",
+    "name": "Maspalomas",
+    "island": "gran-canaria",
+    "latitude": 27.735,
+    "longitude": -15.598
+  },
+  {
+    "id": "mo-gc",
+    "name": "Puerto de Mogán",
+    "island": "gran-canaria",
+    "latitude": 27.8172,
+    "longitude": -15.765
+  },
+  {
+    "id": "ar-lz",
+    "name": "Arrecife",
+    "island": "lanzarote",
+    "latitude": 28.9674,
+    "longitude": -13.5265
+  },
+  {
+    "id": "pb-lz",
+    "name": "Playa Blanca",
+    "island": "lanzarote",
+    "latitude": 28.8578,
+    "longitude": -13.8333
+  },
+  {
+    "id": "or-lz",
+    "name": "Órzola",
+    "island": "lanzarote",
+    "latitude": 29.2227,
+    "longitude": -13.4521
+  },
+  {
+    "id": "co-fv",
+    "name": "Corralejo",
+    "island": "fuerteventura",
+    "latitude": 28.739,
+    "longitude": -13.8638
+  },
+  {
+    "id": "pr-fv",
+    "name": "Puerto del Rosario",
+    "island": "fuerteventura",
+    "latitude": 28.5004,
+    "longitude": -13.8627
+  },
+  {
+    "id": "mj-fv",
+    "name": "Morro Jable",
+    "island": "fuerteventura",
+    "latitude": 28.049,
+    "longitude": -14.3617
+  },
+  {
+    "id": "sc-lp",
+    "name": "Santa Cruz de La Palma",
+    "island": "la-palma",
+    "latitude": 28.6776,
+    "longitude": -17.7657
+  },
+  {
+    "id": "pn-lp",
+    "name": "Puerto Naos",
+    "island": "la-palma",
+    "latitude": 28.5852,
+    "longitude": -17.909
+  },
+  {
+    "id": "tz-lp",
+    "name": "Tazacorte",
+    "island": "la-palma",
+    "latitude": 28.6415,
+    "longitude": -17.9457
+  },
+  {
+    "id": "ss-lg",
+    "name": "San Sebastián de La Gomera",
+    "island": "la-gomera",
+    "latitude": 28.0872,
+    "longitude": -17.1067
+  },
+  {
+    "id": "vg-lg",
+    "name": "Valle Gran Rey",
+    "island": "la-gomera",
+    "latitude": 28.0966,
+    "longitude": -17.3336
+  },
+  {
+    "id": "le-eh",
+    "name": "La Estaca",
+    "island": "el-hierro",
+    "latitude": 27.7858,
+    "longitude": -17.9017
+  },
+  {
+    "id": "lr-eh",
+    "name": "La Restinga",
+    "island": "el-hierro",
+    "latitude": 27.6417,
+    "longitude": -17.9814
+  },
+  {
+    "id": "cs-gr",
+    "name": "Caleta de Sebo",
+    "island": "la-graciosa",
+    "latitude": 29.2317,
+    "longitude": -13.502
+  }
+]

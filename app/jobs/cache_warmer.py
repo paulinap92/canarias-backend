@@ -9,35 +9,46 @@ import httpx
 
 logger = logging.getLogger(__name__)
 
-
-CITY_SLUGS = [
-    "santa-cruz-de-tenerife",
-    "puerto-de-la-cruz",
-    "las-palmas-de-gran-canaria",
-    "arrecife",
-    "puerto-del-rosario",
-    "san-sebastian-de-la-gomera",
-    "santa-cruz-de-la-palma",
-    "valverde",
+ISLANDS = [
+    "tenerife",
+    "gran-canaria",
+    "lanzarote",
+    "fuerteventura",
+    "la-palma",
+    "la-gomera",
+    "el-hierro",
+    "la-graciosa",
 ]
 
 
 def _base() -> str:
     explicit = os.getenv("INTERNAL_API_BASE")
-
     if explicit:
         return explicit.rstrip("/")
+    return "http://127.0.0.1:" + os.getenv("PORT", "8000")
 
-    return (
-        "http://127.0.0.1:"
-        + os.getenv("PORT", "8000")
-    )
+
+async def _get(
+    client: httpx.AsyncClient,
+    path: str,
+) -> None:
+    try:
+        response = await client.get(f"{_base()}{path}")
+        response.raise_for_status()
+        logger.info(
+            "Cache warmer OK %s cache=%s",
+            path,
+            response.headers.get("X-Canarias-Cache"),
+        )
+    except Exception:
+        logger.exception("Cache warmer failed: %s", path)
 
 
 async def _loop(
     paths: list[str],
     interval: int,
     delay: int,
+    between: float = 1.0,
 ) -> None:
     await asyncio.sleep(delay)
 
@@ -47,27 +58,31 @@ async def _loop(
     ) as client:
         while True:
             for path in paths:
-                try:
-                    response = await client.get(
-                        f"{_base()}{path}"
-                    )
-                    response.raise_for_status()
-                except Exception:
-                    logger.exception(
-                        "Cache warmer failed: %s",
-                        path,
-                    )
-
+                await _get(client, path)
+                await asyncio.sleep(between)
             await asyncio.sleep(interval)
 
 
 async def cache_warmer() -> None:
+    weather_paths = [
+        f"/api/regions/canarias/live/weather?island={island}"
+        for island in ISLANDS
+    ]
+    air_paths = [
+        f"/api/regions/canarias/live/air-quality?island={island}"
+        for island in ISLANDS
+    ]
+    tide_paths = [
+        f"/api/regions/canarias/live/tides?island={island}&hours=48"
+        for island in ISLANDS
+    ]
+
     tasks = [
         asyncio.create_task(
             _loop(
                 [
                     "/api/regions/canarias/seismic",
-                    "/api/regions/canarias/alerts?limit=20",
+                    "/api/regions/canarias/alerts",
                     "/api/regions/canarias/news?limit=20",
                 ],
                 600,
@@ -75,23 +90,13 @@ async def cache_warmer() -> None:
             )
         ),
         asyncio.create_task(
-            _loop(
-                [
-                    f"/api/regions/canarias/cities/{slug}/weather"
-                    for slug in CITY_SLUGS
-                ],
-                1800,
-                20,
-            )
+            _loop(weather_paths, 1800, 20, 2.0)
         ),
         asyncio.create_task(
-            _loop(
-                [
-                    "/api/regions/canarias/islands/tenerife/air-quality",
-                ],
-                900,
-                30,
-            )
+            _loop(air_paths, 3600, 40, 2.0)
+        ),
+        asyncio.create_task(
+            _loop(tide_paths, 3600, 60, 2.0)
         ),
         asyncio.create_task(
             _loop(
@@ -100,7 +105,7 @@ async def cache_warmer() -> None:
                     "/api/regions/canarias/wildlife?limit=300",
                 ],
                 21600,
-                40,
+                80,
             )
         ),
         asyncio.create_task(
@@ -111,7 +116,7 @@ async def cache_warmer() -> None:
                     "/api/regions/canarias/trails?limit=200",
                 ],
                 86400,
-                50,
+                100,
             )
         ),
     ]

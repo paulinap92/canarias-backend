@@ -17,19 +17,22 @@ async def get_places(
     limit: int = Query(100, ge=1, le=500),
     island: str | None = Query(None),
 ) -> dict[str, Any]:
+    # Query Overpass with the selected island bbox instead of
+    # downloading the whole archipelago and filtering afterwards.
     data = await fetch_places(
-        500 if island else limit
+        limit=limit,
+        island=island,
     )
+
+    if data.get("available") is False:
+        return data
 
     filtered = filter_feature_collection_by_island(
         data,
         island,
     )
 
-    if island:
-        filtered["features"] = filtered.get(
-            "features",
-            [],
-        )[:limit]
+    filtered["available"] = True
+    filtered["source"] = data.get("source", "overpass")
 
     return filtered

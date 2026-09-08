@@ -1,7 +1,6 @@
-.venv/
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-*.pyc
+.idea/
+node_modules/
 .env
+.env.local
+dist/
+.DS_Store

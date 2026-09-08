@@ -1,7 +1,11 @@
+from __future__ import annotations
+
 from typing import Any
 from urllib.parse import quote_plus
 
 import httpx
+
+from app.utils.islands import ISLAND_BBOXES, normalize_island
 
 
 OVERPASS_URLS = [
@@ -10,24 +14,39 @@ OVERPASS_URLS = [
     "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
 ]
 
-
+# Overpass uses south,west,north,east.
 CANARY_BBOX = "27.5,-18.3,29.5,-13.2"
 
 
-OVERPASS_QUERY = f"""
-[out:json][timeout:30];
+def _bbox_for_island(island: str | None) -> str:
+    if island is None:
+        return CANARY_BBOX
+
+    normalized = normalize_island(island)
+    if normalized is None:
+        return CANARY_BBOX
+
+    west, south, east, north = ISLAND_BBOXES[normalized]
+    return f"{south},{west},{north},{east}"
+
+
+def _build_overpass_query(island: str | None) -> str:
+    bbox = _bbox_for_island(island)
+
+    return f"""
+[out:json][timeout:25];
 
 (
-  nwr["tourism"="attraction"]({CANARY_BBOX});
-  nwr["tourism"="museum"]({CANARY_BBOX});
-  nwr["tourism"="viewpoint"]({CANARY_BBOX});
+  nwr["tourism"="attraction"]({bbox});
+  nwr["tourism"="museum"]({bbox});
+  nwr["tourism"="viewpoint"]({bbox});
 
-  nwr["natural"="beach"]({CANARY_BBOX});
+  nwr["natural"="beach"]({bbox});
 
-  nwr["historic"="castle"]({CANARY_BBOX});
-  nwr["historic"="fort"]({CANARY_BBOX});
-  nwr["historic"="archaeological_site"]({CANARY_BBOX});
-  nwr["historic"="monument"]({CANARY_BBOX});
+  nwr["historic"="castle"]({bbox});
+  nwr["historic"="fort"]({bbox});
+  nwr["historic"="archaeological_site"]({bbox});
+  nwr["historic"="monument"]({bbox});
 );
 
 out center tags;
@@ -62,8 +81,11 @@ def get_category(
     return "other"
 
 
-async def fetch_overpass_data() -> dict[str, Any]:
-    body = "data=" + quote_plus(OVERPASS_QUERY)
+async def fetch_overpass_data(
+    island: str | None = None,
+) -> dict[str, Any]:
+    query = _build_overpass_query(island)
+    body = "data=" + quote_plus(query)
 
     headers = {
         "Content-Type": "application/x-www-form-urlencoded",
@@ -71,10 +93,10 @@ async def fetch_overpass_data() -> dict[str, Any]:
     }
 
     async with httpx.AsyncClient(
-        timeout=45.0,
+        timeout=35.0,
         follow_redirects=True,
     ) as client:
-        last_error = None
+        last_error: Exception | None = None
 
         for url in OVERPASS_URLS:
             try:
@@ -121,8 +143,42 @@ async def fetch_overpass_data() -> dict[str, Any]:
 
 async def fetch_places(
     limit: int = 100,
+    island: str | None = None,
 ) -> dict[str, Any]:
-    data = await fetch_overpass_data()
+    normalized_island = normalize_island(island)
+
+    if island is not None and normalized_island is None:
+        return {
+            "type": "FeatureCollection",
+            "features": [],
+            "available": False,
+            "reason": "invalid_island",
+            "filter": {
+                "island": island,
+                "valid": False,
+            },
+        }
+
+    try:
+        data = await fetch_overpass_data(
+            normalized_island,
+        )
+    except RuntimeError as error:
+        print(
+            "PLACES OVERPASS UNAVAILABLE:",
+            normalized_island or "canarias",
+            error,
+        )
+        return {
+            "type": "FeatureCollection",
+            "features": [],
+            "available": False,
+            "reason": "overpass_unavailable",
+            "filter": {
+                "island": normalized_island,
+                "valid": True,
+            },
+        }
 
     features = []
 
@@ -177,4 +233,10 @@ async def fetch_places(
     return {
         "type": "FeatureCollection",
         "features": features,
+        "available": True,
+        "source": "overpass",
+        "filter": {
+            "island": normalized_island,
+            "valid": True,
+        },
     }
