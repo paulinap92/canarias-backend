@@ -18,8 +18,12 @@ async def get_beaches(
     island: str | None = Query(None),
 ) -> dict[str, Any]:
     data = await fetch_beaches(
-        500 if island else limit
+        limit=500 if island else limit,
+        island=island,
     )
+
+    if data.get("available") is False:
+        return data
 
     filtered = filter_feature_collection_by_island(
         data,
@@ -31,5 +35,8 @@ async def get_beaches(
             "features",
             [],
         )[:limit]
+
+    filtered["available"] = True
+    filtered["source"] = data.get("source", "overpass")
 
     return filtered
