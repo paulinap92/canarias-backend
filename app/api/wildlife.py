@@ -18,8 +18,12 @@ async def get_wildlife(
     island: str | None = Query(None),
 ) -> dict[str, Any]:
     data = await fetch_wildlife(
-        300 if island else limit
+        limit=300 if island else limit,
+        island=island,
     )
+
+    if data.get("available") is False:
+        return data
 
     filtered = filter_feature_collection_by_island(
         data,
@@ -31,5 +35,8 @@ async def get_wildlife(
             "features",
             [],
         )[:limit]
+
+    filtered["available"] = True
+    filtered["source"] = data.get("source", "gbif")
 
     return filtered
