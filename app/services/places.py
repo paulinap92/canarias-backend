@@ -49,7 +49,7 @@ def _build_overpass_query(island: str | None) -> str:
   nwr["historic"="monument"]({bbox});
 );
 
-out center tags;
+out geom tags;
 """
 
 
@@ -79,6 +79,45 @@ def get_category(
         return historic
 
     return "other"
+
+
+def _representative_coordinates(
+    element: dict[str, Any],
+) -> tuple[float, float] | None:
+    latitude = element.get("lat")
+    longitude = element.get("lon")
+
+    if latitude is not None and longitude is not None:
+        return float(latitude), float(longitude)
+
+    geometry = element.get("geometry") or []
+    points = [
+        (float(point["lat"]), float(point["lon"]))
+        for point in geometry
+        if point.get("lat") is not None and point.get("lon") is not None
+    ]
+
+    if not points:
+        center = element.get("center") or {}
+        latitude = center.get("lat")
+        longitude = center.get("lon")
+        if latitude is None or longitude is None:
+            return None
+        return float(latitude), float(longitude)
+
+    mean_latitude = sum(lat for lat, _ in points) / len(points)
+    mean_longitude = sum(lon for _, lon in points) / len(points)
+
+    # Pick an actual OSM geometry vertex nearest to the centroid. This keeps
+    # the marker on the mapped feature instead of using Overpass' bbox center,
+    # which may fall inland or outside a long/irregular coastal object.
+    return min(
+        points,
+        key=lambda point: (
+            (point[0] - mean_latitude) ** 2
+            + (point[1] - mean_longitude) ** 2
+        ),
+    )
 
 
 async def fetch_overpass_data(
@@ -184,26 +223,16 @@ async def fetch_places(
 
     for element in data.get("elements", []):
         tags = element.get("tags", {})
-
-        name = tags.get("name")
+        name = tags.get("name") or tags.get("name:es")
 
         if not name:
             continue
 
-        latitude = element.get("lat")
-        longitude = element.get("lon")
-
-        if latitude is None or longitude is None:
-            center = element.get(
-                "center",
-                {},
-            )
-
-            latitude = center.get("lat")
-            longitude = center.get("lon")
-
-        if latitude is None or longitude is None:
+        coordinates = _representative_coordinates(element)
+        if coordinates is None:
             continue
+
+        latitude, longitude = coordinates
 
         features.append(
             {
