@@ -84,17 +84,43 @@ def geometry_center(
     return longitude, latitude
 
 
+def _point_in_bbox(
+    longitude: float,
+    latitude: float,
+    bbox: tuple[float, float, float, float],
+) -> bool:
+    west, south, east, north = bbox
+    return (
+        west <= longitude <= east
+        and south <= latitude <= north
+    )
+
+
 def point_is_on_island(
     longitude: float,
     latitude: float,
     island: str,
 ) -> bool:
-    west, south, east, north = ISLAND_BBOXES[island]
+    if not _point_in_bbox(
+        longitude,
+        latitude,
+        ISLAND_BBOXES[island],
+    ):
+        return False
 
-    return (
-        west <= longitude <= east
-        and south <= latitude <= north
-    )
+    # Lanzarote's broad bbox overlaps La Graciosa. Without this exclusion,
+    # beaches/places on La Graciosa can appear when Lanzarote is selected.
+    if (
+        island == "lanzarote"
+        and _point_in_bbox(
+            longitude,
+            latitude,
+            ISLAND_BBOXES["la-graciosa"],
+        )
+    ):
+        return False
+
+    return True
 
 
 def filter_feature_collection_by_island(
