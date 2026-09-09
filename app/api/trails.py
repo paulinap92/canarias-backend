@@ -18,8 +18,12 @@ async def get_trails(
     island: str | None = Query(None),
 ) -> dict[str, Any]:
     data = await fetch_trails(
-        200 if island else limit
+        limit=200 if island else limit,
+        island=island,
     )
+
+    if data.get("available") is False:
+        return data
 
     filtered = filter_feature_collection_by_island(
         data,
@@ -31,5 +35,8 @@ async def get_trails(
             "features",
             [],
         )[:limit]
+
+    filtered["available"] = True
+    filtered["source"] = data.get("source", "overpass")
 
     return filtered
