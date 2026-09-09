@@ -3,6 +3,8 @@ from urllib.parse import quote_plus
 
 import httpx
 
+from app.utils.islands import ISLAND_BBOXES, normalize_island
+
 
 OVERPASS_URLS = [
     "https://overpass.private.coffee/api/interpreter",
@@ -13,13 +15,28 @@ OVERPASS_URLS = [
 CANARY_BBOX = "27.5,-18.3,29.5,-13.2"
 
 
-OVERPASS_QUERY = f"""
+def _bbox_for_island(island: str | None) -> str:
+    if island is None:
+        return CANARY_BBOX
+
+    normalized = normalize_island(island)
+    if normalized is None:
+        return CANARY_BBOX
+
+    west, south, east, north = ISLAND_BBOXES[normalized]
+    return f"{south},{west},{north},{east}"
+
+
+def _build_overpass_query(island: str | None) -> str:
+    bbox = _bbox_for_island(island)
+
+    return f"""
 [out:json][timeout:35];
 
 relation
     ["type"="route"]
     ["route"~"^(hiking|foot)$"]
-    ({CANARY_BBOX})
+    ({bbox})
     ->.routes;
 
 way(r.routes);
@@ -28,8 +45,10 @@ out geom tags;
 """
 
 
-async def fetch_overpass() -> dict[str, Any]:
-    body = "data=" + quote_plus(OVERPASS_QUERY)
+async def fetch_overpass(
+    island: str | None = None,
+) -> dict[str, Any]:
+    body = "data=" + quote_plus(_build_overpass_query(island))
 
     headers = {
         "Content-Type": "application/x-www-form-urlencoded",
@@ -70,8 +89,19 @@ async def fetch_overpass() -> dict[str, Any]:
 
 async def fetch_trails(
     limit: int = 100,
+    island: str | None = None,
 ) -> dict[str, Any]:
-    data = await fetch_overpass()
+    normalized_island = normalize_island(island)
+
+    if island is not None and normalized_island is None:
+        return {
+            "type": "FeatureCollection",
+            "features": [],
+            "available": False,
+            "reason": "invalid_island",
+        }
+
+    data = await fetch_overpass(normalized_island)
 
     features = []
 
@@ -121,4 +151,10 @@ async def fetch_trails(
     return {
         "type": "FeatureCollection",
         "features": features,
+        "available": True,
+        "source": "overpass",
+        "filter": {
+            "island": normalized_island,
+            "valid": True,
+        },
     }
