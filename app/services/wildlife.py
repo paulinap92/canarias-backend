@@ -2,10 +2,11 @@ from typing import Any
 
 import httpx
 
+from app.utils.islands import ISLAND_BBOXES, normalize_island
+
 
 GBIF_URL = "https://api.gbif.org/v1/occurrence/search"
 
-# Przybliżony obszar Wysp Kanaryjskich
 CANARY_GEOMETRY = (
     "POLYGON(("
     "-18.5 27.0,"
@@ -17,11 +18,41 @@ CANARY_GEOMETRY = (
 )
 
 
+def _geometry_for_island(island: str | None) -> str:
+    normalized = normalize_island(island)
+
+    if normalized is None:
+        return CANARY_GEOMETRY
+
+    west, south, east, north = ISLAND_BBOXES[normalized]
+
+    return (
+        "POLYGON(("
+        f"{west} {south},"
+        f"{east} {south},"
+        f"{east} {north},"
+        f"{west} {north},"
+        f"{west} {south}"
+        "))"
+    )
+
+
 async def fetch_wildlife(
     limit: int = 50,
+    island: str | None = None,
 ) -> dict[str, Any]:
+    normalized_island = normalize_island(island)
+
+    if island is not None and normalized_island is None:
+        return {
+            "type": "FeatureCollection",
+            "features": [],
+            "available": False,
+            "reason": "invalid_island",
+        }
+
     params = {
-        "geometry": CANARY_GEOMETRY,
+        "geometry": _geometry_for_island(normalized_island),
         "hasCoordinate": "true",
         "occurrenceStatus": "PRESENT",
         "limit": limit,
@@ -63,6 +94,9 @@ async def fetch_wildlife(
                     "class": item.get("class"),
                     "event_date": item.get("eventDate"),
                     "basis_of_record": item.get("basisOfRecord"),
+                    "coordinate_uncertainty_m": item.get(
+                        "coordinateUncertaintyInMeters"
+                    ),
                 },
             }
         )
@@ -70,4 +104,10 @@ async def fetch_wildlife(
     return {
         "type": "FeatureCollection",
         "features": features,
+        "available": True,
+        "source": "gbif",
+        "filter": {
+            "island": normalized_island,
+            "valid": True,
+        },
     }
