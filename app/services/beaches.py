@@ -3,6 +3,8 @@ from urllib.parse import quote_plus
 
 import httpx
 
+from app.utils.islands import ISLAND_BBOXES, normalize_island
+
 
 OVERPASS_URLS = [
     "https://overpass.private.coffee/api/interpreter",
@@ -12,17 +14,72 @@ OVERPASS_URLS = [
 
 CANARY_BBOX = "27.5,-18.3,29.5,-13.2"
 
-OVERPASS_QUERY = f"""
+
+def _bbox_for_island(island: str | None) -> str:
+    if island is None:
+        return CANARY_BBOX
+
+    normalized = normalize_island(island)
+    if normalized is None:
+        return CANARY_BBOX
+
+    west, south, east, north = ISLAND_BBOXES[normalized]
+    return f"{south},{west},{north},{east}"
+
+
+def _build_overpass_query(island: str | None) -> str:
+    bbox = _bbox_for_island(island)
+
+    return f"""
 [out:json][timeout:35];
 
-nwr["natural"="beach"]({CANARY_BBOX});
+nwr["natural"="beach"]({bbox});
 
-out center tags;
+out geom tags;
 """
 
 
-async def _fetch_overpass() -> dict[str, Any]:
-    body = "data=" + quote_plus(OVERPASS_QUERY)
+def _representative_coordinates(
+    element: dict[str, Any],
+) -> tuple[float, float] | None:
+    latitude = element.get("lat")
+    longitude = element.get("lon")
+
+    if latitude is not None and longitude is not None:
+        return float(latitude), float(longitude)
+
+    geometry = element.get("geometry") or []
+    points = [
+        (float(point["lat"]), float(point["lon"]))
+        for point in geometry
+        if point.get("lat") is not None and point.get("lon") is not None
+    ]
+
+    if not points:
+        center = element.get("center") or {}
+        latitude = center.get("lat")
+        longitude = center.get("lon")
+        if latitude is None or longitude is None:
+            return None
+        return float(latitude), float(longitude)
+
+    mean_latitude = sum(lat for lat, _ in points) / len(points)
+    mean_longitude = sum(lon for _, lon in points) / len(points)
+
+    return min(
+        points,
+        key=lambda point: (
+            (point[0] - mean_latitude) ** 2
+            + (point[1] - mean_longitude) ** 2
+        ),
+    )
+
+
+async def _fetch_overpass(
+    island: str | None = None,
+) -> dict[str, Any]:
+    query = _build_overpass_query(island)
+    body = "data=" + quote_plus(query)
     headers = {
         "Content-Type": "application/x-www-form-urlencoded",
         "User-Agent": "Canarias-Cerca/1.0",
@@ -47,8 +104,21 @@ async def _fetch_overpass() -> dict[str, Any]:
     raise RuntimeError(f"All Overpass servers failed: {last_error}")
 
 
-async def fetch_beaches(limit: int = 200) -> dict[str, Any]:
-    data = await _fetch_overpass()
+async def fetch_beaches(
+    limit: int = 200,
+    island: str | None = None,
+) -> dict[str, Any]:
+    normalized_island = normalize_island(island)
+
+    if island is not None and normalized_island is None:
+        return {
+            "type": "FeatureCollection",
+            "features": [],
+            "available": False,
+            "reason": "invalid_island",
+        }
+
+    data = await _fetch_overpass(normalized_island)
     features = []
 
     for element in data.get("elements", []):
@@ -58,16 +128,11 @@ async def fetch_beaches(limit: int = 200) -> dict[str, Any]:
         if not name:
             continue
 
-        latitude = element.get("lat")
-        longitude = element.get("lon")
-
-        if latitude is None or longitude is None:
-            center = element.get("center", {})
-            latitude = center.get("lat")
-            longitude = center.get("lon")
-
-        if latitude is None or longitude is None:
+        coordinates = _representative_coordinates(element)
+        if coordinates is None:
             continue
+
+        latitude, longitude = coordinates
 
         features.append({
             "type": "Feature",
@@ -94,4 +159,13 @@ async def fetch_beaches(limit: int = 200) -> dict[str, Any]:
         if len(features) >= limit:
             break
 
-    return {"type": "FeatureCollection", "features": features}
+    return {
+        "type": "FeatureCollection",
+        "features": features,
+        "available": True,
+        "source": "overpass",
+        "filter": {
+            "island": normalized_island,
+            "valid": True,
+        },
+    }
