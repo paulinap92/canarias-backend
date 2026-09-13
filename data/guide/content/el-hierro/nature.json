@@ -1,0 +1,41 @@
+[
+  {
+    "id": "nature-el-hierro-1",
+    "slug": "nature-el-hierro-1",
+    "name": "Pisos de vegetación",
+    "type": "nature",
+    "category": "nature",
+    "short_description": "La vegetación cambia con altura, humedad, exposición y suelo.",
+    "description": "En El Hierro aparecen sabinares, pinares, monteverde y cardonal-tabaibal. La mejor forma de entenderlos es como una sucesión de ambientes y no como una lista de especies aisladas.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://elhierro.travel/experiencias/lo-que-no-te-puedes-perder-de-el-hierro/"
+  },
+  {
+    "id": "nature-el-hierro-2",
+    "slug": "nature-el-hierro-2",
+    "name": "Endemismos",
+    "type": "nature",
+    "category": "nature",
+    "short_description": "El aislamiento de Canarias favoreció una flora y fauna con numerosas especies exclusivas.",
+    "description": "La sección Fauna y Flora de Explore prioriza especies y hábitats representativos de El Hierro y evita convertir observaciones puntuales en un mapa de ruido.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://elhierro.travel/experiencias/lo-que-no-te-puedes-perder-de-el-hierro/"
+  },
+  {
+    "id": "nature-el-hierro-3",
+    "slug": "nature-el-hierro-3",
+    "name": "Observar sin molestar",
+    "type": "nature",
+    "category": "nature",
+    "short_description": "Senderos, miradores y operadores autorizados permiten disfrutar la naturaleza reduciendo impacto.",
+    "description": "No salir de senderos en hábitats frágiles, no alimentar fauna y respetar zonas de nidificación son reglas sencillas que tienen mucho efecto en una isla con espacios limitados.",
+    "featured": true,
+    "order": 3,
+    "language": "es",
+    "source_url": "https://elhierro.travel/experiencias/lo-que-no-te-puedes-perder-de-el-hierro/"
+  }
+]

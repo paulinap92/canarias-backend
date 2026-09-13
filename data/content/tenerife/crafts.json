@@ -1,0 +1,128 @@
+[
+  {
+    "id": "craft-tenerife-calado",
+    "slug": "calado-canario",
+    "name": "Calado canario",
+    "island": "tenerife",
+    "type": "craft",
+    "category": "textile",
+    "short_description": "Una labor textil de gran precisión basada en deshilar y trabajar la tela para crear dibujos geométricos y ornamentales.",
+    "description": "El calado forma parte de los oficios textiles tradicionales de Tenerife. La técnica comienza retirando cuidadosamente hilos de una pieza de tejido para formar una trama abierta que después se fija y decora a mano. Durante generaciones fue una actividad doméstica y profesional muy vinculada al trabajo femenino y sigue enseñándose dentro de programas de conservación de los oficios artesanos.",
+    "source_url": "https://reservabiosfera.tenerife.es/descubre-anaga/patrimonio/etnografia-y-artesania/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "calado",
+      "textile",
+      "handmade",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-tenerife-rosetas",
+    "slug": "rosetas",
+    "name": "Rosetas",
+    "island": "tenerife",
+    "type": "craft",
+    "category": "textile",
+    "short_description": "Pequeñas piezas de encaje realizadas hilo a hilo y combinadas después en composiciones mayores.",
+    "description": "Las rosetas son una modalidad tradicional de encaje que se trabaja sobre una base o almohadilla, formando dibujos circulares y geométricos con hilo. Las piezas individuales pueden unirse para crear manteles, caminos de mesa, prendas y objetos decorativos. El oficio continúa presente en la formación artesanal de Tenerife.",
+    "source_url": "https://www.tenerife.es/w/el-cabildo-presenta-la-nueva-oferta-formativa-del-museo-de-artesan%C3%ADa-iberoamericana-mait-",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "rosetas",
+      "lace",
+      "textile",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-tenerife-cesteria",
+    "slug": "cesteria",
+    "name": "Cestería",
+    "island": "tenerife",
+    "type": "craft",
+    "category": "basketry",
+    "short_description": "Palma, mimbre, caña y otras fibras vegetales se transforman en cestas y objetos de uso cotidiano.",
+    "description": "La cestería tradicional aprovecha materiales vegetales disponibles en cada zona de la isla. En Anaga se conservan trabajos de mimbre y palma para elaborar cestas, sombreros y esteras, mientras en otras partes de Tenerife se emplean también vara y caña. Estos objetos nacieron como herramientas prácticas para el campo, el transporte y la vida doméstica.",
+    "source_url": "https://reservabiosfera.tenerife.es/descubre-anaga/patrimonio/etnografia-y-artesania/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "basketry",
+      "palm",
+      "wicker",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-tenerife-alfareria",
+    "slug": "alfareria-tradicional",
+    "name": "Alfarería tradicional",
+    "island": "tenerife",
+    "type": "craft",
+    "category": "pottery",
+    "short_description": "Barro modelado con técnicas tradicionales para crear piezas domésticas, recipientes y objetos decorativos.",
+    "description": "La alfarería tradicional forma parte del patrimonio artesanal de Tenerife y mantiene técnicas heredadas de generaciones anteriores. En zonas como Anaga tuvo una presencia histórica importante y San Andrés llegó a ser conocido por la fabricación de ollas. En la actualidad el oficio continúa gracias a artesanos, asociaciones, centros especializados y programas de formación.",
+    "source_url": "https://reservabiosfera.tenerife.es/descubre-anaga/patrimonio/etnografia-y-artesania/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "pottery",
+      "clay",
+      "anaga",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-tenerife-timple",
+    "slug": "construccion-timple",
+    "name": "Construcción de instrumentos tradicionales",
+    "island": "tenerife",
+    "type": "craft",
+    "category": "instrument-making",
+    "short_description": "La artesanía musical mantiene oficios dedicados a construir y reparar instrumentos ligados al folclore canario.",
+    "description": "La fabricación artesanal de instrumentos musicales forma parte de los oficios reconocidos y promovidos en Tenerife. El timple es el ejemplo más identificable, pero la tradición incluye también instrumentos de percusión y viento utilizados en grupos folclóricos y celebraciones populares. La transmisión del conocimiento entre maestros y nuevos artesanos es clave para conservar estos oficios.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Timple-001.jpg?width=1600",
+    "image_credit": "Villanueva",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Timple-001.jpg",
+    "source_url": "https://www.tenerife.es/w/el-cabildo-y-el-ayuntamiento-de-arafo-ponen-en-marcha-una-nueva-edici%C3%B3n-de-la-feria-comarcal-de-artesan%C3%ADa",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "timple",
+      "instrument-making",
+      "wood",
+      "music"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-tenerife-indumentaria",
+    "slug": "confeccion-indumentaria-tradicional",
+    "name": "Confección de indumentaria tradicional",
+    "island": "tenerife",
+    "type": "craft",
+    "category": "textile",
+    "short_description": "Costura, tejidos y conocimiento histórico se combinan para reproducir y conservar prendas tradicionales.",
+    "description": "La confección de indumentaria tradicional exige conocer patrones, tejidos, formas de vestir y diferencias históricas entre prendas y localidades. En Tenerife este conocimiento se transmite mediante artesanos, asociaciones, museos y cursos especializados. No se trata solo de fabricar un traje para una romería, sino de conservar una parte documentada de la historia cotidiana de la isla.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Traje_t%C3%ADpico.JPG?width=1600",
+    "image_credit": "Noemi M.M. (Martely), modified by Rαge",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Traje_t%C3%ADpico.JPG",
+    "source_url": "https://www.tenerife.es/w/el-cabildo-presenta-la-nueva-oferta-formativa-del-museo-de-artesan%C3%ADa-iberoamericana-mait-",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "traditional-dress",
+      "sewing",
+      "textile",
+      "heritage"
+    ],
+    "language": "es"
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.5289,
+          29.2675
+        ]
+      },
+      "properties": {
+        "id": "explore-la-graciosa-las-conchas",
+        "name": "Playa de Las Conchas",
+        "description": "Arena clara, mar abierto y Montaña Bermeja forman una de las imágenes más espectaculares de la isla.",
+        "website": "https://turismolanzarote.com/lo-que-no-te-puedes-perder-de-la-graciosa/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-graciosa",
+        "surface": "sand",
+        "access": "public",
+        "featured": true,
+        "tags": [
+          "las-conchas",
+          "wild-beach",
+          "montana-bermeja",
+          "chinijo"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.5234,
+          29.2065
+        ]
+      },
+      "properties": {
+        "id": "explore-la-graciosa-la-francesa",
+        "name": "Playa de La Francesa",
+        "description": "Una playa de arena clara y aguas tranquilas al sur de Caleta de Sebo, frente a los Riscos de Famara.",
+        "website": "https://turismolanzarote.com/lo-que-no-te-puedes-perder-de-la-graciosa/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-graciosa",
+        "surface": "sand",
+        "access": "public",
+        "featured": true,
+        "tags": [
+          "la-francesa",
+          "beach",
+          "famara",
+          "snorkel"
+        ]
+      }
+    }
+  ],
+  "available": true,
+  "status": "seed",
+  "updated_at": null,
+  "source": "curated_seed"
+}

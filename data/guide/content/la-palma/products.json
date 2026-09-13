@@ -1,0 +1,118 @@
+[
+  {
+    "id": "product-la-palma-queso-palmero",
+    "slug": "queso-palmero",
+    "name": "Queso Palmero",
+    "island": "la-palma",
+    "type": "product",
+    "category": "cheese",
+    "short_description": "Queso de leche de cabra palmera protegido por Denominación de Origen y estrechamente ligado a la ganadería insular.",
+    "description": "El Queso Palmero se elabora con leche de cabra palmera y puede encontrarse fresco, tierno, semicurado o curado. El ahumado tradicional aporta un perfil muy característico y el producto ocupa un lugar central tanto en la cocina doméstica como en la restauración.",
+    "source_url": "https://visitlapalma.es/restaurantes-la-palma/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "queso-palmero",
+      "goat-cheese",
+      "dop"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-palma-vino",
+    "slug": "vinos-la-palma",
+    "name": "Vinos de La Palma",
+    "island": "la-palma",
+    "type": "product",
+    "category": "wine",
+    "short_description": "Malvasías, vinos de tea, albillos, tintos y rosados reflejan la diversidad de suelos y microclimas de la isla.",
+    "description": "Los vinos de La Palma crecen en terrenos volcánicos muy variados, desde Fuencaliente hasta el norte insular. Entre sus expresiones más reconocibles están la Malvasía y los históricos vinos de tea, madurados en madera de pino canario.",
+    "source_url": "https://visitlapalma.es/sites/default/files/resources/resource_files/Folleto%20gene%C2%81rico%20ES%20EN%20DE%2004%20Web%20%282%29_0.pdf",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "wine",
+      "malvasia",
+      "tea",
+      "volcanic"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-palma-platano",
+    "slug": "platano-la-palma",
+    "name": "Plátano de La Palma",
+    "island": "la-palma",
+    "type": "product",
+    "category": "agriculture",
+    "short_description": "Las plataneras dominan buena parte de las zonas costeras y forman uno de los grandes paisajes agrícolas de la isla.",
+    "description": "El plátano ocupa una parte importante de la superficie agrícola palmera, especialmente en los valles y laderas bajas del oeste y este. Su producción está profundamente ligada a la economía contemporánea de la isla y al complejo sistema de aprovechamiento de agua.",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "banana",
+      "agriculture",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-palma-almendra",
+    "slug": "almendra-palmera",
+    "name": "Almendra palmera",
+    "island": "la-palma",
+    "type": "product",
+    "category": "agriculture",
+    "short_description": "La almendra da sabor a almendrados, queso de almendras, bienmesabe y buena parte de la repostería local.",
+    "description": "Los almendros forman parte del paisaje rural de municipios como Puntagorda y aportan uno de los ingredientes fundamentales de la repostería palmera. Su floración marca además el calendario festivo del noroeste de la isla.",
+    "source_url": "https://visitlapalma.es/experiencias/una-guia-para-golosos-en-la-palma/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "almond",
+      "dessert",
+      "puntagorda"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-palma-sal",
+    "slug": "sal-fuencaliente",
+    "name": "Sal de Fuencaliente",
+    "island": "la-palma",
+    "type": "product",
+    "category": "salt",
+    "short_description": "Las salinas del extremo sur producen sal marina en un paisaje negro, blanco y azul junto a los volcanes.",
+    "description": "Las Salinas de Fuencaliente aprovechan sol, viento y agua del Atlántico para producir sal marina de forma tradicional. Los estanques blancos y rosados contrastan con las lavas oscuras del sur y forman uno de los paisajes culturales más reconocibles de La Palma.",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "salt",
+      "fuencaliente",
+      "salinas"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-palma-puro",
+    "slug": "puro-palmero",
+    "name": "Puro palmero",
+    "island": "la-palma",
+    "type": "product",
+    "category": "tobacco",
+    "short_description": "El cultivo y torcido artesanal del tabaco forman una tradición vinculada a las relaciones históricas con Cuba.",
+    "description": "La elaboración del puro palmero está estrechamente conectada con los intercambios culturales entre La Palma y el Caribe. El oficio incluye cultivo, secado, selección y torcido manual de las hojas, y continúa representando una parte singular de la artesanía insular.",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "tobacco",
+      "puro-palmero",
+      "cuba",
+      "craft"
+    ],
+    "language": "es"
+  }
+]

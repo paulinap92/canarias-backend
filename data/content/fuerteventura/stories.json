@@ -1,0 +1,118 @@
+[
+  {
+    "id": "story-fuerteventura-conquest-1404",
+    "slug": "betancuria-1404",
+    "name": "1404: nace Betancuria",
+    "island": "fuerteventura",
+    "type": "story",
+    "category": "history",
+    "short_description": "Jean de Bethencourt fundó en el interior de la isla una villa destinada a convertirse en la primera capital de Fuerteventura.",
+    "description": "A comienzos del siglo XV, el conquistador normando Jean de Bethencourt estableció Betancuria en un valle interior protegido de la costa. La villa se convirtió en centro político y religioso de Fuerteventura y conserva hasta hoy buena parte de esa memoria histórica.",
+    "source_url": "https://www.visitfuerteventura.com/experiencias/10-cosas-que-hacer-en-fuerteventura/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "1404",
+      "betancuria",
+      "conquest"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-fuerteventura-majos",
+    "slug": "maxorata-jandia",
+    "name": "Maxorata y Jandía",
+    "island": "fuerteventura",
+    "type": "story",
+    "category": "prehistory",
+    "short_description": "La tradición histórica divide la Fuerteventura aborigen en dos grandes territorios, Maxorata al norte y Jandía al sur.",
+    "description": "Antes de la conquista europea, la población majo organizaba el territorio insular alrededor de dos grandes ámbitos conocidos como Maxorata y Jandía. Esta división ayuda a entender la distribución del poder y de los asentamientos en una isla marcada por la distancia y la aridez.",
+    "source_url": "https://www.visitfuerteventura.com/conoce-fuerteventura/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "majos",
+      "maxorata",
+      "jandia",
+      "prehistory"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-fuerteventura-tindaya",
+    "slug": "grabados-tindaya",
+    "name": "Las huellas de Tindaya",
+    "island": "fuerteventura",
+    "type": "story",
+    "category": "archaeology",
+    "short_description": "Cientos de grabados en forma de pies convierten Tindaya en uno de los grandes enigmas arqueológicos de Canarias.",
+    "description": "Los antiguos majos grabaron en la superficie de Tindaya numerosas figuras podomorfas. Muchas parecen orientarse hacia puntos concretos del horizonte y continúan generando preguntas sobre su significado ritual, territorial o astronómico.",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/monumento-natural-de-tindaya/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "tindaya",
+      "rock-art",
+      "majos"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-fuerteventura-attack-1593",
+    "slug": "ataque-betancuria-1593",
+    "name": "Cuando Betancuria fue arrasada",
+    "island": "fuerteventura",
+    "type": "story",
+    "category": "history",
+    "short_description": "La posición interior no evitó que una incursión pirática destruyera gran parte de la antigua capital a finales del siglo XVI.",
+    "description": "Betancuria había sido fundada lejos de la costa buscando protección frente a ataques marítimos, pero a finales del siglo XVI una incursión alcanzó la villa y destruyó buena parte de sus edificios. La posterior reconstrucción explica parte del aspecto histórico que conserva hoy.",
+    "source_url": "https://www.visitfuerteventura.com/experiencias/10-cosas-que-hacer-en-fuerteventura/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "betancuria",
+      "pirates",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-fuerteventura-tamasite-1740",
+    "slug": "tamasite-1740",
+    "name": "1740: Tamasite",
+    "island": "fuerteventura",
+    "type": "story",
+    "category": "military-history",
+    "short_description": "Los habitantes de Tuineje recuerdan la defensa de la isla frente a corsarios ingleses con una de sus recreaciones históricas más importantes.",
+    "description": "En 1740 Fuerteventura sufrió ataques de corsarios ingleses. La resistencia local en la zona de Tuineje quedó asociada a herramientas agrícolas utilizadas como armas improvisadas y a la figura protectora de San Miguel. La memoria de estos enfrentamientos sigue viva en las Fiestas Juradas y la Batalla de Tamasite.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/fiestas-juradas-de-san-miguel-arcangel/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "1740",
+      "tamasite",
+      "tuineje",
+      "corsairs"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-fuerteventura-lobos",
+    "slug": "focas-monje-lobos",
+    "name": "Los lobos marinos que dieron nombre al islote",
+    "island": "fuerteventura",
+    "type": "story",
+    "category": "natural-history",
+    "short_description": "El nombre del Islote de Lobos recuerda a una antigua colonia de focas monje que desapareció de las aguas canarias.",
+    "description": "Antes de convertirse en parque natural, Lobos fue refugio de focas monje, conocidas históricamente como lobos marinos. La explotación humana y la presión sobre la especie hicieron desaparecer estas colonias de Canarias, pero su memoria permanece en el nombre del islote.",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/parque-natural-islote-de-lobos/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "lobos",
+      "monk-seal",
+      "natural-history"
+    ],
+    "language": "es"
+  }
+]

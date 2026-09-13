@@ -1,0 +1,119 @@
+[
+  {
+    "id": "culture-la-palma-benahoaritas",
+    "slug": "benahoaritas",
+    "name": "Los benahoaritas",
+    "island": "la-palma",
+    "type": "culture",
+    "category": "history",
+    "short_description": "Los habitantes prehispánicos de La Palma dejaron cuevas, cerámica, grabados rupestres y una profunda relación con el territorio.",
+    "description": "Los benahoaritas desarrollaron una sociedad basada en la ganadería, la recolección y el conocimiento detallado del relieve insular. Su legado se conserva en numerosos yacimientos, cuevas y estaciones de grabados repartidos desde la costa hasta las cumbres.",
+    "source_url": "https://visitlapalma.es/experiencias/el-mundo-aborigen-de-la-palma/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "benahoaritas",
+      "prehistory",
+      "identity"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-palma-petroglifos",
+    "slug": "petroglifos",
+    "name": "Espirales y meandros en la roca",
+    "island": "la-palma",
+    "type": "culture",
+    "category": "archaeology",
+    "short_description": "La Palma conserva miles de grabados rupestres con espirales, meandros y otros motivos geométricos.",
+    "description": "Los petroglifos son una de las manifestaciones culturales más singulares del mundo benahoarita. Conjuntos como La Zarza, La Zarcita, La Fajana o El Verde muestran diseños complejos grabados directamente sobre la roca y vinculados a espacios de fuerte significado simbólico.",
+    "source_url": "https://visitlapalma.es/experiencias/el-mundo-aborigen-de-la-palma/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "petroglyphs",
+      "rock-art",
+      "archaeology"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-palma-astronomia",
+    "slug": "cultura-del-cielo",
+    "name": "Una isla que mira al cielo",
+    "island": "la-palma",
+    "type": "culture",
+    "category": "science",
+    "short_description": "La astronomía forma parte de la identidad contemporánea de La Palma gracias a la calidad excepcional de su cielo.",
+    "description": "La protección del cielo nocturno y la presencia del Observatorio del Roque de los Muchachos han convertido la astronomía en una parte esencial de la imagen moderna de La Palma. Miradores, rutas y actividades de astroturismo acercan la ciencia a residentes y visitantes.",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "astronomy",
+      "stars",
+      "science",
+      "identity"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-palma-salto-pastor",
+    "slug": "salto-del-pastor",
+    "name": "Salto del Pastor",
+    "island": "la-palma",
+    "type": "culture",
+    "category": "traditional-sport",
+    "short_description": "Una técnica tradicional para desplazarse por barrancos y pendientes utilizando una larga vara.",
+    "description": "El Salto del Pastor nació como una herramienta práctica para moverse por el relieve abrupto de Canarias. En La Palma los benahoaritas ya utilizaban técnicas similares para salvar desniveles y hoy la práctica continúa como actividad cultural y deportiva.",
+    "source_url": "https://visitlapalma.es/experiencias/el-mundo-aborigen-de-la-palma/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "salto-del-pastor",
+      "tradition",
+      "sport"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-palma-seda",
+    "slug": "seda-el-paso",
+    "name": "La seda de El Paso",
+    "island": "la-palma",
+    "type": "culture",
+    "category": "textile",
+    "short_description": "El Paso conserva uno de los pocos lugares de Europa donde todo el proceso tradicional de la seda sigue realizándose a mano.",
+    "description": "La tradición sedera de El Paso incluye la cría del gusano, la obtención del hilo, el teñido y el tejido artesanal. Este conocimiento ha sobrevivido durante siglos y constituye uno de los patrimonios textiles más singulares de Canarias.",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "silk",
+      "el-paso",
+      "textile",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-palma-atlantico",
+    "slug": "palma-atlantica",
+    "name": "La Palma atlántica",
+    "island": "la-palma",
+    "type": "culture",
+    "category": "identity",
+    "short_description": "Comercio, emigración y viajes conectaron durante siglos la isla con Europa y América.",
+    "description": "El puerto de Santa Cruz de La Palma favoreció intercambios comerciales y culturales desde muy temprano. A esas conexiones se sumaron generaciones de emigrantes hacia Cuba, Venezuela y otros destinos americanos, dejando huellas visibles en música, arquitectura, fiestas y memoria familiar.",
+    "source_url": "https://lapalmabiosfera.es/wp-content/uploads/2024/04/plan-gestion-2023-2032.pdf",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "atlantic",
+      "migration",
+      "america",
+      "identity"
+    ],
+    "language": "es"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "source": "Open-Meteo Marine",
+  "source_type": "model",
+  "island": "el-hierro",
+  "hours": 48,
+  "points_count": 0,
+  "points": [],
+  "available": false,
+  "status": "not_initialized",
+  "updated_at": null
+}

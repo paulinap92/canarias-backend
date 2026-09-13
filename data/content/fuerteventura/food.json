@@ -1,0 +1,117 @@
+[
+  {
+    "id": "food-fuerteventura-cabra",
+    "slug": "carne-de-cabra",
+    "name": "Carne de cabra",
+    "island": "fuerteventura",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "La cabra majorera está profundamente ligada a la cocina y a la historia ganadera de Fuerteventura.",
+    "description": "La carne de cabra aparece en guisos y preparaciones tradicionales de la isla. Su importancia gastronómica está directamente relacionada con una economía ganadera adaptada durante siglos a un territorio seco, donde la cabra majorera se convirtió en uno de los animales esenciales para la alimentación y la vida rural.",
+    "source_url": "https://www.visitfuerteventura.com/restaurantes-fuerteventura/fuerteventura/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "goat",
+      "traditional-food",
+      "rural"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-fuerteventura-cabrito",
+    "slug": "cabrito",
+    "name": "Cabrito",
+    "island": "fuerteventura",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Carne tierna de cabrito preparada en guisos, asados o elaboraciones sencillas de cocina majorera.",
+    "description": "El cabrito comparte protagonismo con la carne de cabra adulta dentro de la cocina tradicional majorera. Puede prepararse asado o guisado, y suele aparecer en restaurantes de cocina canaria que trabajan con producto ganadero local.",
+    "source_url": "https://www.visitfuerteventura.com/restaurantes/fuerteventura/casa-luis/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "cabrito",
+      "goat",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-fuerteventura-sancocho",
+    "slug": "sancocho",
+    "name": "Sancocho",
+    "island": "fuerteventura",
+    "type": "food",
+    "category": "fish",
+    "short_description": "Pescado salado, papas y batata acompañados de mojo y gofio en una preparación muy ligada a Semana Santa.",
+    "description": "El sancocho combina pescado salado cocido con papas, batata y acompañamientos como mojo o pella de gofio. En Fuerteventura forma parte del repertorio tradicional y está especialmente asociado a fechas como Semana Santa.",
+    "source_url": "https://www.visitfuerteventura.com/experiencias/turismo-rural-en-fuerteventura/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "fish",
+      "sancocho",
+      "gofio"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-fuerteventura-pescado",
+    "slug": "pescado-fresco",
+    "name": "Pescado fresco",
+    "island": "fuerteventura",
+    "type": "food",
+    "category": "seafood",
+    "short_description": "La tradición pesquera se mantiene en pueblos costeros donde el pescado local llega directamente a restaurantes y mesas familiares.",
+    "description": "Corralejo, El Cotillo, Ajuy, Las Playitas y otros núcleos costeros mantienen una relación cotidiana con el mar. Viejas, pulpos y otros pescados y mariscos se preparan de manera sencilla para conservar el sabor del producto, acompañados a menudo de papas, mojo o ensalada.",
+    "source_url": "https://www.visitfuerteventura.com/restaurantes-fuerteventura/fuerteventura/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "fish",
+      "seafood",
+      "coast",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-fuerteventura-gofio",
+    "slug": "gofio-escaldado",
+    "name": "Gofio escaldado",
+    "island": "fuerteventura",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Gofio mezclado con caldo caliente: una receta sencilla que conserva uno de los alimentos más antiguos de Canarias.",
+    "description": "El gofio continúa presente en la gastronomía majorera tanto amasado como escaldado. En esta segunda forma se mezcla con caldo caliente hasta conseguir una textura cremosa y espesa, manteniendo vivo un alimento heredado de la tradición aborigen y posteriormente adaptado a nuevos cereales.",
+    "source_url": "https://www.visitfuerteventura.com/experiencias/turismo-rural-en-fuerteventura/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "gofio",
+      "broth",
+      "aboriginal-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-fuerteventura-papas",
+    "slug": "papas-arrugadas",
+    "name": "Papas arrugadas con mojo",
+    "island": "fuerteventura",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Papas pequeñas cocidas con sal y servidas con mojo verde o picón.",
+    "description": "Las papas arrugadas forman parte de la cocina cotidiana de toda Canarias y en Fuerteventura acompañan carnes, pescado y queso. La piel se deja intacta y se seca tras la cocción para obtener su aspecto característico.",
+    "source_url": "https://www.visitfuerteventura.com/experiencias/turismo-rural-en-fuerteventura/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "potatoes",
+      "mojo",
+      "traditional-food"
+    ],
+    "language": "es"
+  }
+]

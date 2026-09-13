@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial fauna catalog · Gran Canaria v2",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.61,
+          27.98
+        ]
+      },
+      "properties": {
+        "id": "fauna-gran-canaria-lagarto-gc",
+        "common_name": "Lagarto gigante de Gran Canaria",
+        "scientific_name": "Gallotia stehlini",
+        "name": "Lagarto gigante de Gran Canaria · Medianías y barrancos del interior",
+        "hotspot": "Medianías y barrancos del interior",
+        "best_season": "Primavera y verano",
+        "habitat": "Laderas rocosas, matorral y zonas agrícolas",
+        "description": "El gran lagarto endémico de Gran Canaria se observa en ambientes cálidos y rocosos. No hace falta perseguir localizaciones sensibles para verlo.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "conservation": "No alimentar ni manipular."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.69,
+          27.96
+        ]
+      },
+      "properties": {
+        "id": "fauna-gran-canaria-pinzon-azul-gc",
+        "common_name": "Pinzón azul de Gran Canaria",
+        "scientific_name": "Fringilla polatzeki",
+        "name": "Pinzón azul de Gran Canaria · Pinares de Inagua y Tamadaba",
+        "hotspot": "Pinares de Inagua y Tamadaba",
+        "best_season": "Todo el año",
+        "habitat": "Pinar canario de montaña",
+        "description": "Ave endémica muy ligada a los pinares de Gran Canaria. La observación responsable se centra en el hábitat y senderos autorizados.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "conservation": "Evitar reclamos insistentes y molestias en época reproductora."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.78,
+          27.76
+        ]
+      },
+      "properties": {
+        "id": "fauna-gran-canaria-cetaceos-suroeste",
+        "common_name": "Cetáceos del suroeste",
+        "scientific_name": null,
+        "name": "Cetáceos del suroeste · Aguas del suroeste",
+        "hotspot": "Aguas del suroeste",
+        "best_season": "Todo el año",
+        "habitat": "Aguas oceánicas y talud insular",
+        "description": "Delfines y otros cetáceos utilizan las aguas profundas del entorno insular. Las salidas autorizadas son la forma adecuada de observación.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "conservation": "Usar operadores autorizados y respetar distancias."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.72,
+          28.08
+        ]
+      },
+      "properties": {
+        "id": "fauna-gran-canaria-pardela",
+        "common_name": "Pardela cenicienta atlántica",
+        "scientific_name": "Calonectris borealis",
+        "name": "Pardela cenicienta atlántica · Acantilados y costa norte y oeste",
+        "hotspot": "Acantilados y costa norte y oeste",
+        "best_season": "Primavera a otoño",
+        "habitat": "Acantilados e islotes costeros",
+        "description": "Ave marina emblemática que nidifica en zonas costeras y sale al mar para alimentarse.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "conservation": "Evitar luces y molestias cerca de colonias."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.7,
+          28.02
+        ]
+      },
+      "properties": {
+        "id": "fauna-gran-canaria-pico-picapinos",
+        "common_name": "Pico picapinos de Gran Canaria",
+        "scientific_name": "Dendrocopos major thanneri",
+        "name": "Pico picapinos de Gran Canaria · Pinares de Tamadaba y cumbre",
+        "hotspot": "Pinares de Tamadaba y cumbre",
+        "best_season": "Todo el año",
+        "habitat": "Pinar canario",
+        "description": "Subespecie ligada a los pinares maduros de Gran Canaria; suele detectarse por su actividad sobre los troncos.",
+        "featured": false,
+        "verified": true,
+        "priority": 5,
+        "conservation": "Observar desde senderos y evitar reproducir reclamos de forma insistente."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.56,
+          27.9
+        ]
+      },
+      "properties": {
+        "id": "fauna-gran-canaria-lisa",
+        "common_name": "Lisa de Gran Canaria",
+        "scientific_name": "Chalcides sexlineatus",
+        "name": "Lisa de Gran Canaria · Laderas, cultivos y barrancos de distintas cotas",
+        "hotspot": "Laderas, cultivos y barrancos de distintas cotas",
+        "best_season": "Meses templados y cálidos",
+        "habitat": "Suelos pedregosos, matorral y zonas agrícolas",
+        "description": "Reptil endémico de Gran Canaria que ocupa ambientes muy variados y suele pasar desapercibido entre piedras y vegetación baja.",
+        "featured": false,
+        "verified": true,
+        "priority": 6,
+        "conservation": "No levantar piedras ni manipular ejemplares."
+      }
+    }
+  ]
+}

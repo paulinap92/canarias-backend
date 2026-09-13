@@ -1,0 +1,119 @@
+[
+  {
+    "id": "music-el-hierro-tambor",
+    "slug": "tambor-herreno",
+    "name": "Tambor herreño",
+    "island": "el-hierro",
+    "type": "music",
+    "category": "instrument",
+    "short_description": "El tambor marca el pulso de las grandes procesiones y bailes tradicionales de la isla.",
+    "description": "El tambor herreño acompaña a bailarines y caminantes durante fiestas como La Bajada. Su ritmo repetitivo sostiene largas jornadas de procesión y forma parte de un conjunto sonoro donde también aparecen el pito y las chácaras.",
+    "source_url": "https://elhierro.travel/experiencias/fiestas-tradicionales-el-hierro/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "drum",
+      "bajada",
+      "traditional-music"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-el-hierro-pito",
+    "slug": "pito-herreno",
+    "name": "Pito herreño",
+    "island": "el-hierro",
+    "type": "music",
+    "category": "instrument",
+    "short_description": "El sonido agudo del pito guía melodías tradicionales durante las procesiones.",
+    "description": "El pito forma parte del sonido característico de las fiestas herreñas. Junto al tambor y las chácaras acompaña el baile de los pueblos durante recorridos largos y repetitivos, especialmente en torno a la Virgen de los Reyes.",
+    "source_url": "https://elhierro.travel/experiencias/fiestas-tradicionales-el-hierro/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "pito",
+      "flute",
+      "bajada",
+      "traditional-music"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-el-hierro-chacaras",
+    "slug": "chacaras-herrenas",
+    "name": "Chácaras",
+    "island": "el-hierro",
+    "type": "music",
+    "category": "instrument",
+    "short_description": "La percusión de madera refuerza el ritmo de las danzas y procesiones de la isla.",
+    "description": "Las chácaras se tocan por parejas y aportan un sonido seco y constante al repertorio tradicional. En El Hierro forman parte del acompañamiento musical de grandes fiestas y bailes colectivos.",
+    "source_url": "https://elhierro.travel/experiencias/fiestas-tradicionales-el-hierro/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "chacaras",
+      "percussion",
+      "traditional-music"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-el-hierro-baile-virgen",
+    "slug": "baile-de-la-virgen",
+    "name": "Baile de la Virgen",
+    "island": "el-hierro",
+    "type": "music",
+    "category": "festival-music",
+    "short_description": "Cada pueblo acompaña a la patrona con sus bailarines y músicos durante La Bajada.",
+    "description": "El Baile de la Virgen es inseparable del Camino de la Virgen. Los grupos de cada pueblo avanzan con vestimenta tradicional y una formación precisa al ritmo de pito, tambor y chácaras, manteniendo una tradición colectiva profundamente arraigada.",
+    "source_url": "https://elhierro.travel/experiencias/fiestas-tradicionales-el-hierro/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "virgen-reyes",
+      "dance",
+      "bajada",
+      "festival"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-el-hierro-folclore",
+    "slug": "folclore-herreno",
+    "name": "Folclore herreño",
+    "island": "el-hierro",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "Canciones, bailes e instrumentos mantienen una identidad musical diferenciada dentro del folclore canario.",
+    "description": "El repertorio herreño se conserva principalmente en fiestas y agrupaciones tradicionales. Su carácter está muy marcado por la función comunitaria de la música, utilizada para acompañar bailes, procesiones y largas caminatas rituales.",
+    "source_url": "https://elhierro.travel/identidad-herrena/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "folklore",
+      "dance",
+      "traditional-music"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-el-hierro-carneros",
+    "slug": "sonido-carneros-tigaday",
+    "name": "El sonido del Carnaval de Tigaday",
+    "island": "el-hierro",
+    "type": "music",
+    "category": "festival-sound",
+    "short_description": "Carreras, gritos y ambiente carnavalesco acompañan la aparición de los Carneros de Tigaday.",
+    "description": "Los Carneros de Tigaday convierten el Carnaval de La Frontera en una experiencia física y sonora. La tradición no gira alrededor de un repertorio musical concreto, pero el ruido, las carreras y la celebración colectiva forman uno de los paisajes sonoros festivos más singulares de la isla.",
+    "source_url": "https://elhierro.travel/eventos/el-hierro/carnaval-los-carneros-de-tigaday/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "carneros",
+      "tigaday",
+      "carnival",
+      "soundscape"
+    ],
+    "language": "es"
+  }
+]

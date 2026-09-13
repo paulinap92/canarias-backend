@@ -136,6 +136,7 @@ dependencies = [
     { name = "alembic" },
     { name = "beautifulsoup4" },
     { name = "fastapi" },
+    { name = "httpx" },
     { name = "psycopg", extra = ["binary"] },
     { name = "pydantic" },
     { name = "python-dotenv" },
@@ -145,7 +146,6 @@ dependencies = [
 
 [package.dev-dependencies]
 dev = [
-    { name = "httpx" },
     { name = "mypy" },
     { name = "pytest" },
     { name = "ruff" },
@@ -156,6 +156,7 @@ requires-dist = [
     { name = "alembic", specifier = ">=1.19.1" },
     { name = "beautifulsoup4", specifier = ">=4.15.0" },
     { name = "fastapi" },
+    { name = "httpx", specifier = ">=0.28.1" },
     { name = "psycopg", extras = ["binary"], specifier = ">=3.3.4" },
     { name = "pydantic" },
     { name = "python-dotenv", specifier = ">=1.2.3" },
@@ -165,7 +166,6 @@ requires-dist = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "httpx", specifier = ">=0.28.1" },
     { name = "mypy" },
     { name = "pytest" },
     { name = "ruff" },

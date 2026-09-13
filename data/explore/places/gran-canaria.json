@@ -1,0 +1,192 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6127,
+          27.9709
+        ]
+      },
+      "properties": {
+        "id": "explore-gran-canaria-roque-nublo",
+        "name": "Roque Nublo",
+        "description": "El gran monolito de la cumbre y uno de los símbolos naturales más reconocibles de Gran Canaria.",
+        "website": "https://www.grancanaria.com/turismo/en/nature/virtual-routes/roque-nublo/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roque%20Nublo%20in%20Gran%20Canaria%20%2852758136013%29.jpg",
+        "image_credit": "dronepicr / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.5872,
+          27.7414
+        ]
+      },
+      "properties": {
+        "id": "explore-gran-canaria-maspalomas",
+        "name": "Dunas de Maspalomas",
+        "description": "Un gran campo de dunas móviles junto al Atlántico, acompañado por palmeral y laguna costera.",
+        "website": "https://www.grancanaria.com/turismo/playas/maspalomas/ayudanos-a-proteger-las-dunas-de-maspalomas/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunas_de_maspalomas.jpg",
+        "image_credit": "D-click / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.4162,
+          28.1
+        ]
+      },
+      "properties": {
+        "id": "explore-gran-canaria-vegueta",
+        "name": "Vegueta",
+        "description": "El núcleo histórico de Las Palmas de Gran Canaria concentra más de cinco siglos de arquitectura e historia atlántica.",
+        "website": "https://www.grancanaria.com/turismo/isla-de-gran-canaria/municipios-de-gran-canaria/las-palmas-de-gran-canaria/recorrervegueta/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Barrio%20Vegueta%20%2C%20Las%20Palmas%20de%20Gran%20Canaria..jpg",
+        "image_credit": "Karmelo26 / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "category": "heritage",
+        "heritage_type": "historic",
+        "cc_curated": true,
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6156,
+          27.9953
+        ]
+      },
+      "properties": {
+        "id": "explore-gran-canaria-tejeda",
+        "name": "Tejeda",
+        "description": "Un pueblo blanco de la cumbre entre almendros, barrancos y los roques Nublo y Bentayga.",
+        "website": "https://www.grancanaria.com/turismo/index.php?id=2310",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tejeda%20Gran%20Canaria%20Spain.JPG",
+        "image_credit": "Xengi / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "category": "village",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.5113,
+          27.9361
+        ]
+      },
+      "properties": {
+        "id": "explore-gran-canaria-guayadeque",
+        "name": "Barranco de Guayadeque",
+        "description": "Un profundo barranco con casas cueva, patrimonio arqueológico y un paisaje vegetal muy marcado.",
+        "website": "https://www.grancanaria.com/turismo/es/isla-de-gran-canaria/municipios-de-gran-canaria/visita-aguimes/descubre-aguimes/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Barranco%20de%20Guayadeque%20-%20Gran%20Canaria.jpg",
+        "image_credit": "Rvr / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "category": "heritage",
+        "heritage_type": "historic",
+        "cc_curated": true,
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.4155,
+          28.1005
+        ]
+      },
+      "properties": {
+        "id": "casa-colon",
+        "name": "Casa de Colón",
+        "category": "heritage",
+        "heritage_type": "museum",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "gran-canaria",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.4154,
+          28.0996
+        ]
+      },
+      "properties": {
+        "id": "catedral-santa-ana",
+        "name": "Catedral de Santa Ana",
+        "category": "heritage",
+        "heritage_type": "church",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "gran-canaria",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.4301,
+          28.1435
+        ]
+      },
+      "properties": {
+        "id": "castillo-luz",
+        "name": "Castillo de la Luz",
+        "category": "heritage",
+        "heritage_type": "fort",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "gran-canaria",
+        "cc_curated": true
+      }
+    }
+  ],
+  "available": true,
+  "status": "seed",
+  "updated_at": null,
+  "source": "curated_seed"
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "experience-la-palma-1",
+    "slug": "experience-la-palma-1",
+    "name": "Un día esencial",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por La Palma: Caldera de Taburiente · Roque de los Muchachos · Bosque de Los Tilos. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://visitlapalma.es/espacios-naturales/la-palma/parque-nacional-de-la-caldera-de-taburiente/",
+    "ordered_stops": [
+      {
+        "id": "explore-la-palma-caldera-taburiente",
+        "name": "Caldera de Taburiente",
+        "latitude": 28.7305,
+        "longitude": -17.8656,
+        "note": "El gran corazón montañoso de La Palma: barrancos, pinar canario, agua y paredes volcánicas de enorme escala."
+      },
+      {
+        "id": "explore-la-palma-roque-muchachos",
+        "name": "Roque de los Muchachos",
+        "latitude": 28.7542,
+        "longitude": -17.885,
+        "note": "La cima de La Palma combina vistas sobre la Caldera de Taburiente con uno de los grandes observatorios astronómicos del mundo."
+      },
+      {
+        "id": "explore-la-palma-los-tilos",
+        "name": "Bosque de Los Tilos",
+        "latitude": 28.8023,
+        "longitude": -17.7891,
+        "note": "Un bosque húmedo de laurisilva donde helechos, barrancos y árboles gigantes conservan una vegetación antiquísima."
+      }
+    ],
+    "duration": "día completo",
+    "car_required": null
+  },
+  {
+    "id": "experience-la-palma-2",
+    "slug": "experience-la-palma-2",
+    "name": "Paisaje, pueblos y cultura",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por La Palma: Ruta de los Volcanes · Porís de Candelaria · Santa Cruz de La Palma. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "ordered_stops": [
+      {
+        "id": "explore-la-palma-volcanes",
+        "name": "Ruta de los Volcanes",
+        "latitude": 28.59,
+        "longitude": -17.837,
+        "note": "Una travesía por la dorsal volcánica de Cumbre Vieja entre cráteres, pinos y coladas oscuras."
+      },
+      {
+        "id": "explore-la-palma-poris",
+        "name": "Porís de Candelaria",
+        "latitude": 28.6946,
+        "longitude": -17.955,
+        "note": "Un pequeño núcleo de casas blancas escondido dentro de una enorme cavidad abierta al mar."
+      },
+      {
+        "id": "explore-la-palma-santa-cruz",
+        "name": "Santa Cruz de La Palma",
+        "latitude": 28.6835,
+        "longitude": -17.7642,
+        "note": "Balcones de madera, arquitectura histórica y un puerto atlántico que conectó la isla con Europa y América."
+      }
+    ],
+    "duration": "medio día / día",
+    "car_required": null
+  }
+]

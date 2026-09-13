@@ -1,0 +1,41 @@
+[
+  {
+    "id": "geology-fuerteventura-1",
+    "slug": "geology-fuerteventura-1",
+    "name": "Cómo se formó la isla",
+    "type": "geology",
+    "category": "geology",
+    "short_description": "El relieve actual es el resultado de volcanismo, erosión y tiempo.",
+    "description": "La geología de Fuerteventura puede resumirse como una de las islas más antiguas del archipiélago, modelada por erosión, llanuras y macizos antiguos. Sus barrancos, acantilados y lavas son capítulos distintos de una historia de millones de años.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/parque-natural-dunas-de-corralejo/"
+  },
+  {
+    "id": "geology-fuerteventura-2",
+    "slug": "geology-fuerteventura-2",
+    "name": "Leer el paisaje",
+    "type": "geology",
+    "category": "geology",
+    "short_description": "Coladas, conos, diques, barrancos y plataformas costeras cuentan procesos diferentes.",
+    "description": "Lugares como Dunas de Corralejo, Islote de Lobos, Cofete permiten observar cómo el volcanismo y la erosión construyen y desmontan el relieve. No todo paisaje oscuro es igual de reciente ni todo barranco tiene el mismo origen.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/parque-natural-dunas-de-corralejo/"
+  },
+  {
+    "id": "geology-fuerteventura-3",
+    "slug": "geology-fuerteventura-3",
+    "name": "Volcanismo y vida cotidiana",
+    "type": "geology",
+    "category": "geology",
+    "short_description": "El terreno volcánico condiciona agua, agricultura, carreteras y asentamientos.",
+    "description": "En Fuerteventura, el sustrato y el relieve influyen en dónde se cultiva, cómo se construye y por dónde se mueve la población. La geología no es solo paisaje: también explica parte de la historia humana.",
+    "featured": true,
+    "order": 3,
+    "language": "es",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/parque-natural-dunas-de-corralejo/"
+  }
+]

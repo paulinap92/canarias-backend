@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.05,
+          28.42
+        ]
+      },
+      "properties": {
+        "id": "flora-fuerteventura-tabaibal",
+        "common_name": "Tabaibal majorero",
+        "scientific_name": null,
+        "name": "Tabaibal majorero · Betancuria y laderas protegidas",
+        "hotspot": "Betancuria y laderas protegidas",
+        "best_season": "Todo el año",
+        "habitat": "Matorral xerófilo",
+        "description": "Las tabaibas son parte esencial del paisaje vegetal adaptado a la aridez majorera.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "why_special": "Vegetación capaz de sobrevivir con precipitaciones muy escasas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.14,
+          28.4
+        ]
+      },
+      "properties": {
+        "id": "flora-fuerteventura-cardon",
+        "common_name": "Cardón canario",
+        "scientific_name": "Euphorbia canariensis",
+        "name": "Cardón canario · Barrancos y laderas del oeste",
+        "hotspot": "Barrancos y laderas del oeste",
+        "best_season": "Todo el año",
+        "habitat": "Laderas secas y rocosas",
+        "description": "El cardón forma estructuras densas y escultóricas en barrancos y laderas cálidas.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "why_special": "Icono de la vegetación xerófila canaria."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.86,
+          28.7
+        ]
+      },
+      "properties": {
+        "id": "flora-fuerteventura-jable",
+        "common_name": "Vegetación de jable",
+        "scientific_name": null,
+        "name": "Vegetación de jable · Dunas y jables de Corralejo",
+        "hotspot": "Dunas y jables de Corralejo",
+        "best_season": "Todo el año",
+        "habitat": "Sistemas dunares y arenas móviles",
+        "description": "Plantas rastreras y resistentes al viento colonizan arenas móviles cerca del mar.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "why_special": "Hábitat frágil: caminar solo por accesos permitidos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.06,
+          28.42
+        ]
+      },
+      "properties": {
+        "id": "flora-fuerteventura-palmera",
+        "common_name": "Palmera canaria",
+        "scientific_name": "Phoenix canariensis",
+        "name": "Palmera canaria · Barrancos y oasis de medianías",
+        "hotspot": "Barrancos y oasis de medianías",
+        "best_season": "Todo el año",
+        "habitat": "Fondos de barranco y zonas con mayor humedad",
+        "description": "Las palmeras aparecen en barrancos y enclaves donde la disponibilidad de agua es mayor.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "why_special": "Contrasta con los paisajes esteparios dominantes de la isla."
+      }
+    }
+  ]
+}

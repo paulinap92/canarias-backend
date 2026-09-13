@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.7106,
+          28.1016
+        ]
+      },
+      "properties": {
+        "id": "explore-gran-canaria-agaete",
+        "name": "Puerto de las Nieves",
+        "description": "Un enclave marinero de Agaete entre acantilados, piscinas naturales y el océano.",
+        "website": "https://www.grancanaria.com/turismo/playas/agaete/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Puerto_de_las_Nieves%2C_Gran_Canaria.jpg",
+        "image_credit": "Donarreiskoffer / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "surface": "rock",
+        "access": "public",
+        "featured": true,
+        "tags": [
+          "agaete",
+          "coast",
+          "fishing-village",
+          "pools"
+        ]
+      }
+    }
+  ],
+  "available": true,
+  "status": "seed",
+  "updated_at": null,
+  "source": "curated_seed"
+}

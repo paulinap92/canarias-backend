@@ -1,0 +1,78 @@
+[
+  {
+    "id": "experience-la-graciosa-1",
+    "slug": "experience-la-graciosa-1",
+    "name": "Un día esencial",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por La Graciosa: Caleta de Sebo · Playa de Las Conchas · Montaña Amarilla y La Cocina. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://turismolanzarote.com/lo-que-no-te-puedes-perder-de-la-graciosa/",
+    "ordered_stops": [
+      {
+        "id": "explore-la-graciosa-caleta-sebo",
+        "name": "Caleta de Sebo",
+        "latitude": 29.2313,
+        "longitude": -13.5028,
+        "note": "Casas blancas, calles de arena y un pequeño puerto resumen el ritmo marinero de La Graciosa."
+      },
+      {
+        "id": "explore-la-graciosa-las-conchas",
+        "name": "Playa de Las Conchas",
+        "latitude": 29.2675,
+        "longitude": -13.5289,
+        "note": "Arena clara, mar abierto y Montaña Bermeja forman una de las imágenes más espectaculares de la isla."
+      },
+      {
+        "id": "explore-la-graciosa-montana-amarilla",
+        "name": "Montaña Amarilla y La Cocina",
+        "latitude": 29.2028,
+        "longitude": -13.544,
+        "note": "Un cono volcánico amarillo cae directamente sobre una cala protegida de aguas transparentes."
+      }
+    ],
+    "duration": "día completo",
+    "car_required": null
+  },
+  {
+    "id": "experience-la-graciosa-2",
+    "slug": "experience-la-graciosa-2",
+    "name": "Paisaje, pueblos y cultura",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por La Graciosa: Playa de La Francesa · Pedro Barba · Arco de los Caletones. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://turismolanzarote.com/lo-que-no-te-puedes-perder-de-la-graciosa/",
+    "ordered_stops": [
+      {
+        "id": "explore-la-graciosa-la-francesa",
+        "name": "Playa de La Francesa",
+        "latitude": 29.2065,
+        "longitude": -13.5234,
+        "note": "Una playa de arena clara y aguas tranquilas al sur de Caleta de Sebo, frente a los Riscos de Famara."
+      },
+      {
+        "id": "explore-la-graciosa-pedro-barba",
+        "name": "Pedro Barba",
+        "latitude": 29.2576,
+        "longitude": -13.48,
+        "note": "Un pequeño núcleo de casas frente al mar recuerda antiguos asentamientos pesqueros y salazoneros."
+      },
+      {
+        "id": "explore-la-graciosa-arcos",
+        "name": "Arco de los Caletones",
+        "latitude": 29.2745,
+        "longitude": -13.5035,
+        "note": "El oleaje ha perforado la lava basáltica formando varios arcos naturales en la costa norte."
+      }
+    ],
+    "duration": "medio día / día",
+    "car_required": null
+  }
+]

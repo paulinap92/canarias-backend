@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.33,
+          28.1
+        ]
+      },
+      "properties": {
+        "id": "fauna-la-gomera-lagarto-gomera",
+        "common_name": "Lagarto gigante de La Gomera",
+        "scientific_name": "Gallotia bravoana",
+        "name": "Lagarto gigante de La Gomera · Oeste de La Gomera",
+        "hotspot": "Oeste de La Gomera",
+        "best_season": "Todo el año",
+        "habitat": "Riscos secos y zonas rocosas",
+        "description": "Especie críticamente amenazada y objeto de programas de recuperación. La aplicación muestra una zona amplia, no localizaciones sensibles.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "conservation": "No buscar ni aproximarse a áreas de cría; respetar programas de conservación."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.24,
+          28.13
+        ]
+      },
+      "properties": {
+        "id": "fauna-la-gomera-paloma-rabiche",
+        "common_name": "Paloma rabiche",
+        "scientific_name": "Columba junoniae",
+        "name": "Paloma rabiche · Garajonay y monteverde",
+        "hotspot": "Garajonay y monteverde",
+        "best_season": "Todo el año",
+        "habitat": "Laurisilva y monteverde",
+        "description": "Paloma endémica asociada a los bosques húmedos de la isla.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "conservation": "Observar desde senderos sin reclamos insistentes."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.22,
+          28.12
+        ]
+      },
+      "properties": {
+        "id": "fauna-la-gomera-paloma-turque",
+        "common_name": "Paloma turqué",
+        "scientific_name": "Columba bollii",
+        "name": "Paloma turqué · Bosques de Garajonay",
+        "hotspot": "Bosques de Garajonay",
+        "best_season": "Todo el año",
+        "habitat": "Laurisilva",
+        "description": "La copa del bosque de laurisilva es uno de los mejores contextos para escuchar y observar esta especie.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "conservation": "Mantener silencio y distancia."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.36,
+          28.02
+        ]
+      },
+      "properties": {
+        "id": "fauna-la-gomera-cetaceos",
+        "common_name": "Cetáceos del sur y oeste",
+        "scientific_name": null,
+        "name": "Cetáceos del sur y oeste · Aguas de Valle Gran Rey y sur de la isla",
+        "hotspot": "Aguas de Valle Gran Rey y sur de la isla",
+        "best_season": "Todo el año",
+        "habitat": "Aguas oceánicas",
+        "description": "Delfines y ballenas forman parte de la fauna marina habitual alrededor de La Gomera.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "conservation": "Elegir embarcaciones autorizadas."
+      }
+    }
+  ]
+}

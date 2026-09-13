@@ -1,0 +1,120 @@
+[
+  {
+    "id": "culture-gran-canaria-prehispanic",
+    "slug": "canarios-prehispanicos",
+    "name": "Los canarios prehispánicos",
+    "island": "gran-canaria",
+    "type": "culture",
+    "category": "history",
+    "short_description": "La sociedad indígena de Gran Canaria dejó cuevas, graneros, necrópolis, arte rupestre y una compleja organización territorial.",
+    "description": "Las investigaciones sitúan el origen de los primeros pobladores de Gran Canaria en el ámbito norteafricano. Durante siglos desarrollaron una cultura insular propia, con asentamientos en cuevas y poblados, agricultura, ganadería, espacios rituales y una rica cultura material. El Museo Canario y los grandes yacimientos arqueológicos permiten reconstruir hoy una parte importante de aquel mundo.",
+    "source_url": "https://www.grancanaria.com/turismo/isla-de-gran-canaria/historia/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "prehistory",
+      "aboriginal",
+      "history",
+      "identity"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-gran-canaria-pintaderas",
+    "slug": "pintaderas",
+    "name": "Pintaderas",
+    "island": "gran-canaria",
+    "type": "culture",
+    "category": "symbolism",
+    "short_description": "Pequeños sellos con diseños geométricos que se han convertido en uno de los símbolos visuales de la cultura indígena de Gran Canaria.",
+    "description": "Las pintaderas forman parte de la cultura material de los antiguos canarios y presentan motivos geométricos de gran variedad. Su función exacta sigue siendo objeto de estudio, pero su fuerza visual las ha convertido en un referente de la identidad cultural de la isla. El Museo Canario conserva numerosos ejemplos y los utiliza para explicar el mundo simbólico prehispánico.",
+    "source_url": "https://www.grancanaria.com/turismo/pl/kultura/muzea/datos-de-museos-de-gran-canaria/?id_museo=2",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "pintaderas",
+      "symbols",
+      "archaeology",
+      "identity"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-gran-canaria-lucha",
+    "slug": "lucha-canaria",
+    "name": "Lucha Canaria",
+    "island": "gran-canaria",
+    "type": "culture",
+    "category": "sport",
+    "short_description": "La lucha tradicional sigue llenando terreros y conecta el deporte actual con prácticas anteriores a la conquista.",
+    "description": "La Lucha Canaria enfrenta a dos luchadores sobre un terrero de arena. El objetivo es hacer que el rival toque el suelo con una parte del cuerpo distinta de los pies, utilizando mañas que combinan fuerza, equilibrio y técnica. Es uno de los deportes autóctonos más vivos del archipiélago y mantiene una presencia importante en Gran Canaria.",
+    "source_url": "https://www.grancanaria.com/turismo/deportes/deportes-autoctonos/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "lucha-canaria",
+      "sport",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-gran-canaria-juego-palo",
+    "slug": "juego-del-palo",
+    "name": "Juego del Palo",
+    "island": "gran-canaria",
+    "type": "culture",
+    "category": "sport",
+    "short_description": "Una práctica tradicional de habilidad y equilibrio basada en combates simulados con palo.",
+    "description": "El Juego del Palo se practica entre dos participantes que ejecutan ataques, fintas, defensas y desplazamientos sin buscar el contacto real. El palo debe ser resistente y ligero, y la técnica exige coordinación de brazos, muñecas, cintura y pies. En Gran Canaria continúa formando parte del patrimonio deportivo y cultural transmitido entre generaciones.",
+    "source_url": "https://www.grancanaria.com/turismo/en/sports/local-sports/juego-del-palo-stick-fighting/",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "juego-del-palo",
+      "sport",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-gran-canaria-vela-latina",
+    "slug": "vela-latina-canaria",
+    "name": "Vela Latina Canaria",
+    "island": "gran-canaria",
+    "type": "culture",
+    "category": "maritime-culture",
+    "short_description": "La bahía de Las Palmas conserva una competición náutica propia, con botes de gran vela y maniobras espectaculares.",
+    "description": "La Vela Latina Canaria tiene un arraigo especial en Las Palmas de Gran Canaria. Sus botes presentan una vela de gran tamaño en relación con el casco, lo que obliga a las tripulaciones a compensar el equilibrio con maniobras y contrapesos. Las regatas forman parte de la cultura marítima de la capital y reúnen a numerosos aficionados.",
+    "source_url": "https://www.grancanaria.com/turismo/deportes/deportes-autoctonos/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "vela-latina",
+      "las-palmas",
+      "maritime",
+      "sport"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-gran-canaria-pueblo-canario",
+    "slug": "pueblo-canario",
+    "name": "Pueblo Canario y la mirada de Néstor",
+    "island": "gran-canaria",
+    "type": "culture",
+    "category": "art",
+    "short_description": "Un conjunto inspirado en arquitectura, folclore y artesanía que refleja el proyecto cultural de Néstor y Miguel Martín-Fernández de la Torre.",
+    "description": "El Pueblo Canario, junto a los Jardines de Doramas, fue concebido por Néstor Martín-Fernández de la Torre y su hermano Miguel como un espacio inspirado en la arquitectura y las tradiciones de las islas. Balcones, patios, artesanía y actuaciones folclóricas convierten el conjunto en una interpretación consciente de la identidad canaria del siglo XX.",
+    "source_url": "https://www.grancanaria.com/turismo/serviciosmultimedia/audioguias/las-palmas-de-gran-canaria/ruta-ciudad-jardin-alcaravaneras/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "pueblo-canario",
+      "nestor",
+      "art",
+      "identity"
+    ],
+    "language": "es"
+  }
+]

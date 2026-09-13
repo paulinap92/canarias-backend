@@ -1,0 +1,4482 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.2538949,
+          28.4536177
+        ]
+      },
+      "properties": {
+        "osm_id": 83196173,
+        "osm_type": "way",
+        "name": "Caleta de Negros",
+        "surface": null,
+        "access": "yes",
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q6400470",
+        "wikipedia": "es:Caleta de Negros",
+        "operator": null,
+        "fee": "no",
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4431792,
+          28.1368227
+        ]
+      },
+      "properties": {
+        "osm_id": 191938197,
+        "osm_type": "way",
+        "name": "Caleta de Teodoso",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6385827,
+          28.0091461
+        ]
+      },
+      "properties": {
+        "osm_id": 166847103,
+        "osm_type": "way",
+        "name": "Callao de la Cochina",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5829555,
+          28.4009908
+        ]
+      },
+      "properties": {
+        "osm_id": 197184737,
+        "osm_type": "way",
+        "name": "Callao de Méndez",
+        "surface": "rocks",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7961865,
+          28.3767524
+        ]
+      },
+      "properties": {
+        "osm_id": 4541495384,
+        "osm_type": "node",
+        "name": "Charco El Romantico",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7980141,
+          28.3772911
+        ]
+      },
+      "properties": {
+        "osm_id": 4541495385,
+        "osm_type": "node",
+        "name": "Charco Las damas",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7272377,
+          28.0738526
+        ]
+      },
+      "properties": {
+        "osm_id": 12167652413,
+        "osm_type": "node",
+        "name": "Coco Beach",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7273778,
+          28.0736737
+        ]
+      },
+      "properties": {
+        "osm_id": 1198011361,
+        "osm_type": "way",
+        "name": "Coco Beach",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.747756,
+          28.0928329
+        ]
+      },
+      "properties": {
+        "osm_id": 90845289,
+        "osm_type": "way",
+        "name": "El Duque Norte",
+        "surface": "rocky",
+        "access": "yes",
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q28119654",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7683394,
+          28.1137216
+        ]
+      },
+      "properties": {
+        "osm_id": 116720440,
+        "osm_type": "way",
+        "name": "El Puertito",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7573267,
+          28.1017031
+        ]
+      },
+      "properties": {
+        "osm_id": 170336740,
+        "osm_type": "way",
+        "name": "El Varadero",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4135035,
+          28.2203954
+        ]
+      },
+      "properties": {
+        "osm_id": 354412587,
+        "osm_type": "way",
+        "name": "Fondeadero de Fasnia",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.755557,
+          28.100733
+        ]
+      },
+      "properties": {
+        "osm_id": 170336739,
+        "osm_type": "way",
+        "name": "La Caleta",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7518332,
+          28.0973334
+        ]
+      },
+      "properties": {
+        "osm_id": 90845294,
+        "osm_type": "way",
+        "name": "La Enramada",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7682458,
+          28.3716559
+        ]
+      },
+      "properties": {
+        "osm_id": 10008924712,
+        "osm_type": "node",
+        "name": "La Escalonada",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": "no",
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4638458,
+          28.458614
+        ]
+      },
+      "properties": {
+        "osm_id": 12096604660,
+        "osm_type": "node",
+        "name": "La playa es tuya",
+        "surface": null,
+        "access": null,
+        "wheelchair": "no",
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": "no",
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5560496,
+          28.0311348
+        ]
+      },
+      "properties": {
+        "osm_id": 1460822619,
+        "osm_type": "way",
+        "name": "La Tejita",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": "Nudism is officially allowed: https://www.holaislascanarias.com/playas/tenerife/la-tejita/",
+        "website": null,
+        "wikidata": "Q1708764",
+        "wikipedia": "en:La Tejita",
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7116992,
+          28.0472849
+        ]
+      },
+      "properties": {
+        "osm_id": 495194417,
+        "osm_type": "way",
+        "name": "Los Tarajales",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7765313,
+          28.3741274
+        ]
+      },
+      "properties": {
+        "osm_id": 192288740,
+        "osm_type": "way",
+        "name": "Malpéi",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6103155,
+          28.022604
+        ]
+      },
+      "properties": {
+        "osm_id": 137231981,
+        "osm_type": "way",
+        "name": "Playa Amarilla",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5188881,
+          28.4185532
+        ]
+      },
+      "properties": {
+        "osm_id": 1207797201,
+        "osm_type": "way",
+        "name": "Playa Bollullo",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5203407,
+          28.4180105
+        ]
+      },
+      "properties": {
+        "osm_id": 1207797202,
+        "osm_type": "way",
+        "name": "Playa Bollullo",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4729286,
+          28.1071747
+        ]
+      },
+      "properties": {
+        "osm_id": 472060400,
+        "osm_type": "way",
+        "name": "Playa Callao Hondo",
+        "surface": "cobblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4367269,
+          28.1426941
+        ]
+      },
+      "properties": {
+        "osm_id": 73179776,
+        "osm_type": "way",
+        "name": "Playa Cardones",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.1349383,
+          28.5786763
+        ]
+      },
+      "properties": {
+        "osm_id": 441288736,
+        "osm_type": "way",
+        "name": "Playa Casas Blancas",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8147044,
+          28.3800298
+        ]
+      },
+      "properties": {
+        "osm_id": 458448622,
+        "osm_type": "way",
+        "name": "Playa Charco de la Araña",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3609937,
+          28.3785778
+        ]
+      },
+      "properties": {
+        "osm_id": 130452885,
+        "osm_type": "way",
+        "name": "Playa Charco del Musgo",
+        "surface": "rock",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8426278,
+          28.2371643
+        ]
+      },
+      "properties": {
+        "osm_id": 25682737,
+        "osm_type": "way",
+        "name": "Playa Chica",
+        "surface": "sand",
+        "access": "no",
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q24024537",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5872396,
+          28.029395
+        ]
+      },
+      "properties": {
+        "osm_id": 28496355,
+        "osm_type": "way",
+        "name": "Playa Chica",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.17319,
+          28.5152855
+        ]
+      },
+      "properties": {
+        "osm_id": 103919189,
+        "osm_type": "way",
+        "name": "Playa Chica",
+        "surface": "sand",
+        "access": "yes",
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5363342,
+          28.0442702
+        ]
+      },
+      "properties": {
+        "osm_id": 131351409,
+        "osm_type": "way",
+        "name": "Playa Chica",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6248254,
+          28.018785
+        ]
+      },
+      "properties": {
+        "osm_id": 430163265,
+        "osm_type": "way",
+        "name": "Playa Colmenares",
+        "surface": "gravel",
+        "access": "yes",
+        "wheelchair": "no",
+        "lifeguard": null,
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5120321,
+          28.0653376
+        ]
+      },
+      "properties": {
+        "osm_id": 151597765,
+        "osm_type": "way",
+        "name": "Playa Cuevas del Trigo",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5146811,
+          28.0639013
+        ]
+      },
+      "properties": {
+        "osm_id": 191357372,
+        "osm_type": "way",
+        "name": "Playa Cumplida",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8053879,
+          28.1718789
+        ]
+      },
+      "properties": {
+        "osm_id": 160138473,
+        "osm_type": "way",
+        "name": "Playa de Abama",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q31844255",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.807625,
+          28.3761293
+        ]
+      },
+      "properties": {
+        "osm_id": 257639637,
+        "osm_type": "way",
+        "name": "Playa de Aguadulce",
+        "surface": "gravel",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7819793,
+          28.1271687
+        ]
+      },
+      "properties": {
+        "osm_id": 165258430,
+        "osm_type": "way",
+        "name": "Playa de Ajabo",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q31920052",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8279156,
+          28.1996628
+        ]
+      },
+      "properties": {
+        "osm_id": 160138475,
+        "osm_type": "way",
+        "name": "Playa de Alcalá",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3835425,
+          28.2848526
+        ]
+      },
+      "properties": {
+        "osm_id": 96097326,
+        "osm_type": "way",
+        "name": "Playa de Arriba o Las Bajas",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8280635,
+          28.1980528
+        ]
+      },
+      "properties": {
+        "osm_id": 160138480,
+        "osm_type": "way",
+        "name": "Playa de Baja Larga",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3452942,
+          28.5560242
+        ]
+      },
+      "properties": {
+        "osm_id": 29178727,
+        "osm_type": "way",
+        "name": "Playa de Bajamar",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5923013,
+          28.3977941
+        ]
+      },
+      "properties": {
+        "osm_id": 90845293,
+        "osm_type": "way",
+        "name": "Playa de Castro",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4006927,
+          28.2467386
+        ]
+      },
+      "properties": {
+        "osm_id": 176757577,
+        "osm_type": "way",
+        "name": "Playa de Chimaje",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7329677,
+          28.0721184
+        ]
+      },
+      "properties": {
+        "osm_id": 28537037,
+        "osm_type": "way",
+        "name": "Playa de el Bobo",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5333797,
+          28.0456228
+        ]
+      },
+      "properties": {
+        "osm_id": 28497523,
+        "osm_type": "way",
+        "name": "Playa de El Cabezo",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.538902,
+          28.0441896
+        ]
+      },
+      "properties": {
+        "osm_id": 25892385,
+        "osm_type": "way",
+        "name": "Playa de El Médano",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": "no",
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.736835,
+          28.0843335
+        ]
+      },
+      "properties": {
+        "osm_id": 140689041,
+        "osm_type": "way",
+        "name": "Playa de Fañabe",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": "yes",
+        "lifeguard": null,
+        "supervised": "yes",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8212559,
+          28.1861821
+        ]
+      },
+      "properties": {
+        "osm_id": 160138487,
+        "osm_type": "way",
+        "name": "Playa de Fonsalía",
+        "surface": "cobblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q28119774",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8412081,
+          28.2295318
+        ]
+      },
+      "properties": {
+        "osm_id": 28578719,
+        "osm_type": "way",
+        "name": "Playa de la Arena",
+        "surface": "sand",
+        "access": "yes",
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": "es:Playa de la Arena",
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7048555,
+          28.0258311
+        ]
+      },
+      "properties": {
+        "osm_id": 158578920,
+        "osm_type": "way",
+        "name": "Playa de la Arenita",
+        "surface": "cobblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q23984959",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6515466,
+          28.0083235
+        ]
+      },
+      "properties": {
+        "osm_id": 398390443,
+        "osm_type": "way",
+        "name": "Playa de LA BALLENA",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9193087,
+          28.3428682
+        ]
+      },
+      "properties": {
+        "osm_id": 1223303193,
+        "osm_type": "way",
+        "name": "Playa de la Ballenita",
+        "surface": "natural_stone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7427495,
+          28.3759347
+        ]
+      },
+      "properties": {
+        "osm_id": 470202185,
+        "osm_type": "way",
+        "name": "Playa de la Consolación",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.1676797,
+          28.518024
+        ]
+      },
+      "properties": {
+        "osm_id": 103919075,
+        "osm_type": "way",
+        "name": "Playa de la Cueva del Agua",
+        "surface": "sand",
+        "access": "permissive",
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5881364,
+          28.3980579
+        ]
+      },
+      "properties": {
+        "osm_id": 1219576155,
+        "osm_type": "way",
+        "name": "Playa de la Fajana",
+        "surface": "gravel",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5878997,
+          28.3982766
+        ]
+      },
+      "properties": {
+        "osm_id": 1219576156,
+        "osm_type": "way",
+        "name": "Playa de la Fajana",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3668951,
+          28.3600632
+        ]
+      },
+      "properties": {
+        "osm_id": 122873033,
+        "osm_type": "way",
+        "name": "Playa de la Hornilla",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4628312,
+          28.1207048
+        ]
+      },
+      "properties": {
+        "osm_id": 179642171,
+        "osm_type": "way",
+        "name": "Playa de La Jaca",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5308081,
+          28.0502968
+        ]
+      },
+      "properties": {
+        "osm_id": 191358535,
+        "osm_type": "way",
+        "name": "Playa de la Jaquita",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5753017,
+          28.0308576
+        ]
+      },
+      "properties": {
+        "osm_id": 200936379,
+        "osm_type": "way",
+        "name": "Playa de la Mareta",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5158868,
+          28.0620708
+        ]
+      },
+      "properties": {
+        "osm_id": 191357331,
+        "osm_type": "way",
+        "name": "Playa de la Rajita",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5512512,
+          28.0290557
+        ]
+      },
+      "properties": {
+        "osm_id": 400798795,
+        "osm_type": "way",
+        "name": "Playa de la Tejita zona naturista",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": "customary",
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3671832,
+          28.341317
+        ]
+      },
+      "properties": {
+        "osm_id": 86248932,
+        "osm_type": "way",
+        "name": "Playa de la Viuda",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q23977093",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7507485,
+          28.3708642
+        ]
+      },
+      "properties": {
+        "osm_id": 192148190,
+        "osm_type": "way",
+        "name": "Playa de las Aguas",
+        "surface": "gravel",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6385278,
+          28.3945042
+        ]
+      },
+      "properties": {
+        "osm_id": 1044298143,
+        "osm_type": "way",
+        "name": "Playa de Las Aguas",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7336514,
+          28.0622105
+        ]
+      },
+      "properties": {
+        "osm_id": 28536479,
+        "osm_type": "way",
+        "name": "Playa de las Américas",
+        "surface": null,
+        "access": null,
+        "wheelchair": "limited",
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8705638,
+          28.3723188
+        ]
+      },
+      "properties": {
+        "osm_id": 166813508,
+        "osm_type": "way",
+        "name": "Playa de las Arenas",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3677491,
+          28.3008652
+        ]
+      },
+      "properties": {
+        "osm_id": 8164750726,
+        "osm_type": "node",
+        "name": "Playa de Las Arenitas",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.480072,
+          28.0994869
+        ]
+      },
+      "properties": {
+        "osm_id": 469389002,
+        "osm_type": "way",
+        "name": "Playa de Las Maretas",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7235878,
+          28.0516423
+        ]
+      },
+      "properties": {
+        "osm_id": 25515310,
+        "osm_type": "way",
+        "name": "Playa de Las Vistas",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q6078860",
+        "wikipedia": "es:Playa de Las Vistas",
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4389881,
+          28.1428049
+        ]
+      },
+      "properties": {
+        "osm_id": 73179713,
+        "osm_type": "way",
+        "name": "Playa de los Abriguitos",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q9060792",
+        "wikipedia": "es:Playa de los Abriguitos",
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8599465,
+          28.3758222
+        ]
+      },
+      "properties": {
+        "osm_id": 243775579,
+        "osm_type": "way",
+        "name": "Playa de los Barqueros",
+        "surface": "pebblestone",
+        "access": "yes",
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5815987,
+          28.0299228
+        ]
+      },
+      "properties": {
+        "osm_id": 1059401159,
+        "osm_type": "way",
+        "name": "Playa de Los Campos",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5143258,
+          28.418891
+        ]
+      },
+      "properties": {
+        "osm_id": 46108585,
+        "osm_type": "way",
+        "name": "Playa de Los Patos",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": "yes",
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5739486,
+          28.4038943
+        ]
+      },
+      "properties": {
+        "osm_id": 25616276,
+        "osm_type": "way",
+        "name": "Playa de los Roques",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6493967,
+          28.3955672
+        ]
+      },
+      "properties": {
+        "osm_id": 1219812232,
+        "osm_type": "way",
+        "name": "Playa de los Roques",
+        "surface": "pebblestone",
+        "access": "yes",
+        "wheelchair": "no",
+        "lifeguard": null,
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8234221,
+          28.1904143
+        ]
+      },
+      "properties": {
+        "osm_id": 160138482,
+        "osm_type": "way",
+        "name": "Playa de los Tarajales",
+        "surface": "cobblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8268746,
+          28.1963472
+        ]
+      },
+      "properties": {
+        "osm_id": 160138505,
+        "osm_type": "way",
+        "name": "Playa de los Topos",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3137197,
+          28.5715462
+        ]
+      },
+      "properties": {
+        "osm_id": 195411979,
+        "osm_type": "way",
+        "name": "Playa de los Troches",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8616827,
+          28.2879282
+        ]
+      },
+      "properties": {
+        "osm_id": 28339463,
+        "osm_type": "way",
+        "name": "Playa de Masca",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8277542,
+          28.2000205
+        ]
+      },
+      "properties": {
+        "osm_id": 5331975530,
+        "osm_type": "node",
+        "name": "Playa de Mendez",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5430188,
+          28.0369444
+        ]
+      },
+      "properties": {
+        "osm_id": 131351400,
+        "osm_type": "way",
+        "name": "Playa de Montaña Roja",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.2961128,
+          28.5694397
+        ]
+      },
+      "properties": {
+        "osm_id": 130443741,
+        "osm_type": "way",
+        "name": "Playa de Ocadila",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.2905328,
+          28.5703151
+        ]
+      },
+      "properties": {
+        "osm_id": 211337526,
+        "osm_type": "way",
+        "name": "Playa de Pachila",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5504534,
+          28.4177397
+        ]
+      },
+      "properties": {
+        "osm_id": 75076503,
+        "osm_type": "way",
+        "name": "Playa de Puerto",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8364232,
+          28.2139572
+        ]
+      },
+      "properties": {
+        "osm_id": 160138492,
+        "osm_type": "way",
+        "name": "Playa de Punta Blanca",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3690231,
+          28.3462038
+        ]
+      },
+      "properties": {
+        "osm_id": 157469939,
+        "osm_type": "way",
+        "name": "Playa de Samarines",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q23980217",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8109979,
+          28.1781131
+        ]
+      },
+      "properties": {
+        "osm_id": 160138497,
+        "osm_type": "way",
+        "name": "Playa de San Juan",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7239394,
+          28.3778423
+        ]
+      },
+      "properties": {
+        "osm_id": 83465688,
+        "osm_type": "way",
+        "name": "Playa de San Marcos",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5465386,
+          28.4174345
+        ]
+      },
+      "properties": {
+        "osm_id": 160047248,
+        "osm_type": "way",
+        "name": "Playa de San Telmo",
+        "surface": "sand",
+        "access": "yes",
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.2936251,
+          28.4243347
+        ]
+      },
+      "properties": {
+        "osm_id": 1512943554,
+        "osm_type": "way",
+        "name": "Playa de Santa Ana",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6755046,
+          28.3944732
+        ]
+      },
+      "properties": {
+        "osm_id": 1241018584,
+        "osm_type": "way",
+        "name": "Playa de Santo Domingo",
+        "surface": "rock",
+        "access": "no",
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.2417932,
+          28.4778095
+        ]
+      },
+      "properties": {
+        "osm_id": 1436398020,
+        "osm_type": "way",
+        "name": "Playa de Tahodio",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.1294439,
+          28.5367598
+        ]
+      },
+      "properties": {
+        "osm_id": 1332458254,
+        "osm_type": "way",
+        "name": "Playa de Toscalitos",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": "no",
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7332645,
+          28.0687884
+        ]
+      },
+      "properties": {
+        "osm_id": 25516244,
+        "osm_type": "way",
+        "name": "Playa de Troya",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4131408,
+          28.2212477
+        ]
+      },
+      "properties": {
+        "osm_id": 354412588,
+        "osm_type": "way",
+        "name": "Playa del Abrigo",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5044525,
+          28.423948
+        ]
+      },
+      "properties": {
+        "osm_id": 51544220,
+        "osm_type": "way",
+        "name": "Playa del Ancón",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8016159,
+          28.1567177
+        ]
+      },
+      "properties": {
+        "osm_id": 160138510,
+        "osm_type": "way",
+        "name": "Playa del Barranco de Erques",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7364711,
+          28.0576411
+        ]
+      },
+      "properties": {
+        "osm_id": 245841954,
+        "osm_type": "way",
+        "name": "Playa del Búnker",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7093006,
+          28.0417085
+        ]
+      },
+      "properties": {
+        "osm_id": 305719061,
+        "osm_type": "way",
+        "name": "Playa del Callao",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7316676,
+          28.0529371
+        ]
+      },
+      "properties": {
+        "osm_id": 25514520,
+        "osm_type": "way",
+        "name": "Playa del Camison",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7700627,
+          28.3713295
+        ]
+      },
+      "properties": {
+        "osm_id": 1092888962,
+        "osm_type": "way",
+        "name": "Playa del Chatarrero",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": "no",
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4153009,
+          28.2179276
+        ]
+      },
+      "properties": {
+        "osm_id": 354412589,
+        "osm_type": "way",
+        "name": "Playa del Chinchorro",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4145265,
+          28.2188584
+        ]
+      },
+      "properties": {
+        "osm_id": 357163175,
+        "osm_type": "way",
+        "name": "Playa del Chinchorro",
+        "surface": "cobblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.1745856,
+          28.5819256
+        ]
+      },
+      "properties": {
+        "osm_id": 1414179507,
+        "osm_type": "way",
+        "name": "Playa del Draguillo",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8799095,
+          28.3681573
+        ]
+      },
+      "properties": {
+        "osm_id": 166813218,
+        "osm_type": "way",
+        "name": "Playa del Fraile",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8026213,
+          28.3768185
+        ]
+      },
+      "properties": {
+        "osm_id": 463817782,
+        "osm_type": "way",
+        "name": "Playa del Gomero",
+        "surface": "gravel",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.1565307,
+          28.5227843
+        ]
+      },
+      "properties": {
+        "osm_id": 1291996397,
+        "osm_type": "way",
+        "name": "Playa del Llano",
+        "surface": "gravel",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": "no",
+        "supervised": "no",
+        "nudism": null,
+        "description": "Playa de arena fina y negra sólo en los meses de verano, desde finales de mayo/principios de junio hasta septiembre.\nFeiner schwarzer Sandstrand nur in den Sommermonaten von etwa Ende Mai / Anfang Juni bis September.",
+        "website": null,
+        "wikidata": "Q23984659",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7678862,
+          28.3706813
+        ]
+      },
+      "properties": {
+        "osm_id": 90845291,
+        "osm_type": "way",
+        "name": "Playa del Muelle",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": "yes",
+        "supervised": "yes",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.2920326,
+          28.4262292
+        ]
+      },
+      "properties": {
+        "osm_id": 171235510,
+        "osm_type": "way",
+        "name": "Playa del Muerto",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q6079267",
+        "wikipedia": "es:Playa del Muerto (Santa Cruz de Tenerife)",
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5406787,
+          28.0427054
+        ]
+      },
+      "properties": {
+        "osm_id": 4885800621,
+        "osm_type": "node",
+        "name": "Playa del Médano",
+        "surface": null,
+        "access": null,
+        "wheelchair": "limited",
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4141168,
+          28.2198985
+        ]
+      },
+      "properties": {
+        "osm_id": 354412590,
+        "osm_type": "way",
+        "name": "Playa del Roque",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6027963,
+          28.3939587
+        ]
+      },
+      "properties": {
+        "osm_id": 1219582994,
+        "osm_type": "way",
+        "name": "Playa del Socorro",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q24023159",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7612853,
+          28.1086236
+        ]
+      },
+      "properties": {
+        "osm_id": 170337348,
+        "osm_type": "way",
+        "name": "Playa Diego Hernandez",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": "customary",
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6219364,
+          28.0187973
+        ]
+      },
+      "properties": {
+        "osm_id": 1059389188,
+        "osm_type": "way",
+        "name": "Playa El Barranco",
+        "surface": "gravel",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3779741,
+          28.2905633
+        ]
+      },
+      "properties": {
+        "osm_id": 3481809671,
+        "osm_type": "node",
+        "name": "Playa El Cabezo",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7563068,
+          28.0990495
+        ]
+      },
+      "properties": {
+        "osm_id": 4559829872,
+        "osm_type": "node",
+        "name": "Playa El Cabezo",
+        "surface": "volcanic_rock",
+        "access": null,
+        "wheelchair": "no",
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5706546,
+          28.0310552
+        ]
+      },
+      "properties": {
+        "osm_id": 28494896,
+        "osm_type": "way",
+        "name": "Playa El Horno",
+        "surface": "ground",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": "yes",
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7760182,
+          28.1195821
+        ]
+      },
+      "properties": {
+        "osm_id": 80937980,
+        "osm_type": "way",
+        "name": "Playa El Pinque",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4315024,
+          28.1642177
+        ]
+      },
+      "properties": {
+        "osm_id": 88389007,
+        "osm_type": "way",
+        "name": "Playa el Porís",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5330727,
+          28.0474739
+        ]
+      },
+      "properties": {
+        "osm_id": 789267445,
+        "osm_type": "way",
+        "name": "Playa El Salado",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.1712793,
+          28.5161086
+        ]
+      },
+      "properties": {
+        "osm_id": 1360756106,
+        "osm_type": "way",
+        "name": "Playa Fea",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4316042,
+          28.1527668
+        ]
+      },
+      "properties": {
+        "osm_id": 84024120,
+        "osm_type": "way",
+        "name": "Playa Grande",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.425378,
+          28.1917071
+        ]
+      },
+      "properties": {
+        "osm_id": 430240397,
+        "osm_type": "way",
+        "name": "Playa Honda",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5598309,
+          28.4124536
+        ]
+      },
+      "properties": {
+        "osm_id": 1092166803,
+        "osm_type": "way",
+        "name": "Playa Jardín",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8264848,
+          28.1952425
+        ]
+      },
+      "properties": {
+        "osm_id": 160138469,
+        "osm_type": "way",
+        "name": "Playa la Carrera",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3762268,
+          28.2932503
+        ]
+      },
+      "properties": {
+        "osm_id": 14055131048,
+        "osm_type": "node",
+        "name": "Playa La Charcada",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3744666,
+          28.2951334
+        ]
+      },
+      "properties": {
+        "osm_id": 211316780,
+        "osm_type": "way",
+        "name": "Playa La Charcada",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7308967,
+          28.3771475
+        ]
+      },
+      "properties": {
+        "osm_id": 840109694,
+        "osm_type": "way",
+        "name": "Playa La Coronela",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3687717,
+          28.3576465
+        ]
+      },
+      "properties": {
+        "osm_id": 85418669,
+        "osm_type": "way",
+        "name": "Playa La Hornilla",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7719877,
+          28.3740701
+        ]
+      },
+      "properties": {
+        "osm_id": 192288742,
+        "osm_type": "way",
+        "name": "Playa la Magdalena",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3179576,
+          28.4041756
+        ]
+      },
+      "properties": {
+        "osm_id": 72667820,
+        "osm_type": "way",
+        "name": "Playa La Nea",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q23982127",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7355204,
+          28.0798629
+        ]
+      },
+      "properties": {
+        "osm_id": 26184066,
+        "osm_type": "way",
+        "name": "Playa La Pinta",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7405032,
+          28.3781527
+        ]
+      },
+      "properties": {
+        "osm_id": 839834002,
+        "osm_type": "way",
+        "name": "Playa La Sabina",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": "No apta para baño.",
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.1391584,
+          28.5314417
+        ]
+      },
+      "properties": {
+        "osm_id": 1443451928,
+        "osm_type": "way",
+        "name": "Playa las Brujas",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": "no",
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7775503,
+          28.1217975
+        ]
+      },
+      "properties": {
+        "osm_id": 28554635,
+        "osm_type": "way",
+        "name": "Playa Las Galgas",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": "no",
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q31920343",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8743061,
+          28.3699499
+        ]
+      },
+      "properties": {
+        "osm_id": 166814432,
+        "osm_type": "way",
+        "name": "Playa Las Mujeres",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7743809,
+          28.1182348
+        ]
+      },
+      "properties": {
+        "osm_id": 52949087,
+        "osm_type": "way",
+        "name": "Playa las Salinas",
+        "surface": "pebblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.541618,
+          28.0420174
+        ]
+      },
+      "properties": {
+        "osm_id": 28492650,
+        "osm_type": "way",
+        "name": "Playa Leocadio Machado",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.840481,
+          28.247336
+        ]
+      },
+      "properties": {
+        "osm_id": 28578731,
+        "osm_type": "way",
+        "name": "Playa Los Guíos",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q24024538",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5100726,
+          28.4207069
+        ]
+      },
+      "properties": {
+        "osm_id": 36823925,
+        "osm_type": "way",
+        "name": "Playa Los Patos",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": "yes",
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5412265,
+          28.4182289
+        ]
+      },
+      "properties": {
+        "osm_id": 1206382089,
+        "osm_type": "way",
+        "name": "Playa Martiánez",
+        "surface": "sand",
+        "access": "yes",
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7012932,
+          28.383749
+        ]
+      },
+      "properties": {
+        "osm_id": 248914189,
+        "osm_type": "way",
+        "name": "Playa Moreno",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8418929,
+          28.2309635
+        ]
+      },
+      "properties": {
+        "osm_id": 1155015065,
+        "osm_type": "way",
+        "name": "Playa Neptuno",
+        "surface": "sand",
+        "access": "yes",
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3786731,
+          28.2887122
+        ]
+      },
+      "properties": {
+        "osm_id": 664708933,
+        "osm_type": "way",
+        "name": "Playa para perros El Cabezo",
+        "surface": "sand",
+        "access": "yes",
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": "yes",
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4722145,
+          28.1083019
+        ]
+      },
+      "properties": {
+        "osm_id": 472059096,
+        "osm_type": "way",
+        "name": "Playa Tajao",
+        "surface": "cobblestone",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4176176,
+          28.2153601
+        ]
+      },
+      "properties": {
+        "osm_id": 191938196,
+        "osm_type": "way",
+        "name": "Playa Zapata",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5626842,
+          28.0301359
+        ]
+      },
+      "properties": {
+        "osm_id": 461674863,
+        "osm_type": "way",
+        "name": "Playas de Granadilla",
+        "surface": "sand",
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": null,
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3264155,
+          28.4019374
+        ]
+      },
+      "properties": {
+        "osm_id": 74089353,
+        "osm_type": "way",
+        "name": "Radazul",
+        "surface": null,
+        "access": null,
+        "wheelchair": null,
+        "lifeguard": null,
+        "supervised": null,
+        "nudism": null,
+        "description": null,
+        "website": null,
+        "wikidata": "Q28119777",
+        "wikipedia": null,
+        "operator": null,
+        "fee": null,
+        "dog": null,
+        "toilets": null,
+        "shower": null
+      }
+    }
+  ],
+  "filter": {
+    "island": "tenerife",
+    "valid": true
+  },
+  "available": true,
+  "status": "ok",
+  "updated_at": "2026-09-11T04:37:35.828975+00:00"
+}

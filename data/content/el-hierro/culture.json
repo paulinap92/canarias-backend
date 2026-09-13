@@ -1,0 +1,121 @@
+[
+  {
+    "id": "culture-el-hierro-bimbaches",
+    "slug": "bimbaches",
+    "name": "Los bimbaches",
+    "island": "el-hierro",
+    "type": "culture",
+    "category": "history",
+    "short_description": "Los habitantes prehispánicos de El Hierro dejaron grabados, asentamientos y una cultura adaptada a un territorio pequeño y aislado.",
+    "description": "Los bimbaches fueron los antiguos habitantes de El Hierro. La arqueología y los petroglifos de lugares como El Julan permiten reconstruir parte de su economía, sus creencias y su relación con un paisaje marcado por la escasez de agua y la ganadería.",
+    "source_url": "https://elhierro.travel/museos-y-visitas-de-interes/el-hierro/centro-de-interpretacion-del-parque-cultural-el-julan/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "bimbaches",
+      "prehistory",
+      "identity",
+      "archaeology"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-el-hierro-garoe",
+    "slug": "garoe",
+    "name": "El Garoé",
+    "island": "el-hierro",
+    "type": "culture",
+    "category": "symbolism",
+    "short_description": "El árbol santo representa la relación histórica de la isla con el agua, la niebla y la supervivencia.",
+    "description": "El Garoé ocupa un lugar central en la memoria herreña. El árbol original captaba la humedad de las nubes y fue considerado sagrado por los bimbaches. Tras desaparecer en 1610, un nuevo ejemplar fue plantado en el entorno que hoy se interpreta mediante un centro dedicado a su historia y leyendas.",
+    "source_url": "https://elhierro.travel/experiencias/que-ver-en-el-hierro-durante-la-escala-de-tu-crucero/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "garoe",
+      "water",
+      "bimbaches",
+      "symbol"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-el-hierro-bajada",
+    "slug": "cultura-de-la-bajada",
+    "name": "La cultura de La Bajada",
+    "island": "el-hierro",
+    "type": "culture",
+    "category": "tradition",
+    "short_description": "Pueblos, rayas, bailarines, pitos, tambores y chácaras convierten La Bajada en el gran ritual colectivo de El Hierro.",
+    "description": "La Bajada de la Virgen de los Reyes se celebra cada cuatro años y articula buena parte de la identidad insular. Los pueblos se turnan en las distintas rayas del camino mientras bailarines y músicos acompañan a la imagen durante una jornada que puede prolongarse durante muchas horas.",
+    "source_url": "https://elhierro.travel/experiencias/fiestas-tradicionales-el-hierro/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "bajada",
+      "virgen-reyes",
+      "dance",
+      "identity"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-el-hierro-salto-pastor",
+    "slug": "salto-del-pastor",
+    "name": "Salto del Pastor",
+    "island": "el-hierro",
+    "type": "culture",
+    "category": "traditional-sport",
+    "short_description": "Una larga vara permite desplazarse por fuertes pendientes con una técnica heredada del mundo pastoril canario.",
+    "description": "El Salto del Pastor surgió como una herramienta práctica para recorrer laderas y desniveles. En El Hierro está ligado a un pasado ganadero todavía visible en muchos paisajes rurales y hoy se conserva como práctica cultural y deportiva.",
+    "source_url": "https://elhierro.travel/identidad-herrena/",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "salto-del-pastor",
+      "pastoral",
+      "sport",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-el-hierro-lucha",
+    "slug": "lucha-canaria",
+    "name": "Lucha Canaria",
+    "island": "el-hierro",
+    "type": "culture",
+    "category": "traditional-sport",
+    "short_description": "El deporte vernáculo de Canarias mantiene presencia en fiestas y encuentros comunitarios de El Hierro.",
+    "description": "La Lucha Canaria busca desequilibrar al rival mediante mañas y técnicas de agarre. En El Hierro forma parte del patrimonio deportivo tradicional y aparece vinculada a celebraciones y eventos de los distintos municipios.",
+    "source_url": "https://elhierro.travel/identidad-herrena/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "lucha-canaria",
+      "sport",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-el-hierro-energia",
+    "slug": "isla-y-energia",
+    "name": "Una isla laboratorio de energía",
+    "island": "el-hierro",
+    "type": "culture",
+    "category": "contemporary-identity",
+    "short_description": "La transición energética se ha convertido en una parte importante de la identidad contemporánea de El Hierro.",
+    "description": "La pequeña escala insular y el compromiso con la sostenibilidad han convertido El Hierro en un referente internacional de integración de energías renovables. La combinación de viento y almacenamiento hidráulico forma parte de una estrategia que conecta territorio, energía y protección ambiental.",
+    "source_url": "https://www.unesco.org/mab/50anniversary/es/el-hierro",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "energy",
+      "renewables",
+      "biosphere",
+      "identity"
+    ],
+    "language": "es"
+  }
+]

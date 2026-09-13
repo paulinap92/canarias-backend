@@ -8,9 +8,10 @@ import httpx
 
 
 ROOT = Path(__file__).resolve().parents[2]
-WEATHER_POINTS_FILE = ROOT / "data" / "weather_points.json"
-AIR_POINTS_FILE = ROOT / "data" / "air_quality_points.json"
-COASTAL_POINTS_FILE = ROOT / "data" / "coastal_points.json"
+LIVE_CONFIG_DIR = ROOT / "data" / "live" / "config"
+WEATHER_POINTS_FILE = LIVE_CONFIG_DIR / "weather_points.json"
+AIR_POINTS_FILE = LIVE_CONFIG_DIR / "air_quality_points.json"
+COASTAL_POINTS_FILE = LIVE_CONFIG_DIR / "coastal_points.json"
 
 WEATHER_URL = "https://api.open-meteo.com/v1/forecast"
 AIR_URL = "https://air-quality-api.open-meteo.com/v1/air-quality"
@@ -18,6 +19,11 @@ MARINE_URL = "https://marine-api.open-meteo.com/v1/marine"
 
 
 def _load(path: Path, island: str | None) -> list[dict[str, Any]]:
+    if not path.exists():
+        raise FileNotFoundError(
+            f"Live point configuration is missing: {path}. "
+            "Expected files under data/live/config/."
+        )
     points = json.loads(path.read_text(encoding="utf-8"))
     if island:
         points = [p for p in points if p["island"] == island]
@@ -152,6 +158,72 @@ async def fetch_air_quality_points(island: str | None = None) -> dict[str, Any]:
         "source_type": "model",
         "model_resolution_note": "Modeled air-quality data; not an observed Gobierno monitoring-station measurement.",
         "island": island,
+        "points_count": len(result),
+        "points": result,
+    }
+
+
+async def fetch_marine_points(island: str | None = None) -> dict[str, Any]:
+    points = _load(COASTAL_POINTS_FILE, island)
+    if not points:
+        return {
+            "source": "Open-Meteo Marine",
+            "source_type": "model",
+            "island": island,
+            "points_count": 0,
+            "points": [],
+        }
+
+    lat, lon = _coords(points)
+    params = {
+        "latitude": lat,
+        "longitude": lon,
+        "timezone": "Atlantic/Canary",
+        "cell_selection": "sea",
+        "current": ",".join([
+            "wave_height",
+            "wave_direction",
+            "wave_period",
+            "swell_wave_height",
+            "swell_wave_direction",
+            "swell_wave_period",
+            "sea_surface_temperature",
+            "ocean_current_velocity",
+            "ocean_current_direction",
+        ]),
+    }
+
+    async with httpx.AsyncClient(
+        timeout=35.0,
+        follow_redirects=True,
+        headers={"User-Agent": "Canarias-Cerca/1.0"},
+    ) as client:
+        response = await client.get(MARINE_URL, params=params)
+        response.raise_for_status()
+        raw = _many(response.json())
+
+    result = []
+    for point, item in zip(points, raw, strict=False):
+        current = item.get("current", {})
+        result.append({
+            **point,
+            "wave_height": current.get("wave_height"),
+            "wave_direction": current.get("wave_direction"),
+            "wave_period": current.get("wave_period"),
+            "swell_height": current.get("swell_wave_height"),
+            "swell_direction": current.get("swell_wave_direction"),
+            "swell_period": current.get("swell_wave_period"),
+            "sea_temperature": current.get("sea_surface_temperature"),
+            "current_velocity": current.get("ocean_current_velocity"),
+            "current_direction": current.get("ocean_current_direction"),
+            "updated_at": current.get("time"),
+        })
+
+    return {
+        "source": "Open-Meteo Marine",
+        "source_type": "model",
+        "island": island,
+        "navigation_warning": "Modeled marine conditions; not suitable for navigation.",
         "points_count": len(result),
         "points": result,
     }

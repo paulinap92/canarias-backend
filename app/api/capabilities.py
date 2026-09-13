@@ -27,20 +27,21 @@ async def island_capabilities(
         "island": normalized,
         "features": {
             "cities": True,
-            "weather": normalized != "la-graciosa",
-            "air_quality": normalized == "tenerife",
+            "weather": True,
+            "air_quality": True,
             "seismic": True,
             "marine": True,
             "tides": True,
-            "monuments": True,
+            "monuments": normalized != "la-graciosa",
             "places": True,
             "beaches": True,
             "trails": True,
             "wildlife": True,
+            "flora": True,
             "news": True,
             "alerts": True,
             "volcanic": True,
-            "events": normalized == "tenerife",
+            "events": True,
             "webcams": normalized == "tenerife",
             "airports": normalized != "la-graciosa",
             "titsa": normalized == "tenerife",
@@ -53,7 +54,7 @@ async def island_capabilities(
                 "for every island."
             ),
             "events": (
-                "Current event source covers Tenerife only."
+                "Official island tourism agendas are supported for all eight islands; empty months are valid."
             ),
             "webcams": (
                 "Current webcam source covers Tenerife only."

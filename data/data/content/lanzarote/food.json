@@ -1,0 +1,118 @@
+[
+  {
+    "id": "food-lanzarote-papas",
+    "slug": "papas-arrugadas-mojo",
+    "name": "Papas arrugadas con mojo",
+    "island": "lanzarote",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Papas cocidas con sal y servidas con mojo rojo o verde: una de las preparaciones esenciales de la cocina canaria.",
+    "description": "Las papas arrugadas son uno de los platos más populares de Lanzarote y de todo el archipiélago. Se cuecen con piel en agua salada y se terminan en seco hasta que la superficie queda arrugada. Se sirven habitualmente con mojo rojo o verde.",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/gastronomia-y-vinos/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "potatoes",
+      "mojo",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-lanzarote-sancocho",
+    "slug": "sancocho-canario",
+    "name": "Sancocho canario",
+    "island": "lanzarote",
+    "type": "food",
+    "category": "fish",
+    "short_description": "Pescado salado, papas y batata acompañados de mojo y gofio.",
+    "description": "El sancocho aprovecha la tradición marinera de Canarias y combina pescado salado cocido con papas y batata. En Lanzarote suele acompañarse con mojo y gofio amasado, formando un plato sencillo y potente que continúa muy presente en celebraciones y cocina doméstica.",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/gastronomia-y-vinos/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "fish",
+      "sancocho",
+      "gofio",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-lanzarote-caldo-pescado",
+    "slug": "caldo-de-pescado",
+    "name": "Caldo de pescado",
+    "island": "lanzarote",
+    "type": "food",
+    "category": "fish",
+    "short_description": "Un caldo marinero que aprovecha el pescado fresco y la tradición pesquera de la isla.",
+    "description": "El caldo de pescado es una de las preparaciones mencionadas dentro de la cocina tradicional lanzaroteña. Parte de pescados locales y un fondo aromático sencillo, manteniendo la lógica de una gastronomía en la que la materia prima tiene más protagonismo que las elaboraciones complejas.",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/gastronomia-y-vinos/",
+    "featured": false,
+    "order": 3,
+    "tags": [
+      "fish",
+      "broth",
+      "maritime",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-lanzarote-queso-cabra",
+    "slug": "queso-de-cabra",
+    "name": "Queso de cabra",
+    "island": "lanzarote",
+    "type": "food",
+    "category": "cheese",
+    "short_description": "Quesos frescos, tiernos, semicurados y curados elaborados con leche de cabra.",
+    "description": "El queso de cabra tiene un peso importante en la gastronomía de Lanzarote y aparece tanto en mesas familiares como en propuestas contemporáneas. Se elaboran versiones frescas y curadas, algunas ahumadas o recubiertas, que reflejan la tradición ganadera de una isla de clima seco.",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/gastronomia-y-vinos/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "goat-cheese",
+      "local-product",
+      "dairy"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-lanzarote-escaldon",
+    "slug": "escaldon-de-gofio",
+    "name": "Escaldón de gofio",
+    "island": "lanzarote",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Gofio mezclado con caldo caliente hasta obtener una crema espesa, energética y muy canaria.",
+    "description": "El escaldón combina gofio con caldo caliente, a menudo de pescado. La mezcla se remueve hasta conseguir una textura densa y puede acompañarse con cebolla, mojo u otros ingredientes. Su sencillez resume bien la tradición de aprovechar al máximo alimentos básicos y disponibles.",
+    "source_url": "https://corporativa.turismolanzarote.com/lanzarote-lleva-al-comite-de-agricultura-de-la-fao-la-cocina-del-ingenio-nacida-del-jable-y-las-arenas-volcanicas/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "gofio",
+      "broth",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-lanzarote-roscos-alma",
+    "slug": "roscos-de-alma",
+    "name": "Roscos de alma",
+    "island": "lanzarote",
+    "type": "food",
+    "category": "dessert",
+    "short_description": "Uno de los dulces tradicionales mencionados en la repostería lanzaroteña.",
+    "description": "Los roscos de alma forman parte de la repostería tradicional de Lanzarote junto a otras elaboraciones domésticas vinculadas a fiestas y celebraciones. Son un buen ejemplo de una cocina dulce de ingredientes sencillos, transmitida durante generaciones.",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/gastronomia-y-vinos/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "dessert",
+      "pastry",
+      "traditional-food"
+    ],
+    "language": "es"
+  }
+]

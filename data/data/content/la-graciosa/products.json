@@ -1,0 +1,118 @@
+[
+  {
+    "id": "product-la-graciosa-pescado",
+    "slug": "pescado-local",
+    "name": "Pescado local",
+    "island": "la-graciosa",
+    "type": "product",
+    "category": "seafood",
+    "short_description": "El producto más directamente ligado a la economía y la cultura tradicional de la isla.",
+    "description": "La pesca ha sido históricamente el motor económico de La Graciosa. Bocinegros, salemas, cherne y otras especies forman parte de una gastronomía que sigue privilegiando el producto fresco y las técnicas sencillas.",
+    "source_url": "https://turismolanzarote.com/wp-content/uploads/2017/03/Gu%C3%ADa-Enogastron%C3%B3mica-Saborea-Lanzarote.pdf",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "fish",
+      "fishing",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-graciosa-pescado-seco",
+    "slug": "pescado-seco",
+    "name": "Pescado seco",
+    "island": "la-graciosa",
+    "type": "product",
+    "category": "preserved-food",
+    "short_description": "La jarea mantiene vivo un antiguo método de conservación anterior a la llegada generalizada de la electricidad.",
+    "description": "El pescado seco forma parte de la memoria alimentaria de una isla donde durante mucho tiempo conservar las capturas sin frío era imprescindible. La técnica sigue visible y representa uno de los productos más auténticamente ligados a la vida marinera.",
+    "source_url": "https://turismolanzarote.com/potajes-enyesques-y-jareas-las-raices-de-la-cocina-de-lanzarote/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "jarea",
+      "dried-fish",
+      "preserved-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-graciosa-sal",
+    "slug": "sal-del-rio",
+    "name": "Sal de las Salinas del Río",
+    "island": "la-graciosa",
+    "type": "product",
+    "category": "salt",
+    "short_description": "La sal del entorno de El Río recuerda la histórica relación entre pesca, conservación y paisaje salinero.",
+    "description": "La sal aparece entre los productos de cercanía asociados a La Graciosa y al Archipiélago Chinijo. Su valor cultural conecta directamente con antiguas técnicas de conservación de pescado y con el paisaje marítimo del estrecho de El Río.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-vacaciones-con-sombrera-y-pies-descalzos/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "salt",
+      "el-rio",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-graciosa-sombrera",
+    "slug": "sombrera-palmito",
+    "name": "Sombrera de palmito",
+    "island": "la-graciosa",
+    "type": "product",
+    "category": "craft",
+    "short_description": "Una pieza artesanal trenzada a mano que se ha convertido en símbolo visual de la isla.",
+    "description": "La sombrera de palmito se fabrica con fibras cuidadosamente preparadas y trenzadas. Se vende como pieza artesanal local y mantiene una técnica transmitida dentro de familias gracioseras.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-vacaciones-con-sombrera-y-pies-descalzos/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "palmito",
+      "sombrera",
+      "craft",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-graciosa-rosetas",
+    "slug": "rosetas",
+    "name": "Rosetas",
+    "island": "la-graciosa",
+    "type": "product",
+    "category": "textile",
+    "short_description": "El encaje artesanal que llegó a ser una pequeña industria local vuelve a aparecer en talleres y piezas decorativas.",
+    "description": "Las rosetas se elaboran con aguja e hilo formando motivos geométricos. La actividad tuvo especial importancia en la década de 1950 y hoy se mantiene como parte de la memoria artesanal de La Graciosa.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-la-isla-para-disfrutar-con-los-pies-descalzos/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "rosetas",
+      "lace",
+      "textile",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-graciosa-aloe",
+    "slug": "aloe-vera",
+    "name": "Aloe vera",
+    "island": "la-graciosa",
+    "type": "product",
+    "category": "agriculture",
+    "short_description": "Productos elaborados con aloe aparecen entre la pequeña oferta local de comercio de proximidad.",
+    "description": "El aloe se adapta bien a condiciones secas y aparece en productos cosméticos vendidos en Caleta de Sebo. Su presencia forma parte de una oferta local pequeña y vinculada a plantas resistentes al clima insular.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-vacaciones-con-sombrera-y-pies-descalzos/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "aloe",
+      "local-product",
+      "cosmetics"
+    ],
+    "language": "es"
+  }
+]

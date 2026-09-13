@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.8425,
+          28.7127
+        ]
+      },
+      "properties": {
+        "id": "explore-fuerteventura-corralejo",
+        "name": "Dunas de Corralejo",
+        "description": "Un enorme campo de dunas blancas junto a aguas turquesas en el nordeste de Fuerteventura.",
+        "website": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/parque-natural-dunas-de-corralejo/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "fuerteventura",
+        "surface": "sand",
+        "access": "public",
+        "featured": true,
+        "tags": [
+          "dunes",
+          "corralejo",
+          "beach",
+          "nature"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.3899,
+          28.1069
+        ]
+      },
+      "properties": {
+        "id": "explore-fuerteventura-cofete",
+        "name": "Cofete",
+        "description": "Kilómetros de playa salvaje al pie de las montañas de Jandía y frente al Atlántico abierto.",
+        "website": "https://www.visitfuerteventura.com/experiencias/lo-que-no-te-puedes-perder-de-fuerteventura/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "fuerteventura",
+        "surface": "sand",
+        "access": "public",
+        "featured": true,
+        "tags": [
+          "cofete",
+          "jandia",
+          "wild-beach",
+          "landscape"
+        ]
+      }
+    }
+  ],
+  "available": true,
+  "status": "seed",
+  "updated_at": null,
+  "source": "curated_seed"
+}

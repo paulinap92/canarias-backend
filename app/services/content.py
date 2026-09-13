@@ -9,7 +9,7 @@ from app.utils.islands import normalize_island
 
 ROOT = Path(__file__).resolve().parents[2]
 
-CONTENT_ROOT = ROOT / "data" / "content"
+CONTENT_ROOT = ROOT / "data" / "guide" / "content"
 
 VALID_SECTIONS = {
     "explore",
@@ -21,6 +21,12 @@ VALID_SECTIONS = {
     "stories",
     "crafts",
     "heritage",
+    "history",
+    "climate",
+    "historical-weather",
+    "geology",
+    "nature",
+    "experiences",
 }
 
 

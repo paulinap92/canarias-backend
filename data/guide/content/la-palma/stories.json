@@ -1,0 +1,118 @@
+[
+  {
+    "id": "story-la-palma-benahoaritas-conquest",
+    "slug": "conquista-1493",
+    "name": "1493: el final de Benahoare",
+    "island": "la-palma",
+    "type": "story",
+    "category": "history",
+    "short_description": "La conquista castellana terminó en 1493 después de una fuerte resistencia de los benahoaritas.",
+    "description": "La Palma fue una de las últimas islas incorporadas a la Corona de Castilla. La resistencia estuvo favorecida por el relieve abrupto y por el control benahoarita de barrancos y cumbres. El territorio de Aceró, en la Caldera de Taburiente, se convirtió en el último gran foco de resistencia.",
+    "source_url": "https://visitlapalma.es/experiencias/el-mundo-aborigen-de-la-palma/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "1493",
+      "conquest",
+      "benahoaritas"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-palma-tanausu",
+    "slug": "tanausu",
+    "name": "Tanausú y Aceró",
+    "island": "la-palma",
+    "type": "story",
+    "category": "history",
+    "short_description": "El último gran episodio de resistencia benahoarita quedó unido para siempre al nombre de Tanausú y a la Caldera de Taburiente.",
+    "description": "Tanausú gobernaba Aceró, el territorio de la actual Caldera de Taburiente. Su resistencia frente a las tropas castellanas se convirtió en uno de los relatos históricos más conocidos de La Palma y simboliza el final del mundo político benahoarita.",
+    "source_url": "https://visitlapalma.es/experiencias/el-mundo-aborigen-de-la-palma/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "tanausu",
+      "acero",
+      "benahoaritas"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-palma-idafe",
+    "slug": "roque-idafe",
+    "name": "El Roque Idafe",
+    "island": "la-palma",
+    "type": "story",
+    "category": "legend",
+    "short_description": "Un monolito del interior de la Caldera aparece vinculado al mundo mágico y religioso de los antiguos benahoaritas.",
+    "description": "El Roque Idafe se levanta en el interior de la Caldera de Taburiente y las fuentes lo relacionan con creencias y rituales de los benahoaritas. Su silueta aislada y vertical sigue siendo uno de los grandes símbolos del paisaje interior de La Palma.",
+    "source_url": "https://visitlapalma.es/senderismo/la-palma/la-caldera-de-taburiente/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "idafe",
+      "legend",
+      "benahoaritas",
+      "caldera"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-palma-san-antonio-1677",
+    "slug": "erupcion-san-antonio-1677",
+    "name": "1677: el volcán de San Antonio",
+    "island": "la-palma",
+    "type": "story",
+    "category": "volcanic-history",
+    "short_description": "Una erupción histórica transformó el extremo sur de La Palma y dejó un cráter que hoy puede recorrerse.",
+    "description": "El volcán de San Antonio entró en erupción en 1677 en la zona de Fuencaliente. Sus coladas transformaron el paisaje del sur y formaron parte de una larga secuencia volcánica que continúa siendo visible alrededor del actual centro de visitantes.",
+    "source_url": "https://visitlapalma.es/miradores/la-palma/mirador-de-san-antonio/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "1677",
+      "san-antonio",
+      "volcano"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-palma-teneguia-1971",
+    "slug": "teneguia-1971",
+    "name": "1971: nace el Teneguía",
+    "island": "la-palma",
+    "type": "story",
+    "category": "volcanic-history",
+    "short_description": "La erupción del Teneguía volvió a mostrar en directo cómo La Palma sigue construyéndose.",
+    "description": "En 1971 una nueva erupción abrió fisuras en el extremo sur de La Palma y dio origen al volcán Teneguía. La lava cubrió parte del terreno, alcanzó el mar y creó nueva superficie insular, dejando uno de los paisajes volcánicos históricos más jóvenes de Canarias.",
+    "source_url": "https://visitlapalma.es/espacios-naturales/la-palma/monumento-natural-volcanes-de-teneguia/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "1971",
+      "teneguia",
+      "volcano"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-palma-erupcion-2021",
+    "slug": "erupcion-2021",
+    "name": "2021: una nueva erupción en Cumbre Vieja",
+    "island": "la-palma",
+    "type": "story",
+    "category": "volcanic-history",
+    "short_description": "La erupción de 2021 transformó el Valle de Aridane y volvió a recordar que La Palma sigue siendo una isla en formación.",
+    "description": "En septiembre de 2021 comenzó una erupción en Cumbre Vieja que durante semanas cambió el territorio del oeste de La Palma. Coladas, ceniza y nuevos conos alteraron barrios, carreteras y cultivos y marcaron profundamente la vida de miles de personas. Aunque Tajogaite se usa cada vez más como nombre, no existe todavía una denominación oficial definitiva.",
+    "source_url": "https://visitlapalma.es/experiencias/por-que-a-la-palma-se-la-conoce-como-tierra-de-volcanes/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "2021",
+      "tajogaite",
+      "cumbre-vieja",
+      "volcano"
+    ],
+    "language": "es"
+  }
+]

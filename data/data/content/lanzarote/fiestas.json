@@ -1,0 +1,134 @@
+[
+  {
+    "id": "fiesta-lanzarote-dolores",
+    "slug": "romeria-los-dolores",
+    "name": "Romería de Nuestra Señora de los Dolores",
+    "island": "lanzarote",
+    "type": "fiesta",
+    "category": "pilgrimage",
+    "when": "15 de septiembre",
+    "location": "Mancha Blanca, Tinajo",
+    "short_description": "La gran romería insular reúne a miles de personas alrededor de la Virgen de los Volcanes, patrona de Lanzarote.",
+    "description": "Cada 15 de septiembre, Mancha Blanca recibe peregrinos y romeros de toda Lanzarote y de otras islas. La tradición relaciona a la Virgen de los Dolores con la protección frente a las erupciones históricas, mientras la fiesta actual combina devoción, indumentaria tradicional, música y ofrendas de productos del campo.",
+    "source_url": "https://turismolanzarote.com/excursiones/los-dolores/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "los-dolores",
+      "tinajo",
+      "romeria",
+      "september"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-lanzarote-san-gines",
+    "slug": "san-gines-arrecife",
+    "name": "Fiestas de San Ginés",
+    "island": "lanzarote",
+    "type": "fiesta",
+    "category": "local-festival",
+    "when": "Agosto; día principal 25 de agosto",
+    "location": "Arrecife",
+    "short_description": "Las fiestas patronales de Arrecife mezclan tradición marinera, regatas, música y vida en torno al Charco de San Ginés.",
+    "description": "San Ginés es el patrón de Arrecife y su fiesta principal se celebra el 25 de agosto, aunque el programa suele extenderse durante varias semanas. Regatas, jolateros, actuaciones, actividades deportivas y encuentros populares recuerdan las raíces marítimas de la capital.",
+    "source_url": "https://turismolanzarote.com/las-mejores-fiestas-populares-para-disfrutar-durante-tus-vacaciones-de-verano-en-lanzarote/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "san-gines",
+      "arrecife",
+      "august",
+      "maritime"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-lanzarote-carnaval-arrecife",
+    "slug": "carnaval-arrecife",
+    "name": "Carnaval de Arrecife",
+    "island": "lanzarote",
+    "type": "fiesta",
+    "category": "carnival",
+    "when": "Febrero o marzo",
+    "location": "Arrecife",
+    "short_description": "Murgas, comparsas, disfraces y tradiciones portuarias llenan la capital durante las carnestolendas.",
+    "description": "El Carnaval de Arrecife combina concursos, pasacalles, música y fiestas de calle con tradiciones propias del puerto. Entre sus elementos más singulares destaca la presencia de Los Buches, una parranda marinera que conserva canciones, indumentaria y gestos del antiguo Carnaval arrecifeño.",
+    "source_url": "https://turismolanzarote.com/me-conoces-mascarita/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "carnival",
+      "arrecife",
+      "los-buches",
+      "murgas"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-lanzarote-diabletes",
+    "slug": "diabletes-teguise",
+    "name": "Los Diabletes de Teguise",
+    "island": "lanzarote",
+    "type": "fiesta",
+    "category": "carnival-tradition",
+    "when": "Carnaval",
+    "location": "Villa de Teguise",
+    "short_description": "Máscaras con cuernos, esquilas y carreras por la antigua capital mantienen una de las imágenes más sorprendentes del Carnaval lanzaroteño.",
+    "description": "Durante el Carnaval, los Diabletes recorren Teguise con máscaras de aspecto animal, cuernos, cascabeles y garabatos. La tradición mezcla influencias históricas diversas y se ha convertido en uno de los elementos más reconocibles del patrimonio festivo de la Villa.",
+    "source_url": "https://turismolanzarote.com/me-conoces-mascarita/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "diabletes",
+      "teguise",
+      "carnival",
+      "mask"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-lanzarote-san-marcial",
+    "slug": "san-marcial-femes",
+    "name": "San Marcial del Rubicón",
+    "island": "lanzarote",
+    "type": "fiesta",
+    "category": "religious-festival",
+    "when": "7 de julio",
+    "location": "Femés, Yaiza",
+    "short_description": "Femés celebra a San Marcial, una figura ligada a los primeros episodios de la conquista europea de Canarias.",
+    "description": "San Marcial tiene una presencia histórica muy fuerte en Femés y en el sur de Lanzarote. La zona de Rubicón estuvo vinculada a los primeros asentamientos europeos del archipiélago y la actual ermita de Femés conserva la memoria religiosa de aquel periodo.",
+    "source_url": "https://turismolanzarote.com/organiza-tu-viaje/informacion-practica/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "san-marcial",
+      "femes",
+      "yaiza",
+      "july"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-lanzarote-carmen",
+    "slug": "virgen-del-carmen",
+    "name": "Fiestas del Carmen",
+    "island": "lanzarote",
+    "type": "fiesta",
+    "category": "maritime-festival",
+    "when": "Julio",
+    "location": "Diversos núcleos costeros",
+    "short_description": "La devoción marinera a la Virgen del Carmen se celebra en localidades costeras con procesiones y actos vinculados al mar.",
+    "description": "En distintos puntos costeros de Lanzarote, el mes de julio está marcado por celebraciones dedicadas a la Virgen del Carmen. La tradición tiene especial sentido en una isla cuya historia económica y social ha estado estrechamente ligada a pescadores, puertos y pequeñas comunidades marítimas.",
+    "source_url": "https://turismolanzarote.com/organiza-tu-viaje/informacion-practica/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "virgen-del-carmen",
+      "maritime",
+      "july",
+      "coast"
+    ],
+    "language": "es"
+  }
+]

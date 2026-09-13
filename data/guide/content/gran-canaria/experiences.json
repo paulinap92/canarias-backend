@@ -1,0 +1,178 @@
+[
+  {
+    "id": "experience-gran-canaria-cumbre",
+    "slug": "cumbre-roques-y-pueblos",
+    "name": "Cumbre, roques y pueblos",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Un día para entender el corazón montañoso de Gran Canaria.",
+    "description": "Tejeda, Roque Nublo, Roque Bentayga y Artenara forman un recorrido de cumbre centrado en paisaje, geología y patrimonio. Hay que adaptarlo a accesos, reservas, carreteras y condiciones Live del día.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "duration": "día completo",
+    "car_required": true,
+    "source_url": "https://www.grancanaria.com/turismo/fileadmin/PDF/folletosturisticos/senderos/01_Cir_nublo.pdf",
+    "ordered_stops": [
+      {
+        "id": "explore-gran-canaria-tejeda",
+        "name": "Tejeda",
+        "latitude": 27.9953,
+        "longitude": -15.6156,
+        "note": "Empieza con el paisaje de la Caldera de Tejeda."
+      },
+      {
+        "id": "explore-gran-canaria-roque-nublo",
+        "name": "Roque Nublo",
+        "latitude": 27.9709,
+        "longitude": -15.6127,
+        "note": "Comprueba antes accesos, reservas y estado de senderos."
+      },
+      {
+        "id": "explore-gran-canaria-bentayga",
+        "name": "Roque Bentayga",
+        "latitude": 27.9934,
+        "longitude": -15.6415,
+        "note": "Añade la dimensión arqueológica y cultural de la cumbre."
+      },
+      {
+        "id": "explore-gran-canaria-artenara",
+        "name": "Artenara",
+        "latitude": 28.0208,
+        "longitude": -15.646,
+        "note": "Termina en el pueblo de cumbre y sus miradores."
+      }
+    ]
+  },
+  {
+    "id": "experience-gran-canaria-norte",
+    "slug": "norte-historia-y-costa",
+    "name": "Norte: historia, pueblos y costa",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Una jornada entre patrimonio prehispánico, pueblos del norte y Atlántico.",
+    "description": "Teror, Cueva Pintada y Puerto de las Nieves condensan tres caras distintas del norte: arquitectura tradicional, historia indígena y costa volcánica.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "duration": "día completo",
+    "car_required": true,
+    "source_url": "https://www.grancanaria.com/turismo/es/isla-de-gran-canaria/municipios-de-gran-canaria/visita-galdar/descubre-galdar/",
+    "ordered_stops": [
+      {
+        "id": "explore-gran-canaria-teror",
+        "name": "Teror",
+        "latitude": 28.0602,
+        "longitude": -15.5484,
+        "note": "Paseo corto por el casco histórico."
+      },
+      {
+        "id": "explore-gran-canaria-cueva-pintada",
+        "name": "Cueva Pintada de Gáldar",
+        "latitude": 28.1459,
+        "longitude": -15.6541,
+        "note": "Reserva tiempo para la visita arqueológica."
+      },
+      {
+        "id": "explore-gran-canaria-agaete",
+        "name": "Puerto de las Nieves",
+        "latitude": 28.1016,
+        "longitude": -15.7106,
+        "note": "Cierra el día junto al mar en Agaete."
+      }
+    ]
+  },
+  {
+    "id": "experience-gran-canaria-capital",
+    "slug": "las-palmas-historia-y-mar",
+    "name": "Las Palmas: historia y mar",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Vegueta por la mañana y Las Canteras cuando apetezca bajar el ritmo.",
+    "description": "Una combinación sin coche obligatoria: patrimonio urbano en Vegueta y después paseo, baño o atardecer en Las Canteras.",
+    "featured": true,
+    "order": 3,
+    "language": "es",
+    "duration": "medio día / día",
+    "car_required": false,
+    "source_url": "https://www.grancanaria.com/turismo/playas/las-canteras/",
+    "ordered_stops": [
+      {
+        "id": "explore-gran-canaria-vegueta",
+        "name": "Vegueta",
+        "latitude": 28.1,
+        "longitude": -15.4162,
+        "note": "Historia, arquitectura y museos en el casco antiguo."
+      },
+      {
+        "id": "beach-gran-canaria-las-canteras",
+        "name": "Las Canteras",
+        "latitude": 28.1413,
+        "longitude": -15.4382,
+        "note": "Paseo marítimo, baño o snorkel según condiciones."
+      }
+    ]
+  },
+  {
+    "id": "experience-gran-canaria-sur",
+    "slug": "dunas-y-puerto-de-mogan",
+    "name": "Sur: dunas y Puerto de Mogán",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Paisaje de dunas por la mañana y ambiente marinero al final del día.",
+    "description": "Une Maspalomas con Puerto de Mogán sin intentar cubrir todo el sur. Es un plan sencillo que deja tiempo para caminar, comer y parar en la costa.",
+    "featured": true,
+    "order": 4,
+    "language": "es",
+    "duration": "medio día / día",
+    "car_required": true,
+    "source_url": "https://www.grancanaria.com/turismo/serviciosmultimedia/audioguias/maspalomas-y-mogan/ruta-de-mogan/",
+    "ordered_stops": [
+      {
+        "id": "explore-gran-canaria-maspalomas",
+        "name": "Dunas de Maspalomas",
+        "latitude": 27.7414,
+        "longitude": -15.5872,
+        "note": "Recorre solo itinerarios permitidos dentro del espacio protegido."
+      },
+      {
+        "id": "explore-gran-canaria-puerto-mogan",
+        "name": "Puerto de Mogán",
+        "latitude": 27.8172,
+        "longitude": -15.765,
+        "note": "Paseo por el puerto y la zona histórica junto a la playa."
+      }
+    ]
+  },
+  {
+    "id": "experience-gran-canaria-volcan",
+    "slug": "bandama-y-guayadeque",
+    "name": "Volcanes, barrancos y cuevas",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Una Gran Canaria de calderas, barrancos y hábitat troglodita.",
+    "description": "Bandama y Guayadeque funcionan muy bien juntos para leer dos paisajes geológicos distintos y cómo se ha vivido en ellos.",
+    "featured": false,
+    "order": 5,
+    "language": "es",
+    "duration": "medio día / día",
+    "car_required": true,
+    "source_url": "https://www.grancanaria.com/turismo/fileadmin/PDF/2026/BANDAMA_ESP_web.pdf",
+    "ordered_stops": [
+      {
+        "id": "explore-gran-canaria-bandama",
+        "name": "Caldera de Bandama",
+        "latitude": 28.0321,
+        "longitude": -15.4545,
+        "note": "Mirador y sendero solo si las condiciones son adecuadas."
+      },
+      {
+        "id": "explore-gran-canaria-guayadeque",
+        "name": "Barranco de Guayadeque",
+        "latitude": 27.9361,
+        "longitude": -15.5113,
+        "note": "Barranco, casas cueva y patrimonio arqueológico."
+      }
+    ]
+  }
+]

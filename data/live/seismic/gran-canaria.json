@@ -1,0 +1,316 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6792,
+          28.0679
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rsern",
+        "date": "09/09/2026",
+        "time_utc": "19:37:20",
+        "depth_km": 1.0,
+        "magnitude": 1.0,
+        "magnitude_type": "mbLg",
+        "location": "SE AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6831,
+          28.0943
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rrhvw",
+        "date": "09/09/2026",
+        "time_utc": "08:05:20",
+        "depth_km": 7.0,
+        "magnitude": 2.8,
+        "magnitude_type": "mbLg",
+        "location": "SE AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6684,
+          28.0764
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rqatl",
+        "date": "08/09/2026",
+        "time_utc": "15:22:22",
+        "depth_km": 0.0,
+        "magnitude": 1.1,
+        "magnitude_type": "mbLg",
+        "location": "SE AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6994,
+          28.0955
+        ]
+      },
+      "properties": {
+        "event_id": "es2026roklc",
+        "date": "07/09/2026",
+        "time_utc": "17:59:45",
+        "depth_km": 3.0,
+        "magnitude": 2.3,
+        "magnitude_type": "mbLg",
+        "location": "S AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.7124,
+          28.067
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rlpac",
+        "date": "06/09/2026",
+        "time_utc": "04:54:29",
+        "depth_km": 9.0,
+        "magnitude": 1.0,
+        "magnitude_type": "mbLg",
+        "location": "SW AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.674,
+          28.0762
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rlotu",
+        "date": "06/09/2026",
+        "time_utc": "04:47:08",
+        "depth_km": 1.0,
+        "magnitude": 1.4,
+        "magnitude_type": "mbLg",
+        "location": "SE AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.7181,
+          28.0659
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rhudl",
+        "date": "04/09/2026",
+        "time_utc": "02:57:57",
+        "depth_km": 8.0,
+        "magnitude": 0.9,
+        "magnitude_type": "mbLg",
+        "location": "SW AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.7256,
+          28.0661
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rhubd",
+        "date": "04/09/2026",
+        "time_utc": "02:55:15",
+        "depth_km": 9.0,
+        "magnitude": 1.0,
+        "magnitude_type": "mbLg",
+        "location": "SW AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6936,
+          28.0838
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rhmzk",
+        "date": "03/09/2026",
+        "time_utc": "23:21:07",
+        "depth_km": 5.0,
+        "magnitude": 0.7,
+        "magnitude_type": "mbLg",
+        "location": "SE AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6909,
+          28.0684
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rhkxk",
+        "date": "03/09/2026",
+        "time_utc": "22:18:10",
+        "depth_km": 3.0,
+        "magnitude": 0.7,
+        "magnitude_type": "mbLg",
+        "location": "SE AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.7153,
+          28.0663
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rhjpv",
+        "date": "03/09/2026",
+        "time_utc": "21:39:00",
+        "depth_km": 8.0,
+        "magnitude": 0.8,
+        "magnitude_type": "mbLg",
+        "location": "SW AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.7272,
+          28.0553
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rhgst",
+        "date": "03/09/2026",
+        "time_utc": "20:11:30",
+        "depth_km": 8.0,
+        "magnitude": 0.6,
+        "magnitude_type": "mbLg",
+        "location": "SW AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.676,
+          28.0748
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rhgat",
+        "date": "03/09/2026",
+        "time_utc": "19:50:30",
+        "depth_km": 1.0,
+        "magnitude": 1.5,
+        "magnitude_type": "mbLg",
+        "location": "SE AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6995,
+          28.0976
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rgyzn",
+        "date": "03/09/2026",
+        "time_utc": "16:16:55",
+        "depth_km": 6.0,
+        "magnitude": 1.9,
+        "magnitude_type": "mbLg",
+        "location": "SW AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6886,
+          28.1018
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rguwm",
+        "date": "03/09/2026",
+        "time_utc": "14:11:49",
+        "depth_km": 6.0,
+        "magnitude": 2.1,
+        "magnitude_type": "mbLg",
+        "location": "NE AGAETE.IGC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6903,
+          28.1004
+        ]
+      },
+      "properties": {
+        "event_id": "es2026rgqso",
+        "date": "03/09/2026",
+        "time_utc": "12:06:21",
+        "depth_km": 10.0,
+        "magnitude": 1.5,
+        "magnitude_type": "mbLg",
+        "location": "E AGAETE.IGC"
+      }
+    }
+  ],
+  "filter": {
+    "island": "gran-canaria",
+    "valid": true
+  },
+  "available": true,
+  "status": "ok",
+  "updated_at": "2026-09-11T04:55:41.355623+00:00"
+}

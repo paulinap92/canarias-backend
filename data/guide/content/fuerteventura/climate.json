@@ -1,0 +1,41 @@
+[
+  {
+    "id": "climate-fuerteventura-1",
+    "slug": "climate-fuerteventura-1",
+    "name": "Alisios y relieve",
+    "type": "climate",
+    "category": "climate",
+    "short_description": "El clima canario no se entiende solo por la latitud.",
+    "description": "Los vientos alisios, el océano y el relieve explican buena parte del clima de Fuerteventura. La isla es muy árida y ventosa, por lo que recorrer pocos kilómetros puede cambiar nubes, viento y temperatura.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/parque-natural-dunas-de-corralejo/"
+  },
+  {
+    "id": "climate-fuerteventura-2",
+    "slug": "climate-fuerteventura-2",
+    "name": "Microclimas",
+    "type": "climate",
+    "category": "climate",
+    "short_description": "La orientación de las laderas y la altitud crean contrastes locales.",
+    "description": "En Fuerteventura conviene pensar por zonas y cotas, no por una única previsión para toda la isla. Costa, medianías y cumbres pueden tener condiciones muy distintas el mismo día.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/parque-natural-dunas-de-corralejo/"
+  },
+  {
+    "id": "climate-fuerteventura-3",
+    "slug": "climate-fuerteventura-3",
+    "name": "Qué llevar",
+    "type": "climate",
+    "category": "climate",
+    "short_description": "Capas, protección solar y algo para el viento suelen ser más útiles que una sola prenda gruesa.",
+    "description": "Incluso con tiempo estable, la exposición al sol, el viento y los cambios de altitud pueden sentirse mucho. Para rutas o cumbres es importante revisar Live antes de salir.",
+    "featured": true,
+    "order": 3,
+    "language": "es",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/parque-natural-dunas-de-corralejo/"
+  }
+]

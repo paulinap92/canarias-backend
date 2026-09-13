@@ -1,0 +1,116 @@
+[
+  {
+    "id": "craft-fuerteventura-calado",
+    "slug": "calado",
+    "name": "Calado",
+    "island": "fuerteventura",
+    "type": "craft",
+    "category": "textile",
+    "short_description": "Una labor textil minuciosa que convierte la tela deshilada en dibujos geométricos y ornamentales.",
+    "description": "El calado forma parte de los oficios tradicionales conservados en Fuerteventura. La técnica requiere retirar hilos de la tela y trabajar después la trama sobre bastidor para crear diseños repetitivos y muy precisos.",
+    "source_url": "https://www.visitfuerteventura.com/experiencias/turismo-rural-en-fuerteventura/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "calado",
+      "textile",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-fuerteventura-cesteria",
+    "slug": "cesteria-palma",
+    "name": "Cestería de palma",
+    "island": "fuerteventura",
+    "type": "craft",
+    "category": "basketry",
+    "short_description": "La palma y otras fibras vegetales se transforman en cestas y objetos de trabajo y uso doméstico.",
+    "description": "La cestería majorera aprovechó materiales vegetales disponibles para producir recipientes, sombreros y piezas destinadas a las tareas del campo. El oficio continúa mostrándose en espacios etnográficos y ferias artesanas.",
+    "source_url": "https://www.visitfuerteventura.com/experiencias/turismo-rural-en-fuerteventura/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "basketry",
+      "palm",
+      "rural"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-fuerteventura-alfareria",
+    "slug": "alfareria",
+    "name": "Alfarería tradicional",
+    "island": "fuerteventura",
+    "type": "craft",
+    "category": "pottery",
+    "short_description": "El barro modelado a mano conserva formas domésticas sencillas vinculadas a la vida rural.",
+    "description": "La alfarería tradicional de Fuerteventura utilizó técnicas manuales y materias primas locales para producir recipientes destinados al agua, la comida y otras tareas domésticas. Hoy el oficio se conserva a través de artesanos y actividades culturales.",
+    "source_url": "https://www.visitfuerteventura.com/rutas-gastronomicas/ruta-tradicion-y-cultura/",
+    "featured": false,
+    "order": 3,
+    "tags": [
+      "pottery",
+      "clay",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-fuerteventura-palma",
+    "slug": "trenzado-palma",
+    "name": "Trenzado de palma",
+    "island": "fuerteventura",
+    "type": "craft",
+    "category": "fiber-craft",
+    "short_description": "Tiras de palma preparadas y trenzadas se convierten en esteras, sombreros y pequeños objetos.",
+    "description": "El trabajo de palma exige seleccionar, secar y preparar las hojas antes de trenzarlas. La técnica está vinculada a una cultura de aprovechamiento de recursos locales y a la producción de objetos resistentes para la vida diaria.",
+    "source_url": "https://www.visitfuerteventura.com/experiencias/turismo-rural-en-fuerteventura/",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "palm",
+      "fiber",
+      "handmade"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-fuerteventura-molineria",
+    "slug": "molineria",
+    "name": "Molinería",
+    "island": "fuerteventura",
+    "type": "craft",
+    "category": "traditional-trade",
+    "short_description": "Conocer el viento, las piedras y el grano era esencial para transformar la cosecha en gofio.",
+    "description": "Los molineros mantenían y operaban complejas máquinas de madera y piedra adaptadas a los fuertes vientos de Fuerteventura. El Molino de Tefía y el Molino de Antigua conservan la memoria de este oficio estrechamente ligado a la alimentación majorera.",
+    "source_url": "https://www.visitfuerteventura.com/museos-y-visitas-de-interes/fuerteventura/molino-de-tefia/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "mills",
+      "gofio",
+      "trade"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-fuerteventura-queseria",
+    "slug": "queseria-artesanal",
+    "name": "Elaboración artesanal de queso",
+    "island": "fuerteventura",
+    "type": "craft",
+    "category": "food-craft",
+    "short_description": "Cuajar, prensar, salar y madurar leche de cabra es uno de los saberes artesanales más importantes de la isla.",
+    "description": "La elaboración del Queso Majorero combina conocimiento ganadero y técnicas queseras transmitidas entre generaciones. Muchas queserías siguen trabajando a pequeña escala y mantienen procesos manuales en distintas fases de producción y maduración.",
+    "source_url": "https://www.visitfuerteventura.com/bodegas-y-queserias/fuerteventura/queseria-el-convento-finca-pepe/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "cheese",
+      "goat",
+      "food-craft"
+    ],
+    "language": "es"
+  }
+]

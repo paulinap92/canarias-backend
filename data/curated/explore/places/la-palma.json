@@ -1,0 +1,219 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial places catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.8656,
+          28.7305
+        ]
+      },
+      "properties": {
+        "id": "explore-la-palma-caldera-taburiente",
+        "name": "Caldera de Taburiente",
+        "description": "El gran corazón montañoso de La Palma: barrancos, pinar canario, agua y paredes volcánicas de enorme escala.",
+        "website": "https://visitlapalma.es/espacios-naturales/la-palma/parque-nacional-de-la-caldera-de-taburiente/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-palma",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.885,
+          28.7542
+        ]
+      },
+      "properties": {
+        "id": "explore-la-palma-roque-muchachos",
+        "name": "Roque de los Muchachos",
+        "description": "La cima de La Palma combina vistas sobre la Caldera de Taburiente con uno de los grandes observatorios astronómicos del mundo.",
+        "website": "https://visitlapalma.es/miradores/la-palma/mirador-roque-de-los-muchachos/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-palma",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.7891,
+          28.8023
+        ]
+      },
+      "properties": {
+        "id": "explore-la-palma-los-tilos",
+        "name": "Bosque de Los Tilos",
+        "description": "Un bosque húmedo de laurisilva donde helechos, barrancos y árboles gigantes conservan una vegetación antiquísima.",
+        "website": "https://visitlapalma.es/experiencias/lo-que-no-te-puedes-perder-de-la-palma/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-palma",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.837,
+          28.59
+        ]
+      },
+      "properties": {
+        "id": "explore-la-palma-volcanes",
+        "name": "Ruta de los Volcanes",
+        "description": "Una travesía por la dorsal volcánica de Cumbre Vieja entre cráteres, pinos y coladas oscuras.",
+        "website": "https://visitlapalma.es/la-palma/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-palma",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.955,
+          28.6946
+        ]
+      },
+      "properties": {
+        "id": "explore-la-palma-poris",
+        "name": "Porís de Candelaria",
+        "description": "Un pequeño núcleo de casas blancas escondido dentro de una enorme cavidad abierta al mar.",
+        "website": "https://visitlapalma.es/la-palma/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-palma",
+        "category": "village",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.7642,
+          28.6835
+        ]
+      },
+      "properties": {
+        "id": "explore-la-palma-santa-cruz",
+        "name": "Santa Cruz de La Palma",
+        "description": "Balcones de madera, arquitectura histórica y un puerto atlántico que conectó la isla con Europa y América.",
+        "website": "https://visitlapalma.es/la-palma/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-palma",
+        "category": "heritage",
+        "heritage_type": "historic",
+        "cc_curated": true,
+        "featured": true,
+        "priority": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.7647,
+          28.6872
+        ]
+      },
+      "properties": {
+        "id": "castillo-santa-catalina",
+        "name": "Castillo de Santa Catalina",
+        "category": "heritage",
+        "heritage_type": "fort",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "la-palma",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.7892,
+          28.6953
+        ]
+      },
+      "properties": {
+        "id": "santuario-nieves",
+        "name": "Santuario de Nuestra Señora de las Nieves",
+        "category": "heritage",
+        "heritage_type": "church",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "la-palma",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.7642,
+          28.6832
+        ]
+      },
+      "properties": {
+        "id": "balcones-avenida-maritima",
+        "name": "Balcones de la Avenida Marítima",
+        "category": "heritage",
+        "heritage_type": "historic",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "la-palma",
+        "cc_curated": true
+      }
+    }
+  ]
+}

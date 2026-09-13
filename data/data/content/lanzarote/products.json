@@ -1,0 +1,120 @@
+[
+  {
+    "id": "product-lanzarote-malvasia",
+    "slug": "malvasia-volcanica",
+    "name": "Malvasía Volcánica",
+    "island": "lanzarote",
+    "type": "product",
+    "category": "wine",
+    "short_description": "La uva más emblemática de Lanzarote crece en un paisaje agrícola modelado por ceniza volcánica y viento.",
+    "description": "La Malvasía Volcánica está estrechamente vinculada a los vinos de Lanzarote. Las cepas se plantan en hoyos excavados en el picón para alcanzar el suelo fértil y se protegen con muros de piedra frente a los alisios. El resultado es uno de los paisajes vitivinícolas más singulares de Canarias.",
+    "source_url": "https://turismolanzarote.com/que-visitar/bodegas/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "malvasia",
+      "wine",
+      "la-geria",
+      "volcanic"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-lanzarote-queso",
+    "slug": "queso-cabra-lanzarote",
+    "name": "Queso de cabra",
+    "island": "lanzarote",
+    "type": "product",
+    "category": "cheese",
+    "short_description": "La leche de cabra sostiene una producción quesera local de gran importancia gastronómica.",
+    "description": "Los quesos de cabra forman parte de los productos más representativos de Lanzarote. Se elaboran en distintos grados de maduración y aparecen tanto en la cocina tradicional como en propuestas gastronómicas contemporáneas.",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/gastronomia-y-vinos/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "goat-cheese",
+      "dairy",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-lanzarote-sal-janubio",
+    "slug": "sal-de-janubio",
+    "name": "Sal de Janubio",
+    "island": "lanzarote",
+    "type": "product",
+    "category": "salt",
+    "short_description": "La sal marina de Janubio conecta paisaje costero, trabajo artesanal y una histórica industria insular.",
+    "description": "Las Salinas de Janubio son uno de los grandes paisajes culturales del sur de Lanzarote. La producción de sal aprovecha el agua del Atlántico, el viento y el sol, y mantiene un oficio que durante décadas estuvo directamente vinculado a la conservación del pescado.",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "salt",
+      "janubio",
+      "sea",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-lanzarote-cochinilla",
+    "slug": "cochinilla",
+    "name": "Cochinilla",
+    "island": "lanzarote",
+    "type": "product",
+    "category": "agriculture",
+    "short_description": "La cría de cochinilla sobre tuneras dejó una huella visible en la agricultura del norte de la isla.",
+    "description": "La cochinilla se cría sobre tuneras y se utilizó históricamente para obtener un colorante natural muy valorado. El entorno del Jardín de Cactus conserva la memoria de esta actividad agrícola, que llegó a tener importancia económica en Lanzarote.",
+    "source_url": "https://cactlanzarote.com/es/visita",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "cochineal",
+      "cactus",
+      "agriculture",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-lanzarote-batata-jable",
+    "slug": "batata-del-jable",
+    "name": "Batata del jable",
+    "island": "lanzarote",
+    "type": "product",
+    "category": "agriculture",
+    "short_description": "La arena marina transportada por el viento permite cultivar batata y otros productos en el sistema agrícola del jable.",
+    "description": "El jable es un sistema agrícola basado en arenas de origen marino que cubren parte del suelo y ayudan a conservar humedad. En estas zonas se cultivan productos como la batata, cuya presencia sigue muy ligada a la cocina y a la agricultura tradicional de Lanzarote.",
+    "source_url": "https://corporativa.turismolanzarote.com/lanzarote-lleva-al-comite-de-agricultura-de-la-fao-la-cocina-del-ingenio-nacida-del-jable-y-las-arenas-volcanicas/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "sweet-potato",
+      "jable",
+      "agriculture",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-lanzarote-gofio",
+    "slug": "gofio",
+    "name": "Gofio",
+    "island": "lanzarote",
+    "type": "product",
+    "category": "cereal",
+    "short_description": "Harina de cereal tostado presente en escaldones, pellas, desayunos y postres.",
+    "description": "El gofio conserva una continuidad muy antigua dentro de la alimentación canaria. En Lanzarote aparece amasado, escaldado con caldo de pescado, mezclado con leche o utilizado en postres, manteniendo una gran versatilidad dentro de la cocina insular.",
+    "source_url": "https://corporativa.turismolanzarote.com/lanzarote-lleva-al-comite-de-agricultura-de-la-fao-la-cocina-del-ingenio-nacida-del-jable-y-las-arenas-volcanicas/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "gofio",
+      "cereal",
+      "traditional-product"
+    ],
+    "language": "es"
+  }
+]

@@ -1,35 +1,10 @@
 from typing import Any
-
 from fastapi import APIRouter, Query
-
-from app.services.trails import fetch_trails
-from app.utils.islands import filter_feature_collection_by_island
-
-
-router = APIRouter(
-    prefix="/api/regions/canarias/trails",
-    tags=["trails"],
-)
-
-
+import app.data_sources.bootstrap  # noqa: F401
+from app.data_sources import get_data_source
+router=APIRouter(prefix="/api/regions/canarias/trails",tags=["trails"]); source=get_data_source("explore","routes")
+def trim(data,limit): return {**data,"features":data.get("features",[])[:limit]} if isinstance(data,dict) else data
 @router.get("")
-async def get_trails(
-    limit: int = Query(50, ge=1, le=200),
-    island: str | None = Query(None),
-) -> dict[str, Any]:
-    data = await fetch_trails(
-        200 if island else limit
-    )
-
-    filtered = filter_feature_collection_by_island(
-        data,
-        island,
-    )
-
-    if island:
-        filtered["features"] = filtered.get(
-            "features",
-            [],
-        )[:limit]
-
-    return filtered
+async def get_trails(limit:int=Query(30,ge=1,le=100),island:str|None=Query(None))->dict[str,Any]: return trim(source.read(island=island),limit)
+@router.post("")
+async def refresh_trails(limit:int=Query(100,ge=1,le=100),island:str|None=Query(None))->dict[str,Any]: return trim(await source.refresh(island=island),limit)

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "food-la-palma-queso-asado",
+    "slug": "queso-asado-con-mojo",
+    "name": "Queso asado con mojo",
+    "island": "la-palma",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Queso palmero caliente y dorado servido con mojo rojo o verde.",
+    "description": "El queso asado con mojo es una de las formas más sencillas y populares de disfrutar el Queso Palmero. El calor intensifica su sabor y crea una superficie tostada que combina especialmente bien con los mojos de la isla.",
+    "source_url": "https://visitlapalma.es/restaurantes-la-palma/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "cheese",
+      "mojo",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-palma-chicharrones",
+    "slug": "chicharrones",
+    "name": "Chicharrones",
+    "island": "la-palma",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Piezas de cerdo fritas y crujientes, una tapa clásica de la gastronomía palmera.",
+    "description": "Los chicharrones forman parte de la cocina popular de La Palma y suelen servirse como aperitivo o tapa. Su preparación busca una textura crujiente y un sabor intenso, y continúan siendo habituales en bares y restaurantes de cocina tradicional.",
+    "source_url": "https://visitlapalma.es/restaurantes-la-palma/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "pork",
+      "tapa",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-palma-pescado",
+    "slug": "pescado-fresco",
+    "name": "Pescado fresco",
+    "island": "la-palma",
+    "type": "food",
+    "category": "seafood",
+    "short_description": "Viejas, morenas, alfonsiños y otros pescados atlánticos llegan directamente a la cocina de los pueblos costeros.",
+    "description": "La cocina marinera palmera trabaja especies locales con preparaciones sencillas que respetan el sabor del pescado. Frito, a la plancha, en caldo o acompañado de papas y mojo, el producto del mar sigue ocupando un lugar central en la gastronomía insular.",
+    "source_url": "https://visitlapalma.es/sites/default/files/resources/resource_files/Folleto%20gene%C2%81rico%20ES%20EN%20DE%2004%20Web%20%282%29_0.pdf",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "fish",
+      "seafood",
+      "coast"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-palma-sopa-picadillo",
+    "slug": "sopa-de-picadillo",
+    "name": "Sopa de picadillo",
+    "island": "la-palma",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Un caldo casero enriquecido con carne, huevo y otros pequeños ingredientes cortados.",
+    "description": "La sopa de picadillo pertenece al repertorio doméstico tradicional de La Palma y suele aparecer en comidas familiares y celebraciones. Parte de un buen caldo y se completa con ingredientes troceados que aportan textura y sabor.",
+    "source_url": "https://visitlapalma.es/sites/default/files/resources/resource_files/Folleto%20gene%C2%81rico%20ES%20EN%20DE%2004%20Web%20%282%29_0.pdf",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "soup",
+      "home-cooking",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-palma-principe-alberto",
+    "slug": "principe-alberto",
+    "name": "Príncipe Alberto",
+    "island": "la-palma",
+    "type": "food",
+    "category": "dessert",
+    "short_description": "Un postre palmero de chocolate, bizcocho, crema y frutos secos convertido en uno de los dulces más conocidos de la isla.",
+    "description": "El Príncipe Alberto es uno de los postres más populares de La Palma. Combina capas de bizcocho con crema de chocolate y frutos secos, creando una elaboración intensa que hoy aparece tanto en restaurantes tradicionales como en versiones más modernas.",
+    "source_url": "https://visitlapalma.es/restaurantes-la-palma/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "dessert",
+      "chocolate",
+      "palmeran-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-palma-rapadura",
+    "slug": "rapadura",
+    "name": "Rapadura",
+    "island": "la-palma",
+    "type": "food",
+    "category": "dessert",
+    "short_description": "Un dulce de forma cónica elaborado tradicionalmente con miel de caña, gofio, azúcar, almendra, canela y limón.",
+    "description": "La rapadura es uno de los dulces más característicos de La Palma. Su forma cónica es inconfundible y existen variantes con leche, chocolate, coco o huevo. Resume muy bien la repostería insular basada en gofio, almendra, miel y productos de larga conservación.",
+    "source_url": "https://visitlapalma.es/experiencias/una-guia-para-golosos-en-la-palma/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "rapadura",
+      "dessert",
+      "almond",
+      "gofio"
+    ],
+    "language": "es"
+  }
+]

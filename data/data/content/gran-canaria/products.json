@@ -1,0 +1,121 @@
+[
+  {
+    "id": "product-gran-canaria-queso-flor",
+    "slug": "queso-flor-guia",
+    "name": "Queso de Flor de Guía",
+    "island": "gran-canaria",
+    "type": "product",
+    "category": "cheese",
+    "short_description": "Un queso singular del norte de Gran Canaria cuajado con flor de cardo y protegido por Denominación de Origen.",
+    "description": "El Queso de Flor de Guía se elabora principalmente con leche de oveja y vaca y utiliza cuajo vegetal obtenido de la flor del cardo. Junto al Queso de Media Flor y el Queso de Guía forma una denominación de origen propia que refleja la tradición pastoril del norte de Gran Canaria y el trabajo de pequeñas queserías artesanales.",
+    "source_url": "https://www.grancanaria.com/turismo/es/gastronomia/productos/quesos-de-gran-canaria/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "cheese",
+      "guia",
+      "dop",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-gran-canaria-cafe-agaete",
+    "slug": "cafe-agaete",
+    "name": "Café de Agaete",
+    "island": "gran-canaria",
+    "type": "product",
+    "category": "coffee",
+    "short_description": "Un cultivo muy poco común en Europa que encuentra en el Valle de Agaete un microclima excepcional.",
+    "description": "El café llegó al Valle de Agaete en el siglo XIX y encontró allí temperaturas suaves, suelos volcánicos y sombra de frutales subtropicales. Su cultivo se recuperó con fuerza en el siglo XXI y se ha convertido en uno de los productos más singulares de Gran Canaria, elaborado en pequeñas explotaciones del valle.",
+    "source_url": "https://www.grancanaria.com/turismo/es/gastronomia/productos-de-gran-canaria/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "coffee",
+      "agaete",
+      "agriculture",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-gran-canaria-vino",
+    "slug": "vino-gran-canaria",
+    "name": "Vino de Gran Canaria",
+    "island": "gran-canaria",
+    "type": "product",
+    "category": "wine",
+    "short_description": "Viñedos desde la costa hasta la cumbre producen vinos volcánicos con variedades tradicionales canarias.",
+    "description": "Los viñedos de Gran Canaria se reparten por paisajes y altitudes muy distintas, desde áreas cercanas al mar hasta zonas de cumbre. La Denominación de Origen Gran Canaria reúne bodegas que trabajan variedades tradicionales del archipiélago y elaboran vinos marcados por el suelo volcánico y la diversidad de microclimas.",
+    "source_url": "https://www.grancanaria.com/turismo/es/gastronomia/productos-de-gran-canaria/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "wine",
+      "volcanic",
+      "vineyard",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-gran-canaria-gofio",
+    "slug": "gofio-millo",
+    "name": "Gofio de millo",
+    "island": "gran-canaria",
+    "type": "product",
+    "category": "cereal",
+    "short_description": "Harina de cereal tostado que sigue formando parte de desayunos, potajes, escaldones y postres.",
+    "description": "El gofio es uno de los productos más antiguos y versátiles de la alimentación canaria. En Gran Canaria el gofio de millo tiene una presencia especialmente fuerte y aparece tanto en preparaciones saladas como dulces. Se consume con leche, en pellas, escaldado con caldo o incorporado a postres contemporáneos.",
+    "source_url": "https://www.grancanaria.com/turismo/es/gastronomia/productos-de-gran-canaria/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "gofio",
+      "corn",
+      "cereal",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-gran-canaria-almendra",
+    "slug": "almendra-tejeda",
+    "name": "Almendra de la cumbre",
+    "island": "gran-canaria",
+    "type": "product",
+    "category": "agriculture",
+    "short_description": "La almendra define buena parte de la repostería tradicional y del paisaje invernal de municipios como Tejeda.",
+    "description": "Los almendros forman parte del paisaje agrícola de la cumbre de Gran Canaria y su floración transforma las laderas durante el invierno. La almendra se emplea en mazapanes, bienmesabe, polvorones y otros dulces tradicionales, haciendo de Tejeda uno de los grandes referentes de la repostería de la isla.",
+    "source_url": "https://www.grancanaria.com/turismo/es/gastronomia/productos-de-gran-canaria/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "almond",
+      "tejeda",
+      "dessert",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-gran-canaria-miel",
+    "slug": "miel-gran-canaria",
+    "name": "Miel de Gran Canaria",
+    "island": "gran-canaria",
+    "type": "product",
+    "category": "apiculture",
+    "short_description": "La diversidad de flora y microclimas de la isla produce mieles de perfiles muy distintos.",
+    "description": "La apicultura aprovecha la enorme variedad vegetal de Gran Canaria, desde zonas costeras hasta medianías y cumbres. Las mieles cambian según las floraciones disponibles y forman parte de una producción agraria que el Cabildo promueve junto a quesos, vinos, café y otros productos de cercanía.",
+    "source_url": "https://cabildo.grancanaria.com/nuestros-productos",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "honey",
+      "apiculture",
+      "local-product"
+    ],
+    "language": "es"
+  }
+]

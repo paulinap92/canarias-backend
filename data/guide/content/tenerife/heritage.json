@@ -1,0 +1,135 @@
+[
+  {
+    "id": "heritage-tenerife-la-laguna",
+    "slug": "centro-historico-la-laguna",
+    "name": "Centro histórico de La Laguna",
+    "island": "tenerife",
+    "type": "heritage",
+    "category": "historic-centre",
+    "short_description": "Una ciudad colonial no amurallada cuyo trazado histórico fue reconocido por la UNESCO en 1999.",
+    "description": "San Cristóbal de La Laguna conserva gran parte de su trazado urbano histórico, con calles, plazas, casas y edificios religiosos desarrollados desde finales del siglo XV. Su modelo urbano influyó en posteriores fundaciones americanas y el conjunto fue declarado Patrimonio Mundial por la UNESCO en 1999.",
+    "source_url": "https://www.webtenerife.com/que-visitar/lugares-historicos/centros-historicos/la-laguna/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "la-laguna",
+      "unesco",
+      "architecture",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-tenerife-orotava",
+    "slug": "centro-historico-la-orotava",
+    "name": "Centro histórico de La Orotava",
+    "island": "tenerife",
+    "type": "heritage",
+    "category": "historic-centre",
+    "latitude": 28.3906,
+    "longitude": -16.5238,
+    "short_description": "Calles empedradas, casas señoriales, balcones de madera, iglesias y antiguos molinos forman uno de los conjuntos históricos más valiosos de Tenerife.",
+    "description": "El casco histórico de La Orotava reúne arquitectura civil y religiosa, calles tradicionales y elementos ligados a la antigua gestión del agua, como la Ruta de los Molinos. El conjunto fue reconocido como histórico-artístico y conserva una imagen urbana muy vinculada a la historia económica y social del Valle de La Orotava.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Orotava%20(Tenerife).jpg",
+    "image_credit": "Karmelo26 / Wikimedia Commons",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:La_Orotava_(Tenerife).jpg",
+    "source_url": "https://www.webtenerife.com/que-visitar/lugares-historicos/centros-historicos/la-orotava/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "la-orotava",
+      "architecture",
+      "historic-centre",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-tenerife-garachico",
+    "slug": "centro-historico-garachico",
+    "name": "Centro histórico de Garachico",
+    "island": "tenerife",
+    "type": "heritage",
+    "category": "historic-centre",
+    "latitude": 28.373,
+    "longitude": -16.7646,
+    "short_description": "Una antigua villa portuaria que conserva casas señoriales, plazas, iglesias y un trazado marcado por la erupción de 1706.",
+    "description": "Garachico fue uno de los principales puertos de Tenerife antes de la erupción de 1706. Su centro histórico conserva la estructura de la antigua villa, arquitectura civil y religiosa y espacios urbanos tradicionales. Está protegido como Bien de Interés Cultural en la categoría de Conjunto Histórico.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Garachico%20(32199).jpg",
+    "image_credit": "Karmelo26 / Wikimedia Commons",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Garachico_(32199).jpg",
+    "source_url": "https://www.webtenerife.com/que-visitar/lugares-historicos/centros-historicos/garachico/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "garachico",
+      "bic",
+      "architecture",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-tenerife-icod",
+    "slug": "centro-historico-icod",
+    "name": "Centro histórico de Icod de los Vinos",
+    "island": "tenerife",
+    "type": "heritage",
+    "category": "historic-centre",
+    "short_description": "Un conjunto urbano compacto con plazas, arquitectura religiosa y civil y el Drago como gran símbolo local.",
+    "description": "El centro histórico de Icod de los Vinos comenzó a desarrollarse a finales del siglo XV y conserva un conjunto de calles, plazas y edificios de distintas épocas. Entre sus hitos se encuentran la iglesia de San Marcos, la plaza de la Pila, el convento de San Francisco y el entorno del Drago. El casco histórico está protegido como Bien de Interés Cultural.",
+    "source_url": "https://www.webtenerife.com/que-visitar/lugares-historicos/centros-historicos/centro-historico-icod-vinos/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "icod-de-los-vinos",
+      "bic",
+      "drago",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-tenerife-candelaria",
+    "slug": "basilica-candelaria",
+    "name": "Basílica de Nuestra Señora de Candelaria",
+    "island": "tenerife",
+    "type": "heritage",
+    "category": "religious-heritage",
+    "short_description": "El principal santuario dedicado a la patrona de Canarias conecta patrimonio religioso, tradición guanche y peregrinación.",
+    "description": "La basílica actual fue construida en el siglo XX, pero el lugar está ligado a una tradición religiosa mucho más antigua. La historia de la Virgen de Candelaria se remonta al periodo anterior a la conquista y se relaciona con espacios como Chinguaro y la Cueva de Achbinico. La plaza, las esculturas de los menceyes y el santuario forman uno de los conjuntos culturales más reconocibles de Tenerife.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/At_Candelaria%2C_Tenerife_2022_118.jpg?width=1600",
+    "image_credit": "Mike Peel (www.mikepeel.net)",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:At_Candelaria,_Tenerife_2022_118.jpg",
+    "source_url": "https://www.webtenerife.com/tenerife/arte-y-cultura/arquitectura/tradicional/basilica-nuestra-senora-candelaria/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "candelaria",
+      "religion",
+      "guanches",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-tenerife-camino-candelaria",
+    "slug": "camino-viejo-candelaria",
+    "name": "Camino Viejo de Candelaria",
+    "island": "tenerife",
+    "type": "heritage",
+    "category": "historic-route",
+    "short_description": "Una antigua vía entre La Laguna y Candelaria que mantiene viva su función como camino de peregrinación.",
+    "description": "El Camino Viejo de Candelaria conserva tramos de la antigua vía que comunicaba San Cristóbal de La Laguna con la Villa Mariana. Con el tiempo se convirtió en ruta de peregrinación y continúa utilizándose durante las fiestas de la Virgen. Su valor histórico y etnográfico fue reconocido con la declaración como Bien de Interés Cultural en la categoría de Sitio Histórico.",
+    "source_url": "https://www.webtenerife.com/que-hacer/rutas/tematicas/ruta-peregrinacion-candelaria/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "candelaria",
+      "pilgrimage",
+      "historic-route",
+      "bic"
+    ],
+    "language": "es"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "period": "7 Septiembre    2026",
+  "title": "Pequeña serie sísmica de baja magnitud en el entorno de Agaete (Gran Canaria)",
+  "earthquakes_total": null,
+  "max_magnitude": null,
+  "significant_deformation_detected": null,
+  "summary": "El pasado 3 de septiembre comenzó una pequeña serie sísmica de baja magntiud en el entorno de Agaete, en el noroeste de la isla de Gran Canaria. La actividad se inició a las 12:06 UTC y ha continuado durante los días posteriores, aunque con eventos de menor magnitud. El sistema automático de detección ha permitido identificar hasta el momento 36 terremotos, de los cuales 12 han podido ser localizados. El terremoto de mayor magnitud tuvo lugar el día 3 a las 14:11UTC, al noroeste de Agaete, con una magnitud de 2,1 mbLg y una profundidad aproximada de 6 km Este terremoto fue muy débilmente sentido en la zona epicentral. Durante la tarde y la noche del día 3 continuó registrándose actividad sís",
+  "source": "IGN",
+  "source_url": "https://www.ign.es/web/resources/volcanologia/html/CA_noticias.html",
+  "available": true,
+  "status": "ok",
+  "updated_at": "2026-09-11T08:24:23.571762+00:00"
+}

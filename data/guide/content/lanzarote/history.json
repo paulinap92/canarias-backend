@@ -1,0 +1,54 @@
+[
+  {
+    "id": "history-lanzarote-1",
+    "slug": "history-lanzarote-1",
+    "name": "Antes de la conquista",
+    "type": "history",
+    "category": "history",
+    "short_description": "La historia de Lanzarote empieza mucho antes de la incorporación a la Corona de Castilla.",
+    "description": "Antes del siglo XV, Lanzarote estaba vinculada a los majos. La arqueología, los topónimos y las tradiciones conservadas permiten reconstruir parte de esa relación con el territorio.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/historia/"
+  },
+  {
+    "id": "history-lanzarote-2",
+    "slug": "history-lanzarote-2",
+    "name": "Conquista e incorporación",
+    "type": "history",
+    "category": "history",
+    "short_description": "El siglo XV transformó de forma radical la organización política, económica y cultural de las islas.",
+    "description": "La conquista castellana y la posterior colonización conectaron Lanzarote con las redes atlánticas. Cambiaron la propiedad de la tierra, la religión, la lengua y la economía, aunque muchos elementos anteriores dejaron huella.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/historia/"
+  },
+  {
+    "id": "history-lanzarote-3",
+    "slug": "history-lanzarote-3",
+    "name": "Canarias y el Atlántico",
+    "type": "history",
+    "category": "history",
+    "short_description": "Comercio, emigración y retornos unieron las islas con Europa, África y América.",
+    "description": "Durante siglos, Lanzarote participó en circuitos atlánticos de productos, personas e ideas. Las relaciones con América son especialmente visibles en apellidos, música, arquitectura, alimentación y migraciones de ida y vuelta.",
+    "featured": true,
+    "order": 3,
+    "language": "es",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/historia/"
+  },
+  {
+    "id": "history-lanzarote-4",
+    "slug": "history-lanzarote-4",
+    "name": "Del siglo XX a hoy",
+    "type": "history",
+    "category": "history",
+    "short_description": "Turismo, infraestructuras, protección del territorio y autonomía cambiaron el papel de la isla.",
+    "description": "El siglo XX trajo fuertes transformaciones demográficas y económicas. Hoy Lanzarote combina actividad turística, servicios y sectores tradicionales con una creciente protección de sus paisajes y patrimonio.",
+    "featured": false,
+    "order": 4,
+    "language": "es",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/historia/"
+  }
+]

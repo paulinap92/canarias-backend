@@ -1,6 +1,3 @@
-import asyncio
-from collections.abc import AsyncIterator
-from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -8,7 +5,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.api.air_quality import router as air_quality_router
 from app.api.alerts import router as alerts_router
 from app.api.beaches import router as beaches_router
-from app.api.cache import router as cache_router
 from app.api.capabilities import router as capabilities_router
 from app.api.cities import router as cities_router
 from app.api.events import router as events_router
@@ -24,42 +20,18 @@ from app.api.seismic import router as seismic_router
 from app.api.tides import router as tides_router
 from app.api.trails import router as trails_router
 from app.api.transport import router as transport_router
+from app.api.today import router as today_router
 from app.api.volcanic import router as volcanic_router
 from app.api.weather import router as weather_router
 from app.api.webcams import router as webcams_router
 from app.api.wildlife import router as wildlife_router
-from app.jobs.cache_warmer import cache_warmer
-from app.middleware.json_cache import JsonDiskCacheMiddleware
-from app.api.live import router as live_router
 from app.api.content import router as content_router
+from app.api.data import router as data_router
+from app.api.flora import router as flora_router
 from app.api.explore import router as explore_router
-
-@asynccontextmanager
-async def lifespan(
-    app: FastAPI,
-) -> AsyncIterator[None]:
-    warmer_task = asyncio.create_task(
-        cache_warmer()
-    )
-
-    try:
-        yield
-    finally:
-        warmer_task.cancel()
-
-        try:
-            await warmer_task
-        except asyncio.CancelledError:
-            pass
-
 
 app = FastAPI(
     title="Canarias API",
-    lifespan=lifespan,
-)
-
-app.add_middleware(
-    JsonDiskCacheMiddleware,
 )
 
 app.add_middleware(
@@ -84,17 +56,18 @@ app.include_router(tides_router)
 app.include_router(volcanic_router)
 app.include_router(beaches_router)
 app.include_router(transport_router)
+app.include_router(today_router)
 app.include_router(events_router)
 app.include_router(webcams_router)
 app.include_router(ports_router)
 app.include_router(ferries_router)
 app.include_router(capabilities_router)
 app.include_router(live_router)
-app.include_router(cache_router)
 app.include_router(health_router)
-app.include_router(live_router)
 app.include_router(content_router)
 app.include_router(explore_router)
+app.include_router(flora_router)
+app.include_router(data_router)
 
 @app.get("/")
 def root() -> dict[str, str]:

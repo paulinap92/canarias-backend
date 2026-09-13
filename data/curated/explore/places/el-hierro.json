@@ -1,0 +1,194 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial places catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.9802,
+          27.8058
+        ]
+      },
+      "properties": {
+        "id": "explore-el-hierro-mirador-pena",
+        "name": "Mirador de La Peña",
+        "description": "César Manrique convirtió el borde de El Golfo en un gran balcón sobre uno de los paisajes más espectaculares de la isla.",
+        "website": "https://elhierro.travel/miradores/el-hierro/mirador-de-la-pena/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "el-hierro",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.1215,
+          27.7426
+        ]
+      },
+      "properties": {
+        "id": "explore-el-hierro-sabinar",
+        "name": "El Sabinar",
+        "description": "Sabinas centenarias retorcidas por el viento crean una de las imágenes más simbólicas de El Hierro.",
+        "website": "https://elhierro.travel/experiencias/lo-que-no-te-puedes-perder-de-el-hierro/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "el-hierro",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.9792,
+          27.6414
+        ]
+      },
+      "properties": {
+        "id": "explore-el-hierro-la-restinga",
+        "name": "La Restinga",
+        "description": "Un pequeño pueblo pesquero frente al Mar de Las Calmas y una de las grandes bases de buceo de Canarias.",
+        "website": "https://elhierro.travel/experiencias/lo-que-no-te-puedes-perder-de-el-hierro/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "el-hierro",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.06,
+          27.689
+        ]
+      },
+      "properties": {
+        "id": "explore-el-hierro-julan",
+        "name": "El Julan",
+        "description": "Petroglifos, laderas volcánicas y memoria bimbache forman uno de los grandes paisajes arqueológicos de Canarias.",
+        "website": "https://elhierro.travel/museos-y-visitas-de-interes/el-hierro/centro-de-interpretacion-del-parque-cultural-el-julan/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "el-hierro",
+        "category": "heritage",
+        "heritage_type": "historic",
+        "cc_curated": true,
+        "featured": true,
+        "priority": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.9342,
+          27.8398
+        ]
+      },
+      "properties": {
+        "id": "explore-el-hierro-pozo-calcosas",
+        "name": "Pozo de las Calcosas",
+        "description": "Casas de piedra volcánica y techos de colmo descienden hasta una costa abrupta con piscinas naturales.",
+        "website": "https://elhierro.travel/lugares-con-encanto/el-hierro/pozo-de-las-calcosas/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "el-hierro",
+        "category": "heritage",
+        "heritage_type": "historic",
+        "cc_curated": true,
+        "featured": true,
+        "priority": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.9155,
+          27.8062
+        ]
+      },
+      "properties": {
+        "id": "iglesia-concepcion-valverde",
+        "name": "Iglesia de Nuestra Señora de la Concepción",
+        "category": "heritage",
+        "heritage_type": "church",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "el-hierro",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.1326,
+          27.7432
+        ]
+      },
+      "properties": {
+        "id": "ermita-reyes",
+        "name": "Ermita de Nuestra Señora de los Reyes",
+        "category": "heritage",
+        "heritage_type": "church",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "el-hierro",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.1476,
+          27.7055
+        ]
+      },
+      "properties": {
+        "id": "faro-orchilla",
+        "name": "Faro de Orchilla",
+        "category": "heritage",
+        "heritage_type": "lighthouse",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "el-hierro",
+        "cc_curated": true
+      }
+    }
+  ]
+}

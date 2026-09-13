@@ -1,0 +1,54 @@
+[
+  {
+    "id": "history-fuerteventura-1",
+    "slug": "history-fuerteventura-1",
+    "name": "Antes de la conquista",
+    "type": "history",
+    "category": "history",
+    "short_description": "La historia de Fuerteventura empieza mucho antes de la incorporación a la Corona de Castilla.",
+    "description": "Antes del siglo XV, Fuerteventura estaba vinculada a los majos. La arqueología, los topónimos y las tradiciones conservadas permiten reconstruir parte de esa relación con el territorio.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://www.visitfuerteventura.com/conoce-fuerteventura/"
+  },
+  {
+    "id": "history-fuerteventura-2",
+    "slug": "history-fuerteventura-2",
+    "name": "Conquista e incorporación",
+    "type": "history",
+    "category": "history",
+    "short_description": "El siglo XV transformó de forma radical la organización política, económica y cultural de las islas.",
+    "description": "La conquista castellana y la posterior colonización conectaron Fuerteventura con las redes atlánticas. Cambiaron la propiedad de la tierra, la religión, la lengua y la economía, aunque muchos elementos anteriores dejaron huella.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://www.visitfuerteventura.com/conoce-fuerteventura/"
+  },
+  {
+    "id": "history-fuerteventura-3",
+    "slug": "history-fuerteventura-3",
+    "name": "Canarias y el Atlántico",
+    "type": "history",
+    "category": "history",
+    "short_description": "Comercio, emigración y retornos unieron las islas con Europa, África y América.",
+    "description": "Durante siglos, Fuerteventura participó en circuitos atlánticos de productos, personas e ideas. Las relaciones con América son especialmente visibles en apellidos, música, arquitectura, alimentación y migraciones de ida y vuelta.",
+    "featured": true,
+    "order": 3,
+    "language": "es",
+    "source_url": "https://www.visitfuerteventura.com/conoce-fuerteventura/"
+  },
+  {
+    "id": "history-fuerteventura-4",
+    "slug": "history-fuerteventura-4",
+    "name": "Del siglo XX a hoy",
+    "type": "history",
+    "category": "history",
+    "short_description": "Turismo, infraestructuras, protección del territorio y autonomía cambiaron el papel de la isla.",
+    "description": "El siglo XX trajo fuertes transformaciones demográficas y económicas. Hoy Fuerteventura combina actividad turística, servicios y sectores tradicionales con una creciente protección de sus paisajes y patrimonio.",
+    "featured": false,
+    "order": 4,
+    "language": "es",
+    "source_url": "https://www.visitfuerteventura.com/conoce-fuerteventura/"
+  }
+]

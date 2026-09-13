@@ -1,0 +1,78 @@
+[
+  {
+    "id": "experience-tenerife-1",
+    "slug": "experience-tenerife-1",
+    "name": "Un día esencial",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por Tenerife: Parque Nacional del Teide · Parque Rural de Anaga · Masca. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://www.webtenerife.com/que-visitar/parque-nacional-del-teide/",
+    "ordered_stops": [
+      {
+        "id": "explore-tenerife-teide",
+        "name": "Parque Nacional del Teide",
+        "latitude": 28.2724,
+        "longitude": -16.6425,
+        "note": "Un paisaje volcánico de alta montaña alrededor del techo de España."
+      },
+      {
+        "id": "explore-tenerife-anaga",
+        "name": "Parque Rural de Anaga",
+        "latitude": 28.536,
+        "longitude": -16.224,
+        "note": "Barrancos, laurisilva y carreteras que se abren entre montañas y océano."
+      },
+      {
+        "id": "explore-tenerife-masca",
+        "name": "Masca",
+        "latitude": 28.3059,
+        "longitude": -16.8403,
+        "note": "Un caserío encajado entre barrancos y crestas del macizo de Teno."
+      }
+    ],
+    "duration": "día completo",
+    "car_required": null
+  },
+  {
+    "id": "experience-tenerife-2",
+    "slug": "experience-tenerife-2",
+    "name": "Paisaje, pueblos y cultura",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por Tenerife: Garachico · La Orotava · Playa de Benijo. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://www.webtenerife.com/tenerife/la-isla/municipios/garachico/",
+    "ordered_stops": [
+      {
+        "id": "explore-tenerife-garachico",
+        "name": "Garachico",
+        "latitude": 28.373,
+        "longitude": -16.7646,
+        "note": "Puerto histórico, arquitectura canaria y una ciudad marcada por la erupción de 1706."
+      },
+      {
+        "id": "explore-tenerife-orotava",
+        "name": "La Orotava",
+        "latitude": 28.3906,
+        "longitude": -16.5238,
+        "note": "Balcones de madera, calles históricas y vistas hacia el valle y el Teide."
+      },
+      {
+        "id": "explore-tenerife-benijo",
+        "name": "Playa de Benijo",
+        "latitude": 28.576014,
+        "longitude": -16.186522,
+        "note": "Arena negra, oleaje fuerte y los Roques de Anaga recortados frente al Atlántico."
+      }
+    ],
+    "duration": "medio día / día",
+    "car_required": null
+  }
+]

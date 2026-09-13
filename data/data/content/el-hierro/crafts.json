@@ -1,0 +1,120 @@
+[
+  {
+    "id": "craft-el-hierro-tejeduria",
+    "slug": "tejeduria",
+    "name": "Tejeduría",
+    "island": "el-hierro",
+    "type": "craft",
+    "category": "textile",
+    "short_description": "El pasado pastoril de la isla dejó una tradición de tejidos y prendas elaboradas manualmente.",
+    "description": "La tejeduría forma parte de los oficios tradicionales conservados en El Hierro. Durante generaciones, la lana y otras fibras se transformaron en prendas y objetos domésticos adaptados a una vida rural de autosuficiencia.",
+    "source_url": "https://elhierro.travel/identidad-herrena/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "weaving",
+      "textile",
+      "pastoral",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-el-hierro-alfareria",
+    "slug": "alfareria",
+    "name": "Alfarería",
+    "island": "el-hierro",
+    "type": "craft",
+    "category": "pottery",
+    "short_description": "Barro y técnicas manuales conservan una tradición ligada a recipientes y objetos de uso cotidiano.",
+    "description": "La alfarería herreña forma parte de una artesanía nacida de la necesidad de producir utensilios localmente. El Centro Etnográfico Casa de Las Quinteras conserva piezas históricas y ejemplos de cerámica prehispánica y tradicional.",
+    "source_url": "https://elhierro.travel/museos-y-visitas-de-interes/el-hierro/centro-etnografico-casa-de-las-quinteras/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "pottery",
+      "clay",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-el-hierro-carpinteria",
+    "slug": "carpinteria-tradicional",
+    "name": "Carpintería tradicional",
+    "island": "el-hierro",
+    "type": "craft",
+    "category": "woodwork",
+    "short_description": "La madera se convirtió en herramientas, mobiliario e instrumentos necesarios para la vida cotidiana.",
+    "description": "La carpintería herreña produjo durante siglos piezas funcionales para casas, campo y celebraciones. El trabajo artesanal de la madera también está ligado a instrumentos y elementos utilizados en fiestas tradicionales.",
+    "source_url": "https://elhierro.travel/identidad-herrena/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "wood",
+      "carpentry",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-el-hierro-cesteria",
+    "slug": "cesteria",
+    "name": "Cestería",
+    "island": "el-hierro",
+    "type": "craft",
+    "category": "basketry",
+    "short_description": "Mimbre y fibras vegetales se trenzan para crear objetos domésticos y agrícolas.",
+    "description": "La cestería sigue formando parte de los oficios artesanos de la isla. Su origen está ligado a la necesidad de fabricar recipientes ligeros, resistentes y reparables con materiales disponibles localmente.",
+    "source_url": "https://elhierro.travel/identidad-herrena/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "basketry",
+      "wicker",
+      "fiber",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-el-hierro-instrumentos",
+    "slug": "instrumentos-tradicionales",
+    "name": "Instrumentos tradicionales",
+    "island": "el-hierro",
+    "type": "craft",
+    "category": "instrument-making",
+    "short_description": "La construcción y mantenimiento de instrumentos sostiene el sonido de las fiestas herreñas.",
+    "description": "Tambores, pitos y otros elementos del folclore requieren conocimientos específicos de madera, pieles y ajuste. La continuidad de La Bajada y otras fiestas ayuda a mantener vivo este tipo de artesanía musical.",
+    "source_url": "https://elhierro.travel/identidad-herrena/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "instrument-making",
+      "drum",
+      "pito",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-el-hierro-pajeros",
+    "slug": "techumbre-colmo",
+    "name": "Techumbres de colmo",
+    "island": "el-hierro",
+    "type": "craft",
+    "category": "building-craft",
+    "short_description": "La paja de centeno se agrupa en haces para cubrir los tradicionales pajeros herreños.",
+    "description": "Las casas pajeros de lugares como Pozo de las Calcosas utilizan muros de piedra volcánica y techos elaborados con colmo, paja de centeno agrupada en haces. Mantener estas cubiertas exige un conocimiento constructivo tradicional poco común en la arquitectura actual.",
+    "source_url": "https://elhierro.travel/lugares-con-encanto/el-hierro/pozo-de-las-calcosas/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "colmo",
+      "thatch",
+      "pajeros",
+      "architecture"
+    ],
+    "language": "es"
+  }
+]

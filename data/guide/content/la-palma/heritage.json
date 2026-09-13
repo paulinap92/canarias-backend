@@ -1,0 +1,120 @@
+[
+  {
+    "id": "heritage-la-palma-santa-cruz",
+    "slug": "casco-historico-santa-cruz",
+    "name": "Casco histórico de Santa Cruz de La Palma",
+    "island": "la-palma",
+    "type": "heritage",
+    "category": "historic-centre",
+    "short_description": "Uno de los conjuntos urbanos históricos más ricos de Canarias, marcado por el comercio atlántico.",
+    "description": "Santa Cruz de La Palma conserva iglesias, plazas, casas señoriales, edificios civiles y balcones de madera construidos durante siglos de intensa actividad comercial. El conjunto urbano refleja la prosperidad que proporcionaron el puerto, el azúcar y las relaciones con Europa y América.",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "santa-cruz",
+      "historic-centre",
+      "architecture"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-palma-la-zarza",
+    "slug": "parque-cultural-la-zarza",
+    "name": "Parque Cultural La Zarza y La Zarcita",
+    "island": "la-palma",
+    "type": "heritage",
+    "category": "archaeological-site",
+    "short_description": "Uno de los mayores conjuntos de arte rupestre de La Palma, con espirales, meandros y decenas de paneles grabados.",
+    "description": "La Zarza y La Zarcita, en Garafía, reúnen algunos de los petroglifos más complejos y extensos de la isla. El parque cultural permite recorrer un paisaje arqueológico donde los grabados se integran directamente en barrancos y antiguos espacios pastoriles.",
+    "source_url": "https://visitlapalma.es/museos-y-visitas-de-interes/la-palma/parque-cultural-la-zarza-arqueologia/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "la-zarza",
+      "garafia",
+      "rock-art",
+      "archaeology"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-palma-belmaco",
+    "slug": "belmaco",
+    "name": "Parque Arqueológico de Belmaco",
+    "island": "la-palma",
+    "type": "heritage",
+    "category": "archaeological-site",
+    "short_description": "Diez cuevas naturales y una estación de grabados forman uno de los enclaves fundamentales del patrimonio benahoarita.",
+    "description": "Belmaco, en Villa de Mazo, fue el lugar donde se documentaron en el siglo XVIII los primeros petroglifos conocidos de Canarias. El parque conserva cuevas de habitación y grabados y cuenta con un centro de interpretación dedicado al mundo prehispánico.",
+    "source_url": "https://visitlapalma.es/museos-y-visitas-de-interes/la-palma/parque-arqueologico-de-belmaco/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "belmaco",
+      "mazo",
+      "archaeology",
+      "benahoaritas"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-palma-roque-muchachos",
+    "slug": "observatorio-roque-muchachos",
+    "name": "Observatorio del Roque de los Muchachos",
+    "island": "la-palma",
+    "type": "heritage",
+    "category": "scientific-heritage",
+    "short_description": "Telescopios internacionales convierten la cumbre de La Palma en uno de los grandes centros mundiales de observación astronómica.",
+    "description": "El Observatorio Astrofísico del Roque de los Muchachos reúne numerosos instrumentos solares y nocturnos a gran altitud. Su presencia representa un patrimonio científico contemporáneo excepcional y refleja décadas de protección del cielo palmero.",
+    "source_url": "https://visitlapalma.es/espacios-naturales/la-palma/parque-nacional-de-la-caldera-de-taburiente/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "observatory",
+      "astronomy",
+      "science",
+      "roque"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-palma-salinas",
+    "slug": "salinas-fuencaliente",
+    "name": "Salinas de Fuencaliente",
+    "island": "la-palma",
+    "type": "heritage",
+    "category": "industrial-heritage",
+    "short_description": "Una explotación salinera tradicional integrada en el paisaje volcánico del extremo sur.",
+    "description": "Las Salinas de Fuencaliente forman un paisaje cultural donde la producción de sal marina convive con lavas jóvenes, faros y el océano. El lugar mantiene una actividad productiva y al mismo tiempo constituye uno de los conjuntos patrimoniales e industriales más reconocibles de La Palma.",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "salinas",
+      "fuencaliente",
+      "industrial-heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-palma-benehauno",
+    "slug": "benehauno-el-paso",
+    "name": "Benehauno — Petroglifos de El Paso",
+    "island": "la-palma",
+    "type": "heritage",
+    "category": "archaeological-centre",
+    "short_description": "Un centro de interpretación dedicado a las numerosas estaciones de grabados rupestres del Valle de Aridane.",
+    "description": "Benehauno reúne información, piezas arqueológicas y contenidos sobre los petroglifos de El Paso. El municipio concentra decenas de estaciones rupestres y enclaves vinculados a distintos cantones benahoaritas, lo que lo convierte en uno de los territorios arqueológicos más ricos de La Palma.",
+    "source_url": "https://visitlapalma.es/museos-y-visitas-de-interes/la-palma/benehauno-centro-de-interpretacion-petroglifos-de-el-paso/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "benehauno",
+      "el-paso",
+      "petroglyphs",
+      "archaeology"
+    ],
+    "language": "es"
+  }
+]

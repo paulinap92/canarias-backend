@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.7,
+          29.05
+        ]
+      },
+      "properties": {
+        "id": "flora-lanzarote-tabaibal",
+        "common_name": "Tabaibal de Lanzarote",
+        "scientific_name": null,
+        "name": "Tabaibal de Lanzarote · Malpaíses y laderas bajas",
+        "hotspot": "Malpaíses y laderas bajas",
+        "best_season": "Todo el año",
+        "habitat": "Matorral xerófilo volcánico",
+        "description": "Tabaibas y otras especies resistentes colonizan coladas y suelos jóvenes.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "why_special": "Muestra cómo la vegetación vuelve a ocupar terrenos volcánicos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.5,
+          29.18
+        ]
+      },
+      "properties": {
+        "id": "flora-lanzarote-malpais",
+        "common_name": "Flora de malpaís",
+        "scientific_name": null,
+        "name": "Flora de malpaís · Malpaís de La Corona",
+        "hotspot": "Malpaís de La Corona",
+        "best_season": "Todo el año",
+        "habitat": "Lavas, grietas y campos volcánicos",
+        "description": "Líquenes, pequeños arbustos y plantas rupícolas aprovechan fisuras y depósitos de las coladas.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "why_special": "Su crecimiento lento hace especialmente importante no salir de senderos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.5,
+          29.15
+        ]
+      },
+      "properties": {
+        "id": "flora-lanzarote-palmeral",
+        "common_name": "Palmeral de Haría",
+        "scientific_name": "Phoenix canariensis",
+        "name": "Palmeral de Haría · Valle de Haría",
+        "hotspot": "Valle de Haría",
+        "best_season": "Todo el año",
+        "habitat": "Valle agrícola y palmeral",
+        "description": "La concentración de palmeras de Haría crea uno de los paisajes vegetales más reconocibles de Lanzarote.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "why_special": "Ejemplo de paisaje cultural y vegetal en una isla muy árida."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.56,
+          29.12
+        ]
+      },
+      "properties": {
+        "id": "flora-lanzarote-jable",
+        "common_name": "Vegetación de jable y costa",
+        "scientific_name": null,
+        "name": "Vegetación de jable y costa · Famara y jables costeros",
+        "hotspot": "Famara y jables costeros",
+        "best_season": "Todo el año",
+        "habitat": "Arenas, salinidad y viento",
+        "description": "Comunidades vegetales especializadas sobreviven en dunas y arenales sometidos a viento y sal.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "why_special": "Hábitat muy sensible al pisoteo fuera de caminos."
+      }
+    }
+  ]
+}

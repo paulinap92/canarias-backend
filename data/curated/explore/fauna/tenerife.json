@@ -1,0 +1,91 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-16.866, 28.245]},
+      "properties": {
+        "id": "fauna-tenerife-calderon-tropical",
+        "common_name": "Calderón tropical",
+        "scientific_name": "Globicephala macrorhynchus",
+        "name": "Calderón tropical · Teno / Los Gigantes",
+        "hotspot": "Aguas de Teno y Los Gigantes",
+        "best_season": "Todo el año",
+        "habitat": "Aguas profundas del suroeste",
+        "description": "Uno de los cetáceos más característicos del suroeste de Tenerife. La observación debe hacerse con operadores autorizados y respetando distancia y tiempo de aproximación.",
+        "conservation": "Observación responsable; no perseguir ni alimentar.",
+        "featured": true,
+        "verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-16.806, 28.090]},
+      "properties": {
+        "id": "fauna-tenerife-delfin-mular",
+        "common_name": "Delfín mular",
+        "scientific_name": "Tursiops truncatus",
+        "name": "Delfín mular · costa suroeste",
+        "hotspot": "Costa suroeste",
+        "best_season": "Todo el año",
+        "habitat": "Aguas costeras y oceánicas",
+        "description": "Especie residente y frecuente en las aguas del suroeste. Se observa principalmente en salidas de cetáceos desde puertos del sur y oeste.",
+        "conservation": "Elegir embarcaciones autorizadas y evitar aproximaciones directas.",
+        "featured": true,
+        "verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-16.613, 28.300]},
+      "properties": {
+        "id": "fauna-tenerife-pinzon-azul",
+        "common_name": "Pinzón azul de Tenerife",
+        "scientific_name": "Fringilla teydea",
+        "name": "Pinzón azul · pinares de Tenerife",
+        "hotspot": "Pinares de Corona Forestal",
+        "best_season": "Todo el año",
+        "habitat": "Pinar canario de media y alta montaña",
+        "description": "Ave endémica de Tenerife asociada al pinar canario. Es más útil buscarla por hábitat que perseguir puntos de observación individuales.",
+        "conservation": "Observar desde senderos y evitar molestias en época reproductora.",
+        "featured": true,
+        "verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-16.250, 28.535]},
+      "properties": {
+        "id": "fauna-tenerife-paloma-rabiche",
+        "common_name": "Paloma rabiche",
+        "scientific_name": "Columba junoniae",
+        "name": "Paloma rabiche · laurisilva de Anaga",
+        "hotspot": "Bosques de laurisilva de Anaga",
+        "best_season": "Todo el año",
+        "habitat": "Laurisilva y monteverde",
+        "description": "Paloma endémica de Canarias ligada a bosques húmedos. En Tenerife uno de los mejores contextos para buscarla es el monteverde de Anaga.",
+        "conservation": "Mantenerse en caminos señalizados y evitar reproducir reclamos de forma insistente.",
+        "featured": false,
+        "verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-16.890, 28.320]},
+      "properties": {
+        "id": "fauna-tenerife-lagarto-canario-tenerife",
+        "common_name": "Lagarto canario de Tenerife",
+        "scientific_name": "Gallotia galloti",
+        "name": "Lagarto canario · zonas secas y volcánicas",
+        "hotspot": "Amplia distribución en Tenerife",
+        "best_season": "Primavera y verano",
+        "habitat": "Laderas, roquedos, matorral y zonas volcánicas",
+        "description": "Reptil endémico muy representativo de Tenerife. Es fácil verlo tomando el sol en ambientes rocosos sin necesidad de buscar localizaciones sensibles.",
+        "conservation": "No alimentar ni manipular.",
+        "featured": false,
+        "verified": true
+      }
+    }
+  ]
+}

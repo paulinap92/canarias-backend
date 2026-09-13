@@ -1,0 +1,118 @@
+[
+  {
+    "id": "craft-la-palma-seda",
+    "slug": "seda-artesanal",
+    "name": "Seda artesanal",
+    "island": "la-palma",
+    "type": "craft",
+    "category": "textile",
+    "short_description": "Desde el gusano hasta el telar, El Paso conserva un proceso artesanal extraordinariamente completo.",
+    "description": "La artesanía de la seda incluye criar gusanos, extraer hilo de los capullos, teñirlo y tejerlo manualmente. El conocimiento se ha mantenido en El Paso y constituye uno de los oficios tradicionales más excepcionales de La Palma.",
+    "source_url": "https://cabildodelapalma.es/index.php/es/el-cabildo-logra-cifras-record-en-subvenciones-destinadas-artesania",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "silk",
+      "el-paso",
+      "textile"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-palma-bordado",
+    "slug": "bordado-palmero",
+    "name": "Bordado palmero",
+    "island": "la-palma",
+    "type": "craft",
+    "category": "textile",
+    "short_description": "Manteles, prendas y piezas decorativas conservan técnicas de bordado transmitidas durante generaciones.",
+    "description": "El bordado forma parte de la tradición textil palmera y continúa presente en talleres, ferias y escuelas de artesanía. Los diseños combinan precisión manual, motivos florales y geométricos y una fuerte relación con la vida doméstica y festiva.",
+    "source_url": "https://cabildodelapalma.es/index.php/es/el-cabildo-logra-cifras-record-en-subvenciones-destinadas-artesania",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "embroidery",
+      "textile",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-palma-cesteria",
+    "slug": "cesteria-palmera",
+    "name": "Cestería",
+    "island": "la-palma",
+    "type": "craft",
+    "category": "basketry",
+    "short_description": "Varas, cañas y fibras vegetales se convierten en cestas y objetos ligados al trabajo rural.",
+    "description": "La cestería tradicional palmera utiliza materiales vegetales locales para fabricar recipientes y objetos de uso cotidiano. El oficio está estrechamente vinculado a las actividades agrícolas y continúa presente entre artesanos de distintos municipios.",
+    "source_url": "https://cabildodelapalma.es/index.php/es/el-cabildo-logra-cifras-record-en-subvenciones-destinadas-artesania",
+    "featured": false,
+    "order": 3,
+    "tags": [
+      "basketry",
+      "rural",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-palma-ceramica",
+    "slug": "ceramica-tradicional",
+    "name": "Cerámica tradicional",
+    "island": "la-palma",
+    "type": "craft",
+    "category": "pottery",
+    "short_description": "El barro trabajado a mano conecta la artesanía actual con formas y técnicas de larga historia.",
+    "description": "La cerámica palmera conserva técnicas manuales utilizadas para elaborar recipientes y piezas decorativas. Algunos artesanos recuperan formas inspiradas en la cerámica benahoarita, mientras otros combinan tradición y diseño contemporáneo.",
+    "source_url": "https://cabildodelapalma.es/index.php/es/el-cabildo-logra-cifras-record-en-subvenciones-destinadas-artesania",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "pottery",
+      "clay",
+      "benahoarita"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-palma-puro",
+    "slug": "torcido-puro-palmero",
+    "name": "Torcido del puro palmero",
+    "island": "la-palma",
+    "type": "craft",
+    "category": "tobacco-craft",
+    "short_description": "Selección, secado y torcido manual de hojas mantienen un oficio heredado de las conexiones con Cuba.",
+    "description": "La tradición tabaquera palmera conserva el torcido manual del puro como un saber especializado. El proceso exige escoger y preparar las hojas antes de formar cada pieza a mano, manteniendo una conexión cultural muy fuerte con el Caribe.",
+    "source_url": "https://cabildodelapalma.es/index.php/es/el-cabildo-logra-cifras-record-en-subvenciones-destinadas-artesania",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "tobacco",
+      "puro",
+      "cuba",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-palma-madera",
+    "slug": "madera-tradicional",
+    "name": "Trabajo tradicional de la madera",
+    "island": "la-palma",
+    "type": "craft",
+    "category": "woodwork",
+    "short_description": "Balcones, muebles, utensilios y pequeños objetos muestran la importancia histórica de la carpintería palmera.",
+    "description": "La abundancia de madera y la tradición constructiva dieron lugar a oficios especializados en carpintería. Los balcones de Santa Cruz de La Palma son la expresión más visible, pero el trabajo artesanal incluye mobiliario, utensilios, puertas y piezas decorativas.",
+    "source_url": "https://cabildodelapalma.es/index.php/es/el-cabildo-logra-cifras-record-en-subvenciones-destinadas-artesania",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "wood",
+      "carpentry",
+      "balconies",
+      "craft"
+    ],
+    "language": "es"
+  }
+]

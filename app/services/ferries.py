@@ -10,6 +10,9 @@ FERRY_ROUTES: list[dict[str, Any]] = [
     {"id": "tenerife-el-hierro", "operator": "Fred. Olsen Express", "origin_island": "tenerife", "destination_island": "el-hierro", "origin_port": "los-cristianos", "destination_port": "la-estaca"},
     {"id": "gran-canaria-fuerteventura", "operator": "Fred. Olsen Express", "origin_island": "gran-canaria", "destination_island": "fuerteventura", "origin_port": "las-palmas", "destination_port": "morro-jable"},
     {"id": "fuerteventura-lanzarote", "operator": "Fred. Olsen Express", "origin_island": "fuerteventura", "destination_island": "lanzarote", "origin_port": "corralejo", "destination_port": "playa-blanca"},
+    {"id": "lanzarote-la-graciosa", "operator": "Líneas Romero / Biosfera Express", "origin_island": "lanzarote", "destination_island": "la-graciosa", "origin_port": "orzola", "destination_port": "caleta-sebo"},
+    {"id": "gran-canaria-lanzarote", "operator": "Naviera Armas", "origin_island": "gran-canaria", "destination_island": "lanzarote", "origin_port": "las-palmas", "destination_port": "arrecife"},
+    {"id": "gran-canaria-fuerteventura-puerto", "operator": "Naviera Armas", "origin_island": "gran-canaria", "destination_island": "fuerteventura", "origin_port": "las-palmas", "destination_port": "puerto-del-rosario"},
 ]
 
 

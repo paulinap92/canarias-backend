@@ -1,0 +1,117 @@
+[
+  {
+    "id": "heritage-fuerteventura-betancuria",
+    "slug": "conjunto-historico-betancuria",
+    "name": "Conjunto histórico de Betancuria",
+    "island": "fuerteventura",
+    "type": "heritage",
+    "category": "historic-centre",
+    "short_description": "La antigua capital conserva un conjunto de calles, iglesias y casas que resumen siglos de historia insular.",
+    "description": "Betancuria fue fundada en 1404 y se convirtió en el principal centro político y religioso de Fuerteventura durante siglos. Su patrimonio urbano está protegido como Conjunto Histórico y permite leer la transición entre conquista, colonización y sociedad rural.",
+    "source_url": "https://www.visitfuerteventura.com/experiencias/lo-que-no-te-puedes-perder-de-fuerteventura/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "betancuria",
+      "historic-centre",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-fuerteventura-tindaya",
+    "slug": "grabados-tindaya",
+    "name": "Grabados podomorfos de Tindaya",
+    "island": "fuerteventura",
+    "type": "heritage",
+    "category": "archaeological-site",
+    "short_description": "Cientos de huellas grabadas en roca convierten Tindaya en uno de los yacimientos rupestres más importantes de Fuerteventura.",
+    "description": "Los grabados podomorfos de Tindaya tienen enorme valor arqueológico y simbólico. Su concentración en una montaña considerada sagrada por los antiguos majos convierte el enclave en una referencia fundamental para comprender el patrimonio prehispánico de la isla.",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/monumento-natural-de-tindaya/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "tindaya",
+      "rock-art",
+      "archaeology"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-fuerteventura-atalayita",
+    "slug": "poblado-atalayita",
+    "name": "Poblado de La Atalayita",
+    "island": "fuerteventura",
+    "type": "heritage",
+    "category": "archaeological-site",
+    "short_description": "Un asentamiento de estructuras de piedra asociado a la población aborigen de Fuerteventura.",
+    "description": "La Atalayita conserva un conjunto de recintos de piedra seca y estructuras relacionadas con la ocupación prehispánica de la isla. El yacimiento permite acercarse a las formas de vivienda y organización espacial de los antiguos majos.",
+    "source_url": "https://www.visitfuerteventura.com/rutas-para-cruceristas/fuerteventura/visita-a-antigua/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "atalayita",
+      "archaeology",
+      "majos"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-fuerteventura-molino-antigua",
+    "slug": "molino-de-antigua",
+    "name": "Molino de Antigua",
+    "island": "fuerteventura",
+    "type": "heritage",
+    "category": "industrial-heritage",
+    "short_description": "Un molino histórico recuerda el pasado cerealista y la importancia del gofio en la economía majorera.",
+    "description": "El Molino de Antigua conserva maquinaria tradicional y forma parte de un centro dedicado al campesinado, la artesanía y la cultura del sector primario. Junto con otros molinos y molinas protegidos, constituye uno de los grandes símbolos del patrimonio rural de Fuerteventura.",
+    "source_url": "https://www.visitfuerteventura.com/rutas-para-cruceristas/fuerteventura/visita-a-antigua/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "antigua",
+      "mill",
+      "gofio",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-fuerteventura-alcogida",
+    "slug": "ecomuseo-la-alcogida",
+    "name": "Ecomuseo de La Alcogida",
+    "island": "fuerteventura",
+    "type": "heritage",
+    "category": "ethnographic-heritage",
+    "short_description": "Siete casas restauradas muestran arquitectura doméstica, agricultura y oficios de la Fuerteventura rural.",
+    "description": "La Alcogida funciona como un museo vivo de la sociedad campesina majorera. Sus viviendas tradicionales, corrales y espacios de trabajo permiten conocer cómo se organizaba la vida cotidiana antes de la modernización acelerada del siglo XX.",
+    "source_url": "https://www.visitfuerteventura.com/experiencias/turismo-rural-en-fuerteventura/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "alcogida",
+      "ethnography",
+      "rural-heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-fuerteventura-ajuy",
+    "slug": "hornos-cal-ajuy",
+    "name": "Hornos de cal de Ajuy",
+    "island": "fuerteventura",
+    "type": "heritage",
+    "category": "industrial-heritage",
+    "short_description": "Los hornos junto al mar recuerdan una industria que transformaba piedra caliza antes de embarcarla desde la costa.",
+    "description": "El sendero hacia las Cuevas de Ajuy pasa junto a antiguos hornos vinculados a la producción y exportación de cal. Su ubicación junto al océano facilitaba cargar el material directamente en barcos y conserva una memoria industrial integrada en un paisaje geológico excepcional.",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/monumento-natural-de-ajuy/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "ajuy",
+      "lime-kilns",
+      "industrial-heritage"
+    ],
+    "language": "es"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "culture-la-graciosa-identidad-marinera",
+    "slug": "identidad-marinera",
+    "name": "Una identidad hecha de mar",
+    "island": "la-graciosa",
+    "type": "culture",
+    "category": "identity",
+    "short_description": "Pesca, navegación y vida portuaria han moldeado durante generaciones la identidad graciosera.",
+    "description": "La cultura de La Graciosa está estrechamente vinculada al océano. Durante décadas, la pesca fue el principal sustento de la población y todavía hoy el puerto, las redes, las jareas y las pequeñas embarcaciones forman parte del paisaje cotidiano.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-vacaciones-con-sombrera-y-pies-descalzos/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "fishing",
+      "identity",
+      "sea",
+      "caleta-de-sebo"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-graciosa-calles-arena",
+    "slug": "calles-de-arena",
+    "name": "Calles de arena",
+    "island": "la-graciosa",
+    "type": "culture",
+    "category": "everyday-life",
+    "short_description": "La ausencia de asfalto dentro del núcleo urbano refuerza una forma de vida lenta y profundamente ligada al paisaje.",
+    "description": "Caleta de Sebo mantiene calles de arena que diferencian inmediatamente a La Graciosa de otros núcleos turísticos canarios. Caminar o moverse en bicicleta forma parte de la experiencia cotidiana y ayuda a conservar la escala humana del pueblo.",
+    "source_url": "https://turismolanzarote.com/lo-que-no-te-puedes-perder-de-la-graciosa/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "sand-streets",
+      "slow-life",
+      "village",
+      "identity"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-graciosa-mujeres-pescado",
+    "slug": "gracioseras-del-risco",
+    "name": "Las gracioseras del Risco",
+    "island": "la-graciosa",
+    "type": "culture",
+    "category": "social-history",
+    "short_description": "Durante años, mujeres de la isla cargaron cestas de pescado y subieron el Risco de Famara para venderlo en Lanzarote.",
+    "description": "La memoria de La Graciosa conserva el esfuerzo de mujeres que transportaban pescado desde la isla hasta Lanzarote y ascendían a pie por el Risco de Famara. Esa actividad conecta trabajo, intercambio y dureza de una época anterior al ferry y a las actuales comunicaciones.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-vacaciones-con-sombrera-y-pies-descalzos/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "women",
+      "fishing",
+      "famara",
+      "social-history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-graciosa-reserva-marina",
+    "slug": "cultura-reserva-marina",
+    "name": "Vivir dentro de una reserva marina",
+    "island": "la-graciosa",
+    "type": "culture",
+    "category": "contemporary-identity",
+    "short_description": "La protección del Archipiélago Chinijo condiciona pesca, buceo y relación cotidiana con el mar.",
+    "description": "La actividad pesquera y recreativa se desarrolla dentro de un entorno marino de enorme valor ecológico. Las regulaciones actuales buscan mantener la biodiversidad y asegurar que la relación histórica de los gracioseros con el océano pueda continuar de forma sostenible.",
+    "source_url": "https://turismolanzarote.com/las-fiestas-marineras-del-carmen-en-la-graciosa-una-celebracion-de-la-identidad/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "marine-reserve",
+      "chinijo",
+      "sustainability",
+      "fishing"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-graciosa-palmito",
+    "slug": "sombrera-de-palmito",
+    "name": "La sombrera de palmito",
+    "island": "la-graciosa",
+    "type": "culture",
+    "category": "dress",
+    "short_description": "Un sombrero trenzado con palmito se ha convertido en una de las piezas más reconocibles de la identidad graciosera.",
+    "description": "La sombrera se elabora con fibras de palmito cuidadosamente limpiadas, rasgadas y trenzadas. El trabajo se transmite entre generaciones y depende incluso de la humedad de la maresía, que facilita manipular las fibras.",
+    "source_url": "https://turismolanzarote.com/que-hacer-este-verano-en-la-graciosa/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "palmito",
+      "sombrera",
+      "dress",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-graciosa-octava-isla",
+    "slug": "octava-isla",
+    "name": "La Octava Isla",
+    "island": "la-graciosa",
+    "type": "culture",
+    "category": "contemporary-identity",
+    "short_description": "La denominación de Octava Isla resume una identidad propia dentro del archipiélago canario.",
+    "description": "La Graciosa es la más pequeña de las islas habitadas de Canarias y en 2018 recibió reconocimiento oficial como isla habitada dentro del marco territorial canario. Desde entonces la expresión Octava Isla se ha consolidado todavía más como parte de su identidad contemporánea.",
+    "source_url": "https://www.visitlagraciosa.com/vacaciones-semana-santa-la-graciosa/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "octava-isla",
+      "identity",
+      "2018",
+      "canary-islands"
+    ],
+    "language": "es"
+  }
+]

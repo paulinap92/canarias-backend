@@ -1,0 +1,120 @@
+[
+  {
+    "id": "food-el-hierro-quesadilla",
+    "slug": "quesadilla-herrena",
+    "name": "Quesadilla herreña",
+    "island": "el-hierro",
+    "type": "food",
+    "category": "dessert",
+    "short_description": "El dulce más emblemático de la isla combina queso fresco, huevo, azúcar, limón, canela y matalahúva.",
+    "description": "La quesadilla herreña se elabora con queso fresco de la isla mezclado con huevos, azúcar, harina, ralladura de limón, canela y matalahúva. Su forma y sabor son inconfundibles y continúa preparándose en obradores artesanales de distintos puntos de El Hierro.",
+    "source_url": "https://elhierro.travel/gastronomia-herrena/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "quesadilla",
+      "dessert",
+      "cheese",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-el-hierro-caldo-queso",
+    "slug": "caldo-de-queso",
+    "name": "Caldo de queso",
+    "island": "el-hierro",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Un plato de raíz pastoril donde el queso herreño da cuerpo y sabor a un caldo sencillo.",
+    "description": "El caldo de queso resume la importancia histórica de la ganadería en la cocina herreña. El queso se incorpora a una preparación caliente y humilde que nació en un contexto rural y continúa formando parte del repertorio tradicional de la isla.",
+    "source_url": "https://elhierro.travel/gastronomia-herrena/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "cheese",
+      "broth",
+      "pastoral",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-el-hierro-pescado",
+    "slug": "pescado-fresco",
+    "name": "Pescado fresco",
+    "island": "el-hierro",
+    "type": "food",
+    "category": "seafood",
+    "short_description": "El producto del mar ocupa el centro de la cocina de pueblos como La Restinga.",
+    "description": "El pescado recién capturado es uno de los grandes protagonistas de la gastronomía herreña. Se prepara de forma sencilla y suele servirse con papas arrugadas, mojo y queso, especialmente en los núcleos costeros del sur.",
+    "source_url": "https://elhierro.travel/el-hierro/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "fish",
+      "la-restinga",
+      "seafood",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-el-hierro-lapas",
+    "slug": "lapas",
+    "name": "Lapas",
+    "island": "el-hierro",
+    "type": "food",
+    "category": "seafood",
+    "short_description": "Un producto del litoral que suele servirse a la plancha y acompañado de mojo.",
+    "description": "Las lapas forman parte de los sabores marineros tradicionales de El Hierro. Su preparación es sencilla y busca mantener el sabor directo del mar, normalmente con un toque de mojo y cocción breve sobre la plancha.",
+    "source_url": "https://elhierro.travel/el-hierro/",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "limpets",
+      "seafood",
+      "mojo",
+      "coast"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-el-hierro-cabrito",
+    "slug": "cabrito-herreno",
+    "name": "Cabrito",
+    "island": "el-hierro",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "La tradición ganadera aparece también en platos de cabrito y otras carnes de cocina rural.",
+    "description": "El cabrito forma parte de la cocina tradicional herreña y refleja la importancia del pastoreo y la ganadería en la vida de la isla. Se prepara en guisos y otras elaboraciones de sabor intenso, normalmente acompañadas por papas o productos locales.",
+    "source_url": "https://elhierro.travel/el-hierro/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "goat",
+      "rural-food",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-el-hierro-papas",
+    "slug": "papas-arrugadas-mojo",
+    "name": "Papas arrugadas con mojo",
+    "island": "el-hierro",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "El clásico acompañamiento canario aparece junto a pescado, carne y queso.",
+    "description": "Las papas arrugadas forman parte del repertorio cotidiano de El Hierro y se sirven con mojo rojo o verde. Funcionan como acompañamiento de buena parte de la cocina local y conectan la mesa herreña con una tradición compartida por todo el archipiélago.",
+    "source_url": "https://elhierro.travel/el-hierro/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "potatoes",
+      "mojo",
+      "traditional-food"
+    ],
+    "language": "es"
+  }
+]

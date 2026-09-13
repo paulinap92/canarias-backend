@@ -1,0 +1,122 @@
+[
+  {
+    "id": "story-lanzarote-conquest",
+    "slug": "conquista-normanda",
+    "name": "La puerta de entrada de la conquista europea",
+    "island": "lanzarote",
+    "type": "story",
+    "category": "history",
+    "short_description": "A comienzos del siglo XV, Jean de Béthencourt inició desde el sur de Lanzarote la conquista europea del archipiélago.",
+    "description": "Lanzarote fue una de las primeras islas incorporadas al proceso de conquista europea de Canarias. A comienzos del siglo XV, la expedición normanda encabezada por Jean de Béthencourt se estableció en el sur de la isla y convirtió Lanzarote en punto de partida para nuevas campañas en el archipiélago.",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/historia/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "conquest",
+      "bethencourt",
+      "rubicon",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-lanzarote-eruptions-1730",
+    "slug": "erupciones-1730-1736",
+    "name": "Seis años que cambiaron Lanzarote",
+    "island": "lanzarote",
+    "type": "story",
+    "category": "volcanic-history",
+    "short_description": "Las erupciones iniciadas en 1730 cubrieron pueblos y campos, pero también dieron origen a nuevos sistemas agrícolas.",
+    "description": "En 1730 comenzó un largo ciclo eruptivo que se prolongó durante años y transformó profundamente el centro y oeste de Lanzarote. Las lavas y cenizas destruyeron tierras cultivadas y obligaron a desplazar población, pero con el tiempo los habitantes descubrieron que el picón retenía humedad y podía convertirse en aliado de la agricultura.",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/historia/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "1730",
+      "eruption",
+      "timanfaya",
+      "agriculture"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-lanzarote-eruption-1824",
+    "slug": "erupcion-1824",
+    "name": "1824: la última erupción histórica",
+    "island": "lanzarote",
+    "type": "story",
+    "category": "volcanic-history",
+    "short_description": "Un terremoto a finales de julio anunció el último episodio eruptivo histórico registrado en Lanzarote.",
+    "description": "El 29 de julio de 1824 se sintió un terremoto en varios pueblos de Lanzarote. Dos días después comenzó una nueva erupción en el área de Tao. Aquel episodio sería el último ciclo eruptivo histórico de la isla y reforzó la profunda relación entre la población lanzaroteña y un territorio volcánico todavía activo geológicamente.",
+    "source_url": "https://memoriadelanzarote.com/categoria/informacion-geografica-y-fisica?o=-periodo&tipo=DATOS",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "1824",
+      "eruption",
+      "tao",
+      "volcano"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-lanzarote-dolores-volcano",
+    "slug": "virgen-de-los-volcanes",
+    "name": "La Virgen de los Volcanes",
+    "island": "lanzarote",
+    "type": "story",
+    "category": "tradition",
+    "short_description": "La tradición relaciona a Nuestra Señora de los Dolores con la detención de la lava que amenazaba Mancha Blanca.",
+    "description": "En Tinajo se conserva la tradición de que la Virgen de los Dolores intervino para detener el avance de la lava durante las erupciones históricas. La promesa de construir una ermita y la cruz que recuerda el lugar donde el flujo habría cambiado de dirección forman parte de una historia que sigue viva cada 15 de septiembre.",
+    "source_url": "https://turismolanzarote.com/TINAJO/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "los-dolores",
+      "volcano",
+      "tradition",
+      "tinajo"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-lanzarote-arrecife-rise",
+    "slug": "arrecife-nueva-capital",
+    "name": "De puerto a capital",
+    "island": "lanzarote",
+    "type": "story",
+    "category": "urban-history",
+    "short_description": "Arrecife creció alrededor de su puerto hasta desplazar a Teguise como principal centro político y económico de la isla.",
+    "description": "Durante siglos Teguise fue la capital de Lanzarote, pero el crecimiento comercial y marítimo de Arrecife fue cambiando el equilibrio de poder. En el siglo XIX la nueva ciudad portuaria terminó consolidándose como capital, reflejando el paso de una economía principalmente rural a otra cada vez más vinculada al comercio y al mar.",
+    "source_url": "https://turismolanzarote.com/teguise/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "arrecife",
+      "teguise",
+      "capital",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-lanzarote-manrique-return",
+    "slug": "manrique-regresa-lanzarote",
+    "name": "Cuando César Manrique volvió a casa",
+    "island": "lanzarote",
+    "type": "story",
+    "category": "art-history",
+    "short_description": "El regreso de Manrique a Lanzarote en los años sesenta abrió una etapa decisiva para la imagen contemporánea de la isla.",
+    "description": "Tras vivir en Madrid y Nueva York, César Manrique regresó a Lanzarote a mediados de los años sesenta. Desde entonces desarrolló una serie de intervenciones que conectaban arte, paisaje, arquitectura y turismo. Jameos del Agua, el Mirador del Río, el Jardín de Cactus y su propia casa en Tahíche convirtieron sus ideas en espacios concretos.",
+    "source_url": "https://fcmanrique.org/en/cesar-manrique/biografia/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "cesar-manrique",
+      "1960s",
+      "art",
+      "tourism"
+    ],
+    "language": "es"
+  }
+]

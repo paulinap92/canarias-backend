@@ -1,0 +1,132 @@
+[
+  {
+    "id": "fiesta-la-graciosa-carmen",
+    "slug": "fiestas-del-carmen",
+    "name": "Fiestas de Nuestra Señora del Carmen",
+    "island": "la-graciosa",
+    "type": "fiesta",
+    "category": "patronal-festival",
+    "when": "Julio; día grande 16 de julio",
+    "location": "Caleta de Sebo",
+    "short_description": "La patrona del mar reúne a toda la isla en su celebración más importante.",
+    "description": "Las Fiestas del Carmen son el gran acontecimiento anual de La Graciosa. Durante varios días Caleta de Sebo combina actividades culturales, deportivas, religiosas y populares en una celebración profundamente vinculada a la comunidad pesquera.",
+    "source_url": "https://teguise.es/la-villa-y-la-graciosa-vuelven-a-vestirse-de-fiesta-para-honrar-a-nuestra-senora-del-carmen/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "carmen",
+      "caleta-de-sebo",
+      "july",
+      "patron"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-graciosa-procesion-maritima",
+    "slug": "procesion-maritima-carmen",
+    "name": "Procesión Marítima del Carmen",
+    "island": "la-graciosa",
+    "type": "fiesta",
+    "category": "maritime-tradition",
+    "when": "16 de julio",
+    "location": "Caleta de Sebo y costa próxima",
+    "short_description": "La Virgen sale al mar acompañada por decenas de embarcaciones engalanadas.",
+    "description": "La procesión marítima es el momento más simbólico de las fiestas patronales. La imagen embarca en el puerto y es acompañada por barquillas y barcos de la comunidad, con una ofrenda floral dedicada también a las personas fallecidas en el mar.",
+    "source_url": "https://teguise.es/la-villa-de-teguise-y-la-graciosa-viven-con-emocion-el-dia-grande-de-las-fiestas-del-carmen/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "maritime-procession",
+      "carmen",
+      "boats",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-graciosa-carnaval",
+    "slug": "carnaval-la-graciosa",
+    "name": "Carnaval de La Graciosa",
+    "island": "la-graciosa",
+    "type": "fiesta",
+    "category": "carnival",
+    "when": "Febrero o marzo",
+    "location": "Caleta de Sebo",
+    "short_description": "Disfraces, música y actos populares trasladan el Carnaval canario a las calles de arena de Caleta de Sebo.",
+    "description": "La Graciosa cuenta con programación propia de Carnaval dentro del municipio de Teguise. La pequeña escala del pueblo da a la fiesta un carácter cercano y comunitario, con actividades concentradas en torno a Caleta de Sebo.",
+    "source_url": "https://teguise.es/servicios/festejos/ventorrillos/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "carnival",
+      "caleta-de-sebo",
+      "costumes"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-graciosa-san-juan",
+    "slug": "hogueras-san-juan",
+    "name": "Hogueras de San Juan",
+    "island": "la-graciosa",
+    "type": "fiesta",
+    "category": "popular-festival",
+    "when": "23 de junio",
+    "location": "Caleta de Sebo",
+    "short_description": "Una gran hoguera junto al mar reúne a la comunidad para recibir el verano.",
+    "description": "La Noche de San Juan se celebra en Caleta de Sebo con fuego, música, comida compartida y ambiente junto al mar. La escala reducida de la isla convierte la noche en una celebración especialmente comunitaria.",
+    "source_url": "https://www.holaislascanarias.com/eventos/la-graciosa/hogueras-de-san-juan/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "san-juan",
+      "bonfire",
+      "june",
+      "summer"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-graciosa-navidad",
+    "slug": "navidad-en-la-graciosa",
+    "name": "Navidad en La Graciosa",
+    "island": "la-graciosa",
+    "type": "fiesta",
+    "category": "christmas",
+    "when": "Diciembre y primeros días de enero",
+    "location": "Caleta de Sebo",
+    "short_description": "Talleres, conciertos, celebraciones religiosas y actividades familiares llenan de vida el pueblo durante las fiestas.",
+    "description": "La programación navideña reúne actividades infantiles, conciertos, talleres, actos religiosos y encuentros comunitarios. En una isla de población reducida, la Navidad se vive principalmente alrededor de la plaza, el puerto y el centro sociocultural.",
+    "source_url": "https://www.visitlagraciosa.com/descubre-el-programa-de-navidad-2025-2026-en-la-graciosa/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "christmas",
+      "community",
+      "caleta-de-sebo"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-graciosa-reyes",
+    "slug": "cabalgata-reyes",
+    "name": "Cabalgata de Reyes",
+    "island": "la-graciosa",
+    "type": "fiesta",
+    "category": "christmas",
+    "when": "5 de enero",
+    "location": "Caleta de Sebo",
+    "short_description": "La llegada de los Reyes Magos convierte el puerto y el pueblo en el cierre festivo de la Navidad graciosera.",
+    "description": "La Cabalgata de Reyes forma parte de la programación navideña de Caleta de Sebo y reúne especialmente a las familias de la isla. El puerto funciona como escenario natural para una celebración sencilla y cercana.",
+    "source_url": "https://www.visitlagraciosa.com/descubre-el-programa-de-navidad-2025-2026-en-la-graciosa/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "reyes",
+      "january",
+      "christmas",
+      "family"
+    ],
+    "language": "es"
+  }
+]

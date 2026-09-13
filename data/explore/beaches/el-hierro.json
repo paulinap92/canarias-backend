@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.045,
+          27.7569
+        ]
+      },
+      "properties": {
+        "id": "explore-el-hierro-charco-azul",
+        "name": "Charco Azul",
+        "description": "Una piscina natural de aguas turquesas protegida por lava negra y un gran arco volcánico.",
+        "website": "https://elhierro.travel/experiencias/lo-que-no-te-puedes-perder-de-el-hierro/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "el-hierro",
+        "surface": "rock",
+        "access": "public",
+        "featured": true,
+        "tags": [
+          "charco-azul",
+          "natural-pool",
+          "el-golfo",
+          "coast"
+        ]
+      }
+    }
+  ],
+  "available": true,
+  "status": "seed",
+  "updated_at": null,
+  "source": "curated_seed"
+}

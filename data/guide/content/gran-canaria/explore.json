@@ -1,0 +1,295 @@
+[
+  {
+    "id": "explore-gran-canaria-roque-nublo",
+    "slug": "roque-nublo",
+    "name": "Roque Nublo",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "attraction",
+    "latitude": 27.9709,
+    "longitude": -15.6127,
+    "short_description": "El gran monolito de la cumbre y uno de los símbolos naturales más reconocibles de Gran Canaria.",
+    "description": "El gran monolito de la cumbre y uno de los símbolos naturales más reconocibles de Gran Canaria. Paisaje de cumbre, geología y una de las panorámicas más emblemáticas de la isla.",
+    "source_url": "https://www.grancanaria.com/turismo/fileadmin/PDF/folletosturisticos/senderos/01_Cir_nublo.pdf",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "paisaje",
+      "senderismo",
+      "geología"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-maspalomas",
+    "slug": "maspalomas",
+    "name": "Dunas de Maspalomas",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "park",
+    "latitude": 27.7414,
+    "longitude": -15.5872,
+    "short_description": "Dunas, palmeral y charca forman uno de los paisajes costeros más singulares del sur de Gran Canaria.",
+    "description": "Dunas, palmeral y charca forman uno de los paisajes costeros más singulares del sur de Gran Canaria. Para entender el paisaje árido del sur sin salir de la costa.",
+    "source_url": "https://www.grancanaria.com/turismo/playas/maspalomas/ayudanos-a-proteger-las-dunas-de-maspalomas/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "naturaleza",
+      "paisaje",
+      "costa"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-vegueta",
+    "slug": "vegueta",
+    "name": "Vegueta",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "heritage",
+    "latitude": 28.1,
+    "longitude": -15.4162,
+    "short_description": "El núcleo histórico de Las Palmas de Gran Canaria concentra más de cinco siglos de arquitectura e historia atlántica.",
+    "description": "El núcleo histórico de Las Palmas de Gran Canaria concentra más de cinco siglos de arquitectura e historia atlántica. Historia urbana, arquitectura y la conexión atlántica de la capital.",
+    "source_url": "https://www.grancanaria.com/turismo/isla-de-gran-canaria/municipios-de-gran-canaria/las-palmas-de-gran-canaria/recorrervegueta/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "historia",
+      "arquitectura",
+      "ciudad"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-tejeda",
+    "slug": "tejeda",
+    "name": "Tejeda",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "village",
+    "latitude": 27.9953,
+    "longitude": -15.6156,
+    "short_description": "Pueblo blanco de la cumbre, rodeado por barrancos y grandes roques volcánicos.",
+    "description": "Pueblo blanco de la cumbre, rodeado por barrancos y grandes roques volcánicos. Una base preciosa para leer el paisaje de la Caldera de Tejeda.",
+    "source_url": "https://www.grancanaria.com/turismo/index.php?id=2310",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "pueblos",
+      "paisaje",
+      "gastronomía"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-puerto-mogan",
+    "slug": "puerto-mogan",
+    "name": "Puerto de Mogán",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "village",
+    "latitude": 27.8172,
+    "longitude": -15.765,
+    "short_description": "Puerto marinero del suroeste con casas blancas, buganvillas, canales y una pequeña playa protegida.",
+    "description": "Puerto marinero del suroeste con casas blancas, buganvillas, canales y una pequeña playa protegida. Ambiente marinero, paseo corto y uno de los conjuntos costeros más agradables del sur.",
+    "source_url": "https://www.grancanaria.com/turismo/serviciosmultimedia/audioguias/maspalomas-y-mogan/ruta-de-mogan/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "paseo",
+      "costa",
+      "familias"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-agaete",
+    "slug": "agaete",
+    "name": "Puerto de las Nieves",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "village",
+    "latitude": 28.1016,
+    "longitude": -15.7106,
+    "short_description": "Enclave marinero de Agaete entre acantilados, piscinas naturales y el océano.",
+    "description": "Enclave marinero de Agaete entre acantilados, piscinas naturales y el océano. Costa volcánica, pescado y acceso al valle de Agaete.",
+    "source_url": "https://www.grancanaria.com/turismo/playas/agaete/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "costa",
+      "gastronomía",
+      "pueblos"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-teror",
+    "slug": "teror",
+    "name": "Teror",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "village",
+    "latitude": 28.0602,
+    "longitude": -15.5484,
+    "short_description": "Casco histórico de balcones canarios, calles empedradas y fuerte tradición religiosa y popular.",
+    "description": "Casco histórico de balcones canarios, calles empedradas y fuerte tradición religiosa y popular. Arquitectura tradicional y uno de los pueblos con más identidad de la isla.",
+    "source_url": "https://www.grancanaria.com/turismo/rutas/ruta-centro/teror/",
+    "featured": true,
+    "order": 7,
+    "tags": [
+      "pueblos",
+      "arquitectura",
+      "tradiciones"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-cueva-pintada",
+    "slug": "cueva-pintada",
+    "name": "Cueva Pintada de Gáldar",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "museum",
+    "latitude": 28.1459,
+    "longitude": -15.6541,
+    "short_description": "Parque arqueológico construido alrededor de un poblado prehispánico y de una cámara con pintura geométrica excepcional.",
+    "description": "Parque arqueológico construido alrededor de un poblado prehispánico y de una cámara con pintura geométrica excepcional. Uno de los mejores lugares para comprender a los antiguos canarios.",
+    "source_url": "https://sidapcuevapintada.grancanaria.com/",
+    "featured": true,
+    "order": 8,
+    "tags": [
+      "arqueología",
+      "historia",
+      "museos"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-guayadeque",
+    "slug": "guayadeque",
+    "name": "Barranco de Guayadeque",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "heritage",
+    "latitude": 27.9361,
+    "longitude": -15.5113,
+    "short_description": "Barranco profundo con casas cueva, patrimonio arqueológico y un paisaje vegetal muy marcado.",
+    "description": "Barranco profundo con casas cueva, patrimonio arqueológico y un paisaje vegetal muy marcado. Paisaje, cuevas y patrimonio en un mismo recorrido.",
+    "source_url": "https://www.grancanaria.com/turismo/es/isla-de-gran-canaria/municipios-de-gran-canaria/visita-aguimes/descubre-aguimes/",
+    "featured": true,
+    "order": 9,
+    "tags": [
+      "paisaje",
+      "arqueología",
+      "tradiciones"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-tamadaba",
+    "slug": "tamadaba",
+    "name": "Parque Natural de Tamadaba",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "park",
+    "latitude": 28.0413,
+    "longitude": -15.7217,
+    "short_description": "Gran pinar del noroeste con barrancos, cumbres y vertientes que caen hacia la costa.",
+    "description": "Gran pinar del noroeste con barrancos, cumbres y vertientes que caen hacia la costa. Uno de los grandes paisajes forestales de Gran Canaria.",
+    "source_url": "https://descargas.grancanaria.com/jardincanario/ESPACIOS%20NATURALES%20PROTEGIDOS%20DE%20GRAN%20CANARIA/",
+    "featured": true,
+    "order": 10,
+    "tags": [
+      "bosque",
+      "senderismo",
+      "miradores"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-artenara",
+    "slug": "artenara",
+    "name": "Artenara",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "village",
+    "latitude": 28.0208,
+    "longitude": -15.646,
+    "short_description": "El pueblo más alto de Gran Canaria, con tradición de casas cueva y grandes vistas hacia la cumbre.",
+    "description": "El pueblo más alto de Gran Canaria, con tradición de casas cueva y grandes vistas hacia la cumbre. Casas cueva, paisaje de cumbre y una Gran Canaria mucho más rural.",
+    "source_url": "https://www.grancanaria.com/turismo/rutas/ruta-centro/artenara/",
+    "featured": false,
+    "order": 11,
+    "tags": [
+      "pueblos",
+      "cumbre",
+      "patrimonio"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-bandama",
+    "slug": "bandama",
+    "name": "Caldera de Bandama",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "viewpoint",
+    "latitude": 28.0321,
+    "longitude": -15.4545,
+    "short_description": "Gran caldera volcánica junto al Pico de Bandama, muy cerca de Las Palmas de Gran Canaria.",
+    "description": "Gran caldera volcánica junto al Pico de Bandama, muy cerca de Las Palmas de Gran Canaria. Una lectura muy clara de la geología volcánica de la isla a poca distancia de la capital.",
+    "source_url": "https://www.grancanaria.com/turismo/fileadmin/PDF/2026/BANDAMA_ESP_web.pdf",
+    "featured": false,
+    "order": 12,
+    "tags": [
+      "geología",
+      "miradores",
+      "senderismo"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-bentayga",
+    "slug": "bentayga",
+    "name": "Roque Bentayga",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "heritage",
+    "latitude": 27.9934,
+    "longitude": -15.6415,
+    "short_description": "Roque de la cumbre asociado a asentamientos y espacios rituales de la población prehispánica.",
+    "description": "Roque de la cumbre asociado a asentamientos y espacios rituales de la población prehispánica. Paisaje y patrimonio indígena en el corazón de la isla.",
+    "source_url": "https://www.grancanaria.com/turismo/",
+    "featured": false,
+    "order": 13,
+    "tags": [
+      "arqueología",
+      "paisaje",
+      "historia"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "explore-gran-canaria-cenobio-valeron",
+    "slug": "cenobio-valeron",
+    "name": "Cenobio de Valerón",
+    "island": "gran-canaria",
+    "type": "place",
+    "category": "heritage",
+    "latitude": 28.1377,
+    "longitude": -15.6093,
+    "short_description": "Conjunto de cuevas excavadas en la roca utilizado como granero colectivo por los antiguos canarios.",
+    "description": "Conjunto de cuevas excavadas en la roca utilizado como granero colectivo por los antiguos canarios. Una de las obras de almacenamiento prehispánico más espectaculares de Canarias.",
+    "source_url": "https://www.grancanaria.com/turismo/",
+    "featured": false,
+    "order": 14,
+    "tags": [
+      "arqueología",
+      "historia"
+    ],
+    "language": "es"
+  }
+]

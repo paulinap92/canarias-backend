@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.24,
+          28.13
+        ]
+      },
+      "properties": {
+        "id": "flora-la-gomera-laurisilva",
+        "common_name": "Laurisilva de Garajonay",
+        "scientific_name": null,
+        "name": "Laurisilva de Garajonay · Parque Nacional de Garajonay",
+        "hotspot": "Parque Nacional de Garajonay",
+        "best_season": "Todo el año",
+        "habitat": "Monteverde húmedo",
+        "description": "El bosque de laurisilva de Garajonay es uno de los grandes paisajes vegetales de Canarias.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "why_special": "Conserva comunidades de origen antiguo ligadas a la humedad de los alisios."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.22,
+          28.14
+        ]
+      },
+      "properties": {
+        "id": "flora-la-gomera-fayal-brezal",
+        "common_name": "Fayal-brezal",
+        "scientific_name": null,
+        "name": "Fayal-brezal · Bordes y zonas altas del monteverde",
+        "hotspot": "Bordes y zonas altas del monteverde",
+        "best_season": "Todo el año",
+        "habitat": "Monteverde",
+        "description": "Fayas y brezos forman bosques y matorrales densos en zonas húmedas de la isla.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "why_special": "Parte esencial del mosaico del monteverde gomero."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.3,
+          28.12
+        ]
+      },
+      "properties": {
+        "id": "flora-la-gomera-palmera",
+        "common_name": "Palmera canaria",
+        "scientific_name": "Phoenix canariensis",
+        "name": "Palmera canaria · Barrancos y bancales",
+        "hotspot": "Barrancos y bancales",
+        "best_season": "Todo el año",
+        "habitat": "Fondos de barranco y paisaje agrícola",
+        "description": "Las palmeras acompañan barrancos y terrazas agrícolas, muy ligadas al paisaje cultural gomero.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "why_special": "Su savia está vinculada a la tradición de la miel de palma."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.3,
+          28.18
+        ]
+      },
+      "properties": {
+        "id": "flora-la-gomera-sabinar",
+        "common_name": "Sabinar canario",
+        "scientific_name": null,
+        "name": "Sabinar canario · Zonas secas y medianías",
+        "hotspot": "Zonas secas y medianías",
+        "best_season": "Todo el año",
+        "habitat": "Bosque termófilo",
+        "description": "Las sabinas representan restos de comunidades termófilas adaptadas a áreas más secas.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "why_special": "Testimonio de bosques que antiguamente ocuparon mayor superficie."
+      }
+    }
+  ]
+}

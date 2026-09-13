@@ -1,0 +1,26 @@
+LOCAL BASE
+http://127.0.0.1:8000
+
+CURRENT
+http://127.0.0.1:8000/
+http://127.0.0.1:8000/api/regions/canarias/cities
+http://127.0.0.1:8000/api/regions/canarias/cities/arrecife/weather
+http://127.0.0.1:8000/api/regions/canarias/islands/tenerife/air-quality
+http://127.0.0.1:8000/api/regions/canarias/seismic
+http://127.0.0.1:8000/api/regions/canarias/monuments
+http://127.0.0.1:8000/api/regions/canarias/marine?latitude=28.30&longitude=-16.60
+http://127.0.0.1:8000/api/regions/canarias/wildlife?limit=10
+http://127.0.0.1:8000/api/regions/canarias/places?limit=20
+http://127.0.0.1:8000/api/regions/canarias/trails?limit=10
+
+NEW
+http://127.0.0.1:8000/api/regions/canarias/alerts?limit=10
+http://127.0.0.1:8000/api/regions/canarias/news?limit=10
+http://127.0.0.1:8000/api/regions/canarias/tides?latitude=28.30&longitude=-16.60&hours=48
+http://127.0.0.1:8000/api/regions/canarias/volcanic
+http://127.0.0.1:8000/api/regions/canarias/beaches?limit=20
+
+RAILWAY BASE
+https://canarias-backend-production.up.railway.app
+
+Use the same /api/... paths with the Railway base after git push + deploy.

@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.62,
+          29.05
+        ]
+      },
+      "properties": {
+        "id": "fauna-lanzarote-hubara",
+        "common_name": "Hubara canaria",
+        "scientific_name": "Chlamydotis undulata fuertaventurae",
+        "name": "Hubara canaria · Llanos y jables del centro y norte",
+        "hotspot": "Llanos y jables del centro y norte",
+        "best_season": "Todo el año",
+        "habitat": "Llanuras áridas y jables",
+        "description": "La hubara encuentra en Lanzarote amplias zonas abiertas adecuadas para su alimentación y reproducción.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "conservation": "Mantener distancia y respetar zonas de cría."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.59,
+          29.05
+        ]
+      },
+      "properties": {
+        "id": "fauna-lanzarote-lagarto-atlantico",
+        "common_name": "Lagarto atlántico",
+        "scientific_name": "Gallotia atlantica",
+        "name": "Lagarto atlántico · Malpaíses y terrenos volcánicos",
+        "hotspot": "Malpaíses y terrenos volcánicos",
+        "best_season": "Primavera y verano",
+        "habitat": "Roquedos, malpaís y matorral seco",
+        "description": "Pequeño lagarto característico de Lanzarote y el archipiélago Chinijo.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "conservation": "No capturar ni alimentar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.49,
+          29.2
+        ]
+      },
+      "properties": {
+        "id": "fauna-lanzarote-pardela",
+        "common_name": "Pardela cenicienta atlántica",
+        "scientific_name": "Calonectris borealis",
+        "name": "Pardela cenicienta atlántica · Archipiélago Chinijo y costa norte",
+        "hotspot": "Archipiélago Chinijo y costa norte",
+        "best_season": "Primavera a otoño",
+        "habitat": "Acantilados, islotes y mar abierto",
+        "description": "El norte de Lanzarote y Chinijo es un contexto clave para aves marinas del Atlántico oriental.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "conservation": "Evitar molestias y contaminación lumínica cerca de colonias."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.75,
+          28.95
+        ]
+      },
+      "properties": {
+        "id": "fauna-lanzarote-cetaceos",
+        "common_name": "Cetáceos del canal oriental",
+        "scientific_name": null,
+        "name": "Cetáceos del canal oriental · Aguas alrededor de Lanzarote",
+        "hotspot": "Aguas alrededor de Lanzarote",
+        "best_season": "Todo el año",
+        "habitat": "Aguas oceánicas",
+        "description": "Diferentes delfines y cetáceos pueden observarse en aguas abiertas alrededor de la isla.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "conservation": "Solo aproximaciones responsables y autorizadas."
+      }
+    }
+  ]
+}

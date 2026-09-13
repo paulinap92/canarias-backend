@@ -1,0 +1,425 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial beaches catalog · Gran Canaria v1",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.4382,
+          28.1413
+        ]
+      },
+      "properties": {
+        "id": "beach-gran-canaria-las-canteras",
+        "name": "Las Canteras",
+        "description": "Gran playa urbana de arena dorada protegida en buena parte por La Barra, con paseo marítimo y vida marina.",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "type": "playa",
+        "surface": "sand",
+        "access": "public",
+        "featured": true,
+        "priority": 1,
+        "cc_curated": true,
+        "website": "https://www.grancanaria.com/turismo/playas/las-canteras/",
+        "tags": [
+          "urbana",
+          "snorkel",
+          "surf"
+        ],
+        "why_go": "Combina baño, ciudad, snorkel y paseo sin necesidad de coche.",
+        "for_whom": [
+          "familias",
+          "snorkel",
+          "surf",
+          "paseo"
+        ],
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.598,
+          27.7352
+        ]
+      },
+      "properties": {
+        "id": "beach-gran-canaria-maspalomas",
+        "name": "Maspalomas",
+        "description": "Playa larga al pie del sistema dunar de Maspalomas, abierta al Atlántico y conectada con el faro.",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "type": "playa",
+        "surface": "sand",
+        "access": "public",
+        "featured": true,
+        "priority": 2,
+        "cc_curated": true,
+        "website": "https://www.grancanaria.com/turismo/playas/maspalomas/",
+        "tags": [
+          "dunas",
+          "larga",
+          "sur"
+        ],
+        "why_go": "Por el paisaje de dunas y la sensación de espacio.",
+        "for_whom": [
+          "paisaje",
+          "paseo",
+          "playa"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.5675,
+          27.7563
+        ]
+      },
+      "properties": {
+        "id": "beach-gran-canaria-playa-ingles",
+        "name": "Playa del Inglés",
+        "description": "Amplia playa de arena del sur, conectada a pie con Maspalomas y con mucha infraestructura turística.",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "type": "playa",
+        "surface": "sand",
+        "access": "public",
+        "featured": true,
+        "priority": 3,
+        "cc_curated": true,
+        "website": "https://www.grancanaria.com/turismo/en/beaches/oceans-of-beaches/",
+        "tags": [
+          "larga",
+          "sur",
+          "servicios"
+        ],
+        "why_go": "Una opción cómoda cuando se busca arena, servicios y paseo largo.",
+        "for_whom": [
+          "familias",
+          "servicios",
+          "paseo"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.7242,
+          27.7902
+        ]
+      },
+      "properties": {
+        "id": "beach-gran-canaria-amadores",
+        "name": "Amadores",
+        "description": "Bahía protegida de arena clara y aguas generalmente tranquilas en la costa de Mogán.",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "type": "playa",
+        "surface": "sand",
+        "access": "public",
+        "featured": true,
+        "priority": 4,
+        "cc_curated": true,
+        "website": "https://www.grancanaria.com/turismo/en/beaches/oceans-of-beaches/",
+        "tags": [
+          "familias",
+          "aguas-tranquilas",
+          "sur"
+        ],
+        "why_go": "Baño fácil y ambiente muy cómodo.",
+        "for_whom": [
+          "familias",
+          "baño",
+          "relax"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.7658,
+          27.817
+        ]
+      },
+      "properties": {
+        "id": "beach-gran-canaria-puerto-mogan",
+        "name": "Playa de Mogán",
+        "description": "Pequeña playa protegida junto al puerto y al casco marinero de Puerto de Mogán.",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "type": "playa",
+        "surface": "sand",
+        "access": "public",
+        "featured": true,
+        "priority": 5,
+        "cc_curated": true,
+        "website": "https://www.grancanaria.com/turismo/es/isla-de-gran-canaria/municipios-de-gran-canaria/visita-mogan/dias-recargapilas-en-mogan/",
+        "tags": [
+          "familias",
+          "puerto",
+          "aguas-tranquilas"
+        ],
+        "why_go": "Permite combinar playa y paseo por Puerto de Mogán.",
+        "for_whom": [
+          "familias",
+          "paseo",
+          "baño"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.8285,
+          27.9565
+        ]
+      },
+      "properties": {
+        "id": "beach-gran-canaria-guigui",
+        "name": "Güigüi",
+        "description": "Playa aislada del oeste bajo grandes acantilados, accesible mediante una caminata exigente o por mar.",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "type": "playa",
+        "surface": "sand",
+        "access": "public",
+        "featured": true,
+        "priority": 6,
+        "cc_curated": true,
+        "website": "https://www.grancanaria.com/turismo/en/beaches/oceans-of-beaches/",
+        "tags": [
+          "salvaje",
+          "remota",
+          "senderismo"
+        ],
+        "why_go": "Una de las experiencias costeras más salvajes de la isla.",
+        "for_whom": [
+          "senderistas",
+          "paisaje",
+          "aventura"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.5448,
+          27.7706
+        ]
+      },
+      "properties": {
+        "id": "beach-gran-canaria-san-agustin",
+        "name": "San Agustín",
+        "description": "Playa tranquila del sur con ambiente más relajado que los grandes arenales vecinos.",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "type": "playa",
+        "surface": "sand",
+        "access": "public",
+        "featured": false,
+        "priority": 7,
+        "cc_curated": true,
+        "website": "https://www.grancanaria.com/turismo/en/beaches/oceans-of-beaches/",
+        "tags": [
+          "tranquila",
+          "sur",
+          "familias"
+        ],
+        "why_go": "Para un baño cómodo sin el tamaño de Playa del Inglés.",
+        "for_whom": [
+          "familias",
+          "relax"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.7019,
+          27.7718
+        ]
+      },
+      "properties": {
+        "id": "beach-gran-canaria-anfi",
+        "name": "Anfi del Mar",
+        "description": "Bahía muy protegida de arena clara en el suroeste, con aguas tranquilas y servicios.",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "type": "playa",
+        "surface": "sand",
+        "access": "public",
+        "featured": false,
+        "priority": 8,
+        "cc_curated": true,
+        "website": "https://www.grancanaria.com/turismo/en/beaches/oceans-of-beaches/",
+        "tags": [
+          "familias",
+          "aguas-tranquilas",
+          "servicios"
+        ],
+        "why_go": "Agua calmada y acceso sencillo.",
+        "for_whom": [
+          "familias",
+          "baño"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.3788,
+          27.9447
+        ]
+      },
+      "properties": {
+        "id": "beach-gran-canaria-tufia",
+        "name": "Tufia",
+        "description": "Pequeña cala oscura junto a un núcleo marinero del este de Gran Canaria.",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "type": "playa",
+        "surface": "dark_sand",
+        "access": "public",
+        "featured": false,
+        "priority": 9,
+        "cc_curated": true,
+        "website": "https://www.grancanaria.com/turismo/en/beaches/oceans-of-beaches/",
+        "tags": [
+          "cala",
+          "local",
+          "este"
+        ],
+        "why_go": "Una escala pequeña y con carácter lejos de los grandes complejos turísticos.",
+        "for_whom": [
+          "paseo",
+          "snorkel"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.6994,
+          28.1545
+        ]
+      },
+      "properties": {
+        "id": "beach-gran-canaria-sardina",
+        "name": "Sardina del Norte",
+        "description": "Pequeña playa del norte protegida por el puerto, conocida también por sus fondos marinos.",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "type": "playa",
+        "surface": "sand",
+        "access": "public",
+        "featured": false,
+        "priority": 10,
+        "cc_curated": true,
+        "website": "https://www.grancanaria.com/turismo/en/beaches/oceans-of-beaches/",
+        "tags": [
+          "norte",
+          "buceo",
+          "snorkel"
+        ],
+        "why_go": "Buen punto para combinar baño y vida marina.",
+        "for_whom": [
+          "snorkel",
+          "buceo",
+          "baño"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.7106,
+          28.1016
+        ]
+      },
+      "properties": {
+        "id": "beach-gran-canaria-puerto-nieves",
+        "name": "Puerto de las Nieves",
+        "description": "Costa de cantos y roca junto al puerto de Agaete, con baño y piscinas naturales cercanas.",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "type": "playa",
+        "surface": "rock",
+        "access": "public",
+        "featured": false,
+        "priority": 11,
+        "cc_curated": true,
+        "website": "https://www.grancanaria.com/turismo/en/beaches/oceans-of-beaches/",
+        "tags": [
+          "agaete",
+          "roca",
+          "piscinas-naturales"
+        ],
+        "why_go": "Por el paisaje volcánico y el ambiente marinero de Agaete.",
+        "for_whom": [
+          "paseo",
+          "baño",
+          "gastronomía"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.4457,
+          28.1594
+        ]
+      },
+      "properties": {
+        "id": "beach-gran-canaria-confital",
+        "name": "El Confital",
+        "description": "Bahía natural al norte de Las Canteras, con costa rocosa, senderos y olas apreciadas por surfistas expertos.",
+        "source": "curated_explore",
+        "island": "gran-canaria",
+        "type": "playa",
+        "surface": "rock",
+        "access": "public",
+        "featured": false,
+        "priority": 12,
+        "cc_curated": true,
+        "website": "https://www.grancanaria.com/turismo/playas/las-canteras/",
+        "tags": [
+          "natural",
+          "surf",
+          "ciudad"
+        ],
+        "why_go": "Una cara más salvaje de la capital a poca distancia de Las Canteras.",
+        "for_whom": [
+          "surf",
+          "paseo",
+          "paisaje"
+        ]
+      }
+    }
+  ]
+}

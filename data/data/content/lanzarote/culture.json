@@ -1,0 +1,122 @@
+[
+  {
+    "id": "culture-lanzarote-majos",
+    "slug": "majos-lanzarote",
+    "name": "Los majos",
+    "island": "lanzarote",
+    "type": "culture",
+    "category": "history",
+    "short_description": "Los habitantes prehispánicos de Lanzarote vivían principalmente del pastoreo, la pesca y una agricultura limitada.",
+    "description": "Las fuentes históricas denominan majos a los habitantes prehispánicos de Lanzarote. Su economía se apoyaba sobre todo en el pastoreo, la pesca y una agricultura condicionada por la escasez de agua. Yacimientos como Zonzamas permiten conocer mejor su cultura material, sus asentamientos y la organización del territorio.",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/historia/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "majos",
+      "prehistory",
+      "aboriginal",
+      "identity"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-lanzarote-cesar-manrique",
+    "slug": "cesar-manrique",
+    "name": "César Manrique",
+    "island": "lanzarote",
+    "type": "culture",
+    "category": "art",
+    "short_description": "El artista nacido en Arrecife convirtió paisaje, arquitectura y territorio en una misma idea cultural.",
+    "description": "César Manrique nació en Arrecife en 1919 y desarrolló una obra que dejó una huella inseparable de Lanzarote. Tras regresar a la isla en los años sesenta impulsó intervenciones que integraban arte, naturaleza y arquitectura, al tiempo que defendía un modelo de desarrollo turístico atento al paisaje y a la identidad local.",
+    "source_url": "https://fcmanrique.org/en/cesar-manrique/biografia/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "cesar-manrique",
+      "art",
+      "architecture",
+      "landscape"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-lanzarote-arquitectura",
+    "slug": "arquitectura-lanzarotena",
+    "name": "Arquitectura blanca, piedra y viento",
+    "island": "lanzarote",
+    "type": "culture",
+    "category": "architecture",
+    "short_description": "Muros encalados, patios, aljibes, cubiertas planas y carpinterías de color responden al clima y a la escasez de agua.",
+    "description": "La arquitectura tradicional de Lanzarote evolucionó para adaptarse al viento, la falta de lluvias y los materiales disponibles. Las casas se organizan alrededor de patios y aljibes, con muros blancos que reflejan la luz y elementos de piedra volcánica que conectan directamente el edificio con el paisaje.",
+    "source_url": "https://cactlanzarote.com/es/visita",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "architecture",
+      "white-houses",
+      "aljibe",
+      "identity"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-lanzarote-los-buches",
+    "slug": "los-buches",
+    "name": "Los Buches",
+    "island": "lanzarote",
+    "type": "culture",
+    "category": "maritime-tradition",
+    "short_description": "Una antigua tradición carnavalera y marinera de Arrecife conservada por una parranda que canta habaneras y canciones del puerto.",
+    "description": "Los Buches forman parte del Carnaval tradicional de Arrecife. Sus integrantes llevan caretas de malla, pañuelos, monteras con cintas y grandes buches de pescado secos e inflados con los que golpean de forma simbólica y festiva. La parranda acompaña el recorrido con timples, guitarras, acordeones y repertorio marinero.",
+    "source_url": "https://turismolanzarote.com/me-conoces-mascarita/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "los-buches",
+      "arrecife",
+      "carnival",
+      "maritime"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-lanzarote-ranchos-pascua",
+    "slug": "ranchos-de-pascua",
+    "name": "Ranchos de Pascua",
+    "island": "lanzarote",
+    "type": "culture",
+    "category": "oral-tradition",
+    "short_description": "Cantos navideños con panderos, timples, espadas y guitarras forman una de las tradiciones musicales más antiguas de la isla.",
+    "description": "Los Ranchos de Pascua mantienen una tradición musical religiosa de gran antigüedad en Lanzarote. Agrupaciones de municipios como Teguise, Tías, Haría o San Bartolomé interpretan repertorios navideños acompañados por voces, panderos, timples, espadas y guitarras.",
+    "source_url": "https://turismolanzarote.com/navidad-bajo-el-sol-de-lanzarote/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "rancho-de-pascua",
+      "christmas",
+      "oral-tradition",
+      "music"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-lanzarote-viticultura",
+    "slug": "cultura-de-la-geria",
+    "name": "La cultura de La Geria",
+    "island": "lanzarote",
+    "type": "culture",
+    "category": "rural-culture",
+    "short_description": "El viñedo no es solo agricultura: es una forma de leer la adaptación humana al volcán, el viento y la falta de agua.",
+    "description": "La Geria resume la capacidad de los campesinos lanzaroteños para transformar un territorio cubierto de ceniza volcánica en un paisaje productivo. Los hoyos excavados en el picón, los muros de piedra y el cultivo de la vid forman una arquitectura agrícola que ha acabado convirtiéndose en parte esencial de la identidad visual de la isla.",
+    "source_url": "https://turismolanzarote.com/la-geria-ruta-de-vinos-y-festivales/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "la-geria",
+      "wine",
+      "rural-culture",
+      "landscape"
+    ],
+    "language": "es"
+  }
+]

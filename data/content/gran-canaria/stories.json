@@ -1,0 +1,121 @@
+[
+  {
+    "id": "story-gran-canaria-foundation-1478",
+    "slug": "real-de-las-palmas-1478",
+    "name": "1478: nace el Real de Las Palmas",
+    "island": "gran-canaria",
+    "type": "story",
+    "category": "history",
+    "short_description": "El campamento levantado junto al Guiniguada durante la conquista acabó convirtiéndose en la actual capital de la isla.",
+    "description": "En 1478 los conquistadores castellanos establecieron el Real de Las Palmas junto a la desembocadura del barranco Guiniguada. Aquel asentamiento militar fue el origen de Las Palmas de Gran Canaria y del actual barrio histórico de Vegueta. Las plazas, iglesias y edificios que crecieron después convirtieron el lugar en uno de los grandes centros políticos y comerciales del Atlántico.",
+    "source_url": "https://www.grancanaria.com/turismo/isla-de-gran-canaria/historia/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "1478",
+      "las-palmas",
+      "vegueta",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-gran-canaria-conquest-1483",
+    "slug": "fin-conquista-1483",
+    "name": "1483: termina la conquista de Gran Canaria",
+    "island": "gran-canaria",
+    "type": "story",
+    "category": "history",
+    "short_description": "Cinco años de guerra terminaron con la incorporación de Gran Canaria a la Corona de Castilla.",
+    "description": "La conquista castellana de Gran Canaria comenzó en 1478 y se prolongó durante aproximadamente cinco años debido a la resistencia de la población indígena. En 1483 Pedro de Vera culminó la campaña iniciada por Juan Rejón. A partir de ese momento cambió profundamente la estructura política, económica, social y territorial de la isla.",
+    "source_url": "https://www.grancanaria.com/turismo/isla-de-gran-canaria/historia/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "1483",
+      "conquest",
+      "history",
+      "aboriginal"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-gran-canaria-columbus-1492",
+    "slug": "colon-gran-canaria-1492",
+    "name": "Colón y la escala de 1492",
+    "island": "gran-canaria",
+    "type": "story",
+    "category": "atlantic-history",
+    "short_description": "Cristóbal Colón pasó por Gran Canaria durante el primer viaje hacia América y su memoria quedó unida a Vegueta.",
+    "description": "Durante su primer viaje hacia América, Cristóbal Colón hizo escala en Gran Canaria. La tradición histórica de la ciudad lo vincula con la antigua casa de los gobernadores en Vegueta, hoy convertida en la Casa de Colón. El museo utiliza ese episodio para contar el papel de Canarias como puente atlántico entre Europa, África y América.",
+    "source_url": "https://www.grancanaria.com/turismo/es/cultura/museos-en-gran-canaria/datos-de-museos-de-gran-canaria/?cHash=de9fbebdcd7c8baeedc5177d29fbb774&id_museo=3",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "columbus",
+      "1492",
+      "atlantic",
+      "vegueta"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-gran-canaria-virgen-pino",
+    "slug": "virgen-del-pino",
+    "name": "La tradición de la Virgen del Pino",
+    "island": "gran-canaria",
+    "type": "story",
+    "category": "tradition",
+    "short_description": "Una antigua tradición sitúa la aparición de la imagen de la Virgen sobre un gran pino en Teror.",
+    "description": "La historia religiosa y popular de Teror está unida a la tradición de una imagen aparecida en un gran pino. Con el tiempo, la Virgen del Pino se convirtió en uno de los principales símbolos devocionales de Gran Canaria. Las peregrinaciones del mes de septiembre mantienen viva una historia que ha marcado durante siglos la identidad de la villa.",
+    "source_url": "https://www.grancanaria.com/turismo/pl/kultura/wyspa-jak-fiesta/fiestas-del-pino/?MP=2954-2466",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "teror",
+      "virgen-del-pino",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-gran-canaria-tourism-health",
+    "slug": "primeros-turistas-siglo-xix",
+    "name": "Cuando el invierno europeo descubrió Gran Canaria",
+    "island": "gran-canaria",
+    "type": "story",
+    "category": "tourism-history",
+    "short_description": "A finales del siglo XIX viajeros y compañías británicas impulsaron el turismo de salud en Las Palmas.",
+    "description": "Durante la segunda mitad del siglo XIX el tráfico marítimo y las conexiones con compañías británicas acercaron a Gran Canaria a viajeros que buscaban un clima suave durante el invierno. Surgieron hoteles, balnearios, clubes y una primera economía turística que convirtió a Las Palmas en un destino de salud mucho antes del turismo de masas.",
+    "source_url": "https://www.grancanaria.com/turismo/isla-de-gran-canaria/historia/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "tourism",
+      "british",
+      "las-palmas",
+      "19th-century"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-gran-canaria-charter-1957",
+    "slug": "primer-charter-1957",
+    "name": "1957: llega el turismo chárter",
+    "island": "gran-canaria",
+    "type": "story",
+    "category": "tourism-history",
+    "short_description": "Un avión sueco aterrizó en Gando en la Navidad de 1957 y abrió una nueva etapa para el turismo de la isla.",
+    "description": "En la Navidad de 1957 aterrizó en Gando un avión de la compañía sueca Transair AB con 54 pasajeros. Aquel vuelo fue el primero de una serie de operaciones chárter que marcaron el comienzo de una nueva etapa turística. Desde entonces, la conexión aérea con el norte de Europa transformó rápidamente la economía y el paisaje del sur de Gran Canaria.",
+    "source_url": "https://www.grancanaria.com/turismo/isla-de-gran-canaria/historia/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "1957",
+      "charter",
+      "tourism",
+      "airport"
+    ],
+    "language": "es"
+  }
+]

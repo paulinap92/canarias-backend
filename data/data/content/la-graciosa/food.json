@@ -1,0 +1,120 @@
+[
+  {
+    "id": "food-la-graciosa-cherne",
+    "slug": "cazuela-de-cherne",
+    "name": "Cazuela de cherne",
+    "island": "la-graciosa",
+    "type": "food",
+    "category": "seafood",
+    "short_description": "Un guiso marinero que resume la cocina de pescado de una isla históricamente dedicada al mar.",
+    "description": "La cazuela de cherne es una de las preparaciones que mejor refleja la tradición pesquera graciosera. El pescado se cocina en un guiso sencillo y sabroso que suele acompañarse de gofio escaldado o papas.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-la-isla-para-disfrutar-con-los-pies-descalzos/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "cherne",
+      "fish",
+      "stew",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-graciosa-lapas",
+    "slug": "lapas",
+    "name": "Lapas",
+    "island": "la-graciosa",
+    "type": "food",
+    "category": "seafood",
+    "short_description": "Un sabor directo del litoral, preparado de manera sencilla y servido normalmente con mojo.",
+    "description": "Las lapas forman parte de la cocina marinera de La Graciosa y aparecen en restaurantes de Caleta de Sebo. Su preparación suele ser breve, buscando conservar el sabor del producto atlántico.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-la-isla-para-disfrutar-con-los-pies-descalzos/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "limpets",
+      "seafood",
+      "mojo"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-graciosa-pescado-jareado",
+    "slug": "pescado-jareado",
+    "name": "Pescado jareado",
+    "island": "la-graciosa",
+    "type": "food",
+    "category": "preserved-fish",
+    "short_description": "Bocinegros, salemas y otros pescados se secan al aire siguiendo un antiguo método de conservación.",
+    "description": "Antes de disponer de refrigeración, jarear el pescado era fundamental para conservarlo. En La Graciosa la práctica sigue formando parte de la cultura culinaria y todavía pueden verse peces secándose al aire en liñas.",
+    "source_url": "https://turismolanzarote.com/potajes-enyesques-y-jareas-las-raices-de-la-cocina-de-lanzarote/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "jarea",
+      "dried-fish",
+      "preservation",
+      "fishing"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-graciosa-escaldon",
+    "slug": "escaldon-de-gofio",
+    "name": "Escaldón de gofio",
+    "island": "la-graciosa",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Gofio mezclado con caldo caliente acompaña platos de pescado y guisos.",
+    "description": "El escaldón de gofio aparece como acompañamiento natural de la cocina graciosera de pescado. Su textura densa y su capacidad para aprovechar el caldo lo convierten en una preparación sencilla, energética y muy canaria.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-la-isla-para-disfrutar-con-los-pies-descalzos/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "gofio",
+      "broth",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-graciosa-puchero",
+    "slug": "puchero-fiestas-carmen",
+    "name": "Puchero de las Fiestas del Carmen",
+    "island": "la-graciosa",
+    "type": "food",
+    "category": "festival-food",
+    "short_description": "El puchero forma parte de la memoria gastronómica de las fiestas patronales de Caleta de Sebo.",
+    "description": "Las Fiestas del Carmen conservan recuerdos de comidas colectivas donde el puchero y la carne de cochino tenían un papel especial. Esa memoria culinaria muestra cómo la fiesta servía también para reunir a una comunidad pequeña alrededor de platos excepcionales.",
+    "source_url": "https://turismolanzarote.com/las-fiestas-marineras-del-carmen-en-la-graciosa-una-celebracion-de-la-identidad/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "puchero",
+      "carmen",
+      "festival-food",
+      "community"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-graciosa-pescado-fresco",
+    "slug": "pescado-fresco",
+    "name": "Pescado fresco",
+    "island": "la-graciosa",
+    "type": "food",
+    "category": "seafood",
+    "short_description": "La pesca local sigue siendo la base de buena parte de la cocina de Caleta de Sebo.",
+    "description": "La gastronomía graciosera se caracteriza por un consumo elevado de pescado preparado a la plancha, frito, hervido o en guisos. El puerto y los restaurantes de Caleta de Sebo mantienen una conexión muy directa entre captura y mesa.",
+    "source_url": "https://turismolanzarote.com/wp-content/uploads/2017/03/Gu%C3%ADa-Enogastron%C3%B3mica-Saborea-Lanzarote.pdf",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "fish",
+      "fishing",
+      "caleta-de-sebo",
+      "local-food"
+    ],
+    "language": "es"
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "product-el-hierro-queso",
+    "slug": "queso-herreno",
+    "name": "Queso herreño",
+    "island": "el-hierro",
+    "type": "product",
+    "category": "cheese",
+    "short_description": "Quesos artesanales de cabra, vaca u oveja forman la base de numerosos platos y dulces de la isla.",
+    "description": "El queso herreño se elabora artesanalmente con leche de distintas especies y aparece en buena parte de la cocina local. Es protagonista de platos salados como el caldo de queso y también del postre más famoso de la isla: la quesadilla.",
+    "source_url": "https://elhierro.travel/gastronomia-herrena/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "cheese",
+      "local-product",
+      "dairy"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-el-hierro-vino",
+    "slug": "vino-el-hierro",
+    "name": "Vino de El Hierro",
+    "island": "el-hierro",
+    "type": "product",
+    "category": "wine",
+    "short_description": "La Denominación de Origen El Hierro protege vinos producidos en pequeños viñedos adaptados al relieve volcánico.",
+    "description": "El Hierro cuenta desde 1994 con Denominación de Origen propia. La viticultura se desarrolla en distintas zonas de la isla y conserva variedades tradicionales, pequeñas explotaciones y una fuerte relación entre cultivo, paisaje y gastronomía.",
+    "source_url": "https://elhierro.travel/gastronomia-herrena/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "wine",
+      "do",
+      "vineyard",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-el-hierro-pina",
+    "slug": "pina-tropical",
+    "name": "Piña tropical",
+    "island": "el-hierro",
+    "type": "product",
+    "category": "agriculture",
+    "short_description": "El clima de las zonas bajas permite cultivar una piña tropical convertida en uno de los productos más apreciados de la isla.",
+    "description": "La piña tropical se cultiva especialmente en áreas de clima suave y se ha convertido en uno de los productos agrícolas más visibles de El Hierro. Se consume fresca y aparece también en postres, cocina contemporánea y restauración local.",
+    "source_url": "https://elhierro.travel/el-hierro/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "pineapple",
+      "agriculture",
+      "tropical-fruit"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-el-hierro-quesadilla",
+    "slug": "quesadilla-producto",
+    "name": "Quesadilla herreña",
+    "island": "el-hierro",
+    "type": "product",
+    "category": "pastry",
+    "short_description": "El dulce que más viajeros se llevan de la isla sigue elaborándose en pequeños obradores.",
+    "description": "La quesadilla se ha convertido también en un producto emblemático para comprar y regalar. Su base de queso fresco, huevo, azúcar, limón, canela y matalahúva la diferencia de otros dulces del archipiélago.",
+    "source_url": "https://elhierro.travel/experiencias/10-cosas-que-hacer-en-el-hierro/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "quesadilla",
+      "pastry",
+      "souvenir",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-el-hierro-miel",
+    "slug": "miel-herrena",
+    "name": "Miel",
+    "island": "el-hierro",
+    "type": "product",
+    "category": "apiculture",
+    "short_description": "La producción local aprovecha floraciones de un territorio pequeño pero de gran diversidad vegetal.",
+    "description": "La miel aparece entre los productos locales presentes en mercados y comercios de El Hierro. La diversidad de pisos de vegetación y floraciones permite obtener pequeñas producciones vinculadas a la apicultura insular.",
+    "source_url": "https://elhierro.travel/compras-el-hierro/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "honey",
+      "apiculture",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-el-hierro-artesania",
+    "slug": "artesania-herrena",
+    "name": "Artesanía herreña",
+    "island": "el-hierro",
+    "type": "product",
+    "category": "craft",
+    "short_description": "Textiles, cestería, cerámica, madera y pequeñas piezas artesanas mantienen una producción local ligada a oficios históricos.",
+    "description": "Los mercados y ferias de la isla reúnen trabajos en madera, barro, fibras vegetales, textiles y joyería. Muchas de estas piezas continúan utilizando técnicas transmitidas durante generaciones y funcionan como producto y patrimonio al mismo tiempo.",
+    "source_url": "https://elhierro.travel/compras-el-hierro/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "craft",
+      "handmade",
+      "local-product"
+    ],
+    "language": "es"
+  }
+]

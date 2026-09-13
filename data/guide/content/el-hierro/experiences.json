@@ -1,0 +1,78 @@
+[
+  {
+    "id": "experience-el-hierro-1",
+    "slug": "experience-el-hierro-1",
+    "name": "Un día esencial",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por El Hierro: Charco Azul · Mirador de La Peña · El Sabinar. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://elhierro.travel/experiencias/lo-que-no-te-puedes-perder-de-el-hierro/",
+    "ordered_stops": [
+      {
+        "id": "explore-el-hierro-charco-azul",
+        "name": "Charco Azul",
+        "latitude": 27.7569,
+        "longitude": -18.045,
+        "note": "Una piscina natural de aguas turquesas protegida por lava negra y un gran arco volcánico."
+      },
+      {
+        "id": "explore-el-hierro-mirador-pena",
+        "name": "Mirador de La Peña",
+        "latitude": 27.8058,
+        "longitude": -17.9802,
+        "note": "César Manrique convirtió el borde de El Golfo en un gran balcón sobre uno de los paisajes más espectaculares de la isla."
+      },
+      {
+        "id": "explore-el-hierro-sabinar",
+        "name": "El Sabinar",
+        "latitude": 27.7426,
+        "longitude": -18.1215,
+        "note": "Sabinas centenarias retorcidas por el viento crean una de las imágenes más simbólicas de El Hierro."
+      }
+    ],
+    "duration": "día completo",
+    "car_required": null
+  },
+  {
+    "id": "experience-el-hierro-2",
+    "slug": "experience-el-hierro-2",
+    "name": "Paisaje, pueblos y cultura",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por El Hierro: La Restinga · El Julan · Pozo de las Calcosas. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://elhierro.travel/experiencias/lo-que-no-te-puedes-perder-de-el-hierro/",
+    "ordered_stops": [
+      {
+        "id": "explore-el-hierro-la-restinga",
+        "name": "La Restinga",
+        "latitude": 27.6414,
+        "longitude": -17.9792,
+        "note": "Un pequeño pueblo pesquero frente al Mar de Las Calmas y una de las grandes bases de buceo de Canarias."
+      },
+      {
+        "id": "explore-el-hierro-julan",
+        "name": "El Julan",
+        "latitude": 27.689,
+        "longitude": -18.06,
+        "note": "Petroglifos, laderas volcánicas y memoria bimbache forman uno de los grandes paisajes arqueológicos de Canarias."
+      },
+      {
+        "id": "explore-el-hierro-pozo-calcosas",
+        "name": "Pozo de las Calcosas",
+        "latitude": 27.8398,
+        "longitude": -17.9342,
+        "note": "Casas de piedra volcánica y techos de colmo descienden hasta una costa abrupta con piscinas naturales."
+      }
+    ],
+    "duration": "medio día / día",
+    "car_required": null
+  }
+]

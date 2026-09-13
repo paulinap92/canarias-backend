@@ -1,0 +1,134 @@
+[
+  {
+    "id": "fiesta-gran-canaria-rama-agaete",
+    "slug": "la-rama-agaete",
+    "name": "Fiesta de La Rama",
+    "island": "gran-canaria",
+    "type": "fiesta",
+    "category": "popular-tradition",
+    "when": "4 de agosto",
+    "location": "Agaete",
+    "short_description": "Miles de personas recorren Agaete bailando al ritmo de la banda y agitando ramas hasta llegar al mar.",
+    "description": "La Rama es una de las fiestas populares más reconocibles de Gran Canaria. Cada 4 de agosto, Agaete se llena de personas que recorren las calles con ramas al ritmo de la música hasta terminar cerca del mar. La celebración forma parte de las fiestas de Las Nieves y mantiene una fortísima conexión entre tradición, comunidad y paisaje costero.",
+    "source_url": "https://www.grancanaria.com/turismo/index.php?id=168",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "agaete",
+      "la-rama",
+      "august",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-gran-canaria-pino",
+    "slug": "fiesta-del-pino",
+    "name": "Fiesta del Pino",
+    "island": "gran-canaria",
+    "type": "fiesta",
+    "category": "pilgrimage",
+    "when": "7–8 de septiembre",
+    "location": "Teror",
+    "short_description": "Teror recibe a miles de peregrinos y romeros en la gran celebración religiosa y popular de la isla.",
+    "description": "La Fiesta del Pino gira alrededor de la Virgen del Pino y de la Villa de Teror. Las peregrinaciones nocturnas por las carreteras y caminos de la isla, la llegada de romeros a la plaza y los actos religiosos y populares convierten el 7 y 8 de septiembre en unas de las fechas más importantes del calendario grancanario.",
+    "source_url": "https://www.grancanaria.com/turismo/isla-de-gran-canaria/municipios-de-gran-canaria/visita-teror/fiestas-e-informacion/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "teror",
+      "pino",
+      "pilgrimage",
+      "september"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-gran-canaria-charco",
+    "slug": "fiesta-del-charco",
+    "name": "Fiesta del Charco",
+    "island": "gran-canaria",
+    "type": "fiesta",
+    "category": "local-tradition",
+    "when": "11 de septiembre",
+    "location": "La Aldea de San Nicolás",
+    "short_description": "Una tradición multitudinaria de La Aldea ligada a la costa, la pesca y la memoria colectiva del municipio.",
+    "description": "Cada 11 de septiembre, La Aldea de San Nicolás celebra la Fiesta del Charco, una de las grandes citas populares del oeste de Gran Canaria. La celebración recrea antiguas formas de pesca en un charco costero y reúne a miles de personas alrededor de un ritual festivo que mezcla memoria, juego y comunidad.",
+    "source_url": "https://www.grancanaria.com/turismo/es/agenda/agenda/?idioma=1&page=2&r=event%2Findex",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "la-aldea",
+      "charco",
+      "coast",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-gran-canaria-almendro",
+    "slug": "almendro-en-flor-tejeda",
+    "name": "Fiesta del Almendro en Flor",
+    "island": "gran-canaria",
+    "type": "fiesta",
+    "category": "seasonal-tradition",
+    "when": "Enero o febrero",
+    "location": "Tejeda",
+    "short_description": "La floración de los almendros convierte Tejeda en una fiesta de artesanía, música, productos locales y paisaje de cumbre.",
+    "description": "La Fiesta del Almendro en Flor celebra uno de los momentos más característicos del invierno en la cumbre de Gran Canaria. Tejeda combina actuaciones folclóricas, artesanía, gastronomía, degustaciones y actividades populares mientras las laderas se llenan de almendros en flor.",
+    "source_url": "https://www.grancanaria.com/turismo/pt/area-profesional/noticias/noticia/?cHash=1847689e3e0ca75ff8b656c0337f7ec4&tx_ttnews%5Btt_news%5D=289",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "tejeda",
+      "almond",
+      "winter",
+      "folklore"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-gran-canaria-carnaval-lpgc",
+    "slug": "carnaval-las-palmas",
+    "name": "Carnaval de Las Palmas de Gran Canaria",
+    "island": "gran-canaria",
+    "type": "fiesta",
+    "category": "carnival",
+    "when": "Enero, febrero o marzo",
+    "location": "Las Palmas de Gran Canaria",
+    "short_description": "Galas, comparsas, murgas, disfraces y grandes celebraciones callejeras ocupan la capital durante varias semanas.",
+    "description": "El Carnaval de Las Palmas de Gran Canaria es una de las grandes fiestas urbanas del archipiélago. Su calendario cambia cada año, pero mantiene galas, concursos, cabalgatas y noches de celebración en la calle. El evento combina tradición carnavalera con grandes producciones escénicas y una fuerte participación popular.",
+    "source_url": "https://www.grancanaria.com/turismo/es/agenda/agenda/?EventSearch%5Btype%5D=1&L=0&cHash=913dbc89c3c6846b5b04f67697f4c4d4&id=4066&page=1&r=event%2Findex",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "carnival",
+      "las-palmas",
+      "murgas",
+      "comparsas"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-gran-canaria-traida-agua",
+    "slug": "traida-del-agua",
+    "name": "Traída del Agua",
+    "island": "gran-canaria",
+    "type": "fiesta",
+    "category": "local-tradition",
+    "when": "Agosto",
+    "location": "Lomo Magullo, Telde",
+    "short_description": "Una celebración veraniega en la que el agua convierte las calles en una fiesta colectiva.",
+    "description": "La Traída del Agua de Lomo Magullo, en Telde, es una de las fiestas populares más singulares del verano grancanario. Vecinos y visitantes recorren las calles mientras el agua se convierte en protagonista absoluta. La celebración forma parte de un calendario local en el que siguen muy vivas las fiestas vinculadas a barrios, cosechas y tradiciones comunitarias.",
+    "source_url": "https://www.grancanaria.com/turismo/it/percorsi-nellisola/itinerario-est/informazioni-pratiche-dellitinerario-est/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "telde",
+      "water",
+      "august",
+      "tradition"
+    ],
+    "language": "es"
+  }
+]

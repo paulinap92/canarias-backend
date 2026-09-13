@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial places catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.8215,
+          28.7456
+        ]
+      },
+      "properties": {
+        "id": "explore-fuerteventura-lobos",
+        "name": "Islote de Lobos",
+        "description": "Un pequeño islote volcánico frente a Corralejo con senderos, calas transparentes y casi ninguna construcción.",
+        "website": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/parque-natural-islote-de-lobos/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "fuerteventura",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.1563,
+          28.4017
+        ]
+      },
+      "properties": {
+        "id": "explore-fuerteventura-ajuy",
+        "name": "Cuevas de Ajuy",
+        "description": "Rocas antiquísimas, cuevas marinas, una duna fosilizada y antiguos hornos de cal en la costa occidental.",
+        "website": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/monumento-natural-de-ajuy/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "fuerteventura",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.056,
+          28.4244
+        ]
+      },
+      "properties": {
+        "id": "explore-fuerteventura-betancuria",
+        "name": "Betancuria",
+        "description": "La antigua capital insular conserva calles tranquilas, arquitectura histórica y memoria de la conquista.",
+        "website": "https://www.visitfuerteventura.com/experiencias/lo-que-no-te-puedes-perder-de-fuerteventura/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "fuerteventura",
+        "category": "heritage",
+        "heritage_type": "historic",
+        "cc_curated": true,
+        "featured": true,
+        "priority": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.9994,
+          28.5909
+        ]
+      },
+      "properties": {
+        "id": "explore-fuerteventura-tindaya",
+        "name": "Montaña de Tindaya",
+        "description": "Una montaña aislada considerada sagrada por los antiguos majos y cubierta de grabados podomorfos.",
+        "website": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/monumento-natural-de-tindaya/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "fuerteventura",
+        "category": "heritage",
+        "heritage_type": "historic",
+        "cc_curated": true,
+        "featured": true,
+        "priority": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.9283,
+          28.6118
+        ]
+      },
+      "properties": {
+        "id": "casa-coroneles",
+        "name": "Casa de los Coroneles",
+        "category": "heritage",
+        "heritage_type": "historic",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "fuerteventura",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.0558,
+          28.4238
+        ]
+      },
+      "properties": {
+        "id": "iglesia-betancuria",
+        "name": "Iglesia de Santa María de Betancuria",
+        "category": "heritage",
+        "heritage_type": "church",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "fuerteventura",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.9466,
+          28.2317
+        ]
+      },
+      "properties": {
+        "id": "faro-entallada",
+        "name": "Faro de La Entallada",
+        "category": "heritage",
+        "heritage_type": "lighthouse",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "fuerteventura",
+        "cc_curated": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,1819 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.373757,
+          28.300908
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938029577,
+        "scientific_name": "Heliotropium ramosissimum (Lehm.) Sieber ex A.DC.",
+        "species": "Heliotropium ramosissimum",
+        "genus": "Heliotropium",
+        "family": "Heliotropiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-02T16:32:59Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.371291,
+          28.29833
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938029974,
+        "scientific_name": "Schizogyne sericea (L.fil.) DC.",
+        "species": "Schizogyne sericea",
+        "genus": "Schizogyne",
+        "family": "Asteraceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-02T14:07:19Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.604617,
+          28.189611
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938030004,
+        "scientific_name": "Cistus symphytifolius Lam.",
+        "species": "Cistus symphytifolius",
+        "genus": "Cistus",
+        "family": "Cistaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T11:56:21Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.82371,
+          28.29952
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938031861,
+        "scientific_name": "Carlina salicifolia (L.fil.) Cav.",
+        "species": "Carlina salicifolia",
+        "genus": "Carlina",
+        "family": "Asteraceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T18:25:25Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.719961,
+          28.093031
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938033057,
+        "scientific_name": "Euphorbia balsamifera Aiton",
+        "species": "Euphorbia balsamifera",
+        "genus": "Euphorbia",
+        "family": "Euphorbiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T14:50:42Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.411971,
+          28.446745
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938035830,
+        "scientific_name": "Aichryson laxum (Haw.) Bramwell",
+        "species": "Aichryson laxum",
+        "genus": "Aichryson",
+        "family": "Crassulaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T11:32:45Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.189823,
+          28.508019
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938044415,
+        "scientific_name": "Drimia hesperia (Webb & Berthel.) J.C.Manning & Goldblatt",
+        "species": "Drimia hesperia",
+        "genus": "Drimia",
+        "family": "Asparagaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:35:37Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.656947,
+          28.074108
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938044705,
+        "scientific_name": "Heliotropium messerschmidioides Kuntze",
+        "species": "Heliotropium messerschmidioides",
+        "genus": "Heliotropium",
+        "family": "Heliotropiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T16:10:05Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.75893,
+          28.335848
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938044852,
+        "scientific_name": "Pinus canariensis C.Sm.",
+        "species": "Pinus canariensis",
+        "genus": "Pinus",
+        "family": "Pinaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T17:53:54Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.280078,
+          28.530748
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938049806,
+        "scientific_name": "Dryopteris oligodonta (Desv.) Pic.Serm.",
+        "species": "Dryopteris oligodonta",
+        "genus": "Dryopteris",
+        "family": "Dryopteridaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T14:15:49Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.707881,
+          28.039378
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938054491,
+        "scientific_name": "Gymnocarpos decander Forssk.",
+        "species": "Gymnocarpos decander",
+        "genus": "Gymnocarpos",
+        "family": "Caryophyllaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-04T13:35:45Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.186905,
+          28.508853
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938058698,
+        "scientific_name": "Launaea arborescens (Batt.) Murb.",
+        "species": "Launaea arborescens",
+        "genus": "Launaea",
+        "family": "Asteraceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-05T18:20:47Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.620408,
+          28.170386
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938059366,
+        "scientific_name": "Asplenium ceterach L.",
+        "species": "Asplenium ceterach",
+        "genus": "Asplenium",
+        "family": "Aspleniaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T13:24:55Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.451345,
+          28.46871
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938062194,
+        "scientific_name": "Podranea ricasoliana (Tanfani) Sprague",
+        "species": "Podranea ricasoliana",
+        "genus": "Podranea",
+        "family": "Bignoniaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T11:30:03Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.406736,
+          28.459159
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938067571,
+        "scientific_name": "Arisarum simorrhinum Durieu",
+        "species": "Arisarum simorrhinum",
+        "genus": "Arisarum",
+        "family": "Araceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T11:02:57Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.487811,
+          28.369071
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938067711,
+        "scientific_name": "Clinopodium menthifolium subsp. ascendens (Jord.) Govaerts",
+        "species": "Clinopodium menthifolium",
+        "genus": "Clinopodium",
+        "family": "Lamiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T11:38:39Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.766092,
+          28.372879
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938067897,
+        "scientific_name": "Polycarpaea divaricata (Aiton) Poir. ex Steud.",
+        "species": "Polycarpaea divaricata",
+        "genus": "Polycarpaea",
+        "family": "Caryophyllaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T16:54:41Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.656978,
+          28.074047
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938071004,
+        "scientific_name": "Ceropegia fusca Bolle",
+        "species": "Ceropegia fusca",
+        "genus": "Ceropegia",
+        "family": "Apocynaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T16:10:52Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.192366,
+          28.506015
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938071016,
+        "scientific_name": "Datura innoxia Mill.",
+        "species": "Datura innoxia",
+        "genus": "Datura",
+        "family": "Solanaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:47:39Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.718848,
+          28.093523
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938081194,
+        "scientific_name": "Lavandula canariensis Mill.",
+        "species": "Lavandula canariensis",
+        "genus": "Lavandula",
+        "family": "Lamiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T14:57:32Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.339695,
+          28.531628
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938093033,
+        "scientific_name": "Rubia fruticosa Aiton",
+        "species": "Rubia fruticosa",
+        "genus": "Rubia",
+        "family": "Rubiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T16:40:17Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.542932,
+          28.031358
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938093623,
+        "scientific_name": "Tetraena fontanesii (Webb & Berthel.) Beier & Thulin",
+        "species": "Tetraena fontanesii",
+        "genus": "Tetraena",
+        "family": "Zygophyllaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-02T12:29:09Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.189898,
+          28.507144
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938098124,
+        "scientific_name": "Euphorbia lamarckii Sweet",
+        "species": "Euphorbia lamarckii",
+        "genus": "Euphorbia",
+        "family": "Euphorbiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:31:48Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.189539,
+          28.505275
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938105134,
+        "scientific_name": "Nicotiana glauca Graham",
+        "species": "Nicotiana glauca",
+        "genus": "Nicotiana",
+        "family": "Solanaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T18:08:49Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.288232,
+          28.524088
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938107538,
+        "scientific_name": "Oxalis pes-caprae L.",
+        "species": "Oxalis pes-caprae",
+        "genus": "Oxalis",
+        "family": "Oxalidaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T13:54:41Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.28796,
+          28.524032
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938109666,
+        "scientific_name": "Erica canariensis Rivas Mart., Martín Osorio & Wildpret",
+        "species": "Erica canariensis",
+        "genus": "Erica",
+        "family": "Ericaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T13:55:40Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.823549,
+          28.29906
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938113463,
+        "scientific_name": "Forsskaolea angustifolia Retz.",
+        "species": "Forsskaolea angustifolia",
+        "genus": "Forsskaolea",
+        "family": "Urticaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T18:42:19Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.191179,
+          28.50549
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938142676,
+        "scientific_name": "Plocama pendula Aiton",
+        "species": "Plocama pendula",
+        "genus": "Plocama",
+        "family": "Rubiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:22:59Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.451345,
+          28.46871
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938148791,
+        "scientific_name": "Habenaria tridactylites Lindl.",
+        "species": "Habenaria tridactylites",
+        "genus": "Habenaria",
+        "family": "Orchidaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T10:39:47Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.191473,
+          28.507483
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938150094,
+        "scientific_name": "Ricinus communis L.",
+        "species": "Ricinus communis",
+        "genus": "Ricinus",
+        "family": "Euphorbiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:40:12Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.64663,
+          28.077272
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938150215,
+        "scientific_name": "Globularia salicina Lam.",
+        "species": "Globularia salicina",
+        "genus": "Globularia",
+        "family": "Plantaginaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T16:54:11Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.619728,
+          28.171133
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938154706,
+        "scientific_name": "Aeonium smithii (Sims) Webb & Berthel.",
+        "species": "Aeonium smithii",
+        "genus": "Aeonium",
+        "family": "Crassulaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T10:03:58Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.696488,
+          28.146984
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938155853,
+        "scientific_name": "Canarina canariensis (L.) Vatke",
+        "species": "Canarina canariensis",
+        "genus": "Canarina",
+        "family": "Campanulaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-04T12:39:45Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.374303,
+          28.301437
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938166435,
+        "scientific_name": "Solanum lycopersicum L.",
+        "species": "Solanum lycopersicum",
+        "genus": "Solanum",
+        "family": "Solanaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-02T17:06:26Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.597445,
+          28.395286
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938189855,
+        "scientific_name": "Chenopodiastrum murale (L.) S.Fuentes, Uotila & Borsch",
+        "species": "Chenopodiastrum murale",
+        "genus": "Chenopodiastrum",
+        "family": "Amaranthaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-04T11:19:09Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.371238,
+          28.298318
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938198372,
+        "scientific_name": "Patellifolia procumbens (Chr.P.Sm. ex Hornem.) A.J.Scott, Ford-Lloyd & J.T.Williams",
+        "species": "Patellifolia procumbens",
+        "genus": "Patellifolia",
+        "family": "Amaranthaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-02T17:23:24Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.374107,
+          28.301811
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938203800,
+        "scientific_name": "Allagopappus canariensis (Willd.) Greuter",
+        "species": "Allagopappus canariensis",
+        "genus": "Allagopappus",
+        "family": "Asteraceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-02T16:57:55Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.611372,
+          28.17115
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938208965,
+        "scientific_name": "Echium wildpretii H.Pearson ex Hook.fil.",
+        "species": "Echium wildpretii",
+        "genus": "Echium",
+        "family": "Boraginaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T12:54Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.192151,
+          28.506448
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938211599,
+        "scientific_name": "Astydamia latifolia (L.fil.) Kuntze",
+        "species": "Astydamia latifolia",
+        "genus": "Astydamia",
+        "family": "Apiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:19:30Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.720217,
+          28.092512
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938212400,
+        "scientific_name": "Euphorbia canariensis L.",
+        "species": "Euphorbia canariensis",
+        "genus": "Euphorbia",
+        "family": "Euphorbiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T14:48:13Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.190901,
+          28.506599
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938214699,
+        "scientific_name": "Galinsoga parviflora Cav.",
+        "species": "Galinsoga parviflora",
+        "genus": "Galinsoga",
+        "family": "Asteraceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:50:27Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.525728,
+          28.14019
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938218536,
+        "scientific_name": "Autonoe haemorrhoidalis (Webb & Berthel.) Speta",
+        "species": "Scilla haemorrhoidalis",
+        "genus": "Scilla",
+        "family": "Asparagaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-04T11:58:41Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.190451,
+          28.506791
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938221712,
+        "scientific_name": "Todaroa aurea Parl.",
+        "species": "Todaroa aurea",
+        "genus": "Todaroa",
+        "family": "Apiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:24:25Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.823549,
+          28.29906
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938222744,
+        "scientific_name": "Opuntia stricta (Haw.) Haw.",
+        "species": "Opuntia stricta",
+        "genus": "Opuntia",
+        "family": "Cactaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T18:43:24Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.823549,
+          28.29906
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938240562,
+        "scientific_name": "Echium aculeatum Poir.",
+        "species": "Echium aculeatum",
+        "genus": "Echium",
+        "family": "Boraginaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T18:31:59Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.625647,
+          28.172256
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938241856,
+        "scientific_name": "Riccia sorocarpa Bisch.",
+        "species": "Riccia sorocarpa",
+        "genus": "Riccia",
+        "family": "Ricciaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T11:42:37Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.539646,
+          28.405289
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938248541,
+        "scientific_name": "Eriobotrya japonica (Thunb.) Lindl.",
+        "species": "Rhaphiolepis bibas",
+        "genus": "Rhaphiolepis",
+        "family": "Rosaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T13:38:29Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.192082,
+          28.506706
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938257906,
+        "scientific_name": "Argyranthemum frutescens (L.) Sch.Bip.",
+        "species": "Argyranthemum frutescens",
+        "genus": "Argyranthemum",
+        "family": "Asteraceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:20:06Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.19226,
+          28.506818
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938258457,
+        "scientific_name": "Setaria adhaerens (Forssk.) Chiov.",
+        "species": "Setaria adhaerens",
+        "genus": "Setaria",
+        "family": "Poaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:44:29Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.823549,
+          28.29906
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938260791,
+        "scientific_name": "Kleinia neriifolia Haw.",
+        "species": "Kleinia neriifolia",
+        "genus": "Kleinia",
+        "family": "Asteraceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T18:34:02Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.657113,
+          28.074086
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938263751,
+        "scientific_name": "Sonchus capillaris Svent.",
+        "species": "Sonchus capillaris",
+        "genus": "Sonchus",
+        "family": "Asteraceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T16:09:17Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.823692,
+          28.299045
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938263895,
+        "scientific_name": "Umbilicus gaditanus Boiss.",
+        "species": "Umbilicus horizontalis",
+        "genus": "Umbilicus",
+        "family": "Crassulaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T18:28:15Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.310874,
+          28.474449
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938266223,
+        "scientific_name": "Prunus lusitanica subsp. hixa (Brouss. ex Willd.) Franco",
+        "species": "Prunus hixa",
+        "genus": "Prunus",
+        "family": "Rosaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T14:13:09Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.735993,
+          28.148036
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938267422,
+        "scientific_name": "Aloe vera (L.) Burm.f.",
+        "species": "Aloe vera",
+        "genus": "Aloe",
+        "family": "Asphodelaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T17:19:51Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.549983,
+          28.416809
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938275075,
+        "scientific_name": "Adiantum capillus-veneris L.",
+        "species": "Adiantum capillus-veneris",
+        "genus": "Adiantum",
+        "family": "Pteridaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T22:10:37Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.192247,
+          28.507081
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938275084,
+        "scientific_name": "Sonchus leptocephalus Cass.",
+        "species": "Sonchus leptocephalus",
+        "genus": "Sonchus",
+        "family": "Asteraceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:28:47Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.823762,
+          28.299478
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938302534,
+        "scientific_name": "Lobularia canariensis (DC.) L.Borgen",
+        "species": "Lobularia canariensis",
+        "genus": "Lobularia",
+        "family": "Brassicaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T18:26:06Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.405543,
+          28.45871
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938305557,
+        "scientific_name": "Asplenium hemionitis L.",
+        "species": "Asplenium hemionitis",
+        "genus": "Asplenium",
+        "family": "Aspleniaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T14:05:26Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.593955,
+          28.395871
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938311587,
+        "scientific_name": "Oxalis corniculata L.",
+        "species": "Oxalis corniculata",
+        "genus": "Oxalis",
+        "family": "Oxalidaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-04T11:27:16Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.340259,
+          28.531628
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938313765,
+        "scientific_name": "Paronychia canariensis (L.fil.) Juss.",
+        "species": "Paronychia canariensis",
+        "genus": "Paronychia",
+        "family": "Caryophyllaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T16:45:31Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.451345,
+          28.46871
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938323451,
+        "scientific_name": "Wigandia urens (Ruiz & Pav.) Kunth",
+        "species": "Wigandia urens",
+        "genus": "Wigandia",
+        "family": "Namaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T11:39:28Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.409973,
+          28.448202
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938325625,
+        "scientific_name": "Digitalis canariensis L.",
+        "species": "Digitalis canariensis",
+        "genus": "Digitalis",
+        "family": "Plantaginaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T11:29:06Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.411553,
+          28.447144
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938346977,
+        "scientific_name": "Davallia canariensis (L.) Sm.",
+        "species": "Davallia canariensis",
+        "genus": "Davallia",
+        "family": "Davalliaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T13:38:19Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.190338,
+          28.507189
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938374901,
+        "scientific_name": "Campylanthus salsoloides Roth",
+        "species": "Campylanthus salsoloides",
+        "genus": "Campylanthus",
+        "family": "Plantaginaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:33:45Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.419905,
+          28.253466
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938375076,
+        "scientific_name": "Arbutus canariensis Duhamel",
+        "species": "Arbutus canariensis",
+        "genus": "Arbutus",
+        "family": "Ericaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T16:31:10Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.707894,
+          28.035806
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938375560,
+        "scientific_name": "Monanthes pallens (Webb) Christ",
+        "species": "Monanthes pallens",
+        "genus": "Monanthes",
+        "family": "Crassulaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-04T12:57:59Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.83131,
+          28.202118
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938377782,
+        "scientific_name": "Carpobrotus edulis (L.) N.E.Br.",
+        "species": "Carpobrotus edulis",
+        "genus": "Carpobrotus",
+        "family": "Aizoaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T15:15:42Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.657262,
+          28.073178
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938382386,
+        "scientific_name": "Asparagus umbellatus Link",
+        "species": "Asparagus umbellatus",
+        "genus": "Asparagus",
+        "family": "Asparagaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T18:14:35Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.811586,
+          28.294931
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938387555,
+        "scientific_name": "Sonchus canariensis (Webb) Boulos",
+        "species": "Sonchus canariensis",
+        "genus": "Sonchus",
+        "family": "Asteraceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-02T17:09:21Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.288126,
+          28.524116
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938393856,
+        "scientific_name": "Laurus novocanariensis Rivas Mart., Lousã, Fern.Prieto, E.Días, J.C.Costa & C.Aguiar",
+        "species": "Laurus novocanariensis",
+        "genus": "Laurus",
+        "family": "Lauraceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T13:48:26Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.901904,
+          28.317316
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938422700,
+        "scientific_name": "Himantoglossum metlesicsianum (W.P.Teschner) P.Delforge",
+        "species": "Himantoglossum metlesicsianum",
+        "genus": "Himantoglossum",
+        "family": "Orchidaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-02T16:58:31Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.280281,
+          28.530457
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938424079,
+        "scientific_name": "Erica platycodon (Webb & Berthel.) Rivas Mart. et al.",
+        "species": "Erica platycodon",
+        "genus": "Erica",
+        "family": "Ericaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T14:12:45Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.192219,
+          28.50648
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938428917,
+        "scientific_name": "Arundo donax L.",
+        "species": "Arundo donax",
+        "genus": "Arundo",
+        "family": "Poaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:46:14Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.191637,
+          28.507004
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938429811,
+        "scientific_name": "Periploca laevigata Aiton",
+        "species": "Periploca laevigata",
+        "genus": "Periploca",
+        "family": "Apocynaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:39:27Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.191841,
+          28.507097
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938432114,
+        "scientific_name": "Nicandra physalodes (L.) Gaertn.",
+        "species": "Nicandra physalodes",
+        "genus": "Nicandra",
+        "family": "Solanaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:48Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.265683,
+          28.571383
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938465000,
+        "scientific_name": "Solanum vespertilio Aiton",
+        "species": "Solanum vespertilio",
+        "genus": "Solanum",
+        "family": "Solanaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-04T14:08Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.812736,
+          28.293636
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938465134,
+        "scientific_name": "Aeonium spathulatum (Hornem.) Praeger",
+        "species": "Aeonium spathulatum",
+        "genus": "Aeonium",
+        "family": "Crassulaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-02T16:00:03Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.830974,
+          28.20259
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938480534,
+        "scientific_name": "Mesembryanthemum crystallinum L.",
+        "species": "Mesembryanthemum crystallinum",
+        "genus": "Mesembryanthemum",
+        "family": "Aizoaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-03T15:14:01Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.190168,
+          28.506957
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938481238,
+        "scientific_name": "Agave americana L.",
+        "species": "Agave americana",
+        "genus": "Agave",
+        "family": "Asparagaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T17:26:42Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.451345,
+          28.46871
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938485515,
+        "scientific_name": "Vinca major L.",
+        "species": "Vinca major",
+        "genus": "Vinca",
+        "family": "Apocynaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T11:42:07Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.70716,
+          28.08639
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938487821,
+        "scientific_name": "Apteranthes burchardii (N.E.Br.) Plowes",
+        "species": "Ceropegia burchardii",
+        "genus": "Ceropegia",
+        "family": "Apocynaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-04T12:58:34Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.525844,
+          28.14035
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938498424,
+        "scientific_name": "Cosentinia vellea (Aiton) Tod.",
+        "species": "Cosentinia vellea",
+        "genus": "Cosentinia",
+        "family": "Pteridaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-04T09:33:41Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.373749,
+          28.300729
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938500080,
+        "scientific_name": "Fagonia cretica L.",
+        "species": "Fagonia cretica",
+        "genus": "Fagonia",
+        "family": "Zygophyllaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-02T17:10:37Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.410364,
+          28.419528
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938512211,
+        "scientific_name": "Sideritis oroteneriffae Négrin & P.Pérez",
+        "species": "Sideritis oroteneriffae",
+        "genus": "Sideritis",
+        "family": "Lamiaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T12:28:58Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.280078,
+          28.530748
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938512659,
+        "scientific_name": "Asplenium onopteris L.",
+        "species": "Asplenium onopteris",
+        "genus": "Asplenium",
+        "family": "Aspleniaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-01T14:16:19Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.174632,
+          28.558236
+        ]
+      },
+      "properties": {
+        "gbif_id": 5938513926,
+        "scientific_name": "Viburnum rugosum Pers.",
+        "species": "Viburnum rugosum",
+        "genus": "Viburnum",
+        "family": "Viburnaceae",
+        "kingdom": "Plantae",
+        "event_date": "2026-01-05T10:55:38Z",
+        "basis_of_record": "HUMAN_OBSERVATION",
+        "source": "GBIF"
+      }
+    }
+  ],
+  "filter": {
+    "island": "tenerife",
+    "valid": true
+  },
+  "available": true,
+  "source": "GBIF",
+  "status": "ok",
+  "updated_at": "2026-09-11T04:38:47.901977+00:00"
+}

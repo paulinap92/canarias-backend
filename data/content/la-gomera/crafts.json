@@ -1,0 +1,118 @@
+[
+  {
+    "id": "craft-la-gomera-alfareria",
+    "slug": "alfareria-tradicional",
+    "name": "Alfarería tradicional",
+    "island": "la-gomera",
+    "type": "craft",
+    "category": "pottery",
+    "short_description": "La loza gomera se modela a mano y sin torno, siguiendo técnicas transmitidas durante generaciones.",
+    "description": "La cerámica es uno de los oficios artesanos más representativos de La Gomera. Las piezas se modelan manualmente, sin torno, y conservan procedimientos muy antiguos. El Cercado y el centro de interpretación Las Loceras mantienen una relación especialmente fuerte con este oficio.",
+    "source_url": "https://lagomera.travel/experiencias/artesania-de-la-gomera/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "pottery",
+      "el-cercado",
+      "clay",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-gomera-traperas",
+    "slug": "traperas",
+    "name": "Traperas",
+    "island": "la-gomera",
+    "type": "craft",
+    "category": "textile",
+    "short_description": "Tiras de telas reutilizadas se convierten en tejidos coloridos sobre antiguos telares de madera.",
+    "description": "Las traperas nacen del aprovechamiento de retales y prendas viejas cortadas en tiras. El tejido se realiza en telares tradicionales de madera y produce piezas de colores únicos, convirtiendo una antigua necesidad doméstica en una de las artesanías más reconocibles de la isla.",
+    "source_url": "https://lagomera.travel/experiencias/artesania-de-la-gomera/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "traperas",
+      "textile",
+      "loom",
+      "recycling"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-gomera-cesteria",
+    "slug": "cesteria-mimbre-cana",
+    "name": "Cestería de mimbre y caña",
+    "island": "la-gomera",
+    "type": "craft",
+    "category": "basketry",
+    "short_description": "Caña y mimbre se transforman en cestas, fruteros y recipientes resistentes de uso cotidiano.",
+    "description": "La cestería gomera utiliza materiales vegetales locales y técnicas manuales para producir piezas muy resistentes. Cada objeto refleja pequeñas diferencias de forma y tejido que hacen difícil encontrar dos piezas exactamente iguales.",
+    "source_url": "https://lagomera.travel/experiencias/artesania-de-la-gomera/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "basketry",
+      "wicker",
+      "cane"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-gomera-ristra",
+    "slug": "ristra-platanera",
+    "name": "Artesanía de ristra de platanera",
+    "island": "la-gomera",
+    "type": "craft",
+    "category": "fiber-craft",
+    "short_description": "Las fibras del tallo de la platanera se convierten en cestas, flores y las populares brujitas de la suerte.",
+    "description": "La ristra de la platanera se limpia, seca y trabaja para crear pequeñas piezas artesanas. Brujitas, paneras, joyeros y flores muestran cómo un residuo agrícola puede transformarse en material decorativo y funcional.",
+    "source_url": "https://lagomera.travel/experiencias/artesania-de-la-gomera/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "banana-fiber",
+      "ristra",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-gomera-palma",
+    "slug": "cesteria-palma",
+    "name": "Cestería de palma",
+    "island": "la-gomera",
+    "type": "craft",
+    "category": "basketry",
+    "short_description": "Las hojas de palmera se trenzan para fabricar sombreros, bolsos, cestas y paneras.",
+    "description": "La palmera canaria proporciona uno de los materiales tradicionales más versátiles de La Gomera. Sus hojas se preparan y trenzan para crear objetos ligeros y resistentes que antes tenían una función esencial en la vida doméstica y agrícola.",
+    "source_url": "https://lagomera.travel/experiencias/artesania-de-la-gomera/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "palm",
+      "basketry",
+      "fiber"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-gomera-chacaras",
+    "slug": "fabricacion-chacaras",
+    "name": "Fabricación de chácaras",
+    "island": "la-gomera",
+    "type": "craft",
+    "category": "instrument-making",
+    "short_description": "La madera de moral se trabaja para crear las grandes castañuelas del folclore gomero.",
+    "description": "La fabricación de chácaras combina carpintería, conocimiento acústico y tradición musical. La madera se talla hasta conseguir dos piezas huecas cuyo tamaño y grosor determinan el sonido final del instrumento.",
+    "source_url": "https://lagomera.travel/experiencias/la-gomera-que-llevarte-de-recuerdo-en-tu-maleta/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "chacaras",
+      "wood",
+      "instrument-making"
+    ],
+    "language": "es"
+  }
+]

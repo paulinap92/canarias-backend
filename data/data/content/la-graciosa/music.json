@@ -1,0 +1,122 @@
+[
+  {
+    "id": "music-la-graciosa-timple",
+    "slug": "timple",
+    "name": "El timple",
+    "island": "la-graciosa",
+    "type": "music",
+    "category": "instrument",
+    "short_description": "La pequeña guitarra canaria tiene en Caleta de Sebo un encuentro propio dedicado a intérpretes y constructores.",
+    "description": "El timple ocupa un lugar destacado en la vida musical de La Graciosa. El Encuentro de Timples de la isla reúne a intérpretes de distintos puntos de Canarias y ha incluido también exposiciones dedicadas a la luthería del instrumento.",
+    "source_url": "https://turismolanzarote.com/evento/encuentro-de-timples-de-la-graciosa-x-edicion/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "timple",
+      "instrument",
+      "music",
+      "caleta-de-sebo"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-graciosa-encuentro-timples",
+    "slug": "encuentro-de-timples",
+    "name": "Encuentro de Timples de La Graciosa",
+    "island": "la-graciosa",
+    "type": "music",
+    "category": "music-event",
+    "short_description": "Un encuentro musical convierte el puerto de Caleta de Sebo en escenario para algunos de los grandes timplistas de Canarias.",
+    "description": "El Encuentro de Timples ha celebrado numerosas ediciones en La Graciosa y acerca al público tanto la interpretación como la construcción artesanal del instrumento. El evento refuerza el vínculo de la isla con la música tradicional canaria.",
+    "source_url": "https://turismolanzarote.com/evento/7o-encuentro-de-timples-de-la-graciosa-domingo-rodriguez-el-colorao-fran-baraja-y-achimencey-toledo/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "timple",
+      "festival",
+      "folk",
+      "music-event"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-graciosa-gaida",
+    "slug": "asociacion-folklorica-gaida",
+    "name": "Asociación Folklórica Gaida",
+    "island": "la-graciosa",
+    "type": "music",
+    "category": "folk-group",
+    "short_description": "La agrupación mantiene presencia en la programación cultural y festiva de la isla.",
+    "description": "Gaida forma parte del tejido cultural de La Graciosa y participa en actuaciones vinculadas a celebraciones y actividades comunitarias. Su trabajo mantiene vivo el repertorio y la práctica del folclore canario dentro de Caleta de Sebo.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-la-isla-para-disfrutar-con-los-pies-descalzos/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "gaida",
+      "folk-group",
+      "folklore",
+      "community"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-graciosa-carmen",
+    "slug": "musica-fiestas-carmen",
+    "name": "Música de las Fiestas del Carmen",
+    "island": "la-graciosa",
+    "type": "music",
+    "category": "festival-music",
+    "short_description": "Parrandas, actuaciones y música popular acompañan la gran celebración marinera del mes de julio.",
+    "description": "Las Fiestas del Carmen combinan actos religiosos con actuaciones musicales y cultura popular. La música acompaña procesiones, encuentros en el muelle y noches de celebración, reforzando el carácter colectivo de la fiesta.",
+    "source_url": "https://teguise.es/la-villa-de-teguise-y-la-graciosa-viven-con-emocion-el-dia-grande-de-las-fiestas-del-carmen/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "carmen",
+      "parranda",
+      "festival-music",
+      "july"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-graciosa-parrandas",
+    "slug": "parrandas",
+    "name": "Parrandas",
+    "island": "la-graciosa",
+    "type": "music",
+    "category": "popular-music",
+    "short_description": "El formato de parranda encaja de forma natural en fiestas pequeñas, reuniones y celebraciones comunitarias de Caleta de Sebo.",
+    "description": "Guitarras, timples, voces y percusión acompañan encuentros informales y actos festivos. En una comunidad pequeña como La Graciosa, la parranda funciona tanto como música como espacio de convivencia.",
+    "source_url": "https://teguise.es/la-villa-de-teguise-y-la-graciosa-viven-con-emocion-el-dia-grande-de-las-fiestas-del-carmen/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "parranda",
+      "timple",
+      "popular-music",
+      "community"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-graciosa-musica-mar",
+    "slug": "paisaje-sonoro-marinero",
+    "name": "Paisaje sonoro marinero",
+    "island": "la-graciosa",
+    "type": "music",
+    "category": "sound-culture",
+    "short_description": "Cabos, motores, viento y barcos forman un paisaje sonoro inseparable de la vida diaria del puerto.",
+    "description": "En Caleta de Sebo el sonido del puerto forma parte de la experiencia cotidiana. Aunque no sea un género musical, la mezcla de viento, aparejos, embarcaciones y conversaciones alrededor del muelle refuerza una identidad profundamente marinera.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-la-isla-para-disfrutar-con-los-pies-descalzos/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "soundscape",
+      "harbour",
+      "sea",
+      "identity"
+    ],
+    "language": "es"
+  }
+]

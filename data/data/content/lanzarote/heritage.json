@@ -1,0 +1,122 @@
+[
+  {
+    "id": "heritage-lanzarote-teguise",
+    "slug": "casco-historico-teguise",
+    "name": "Casco histórico de Teguise",
+    "island": "lanzarote",
+    "type": "heritage",
+    "category": "historic-centre",
+    "short_description": "La antigua capital de Lanzarote conserva calles empedradas, casas señoriales, iglesias y siglos de historia insular.",
+    "description": "La Villa de Teguise fue capital de Lanzarote hasta el siglo XIX y mantiene uno de los conjuntos históricos más importantes del archipiélago. Su arquitectura blanca, los edificios religiosos, las casas señoriales y las huellas de ataques piráticos permiten recorrer buena parte de la historia moderna de la isla.",
+    "source_url": "https://turismolanzarote.com/teguise/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "teguise",
+      "historic-centre",
+      "architecture",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-lanzarote-san-gabriel",
+    "slug": "castillo-san-gabriel",
+    "name": "Castillo de San Gabriel",
+    "island": "lanzarote",
+    "type": "heritage",
+    "category": "fortification",
+    "short_description": "Una fortaleza frente a Arrecife que recuerda la necesidad histórica de proteger el puerto de ataques e incursiones.",
+    "description": "El Castillo de San Gabriel forma parte del paisaje histórico de Arrecife y se accede a él por el conocido Puente de las Bolas. La fortificación ayuda a contar la evolución defensiva y marítima de la capital y actualmente alberga el Museo de Historia de Arrecife.",
+    "source_url": "https://turismolanzarote.com/museo/museo-de-la-historia-de-arrecife/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "arrecife",
+      "castle",
+      "fortification",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-lanzarote-zonzamas",
+    "slug": "zonzamas",
+    "name": "Yacimiento de Zonzamas",
+    "island": "lanzarote",
+    "type": "heritage",
+    "category": "archaeological-site",
+    "short_description": "Uno de los grandes conjuntos arqueológicos vinculados a los antiguos habitantes de Lanzarote.",
+    "description": "Zonzamas conserva estructuras y materiales asociados a la población prehispánica de Lanzarote. El conjunto incluye construcciones de gran interés arqueológico y la conocida quesera, y constituye una pieza fundamental para entender el poblamiento y la cultura material de los majos.",
+    "source_url": "https://transparencia.cabildodelanzarote.com/storage/uploads/166695800120200622_Cat%C3%A1logos%20del%20Patrimonio%20Hist%C3%B3rico%20Art%C3%ADstico.pdf",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "zonzamas",
+      "archaeology",
+      "majos",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-lanzarote-casa-volcan",
+    "slug": "casa-del-volcan-tahiche",
+    "name": "Casa del Volcán de César Manrique",
+    "island": "lanzarote",
+    "type": "heritage",
+    "category": "modern-heritage",
+    "short_description": "La vivienda de Tahíche integra arquitectura moderna, tradición lanzaroteña y burbujas volcánicas naturales.",
+    "description": "César Manrique construyó su casa de Tahíche sobre una colada de las erupciones del siglo XVIII. La planta superior reinterpreta la arquitectura tradicional de Lanzarote y el nivel inferior aprovecha burbujas volcánicas conectadas mediante túneles. Hoy es sede de la Fundación César Manrique.",
+    "source_url": "https://fcmanrique.org/casas-museo-visitas/fundacion-cesar-manrique-tahiche/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "cesar-manrique",
+      "tahiche",
+      "architecture",
+      "modern-heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-lanzarote-la-geria",
+    "slug": "paisaje-cultural-la-geria",
+    "name": "Paisaje cultural de La Geria",
+    "island": "lanzarote",
+    "type": "heritage",
+    "category": "cultural-landscape",
+    "short_description": "Un paisaje agrícola construido a mano para cultivar vides entre ceniza volcánica y viento.",
+    "description": "La Geria es uno de los mejores ejemplos de adaptación humana a las condiciones extremas de Lanzarote. Los hoyos excavados en el picón, las cepas y los muros semicirculares de piedra forman un paisaje protegido que es al mismo tiempo agricultura, patrimonio e identidad.",
+    "source_url": "https://turismolanzarote.com/YAIZA/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "la-geria",
+      "cultural-landscape",
+      "wine",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-lanzarote-campesino",
+    "slug": "casa-museo-campesino",
+    "name": "Casa Museo del Campesino",
+    "island": "lanzarote",
+    "type": "heritage",
+    "category": "ethnographic-heritage",
+    "short_description": "Arquitectura popular, aperos, patios, aljibes y talleres artesanos resumen la cultura rural de Lanzarote.",
+    "description": "La Casa Museo del Campesino reúne elementos clásicos de la arquitectura tradicional lanzaroteña y espacios dedicados a la vida agraria y los oficios. César Manrique la concibió como homenaje al conocimiento de generaciones capaces de cultivar y habitar una isla seca y volcánica.",
+    "source_url": "https://cactlanzarote.com/es/visita",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "campesino",
+      "ethnography",
+      "architecture",
+      "cesar-manrique"
+    ],
+    "language": "es"
+  }
+]

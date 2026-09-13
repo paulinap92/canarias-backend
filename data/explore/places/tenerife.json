@@ -1,0 +1,1248 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7241893,
+          28.1219416
+        ]
+      },
+      "properties": {
+        "osm_id": 262205937,
+        "osm_type": "node",
+        "name": "Adeje",
+        "category": "town",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Adeje (capital municipal)",
+        "wikidata": "Q24014665",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6809103,
+          28.0996248
+        ]
+      },
+      "properties": {
+        "osm_id": 313358351,
+        "osm_type": "node",
+        "name": "Arona",
+        "category": "town",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Arona (capital municipal)",
+        "wikidata": "Q5705046",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8512557,
+          28.3721177
+        ]
+      },
+      "properties": {
+        "osm_id": 314028800,
+        "osm_type": "node",
+        "name": "Buenavista del Norte",
+        "category": "town",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "sv:Buenavista del Norte (kommunhuvudort)",
+        "wikidata": "Q24014661",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3710091,
+          28.3546715
+        ]
+      },
+      "properties": {
+        "osm_id": 544739230,
+        "osm_type": "node",
+        "name": "Candelaria",
+        "category": "town",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Candelaria (capital municipal)",
+        "wikidata": "Q24014660",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5766728,
+          28.1221408
+        ]
+      },
+      "properties": {
+        "osm_id": 263739787,
+        "osm_type": "node",
+        "name": "Granadilla de Abona",
+        "category": "town",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Granadilla de Abona (capital municipal)",
+        "wikidata": "Q24014657",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4421484,
+          28.1440024
+        ]
+      },
+      "properties": {
+        "osm_id": 868284963,
+        "osm_type": "node",
+        "name": "Abades",
+        "category": "village",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Abades (Tenerife)",
+        "wikidata": "Q946316",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.2479154,
+          28.5552576
+        ]
+      },
+      "properties": {
+        "osm_id": 361359956,
+        "osm_type": "node",
+        "name": "Afur",
+        "category": "village",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Afur",
+        "wikidata": "Q5659594",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.1970412,
+          28.5712917
+        ]
+      },
+      "properties": {
+        "osm_id": 599052956,
+        "osm_type": "node",
+        "name": "Almáciga",
+        "category": "village",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Almáciga (Santa Cruz de Tenerife)",
+        "wikidata": "Q5669924",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4173287,
+          28.3404454
+        ]
+      },
+      "properties": {
+        "osm_id": 243672824,
+        "osm_type": "node",
+        "name": "Arafo",
+        "category": "village",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Arafo (capital municipal)",
+        "wikidata": "Q24014664",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3936041,
+          28.3623165
+        ]
+      },
+      "properties": {
+        "osm_id": 662269042,
+        "osm_type": "node",
+        "name": "Araya",
+        "category": "village",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Araya (Candelaria)",
+        "wikidata": "Q5702374",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4797981,
+          28.1825227
+        ]
+      },
+      "properties": {
+        "osm_id": 639636483,
+        "osm_type": "node",
+        "name": "Arico Viejo",
+        "category": "village",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Arico Viejo",
+        "wikidata": "Q18170809",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5870407,
+          28.0610473
+        ]
+      },
+      "properties": {
+        "osm_id": 2051614456,
+        "osm_type": "node",
+        "name": "Atogo",
+        "category": "village",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Atogo",
+        "wikidata": "Q5711040",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.459524,
+          28.3731466
+        ]
+      },
+      "properties": {
+        "osm_id": 557269717,
+        "osm_type": "node",
+        "name": "Mirador de Chimague",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": null,
+        "wikidata": "Q63891898",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6982842,
+          28.2385028
+        ]
+      },
+      "properties": {
+        "osm_id": 1215900236,
+        "osm_type": "node",
+        "name": "Mirador de las Narices del Teide",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": null,
+        "wikidata": "Q116282293",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5113421,
+          28.2973076
+        ]
+      },
+      "properties": {
+        "osm_id": 701945961,
+        "osm_type": "node",
+        "name": "Mirador Izaña",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": null,
+        "wikidata": "Q63892387",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5490737,
+          28.027022
+        ]
+      },
+      "properties": {
+        "osm_id": 32316581,
+        "osm_type": "node",
+        "name": "Montaña Roja",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": null,
+        "wikidata": "Q23979792",
+        "opening_hours": null,
+        "wheelchair": "no",
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.2674438,
+          28.5639991
+        ]
+      },
+      "properties": {
+        "osm_id": 1722113346,
+        "osm_type": "node",
+        "name": "Mirador Barranco la Fajana.",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "description": "Mirador sobre Barranco La Fajana",
+        "website": null,
+        "wikipedia": null,
+        "wikidata": null,
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4899599,
+          28.3340557
+        ]
+      },
+      "properties": {
+        "osm_id": 678393401,
+        "osm_type": "node",
+        "name": "Mirador La Tarta",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "description": null,
+        "website": "http://www.pateatenerife.com/mirador-la-tarta/",
+        "wikipedia": null,
+        "wikidata": null,
+        "opening_hours": null,
+        "wheelchair": "limited",
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4901697,
+          28.3334393
+        ]
+      },
+      "properties": {
+        "osm_id": 678392567,
+        "osm_type": "node",
+        "name": "Mirador La Tarta 2",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "description": null,
+        "website": "http://www.pateatenerife.com/mirador-la-tarta/",
+        "wikipedia": null,
+        "wikidata": null,
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5012697,
+          28.3134098
+        ]
+      },
+      "properties": {
+        "osm_id": 678398006,
+        "osm_type": "node",
+        "name": "Mirador Montaña Limón",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "description": null,
+        "website": "http://www.pateatenerife.com/mirador-montana-limon/",
+        "wikipedia": null,
+        "wikidata": null,
+        "opening_hours": null,
+        "wheelchair": "limited",
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5362304,
+          28.3067996
+        ]
+      },
+      "properties": {
+        "osm_id": 678411997,
+        "osm_type": "node",
+        "name": "Roque Caramujo",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "description": null,
+        "website": "https://www.360cities.net/de/image/roque-caramujo",
+        "wikipedia": null,
+        "wikidata": null,
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7114088,
+          28.2130968
+        ]
+      },
+      "properties": {
+        "osm_id": 1652264351,
+        "osm_type": "node",
+        "name": "Alto de Tafosaya",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": null,
+        "wikidata": null,
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.2494781,
+          28.4638654
+        ]
+      },
+      "properties": {
+        "osm_id": 5752482281,
+        "osm_type": "node",
+        "name": "Museo de la Naturaleza y el Hombre",
+        "category": "museum",
+        "heritage_type": null,
+        "description": null,
+        "website": "https://www.museosdetenerife.org/mnh-museo-de-la-naturaleza-y-el-hombre",
+        "wikipedia": "es:Museo de la Naturaleza y la Arqueología",
+        "wikidata": "Q1451968",
+        "opening_hours": "Tu-Sa 09:00-20:00; Mo,Su 10:00-17:00",
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3149673,
+          28.4895331
+        ]
+      },
+      "properties": {
+        "osm_id": 919600208,
+        "osm_type": "node",
+        "name": "Museo de Historia de Tenerife",
+        "category": "museum",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Museo de Historia de Tenerife",
+        "wikidata": "Q6941091",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3091626,
+          28.4755354
+        ]
+      },
+      "properties": {
+        "osm_id": 118395909,
+        "osm_type": "way",
+        "name": "Museo de la Ciencia y el Cosmos",
+        "category": "museum",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Museo de la Ciencia y el Cosmos",
+        "wikidata": "Q3867892",
+        "opening_hours": null,
+        "wheelchair": "yes",
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7217384,
+          28.3690688
+        ]
+      },
+      "properties": {
+        "osm_id": 4966103967,
+        "osm_type": "node",
+        "name": "Museo Guanche",
+        "category": "museum",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": "en:Museo Guanche",
+        "wikidata": "Q92314246",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6815961,
+          28.2123765
+        ]
+      },
+      "properties": {
+        "osm_id": 113706825,
+        "osm_type": "way",
+        "name": "Juan Évora Ethnographic Museum",
+        "category": "museum",
+        "heritage_type": null,
+        "description": null,
+        "website": "https://www.webtenerife.co.uk/what-see/teide-national-park/centro+de+visitantes+el+portillo.htm",
+        "wikipedia": null,
+        "wikidata": "Q125361341",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.2477138,
+          28.4754407
+        ]
+      },
+      "properties": {
+        "osm_id": 280739134,
+        "osm_type": "node",
+        "name": "Museo Histórico Militar de Canarias",
+        "category": "museum",
+        "heritage_type": null,
+        "description": null,
+        "website": "http://www.ejercito.mde.es/unidades/Madrid/ihycm/Museos/canarias.html",
+        "wikipedia": null,
+        "wikidata": "Q29938014",
+        "opening_hours": "Tu-Fr 09:00-15:00; Sa,Su 10:00-14:00",
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5499458,
+          28.4180134
+        ]
+      },
+      "properties": {
+        "osm_id": 5261079021,
+        "osm_type": "node",
+        "name": "Museo de Arte Contemporáneo Eduardo Westerdahl",
+        "category": "museum",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": null,
+        "wikidata": "Q1954280",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5258178,
+          28.3881841
+        ]
+      },
+      "properties": {
+        "osm_id": 5750081018,
+        "osm_type": "node",
+        "name": "Museo de las Alfombras",
+        "category": "museum",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": null,
+        "wikidata": "Q119729134",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3691444,
+          28.3497283
+        ]
+      },
+      "properties": {
+        "osm_id": 1696871448,
+        "osm_type": "node",
+        "name": "Cueva de Achbinico",
+        "category": "heritage",
+        "heritage_type": "archaeological_site",
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Cueva de Achbinico",
+        "wikidata": "Q5192633",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5061699,
+          28.4072842
+        ]
+      },
+      "properties": {
+        "osm_id": 1322647631,
+        "osm_type": "node",
+        "name": "Cueva de Bencomo",
+        "category": "heritage",
+        "heritage_type": "archaeological_site",
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Cueva de Bencomo",
+        "wikidata": "Q8352462",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3958085,
+          28.3234613
+        ]
+      },
+      "properties": {
+        "osm_id": 1696871449,
+        "osm_type": "node",
+        "name": "Cueva de Chinguaro",
+        "category": "heritage",
+        "heritage_type": "archaeological_site",
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Chinguaro",
+        "wikidata": "Q5192637",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.140021,
+          28.581323
+        ]
+      },
+      "properties": {
+        "osm_id": 599051999,
+        "osm_type": "node",
+        "name": "Faro de Anaga",
+        "category": "heritage",
+        "heritage_type": "lighthouse",
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Faro de Anaga",
+        "wikidata": "Q5856349",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.4271802,
+          28.14818
+        ]
+      },
+      "properties": {
+        "osm_id": 774545853,
+        "osm_type": "node",
+        "name": "Faro de Punta Abona",
+        "category": "heritage",
+        "heritage_type": "lighthouse",
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Faro de Punta Abona",
+        "wikidata": "Q15809316",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6943816,
+          28.001094
+        ]
+      },
+      "properties": {
+        "osm_id": 659768997,
+        "osm_type": "node",
+        "name": "Faro de Rasca",
+        "category": "heritage",
+        "heritage_type": "lighthouse",
+        "description": null,
+        "website": null,
+        "wikipedia": "es:Faro Punta de Rasca",
+        "wikidata": "Q5856298",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5496172,
+          28.4183586
+        ]
+      },
+      "properties": {
+        "osm_id": 1721089799,
+        "osm_type": "node",
+        "name": "Batería de Santa Bárbara",
+        "category": "heritage",
+        "heritage_type": "castle",
+        "description": null,
+        "website": null,
+        "wikipedia": null,
+        "wikidata": "Q62752520",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3606688,
+          28.3214206
+        ]
+      },
+      "properties": {
+        "osm_id": 2515342956,
+        "osm_type": "node",
+        "name": "BAtería de Artilleria de Costa",
+        "category": "heritage",
+        "heritage_type": "ruins",
+        "description": null,
+        "website": null,
+        "wikipedia": null,
+        "wikidata": null,
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.1501108,
+          28.5865446
+        ]
+      },
+      "properties": {
+        "osm_id": 644597615,
+        "osm_type": "node",
+        "name": "Casa de Las Breñas",
+        "category": "heritage",
+        "heritage_type": "ruins",
+        "description": null,
+        "website": null,
+        "wikipedia": null,
+        "wikidata": null,
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.1526917,
+          28.5771524
+        ]
+      },
+      "properties": {
+        "osm_id": 295993517,
+        "osm_type": "node",
+        "name": "Casas de Tafada",
+        "category": "heritage",
+        "heritage_type": "ruins",
+        "description": null,
+        "website": null,
+        "wikipedia": null,
+        "wikidata": null,
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6963033,
+          28.0795579
+        ]
+      },
+      "properties": {
+        "osm_id": 28526784,
+        "osm_type": "way",
+        "name": "Las Águilas Jungle Park",
+        "category": "zoo",
+        "heritage_type": null,
+        "description": null,
+        "website": "https://www.junglepark.es/",
+        "wikipedia": "en:Las Águilas Jungle Park",
+        "wikidata": "Q1277944",
+        "opening_hours": "Mo-Su 10:00-17:30",
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.564914,
+          28.408854
+        ]
+      },
+      "properties": {
+        "osm_id": 25059102,
+        "osm_type": "way",
+        "name": "Loro Parque",
+        "category": "zoo",
+        "heritage_type": null,
+        "description": null,
+        "website": "https://www.loroparque.com/",
+        "wikipedia": "es:Loro Parque",
+        "wikidata": "Q1870391",
+        "opening_hours": "08:30-18:45",
+        "wheelchair": "yes",
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7255261,
+          28.0725603
+        ]
+      },
+      "properties": {
+        "osm_id": 11114157090,
+        "osm_type": "node",
+        "name": "Shark aquarium",
+        "category": "aquarium",
+        "heritage_type": null,
+        "description": null,
+        "website": null,
+        "wikipedia": null,
+        "wikidata": null,
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5858797,
+          28.3988992
+        ]
+      },
+      "properties": {
+        "osm_id": 5254540423,
+        "osm_type": "node",
+        "name": "Elevador de agua de Gordejuela de Casa Hamilton",
+        "category": "attraction",
+        "heritage_type": null,
+        "description": "abandoned",
+        "website": null,
+        "wikipedia": "en:Elevador de Aguas de Gordejuela",
+        "wikidata": "Q25386884",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5280098,
+          28.0579933
+        ]
+      },
+      "properties": {
+        "osm_id": 430199832,
+        "osm_type": "way",
+        "name": "Laboratorio de Energía Solar Termoeléctrica",
+        "category": "attraction",
+        "heritage_type": "ruins",
+        "description": "abandoned",
+        "website": null,
+        "wikipedia": "en:Laboratorio de Energía Solar Termoeléctrica",
+        "wikidata": "Q100306995",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.2511748,
+          28.4558768
+        ]
+      },
+      "properties": {
+        "osm_id": 38313227,
+        "osm_type": "way",
+        "name": "Auditorio de Tenerife Adán Martín",
+        "category": "attraction",
+        "heritage_type": null,
+        "description": null,
+        "website": "https://auditoriodetenerife.com/es",
+        "wikipedia": "es:Auditorio de Tenerife",
+        "wikidata": "Q28964",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7040778,
+          28.3519734
+        ]
+      },
+      "properties": {
+        "osm_id": 195579977,
+        "osm_type": "way",
+        "name": "Cueva del Viento Centro de Visitantes",
+        "category": "attraction",
+        "heritage_type": null,
+        "description": null,
+        "website": "https://cuevadelviento.net/",
+        "wikipedia": "es:Cueva del Viento",
+        "wikidata": "Q1143245",
+        "opening_hours": null,
+        "wheelchair": "no",
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3137582,
+          28.4264574
+        ]
+      },
+      "properties": {
+        "osm_id": 130111193,
+        "osm_type": "way",
+        "name": "Molino de Cuevas Blancas",
+        "category": "attraction",
+        "heritage_type": "ruins",
+        "description": null,
+        "website": "https://www.gobiernodecanarias.org/boc/2007/259/005.html",
+        "wikipedia": "es:Molino de Cuevas Blancas",
+        "wikidata": "Q6020938",
+        "opening_hours": null,
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7244069,
+          28.0721761
+        ]
+      },
+      "properties": {
+        "osm_id": 41875761,
+        "osm_type": "way",
+        "name": "Siam Park",
+        "category": "attraction",
+        "heritage_type": null,
+        "description": null,
+        "website": "https://www.siampark.net/",
+        "wikipedia": "en:Siam Park (Tenerife)",
+        "wikidata": "Q1843206",
+        "opening_hours": "Mo-Su 10:00-18:00",
+        "wheelchair": null,
+        "source": "overpass",
+        "status": "published"
+      }
+    }
+  ],
+  "available": true,
+  "island": "tenerife",
+  "source": "overpass+curated",
+  "raw_count": 500,
+  "published_count": 49,
+  "curation": "quality-gate:places-v1",
+  "refresh_stats": {
+    "previous": 500,
+    "fetched": 500,
+    "added": 0,
+    "updated": 0,
+    "unchanged": 500,
+    "kept_missing_from_refresh": 0,
+    "stored_raw": 500,
+    "published": 49
+  },
+  "status": "ok",
+  "updated_at": "2026-09-11T10:39:43.690987+00:00"
+}

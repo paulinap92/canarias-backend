@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.02,
+          27.78
+        ]
+      },
+      "properties": {
+        "id": "fauna-el-hierro-lagarto-hierro",
+        "common_name": "Lagarto gigante de El Hierro",
+        "scientific_name": "Gallotia simonyi",
+        "name": "Lagarto gigante de El Hierro · Valle de El Golfo / Lagartario",
+        "hotspot": "Valle de El Golfo / Lagartario",
+        "best_season": "Todo el año",
+        "habitat": "Riscos secos y centros de conservación",
+        "description": "Uno de los símbolos naturales de El Hierro y protagonista de un importante programa de recuperación.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "conservation": "Visitar centros autorizados; no buscar poblaciones sensibles."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.13,
+          27.73
+        ]
+      },
+      "properties": {
+        "id": "fauna-el-hierro-pardela",
+        "common_name": "Pardela cenicienta atlántica",
+        "scientific_name": "Calonectris borealis",
+        "name": "Pardela cenicienta atlántica · Costa y acantilados del oeste",
+        "hotspot": "Costa y acantilados del oeste",
+        "best_season": "Primavera a otoño",
+        "habitat": "Acantilados y mar abierto",
+        "description": "Ave marina muy ligada a las costas volcánicas y al océano abierto.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "conservation": "Reducir luces nocturnas y molestias cerca de colonias."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.02,
+          27.62
+        ]
+      },
+      "properties": {
+        "id": "fauna-el-hierro-cetaceos",
+        "common_name": "Cetáceos de Mar de Las Calmas",
+        "scientific_name": null,
+        "name": "Cetáceos de Mar de Las Calmas · Mar de Las Calmas",
+        "hotspot": "Mar de Las Calmas",
+        "best_season": "Todo el año",
+        "habitat": "Aguas oceánicas y reserva marina",
+        "description": "Las aguas del sur de El Hierro son conocidas por su riqueza marina y presencia de cetáceos.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "conservation": "Navegación y buceo responsables."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.99,
+          27.75
+        ]
+      },
+      "properties": {
+        "id": "fauna-el-hierro-aves-monteverde",
+        "common_name": "Aves del monteverde",
+        "scientific_name": null,
+        "name": "Aves del monteverde · Bosques y medianías húmedas",
+        "hotspot": "Bosques y medianías húmedas",
+        "best_season": "Todo el año",
+        "habitat": "Monteverde, pinar y medianías",
+        "description": "Los bosques herreños ofrecen hábitat a aves forestales canarias en un paisaje muy distinto a la costa seca.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "conservation": "Observar desde caminos señalizados."
+      }
+    }
+  ]
+}

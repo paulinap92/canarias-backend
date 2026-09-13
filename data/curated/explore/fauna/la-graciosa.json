@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.5,
+          29.28
+        ]
+      },
+      "properties": {
+        "id": "fauna-la-graciosa-pardela",
+        "common_name": "Pardela cenicienta atlántica",
+        "scientific_name": "Calonectris borealis",
+        "name": "Pardela cenicienta atlántica · Archipiélago Chinijo",
+        "hotspot": "Archipiélago Chinijo",
+        "best_season": "Primavera a otoño",
+        "habitat": "Islotes, acantilados y mar abierto",
+        "description": "Chinijo es uno de los grandes paisajes canarios para comprender la importancia de las aves marinas.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "conservation": "No entrar en áreas de nidificación y reducir molestias."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.49,
+          29.31
+        ]
+      },
+      "properties": {
+        "id": "fauna-la-graciosa-halcon-eleonora",
+        "common_name": "Halcón de Eleonora",
+        "scientific_name": "Falco eleonorae",
+        "name": "Halcón de Eleonora · Islotes del archipiélago Chinijo",
+        "hotspot": "Islotes del archipiélago Chinijo",
+        "best_season": "Verano y comienzo de otoño",
+        "habitat": "Acantilados e islotes oceánicos",
+        "description": "Rapaz migradora asociada a islotes y acantilados durante su temporada reproductora.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "conservation": "Observar desde distancia; no acercarse a colonias."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.52,
+          29.24
+        ]
+      },
+      "properties": {
+        "id": "fauna-la-graciosa-lagarto-atlantico",
+        "common_name": "Lagarto atlántico",
+        "scientific_name": "Gallotia atlantica",
+        "name": "Lagarto atlántico · Malpaís y matorral de La Graciosa",
+        "hotspot": "Malpaís y matorral de La Graciosa",
+        "best_season": "Primavera y verano",
+        "habitat": "Terrenos volcánicos secos",
+        "description": "Reptil adaptado a los ambientes áridos de las islas orientales.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "conservation": "No manipular ni alimentar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.56,
+          29.24
+        ]
+      },
+      "properties": {
+        "id": "fauna-la-graciosa-fauna-marina",
+        "common_name": "Fauna marina de Chinijo",
+        "scientific_name": null,
+        "name": "Fauna marina de Chinijo · Reserva Marina del Archipiélago Chinijo",
+        "hotspot": "Reserva Marina del Archipiélago Chinijo",
+        "best_season": "Todo el año",
+        "habitat": "Fondos rocosos, arenales y aguas abiertas",
+        "description": "El entorno marino concentra peces, invertebrados, tortugas y cetáceos en un paisaje protegido.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "conservation": "Buceo y navegación siguiendo la normativa de la reserva."
+      }
+    }
+  ]
+}

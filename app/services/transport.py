@@ -9,7 +9,7 @@ from typing import Any
 
 import httpx
 
-from app.middleware.json_cache import get_cache_dir
+from app.data_sources.store import DATA_ROOT
 from app.utils.islands import filter_records_by_island
 
 
@@ -45,7 +45,7 @@ def get_airports(
 
 
 def _transport_dir() -> Path:
-    path = get_cache_dir().parent / "transport"
+    path = DATA_ROOT / "transport"
     path.mkdir(parents=True, exist_ok=True)
     return path
 
@@ -172,3 +172,47 @@ async def fetch_titsa_routes(
         }
         for row in rows[:limit]
     ]
+
+
+def get_transport_overview(island: str) -> dict[str, Any]:
+    """Static/persisted transport foundation for an island.
+
+    This intentionally does not pretend to be a live timetable. It exposes the
+    transport network we can already serve safely before background jobs/SQL.
+    """
+    from app.services.ferries import get_ferry_routes
+    from app.services.ports import get_ports
+    from app.utils.islands import normalize_island
+
+    normalized = normalize_island(island)
+    if normalized is None:
+        return {
+            "island": island,
+            "available": False,
+            "airports": [],
+            "ports": [],
+            "ferry_routes": [],
+            "local_transit": {"available": False},
+        }
+
+    ports_fc = get_ports(normalized)
+    ferries = get_ferry_routes(normalized)
+    return {
+        "island": normalized,
+        "available": True,
+        "airports": get_airports(normalized),
+        "ports": ports_fc.get("features", []),
+        "ferry_routes": ferries.get("routes", []),
+        "local_transit": {
+            "available": normalized == "tenerife",
+            "provider": "TITSA" if normalized == "tenerife" else None,
+            "persisted_gtfs": normalized == "tenerife",
+            "note": (
+                "Stops and routes are available from the persisted TITSA GTFS snapshot."
+                if normalized == "tenerife"
+                else "Local bus GTFS is not integrated for this island yet."
+            ),
+        },
+        "live_timetable": False,
+        "note": "Static transport network foundation; live departures are intentionally deferred.",
+    }

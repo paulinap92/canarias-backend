@@ -1,0 +1,41 @@
+[
+  {
+    "id": "climate-la-gomera-1",
+    "slug": "climate-la-gomera-1",
+    "name": "Alisios y relieve",
+    "type": "climate",
+    "category": "climate",
+    "short_description": "El clima canario no se entiende solo por la latitud.",
+    "description": "Los vientos alisios, el océano y el relieve explican buena parte del clima de La Gomera. La isla es húmeda en las cumbres y más seca en costas y vertientes meridionales, por lo que recorrer pocos kilómetros puede cambiar nubes, viento y temperatura.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://lagomera.travel/experiencias/conoce-la-gomera/"
+  },
+  {
+    "id": "climate-la-gomera-2",
+    "slug": "climate-la-gomera-2",
+    "name": "Microclimas",
+    "type": "climate",
+    "category": "climate",
+    "short_description": "La orientación de las laderas y la altitud crean contrastes locales.",
+    "description": "En La Gomera conviene pensar por zonas y cotas, no por una única previsión para toda la isla. Costa, medianías y cumbres pueden tener condiciones muy distintas el mismo día.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://lagomera.travel/experiencias/conoce-la-gomera/"
+  },
+  {
+    "id": "climate-la-gomera-3",
+    "slug": "climate-la-gomera-3",
+    "name": "Qué llevar",
+    "type": "climate",
+    "category": "climate",
+    "short_description": "Capas, protección solar y algo para el viento suelen ser más útiles que una sola prenda gruesa.",
+    "description": "Incluso con tiempo estable, la exposición al sol, el viento y los cambios de altitud pueden sentirse mucho. Para rutas o cumbres es importante revisar Live antes de salir.",
+    "featured": true,
+    "order": 3,
+    "language": "es",
+    "source_url": "https://lagomera.travel/experiencias/conoce-la-gomera/"
+  }
+]

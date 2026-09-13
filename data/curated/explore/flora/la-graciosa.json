@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.53,
+          29.27
+        ]
+      },
+      "properties": {
+        "id": "flora-la-graciosa-psamofila",
+        "common_name": "Flora de dunas y jable",
+        "scientific_name": null,
+        "name": "Flora de dunas y jable · Las Conchas y jables del norte",
+        "hotspot": "Las Conchas y jables del norte",
+        "best_season": "Todo el año",
+        "habitat": "Dunas y arenas costeras",
+        "description": "Plantas de porte bajo resisten viento, sal y movimiento constante de la arena.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "why_special": "La vegetación estabiliza dunas y es muy sensible al pisoteo."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.52,
+          29.23
+        ]
+      },
+      "properties": {
+        "id": "flora-la-graciosa-tabaibal",
+        "common_name": "Tabaibal costero",
+        "scientific_name": null,
+        "name": "Tabaibal costero · Interior y laderas bajas",
+        "hotspot": "Interior y laderas bajas",
+        "best_season": "Todo el año",
+        "habitat": "Matorral xerófilo",
+        "description": "Tabaibas y pequeños arbustos dominan amplias zonas secas de La Graciosa.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "why_special": "Adaptación extrema a la escasez de agua."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.5,
+          29.22
+        ]
+      },
+      "properties": {
+        "id": "flora-la-graciosa-saladar",
+        "common_name": "Vegetación halófila",
+        "scientific_name": null,
+        "name": "Vegetación halófila · Bordes costeros y zonas salinas",
+        "hotspot": "Bordes costeros y zonas salinas",
+        "best_season": "Todo el año",
+        "habitat": "Suelos salinos y costa",
+        "description": "Especies tolerantes a la sal ocupan depresiones costeras y bordes próximos al mar.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "why_special": "Hábitat especializado y frágil."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.54,
+          29.2
+        ]
+      },
+      "properties": {
+        "id": "flora-la-graciosa-malpais",
+        "common_name": "Flora de malpaís",
+        "scientific_name": null,
+        "name": "Flora de malpaís · Montaña Amarilla y terrenos volcánicos",
+        "hotspot": "Montaña Amarilla y terrenos volcánicos",
+        "best_season": "Todo el año",
+        "habitat": "Lavas y roquedos",
+        "description": "La colonización vegetal de lavas y cenizas es lenta pero visible incluso en los paisajes más áridos.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "why_special": "Permite leer la relación entre volcanismo y sucesión ecológica."
+      }
+    }
+  ]
+}

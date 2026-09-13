@@ -1,0 +1,117 @@
+[
+  {
+    "id": "heritage-la-gomera-torre-conde",
+    "slug": "torre-del-conde",
+    "name": "Torre del Conde",
+    "island": "la-gomera",
+    "type": "heritage",
+    "category": "fortification",
+    "short_description": "Una fortaleza castellana del siglo XV y uno de los edificios históricos más reconocibles de San Sebastián.",
+    "description": "La Torre del Conde fue construida en el siglo XV como edificio militar y símbolo del poder señorial. Su presencia está ligada a algunos de los episodios más importantes de la historia de la conquista y de la rebelión gomera.",
+    "source_url": "https://lagomera.travel/museos-y-visitas-de-interes/la-gomera/torre-del-conde/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "torre-del-conde",
+      "san-sebastian",
+      "fortification"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-gomera-fortaleza",
+    "slug": "fortaleza-chipude-patrimonio",
+    "name": "Fortaleza de Chipude",
+    "island": "la-gomera",
+    "type": "heritage",
+    "category": "archaeological-landscape",
+    "short_description": "La meseta de Chipude conserva restos vinculados a rituales y asentamientos del mundo aborigen.",
+    "description": "Además de su valor natural, la Fortaleza constituye uno de los enclaves arqueológicos y religiosos más importantes de La Gomera. En su cima se han encontrado refugios de piedra y restos de animales relacionados con prácticas rituales.",
+    "source_url": "https://lagomera.travel/espacios-naturales/la-gomera/la-fortaleza-de-chipude/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "fortaleza",
+      "chipude",
+      "archaeology",
+      "aboriginal"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-gomera-agulo",
+    "slug": "casco-historico-agulo",
+    "name": "Casco histórico de Agulo",
+    "island": "la-gomera",
+    "type": "heritage",
+    "category": "historic-centre",
+    "short_description": "Uno de los cascos mejor conservados de la isla, con casas de teja, piedra y callejuelas empedradas.",
+    "description": "Agulo conserva un núcleo urbano compacto donde conviven viviendas humildes y antiguas casas señoriales. Su arquitectura refleja siglos de actividad agrícola y la evolución social de uno de los pueblos más prósperos del norte gomero.",
+    "source_url": "https://lagomera.travel/rutas-en-coche/la-gomera/ruta-en-coche-por-el-norte-de-la-gomera/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "agulo",
+      "historic-centre",
+      "architecture"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-gomera-garajonay",
+    "slug": "garajonay-world-heritage",
+    "name": "Garajonay — Patrimonio Mundial",
+    "island": "la-gomera",
+    "type": "heritage",
+    "category": "world-heritage",
+    "short_description": "La UNESCO reconoce desde 1986 el valor universal del bosque de laurisilva de Garajonay.",
+    "description": "Garajonay conserva casi cuatro mil hectáreas de uno de los mejores bosques de laurisilva existentes. La UNESCO destacó su carácter relicto, biodiversidad y extraordinaria red de arroyos y manantiales.",
+    "source_url": "https://whc.unesco.org/en/list/380",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "garajonay",
+      "unesco",
+      "world-heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-gomera-silbo",
+    "slug": "silbo-patrimonio-inmaterial",
+    "name": "Silbo Gomero — Patrimonio Inmaterial",
+    "island": "la-gomera",
+    "type": "heritage",
+    "category": "intangible-heritage",
+    "short_description": "La UNESCO reconoció en 2009 un sistema de comunicación capaz de convertir el castellano en silbidos.",
+    "description": "El Silbo Gomero es un patrimonio vivo: se practica, se enseña y continúa siendo una seña de identidad insular. Su inscripción por la UNESCO reconoce tanto su complejidad técnica como el esfuerzo de la comunidad por garantizar su transmisión.",
+    "source_url": "https://lagomera.travel/identidad/la-gomera/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "silbo",
+      "unesco",
+      "intangible-heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-gomera-juego-bolas",
+    "slug": "juego-de-bolas",
+    "name": "Juego de Bolas",
+    "island": "la-gomera",
+    "type": "heritage",
+    "category": "interpretation-centre",
+    "short_description": "El centro de visitantes reúne naturaleza, etnografía y claves para comprender el paisaje cultural de La Gomera.",
+    "description": "Juego de Bolas funciona como principal puerta de interpretación del Parque Nacional de Garajonay. Sus jardines, huertas, exposiciones y muestras de arquitectura y cultura tradicional permiten relacionar el bosque con la forma en que los gomeros han habitado la isla.",
+    "source_url": "https://lagomera.travel/rutas-para-cruceristas/la-gomera/hermigua-agulo-centro-de-visitantes-juego-de-bolas-el-cedro-y/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "juego-de-bolas",
+      "garajonay",
+      "ethnography"
+    ],
+    "language": "es"
+  }
+]

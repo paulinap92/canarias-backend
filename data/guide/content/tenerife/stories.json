@@ -1,0 +1,135 @@
+[
+  {
+    "id": "story-tenerife-garachico-1706",
+    "slug": "erupcion-garachico-1706",
+    "name": "La erupción que cambió Garachico",
+    "island": "tenerife",
+    "type": "story",
+    "category": "volcanic-history",
+    "latitude": 28.373,
+    "longitude": -16.7646,
+    "short_description": "En 1706 una erupción volcánica transformó la costa y el futuro del principal puerto de Tenerife.",
+    "description": "En mayo de 1706 comenzó una erupción en Montaña Negra que duró nueve días. Las coladas alcanzaron Garachico y causaron daños importantes, afectando de forma decisiva a su puerto y a la economía de la villa. La lava que llegó al mar también creó nuevas formas costeras; siglos después, la historia urbana de Garachico sigue siendo inseparable de aquel episodio volcánico.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Garachico%20(32199).jpg",
+    "image_credit": "Karmelo26 / Wikimedia Commons",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Garachico_(32199).jpg",
+    "source_url": "https://www.webtenerife.com/tenerife/la-isla/geologia/erupciones-hist%C3%B3ricas/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "garachico",
+      "eruption",
+      "1706",
+      "volcano"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-tenerife-nelson-1797",
+    "slug": "gesta-25-julio-1797",
+    "name": "La derrota de Nelson en Santa Cruz",
+    "island": "tenerife",
+    "type": "story",
+    "category": "military-history",
+    "short_description": "El 25 de julio de 1797 las tropas de Horatio Nelson fracasaron en su intento de tomar Santa Cruz de Tenerife.",
+    "description": "La madrugada del 25 de julio de 1797, una fuerza británica dirigida por el almirante Horatio Nelson intentó conquistar Santa Cruz de Tenerife. La operación fracasó y Nelson resultó herido durante el ataque. La fecha quedó grabada en la memoria de la ciudad y hoy se recuerda mediante actos y recreaciones históricas; el Centro de Interpretación del Castillo de San Cristóbal conserva además piezas vinculadas al sistema defensivo de la isla.",
+    "source_url": "https://www.webtenerife.com/que-hacer/cultura/tradiciones/gesta-veinticinco-julio/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "santa-cruz",
+      "nelson",
+      "1797",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-tenerife-humboldt-1799",
+    "slug": "humboldt-tenerife-1799",
+    "name": "Humboldt y una semana en Tenerife",
+    "island": "tenerife",
+    "type": "story",
+    "category": "science-history",
+    "latitude": 28.3906,
+    "longitude": -16.5238,
+    "short_description": "En 1799 Alexander von Humboldt pasó casi una semana en Tenerife camino de América y ascendió al Teide.",
+    "description": "Alexander von Humboldt llegó a Tenerife en junio de 1799 al comienzo de su gran viaje americano. Durante su estancia recorrió Santa Cruz, La Laguna y el Valle de La Orotava, visitó el Jardín Botánico y ascendió al Teide. Sus observaciones sobre la distribución de la vegetación con la altitud fueron importantes para el desarrollo posterior de sus ideas sobre geografía de las plantas.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Orotava%20(Tenerife).jpg",
+    "image_credit": "Karmelo26 / Wikimedia Commons",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:La_Orotava_(Tenerife).jpg",
+    "source_url": "https://www.webtenerife.com/blogcorporativo/2019/01/tenerife-conmemora-el-220-aniversario-desde-que-humboldt-estuvo-en-la-isla/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "humboldt",
+      "teide",
+      "science",
+      "orotava"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-tenerife-chinyero-1909",
+    "slug": "chinyero-1909",
+    "name": "Chinyero, la última erupción de Tenerife",
+    "island": "tenerife",
+    "type": "story",
+    "category": "volcanic-history",
+    "short_description": "En noviembre de 1909 comenzó la última erupción ocurrida en Tenerife hasta la actualidad.",
+    "description": "El 18 de noviembre de 1909 comenzó la erupción del Chinyero, en el noroeste de Tenerife. La actividad volcánica fue seguida de cerca por la población de los municipios cercanos y terminó convirtiéndose en el último episodio eruptivo registrado históricamente en la isla. El paisaje de lavas oscuras del entorno conserva hoy una memoria muy visible de aquel acontecimiento.",
+    "source_url": "https://www.webtenerife.com/tenerife/la-isla/geologia/erupciones-hist%C3%B3ricas/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "chinyero",
+      "1909",
+      "volcano",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-tenerife-candelaria-chaxiraxi",
+    "slug": "candelaria-chaxiraxi",
+    "name": "Chaxiraxi y la Virgen de Candelaria",
+    "island": "tenerife",
+    "type": "story",
+    "category": "tradition",
+    "short_description": "La tradición sitúa antes de la conquista el hallazgo de una imagen venerada por los guanches en el valle de Güímar.",
+    "description": "Según la tradición, a finales del siglo XIV apareció en la costa del valle de Güímar una imagen gótica que los guanches veneraron y relacionaron con Chaxiraxi. La talla fue custodiada primero en espacios asociados al mundo aborigen, como Chinguaro y Achbinico. La imagen original desapareció en un aluvión en 1826; la actual Virgen de Candelaria fue realizada por Fernando Estévez en 1827.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/At_Candelaria%2C_Tenerife_2022_118.jpg?width=1600",
+    "image_credit": "Mike Peel (www.mikepeel.net)",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:At_Candelaria,_Tenerife_2022_118.jpg",
+    "source_url": "https://www.webtenerife.com/tenerife/arte-y-cultura/arquitectura/tradicional/basilica-nuestra-senora-candelaria/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "candelaria",
+      "guanches",
+      "chaxiraxi",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-tenerife-conquest-1496",
+    "slug": "fin-conquista-1496",
+    "name": "1496: el final de la conquista",
+    "island": "tenerife",
+    "type": "story",
+    "category": "history",
+    "short_description": "Los Realejos conserva lugares y relatos ligados a la fase final de la conquista castellana de Tenerife.",
+    "description": "La conquista de Tenerife terminó en 1496, después de años de resistencia y enfrentamientos entre los conquistadores castellanos y distintos menceyatos guanches. El área de Los Realejos está especialmente vinculada a aquellos últimos episodios: fuentes históricas sitúan allí campamentos de ambos bandos y la tradición local conserva la memoria de la rendición de los menceyes.",
+    "source_url": "https://www.webtenerife.com/que-visitar/lugares-historicos/centros-historicos/centro-historico-realejos/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "conquest",
+      "1496",
+      "guanches",
+      "los-realejos"
+    ],
+    "language": "es"
+  }
+]

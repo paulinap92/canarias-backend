@@ -1,0 +1,171 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.829,
+          29.005
+        ]
+      },
+      "properties": {
+        "id": "explore-lanzarote-timanfaya",
+        "name": "Parque Nacional de Timanfaya",
+        "description": "Cráteres, conos y coladas de lava forman el paisaje volcánico más emblemático de Lanzarote.",
+        "website": "https://cactlanzarote.com/es/visita",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Timanfaya%20%2C%20Lanzarote.jpg",
+        "image_credit": "Karmelo26 / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "lanzarote",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.4318,
+          29.1572
+        ]
+      },
+      "properties": {
+        "id": "explore-lanzarote-jameos",
+        "name": "Jameos del Agua",
+        "description": "Un tramo del tubo volcánico de La Corona transformado por César Manrique en una obra donde roca, agua y arquitectura se funden.",
+        "website": "https://cactlanzarote.com/es/visita",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jameos%20del%20Agua%20-%20Lanzarote.jpg",
+        "image_credit": "H. Zell / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "lanzarote",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.4387,
+          29.1608
+        ]
+      },
+      "properties": {
+        "id": "explore-lanzarote-cueva-verdes",
+        "name": "Cueva de los Verdes",
+        "description": "Galerías subterráneas, pliegues de lava y mineralizaciones conservan el interior del tubo volcánico de La Corona.",
+        "website": "https://cactlanzarote.com/es/visita",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cueva%20de%20los%20Verdes%2C%20Lanzarote.jpg",
+        "image_credit": "Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "lanzarote",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.4812,
+          29.2145
+        ]
+      },
+      "properties": {
+        "id": "explore-lanzarote-mirador-rio",
+        "name": "Mirador del Río",
+        "description": "Arquitectura semienterrada en el risco de Famara con La Graciosa y el Archipiélago Chinijo frente a los ventanales.",
+        "website": "https://cactlanzarote.com/es/visita/mirador-del-rio",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lanzarote%20-%20Mirador%20del%20Rio.jpg",
+        "image_credit": "M.M. Minderhoud / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "lanzarote",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.704,
+          28.984
+        ]
+      },
+      "properties": {
+        "id": "explore-lanzarote-la-geria",
+        "name": "La Geria",
+        "description": "Viñas hundidas en hoyos de picón y protegidas por muros de piedra convierten el paisaje volcánico en un enorme jardín agrícola.",
+        "website": "https://turismolanzarote.com/que-visitar/bodegas/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Geria%2C%20Lanzarote%2C%20Canary%20Islands.jpg",
+        "image_credit": "Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "lanzarote",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.5441,
+          28.9588
+        ]
+      },
+      "properties": {
+        "id": "castillo-san-gabriel",
+        "name": "Castillo de San Gabriel",
+        "category": "heritage",
+        "heritage_type": "fort",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "lanzarote",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.5372,
+          28.9764
+        ]
+      },
+      "properties": {
+        "id": "castillo-san-jose",
+        "name": "Castillo de San José",
+        "category": "heritage",
+        "heritage_type": "fort",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "lanzarote",
+        "cc_curated": true
+      }
+    }
+  ],
+  "available": true,
+  "status": "seed",
+  "updated_at": null,
+  "source": "curated_seed"
+}

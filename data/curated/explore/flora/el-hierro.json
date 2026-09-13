@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.12,
+          27.74
+        ]
+      },
+      "properties": {
+        "id": "flora-el-hierro-sabinar",
+        "common_name": "Sabinar de El Hierro",
+        "scientific_name": "Juniperus turbinata subsp. canariensis",
+        "name": "Sabinar de El Hierro · El Sabinar",
+        "hotspot": "El Sabinar",
+        "best_season": "Todo el año",
+        "habitat": "Bosque termófilo expuesto al viento",
+        "description": "Las sabinas retorcidas por los alisios son una de las imágenes naturales más reconocibles de El Hierro.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "why_special": "Forma y paisaje modelados por viento y escasez de agua."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.0,
+          27.73
+        ]
+      },
+      "properties": {
+        "id": "flora-el-hierro-pino",
+        "common_name": "Pino canario",
+        "scientific_name": "Pinus canariensis",
+        "name": "Pino canario · Pinares del interior",
+        "hotspot": "Pinares del interior",
+        "best_season": "Todo el año",
+        "habitat": "Pinar de montaña",
+        "description": "El pinar ocupa amplias zonas del interior y enlaza las cumbres con medianías.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "why_special": "Especie endémica adaptada al fuego y a la sequía."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.99,
+          27.77
+        ]
+      },
+      "properties": {
+        "id": "flora-el-hierro-monteverde",
+        "common_name": "Monteverde herreño",
+        "scientific_name": null,
+        "name": "Monteverde herreño · Medianías húmedas del norte",
+        "hotspot": "Medianías húmedas del norte",
+        "best_season": "Todo el año",
+        "habitat": "Laurisilva y fayal-brezal",
+        "description": "Las zonas húmedas conservan formaciones de monteverde gracias a la condensación de los alisios.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "why_special": "Contraste ecológico con el sur seco de la isla."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.98,
+          27.65
+        ]
+      },
+      "properties": {
+        "id": "flora-el-hierro-cardonal",
+        "common_name": "Cardonal-tabaibal",
+        "scientific_name": null,
+        "name": "Cardonal-tabaibal · Costa y laderas bajas",
+        "hotspot": "Costa y laderas bajas",
+        "best_season": "Todo el año",
+        "habitat": "Matorral xerófilo",
+        "description": "Cardones y tabaibas ocupan los pisos más cálidos y secos de El Hierro.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "why_special": "Muestra la fuerte zonación altitudinal de la vegetación insular."
+      }
+    }
+  ]
+}

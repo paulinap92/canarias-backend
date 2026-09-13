@@ -1,0 +1,122 @@
+[
+  {
+    "id": "heritage-el-hierro-el-julan",
+    "slug": "parque-cultural-el-julan",
+    "name": "Parque Cultural El Julan",
+    "island": "el-hierro",
+    "type": "heritage",
+    "category": "archaeological-site",
+    "short_description": "Petroglifos y restos bimbaches convierten la gran ladera del suroeste en uno de los grandes archivos arqueológicos de la isla.",
+    "description": "El Julan conserva grabados rupestres y otros testimonios de la ocupación prehispánica. El acceso interpretado permite comprender mejor el significado de este territorio para los antiguos habitantes de El Hierro.",
+    "source_url": "https://elhierro.travel/museos-y-visitas-de-interes/el-hierro/centro-de-interpretacion-del-parque-cultural-el-julan/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "el-julan",
+      "archaeology",
+      "petroglyphs",
+      "bimbaches"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-el-hierro-guinea",
+    "slug": "ecomuseo-guinea",
+    "name": "Ecomuseo de Guinea",
+    "island": "el-hierro",
+    "type": "heritage",
+    "category": "ethnographic-heritage",
+    "short_description": "Casas de distintas épocas muestran cómo evolucionó la vivienda y la vida cotidiana en El Hierro.",
+    "description": "El Ecomuseo de Guinea ocupa un antiguo asentamiento y permite recorrer viviendas que muestran la evolución de la arquitectura popular entre los siglos XVII y XX. La visita se completa con el Lagartario y el tubo volcánico de Guinea.",
+    "source_url": "https://elhierro.travel/experiencias/10-cosas-que-hacer-en-el-hierro/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "guinea",
+      "ecomuseum",
+      "architecture",
+      "ethnography"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-el-hierro-lagartario",
+    "slug": "lagartario",
+    "name": "Lagartario de El Hierro",
+    "island": "el-hierro",
+    "type": "heritage",
+    "category": "natural-heritage",
+    "short_description": "Un centro de conservación trabaja para recuperar al lagarto gigante de El Hierro.",
+    "description": "El Lagartario mantiene programas de cría en cautividad del lagarto gigante de El Hierro, una especie endémica amenazada. El centro permite conocer de cerca la biología del reptil y los esfuerzos destinados a reforzar su supervivencia.",
+    "source_url": "https://elhierro.travel/experiencias/lo-que-no-te-puedes-perder-de-el-hierro/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "giant-lizard",
+      "conservation",
+      "endemic",
+      "guinea"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-el-hierro-mirador-pena",
+    "slug": "mirador-pena-patrimonio",
+    "name": "Mirador de La Peña",
+    "island": "el-hierro",
+    "type": "heritage",
+    "category": "modern-heritage",
+    "short_description": "La obra de César Manrique está reconocida como Bien de Interés Cultural y resume su arquitectura integrada en el paisaje.",
+    "description": "El Mirador de La Peña combina arquitectura, paisaje y gastronomía en un edificio concebido para contemplar El Golfo sin competir con él. Piedra, vegetación y cristal forman una intervención moderna ya convertida en patrimonio insular.",
+    "source_url": "https://elhierro.travel/experiencias/el-hierro-de-dia/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "cesar-manrique",
+      "bic",
+      "architecture",
+      "mirador"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-el-hierro-pozo-calcosas",
+    "slug": "arquitectura-pozo-calcosas",
+    "name": "Arquitectura del Pozo de las Calcosas",
+    "island": "el-hierro",
+    "type": "heritage",
+    "category": "vernacular-architecture",
+    "short_description": "Los pajeros de piedra volcánica y colmo conservan una tipología constructiva de enorme valor etnográfico.",
+    "description": "El pequeño caserío del Pozo de las Calcosas funciona como un museo abierto de arquitectura popular. Las viviendas de piedra desnuda y techumbres vegetales muestran soluciones adaptadas a materiales disponibles y a la vida costera estacional.",
+    "source_url": "https://elhierro.travel/lugares-con-encanto/el-hierro/pozo-de-las-calcosas/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "pozo-calcosas",
+      "pajeros",
+      "vernacular",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-el-hierro-biosfera",
+    "slug": "reserva-biosfera-el-hierro",
+    "name": "Reserva de la Biosfera de El Hierro",
+    "island": "el-hierro",
+    "type": "heritage",
+    "category": "biosphere-reserve",
+    "short_description": "La protección de ecosistemas terrestres y marinos abarca el conjunto de una isla convertida en laboratorio de sostenibilidad.",
+    "description": "La Reserva de la Biosfera de El Hierro incluye toda la isla y parte de sus aguas. El reconocimiento internacional conecta conservación, biodiversidad, usos tradicionales y transición energética dentro de un territorio de apenas 268,7 km².",
+    "source_url": "https://www.unesco.org/mab/50anniversary/es/el-hierro",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "unesco",
+      "biosphere",
+      "sustainability",
+      "heritage"
+    ],
+    "language": "es"
+  }
+]

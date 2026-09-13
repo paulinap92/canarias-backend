@@ -1,0 +1,78 @@
+[
+  {
+    "id": "experience-fuerteventura-1",
+    "slug": "experience-fuerteventura-1",
+    "name": "Un día esencial",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por Fuerteventura: Dunas de Corralejo · Islote de Lobos · Cofete. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/parque-natural-dunas-de-corralejo/",
+    "ordered_stops": [
+      {
+        "id": "explore-fuerteventura-corralejo",
+        "name": "Dunas de Corralejo",
+        "latitude": 28.7127,
+        "longitude": -13.8425,
+        "note": "Un enorme campo de dunas blancas junto a aguas turquesas en el nordeste de Fuerteventura."
+      },
+      {
+        "id": "explore-fuerteventura-lobos",
+        "name": "Islote de Lobos",
+        "latitude": 28.7456,
+        "longitude": -13.8215,
+        "note": "Un pequeño islote volcánico frente a Corralejo con senderos, calas transparentes y casi ninguna construcción."
+      },
+      {
+        "id": "explore-fuerteventura-cofete",
+        "name": "Cofete",
+        "latitude": 28.1069,
+        "longitude": -14.3899,
+        "note": "Kilómetros de playa salvaje al pie de las montañas de Jandía y frente al Atlántico abierto."
+      }
+    ],
+    "duration": "día completo",
+    "car_required": null
+  },
+  {
+    "id": "experience-fuerteventura-2",
+    "slug": "experience-fuerteventura-2",
+    "name": "Paisaje, pueblos y cultura",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por Fuerteventura: Cuevas de Ajuy · Betancuria · Montaña de Tindaya. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/monumento-natural-de-ajuy/",
+    "ordered_stops": [
+      {
+        "id": "explore-fuerteventura-ajuy",
+        "name": "Cuevas de Ajuy",
+        "latitude": 28.4017,
+        "longitude": -14.1563,
+        "note": "Rocas antiquísimas, cuevas marinas, una duna fosilizada y antiguos hornos de cal en la costa occidental."
+      },
+      {
+        "id": "explore-fuerteventura-betancuria",
+        "name": "Betancuria",
+        "latitude": 28.4244,
+        "longitude": -14.056,
+        "note": "La antigua capital insular conserva calles tranquilas, arquitectura histórica y memoria de la conquista."
+      },
+      {
+        "id": "explore-fuerteventura-tindaya",
+        "name": "Montaña de Tindaya",
+        "latitude": 28.5909,
+        "longitude": -13.9994,
+        "note": "Una montaña aislada considerada sagrada por los antiguos majos y cubierta de grabados podomorfos."
+      }
+    ],
+    "duration": "medio día / día",
+    "car_required": null
+  }
+]

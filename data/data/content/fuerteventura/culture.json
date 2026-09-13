@@ -1,0 +1,118 @@
+[
+  {
+    "id": "culture-fuerteventura-majos",
+    "slug": "majos",
+    "name": "Los majos",
+    "island": "fuerteventura",
+    "type": "culture",
+    "category": "history",
+    "short_description": "Los habitantes prehispánicos de Fuerteventura desarrollaron una cultura adaptada a la aridez, el pastoreo y los recursos limitados.",
+    "description": "Los antiguos habitantes de Fuerteventura son conocidos como majos o maxos. La arqueología permite reconstruir una sociedad basada en buena medida en el pastoreo, el aprovechamiento de recursos insulares y una profunda relación simbólica con determinados lugares del territorio.",
+    "source_url": "https://www.visitfuerteventura.com/conoce-fuerteventura/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "majos",
+      "prehistory",
+      "identity"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-fuerteventura-tindaya",
+    "slug": "tindaya-sagrada",
+    "name": "Tindaya, montaña sagrada",
+    "island": "fuerteventura",
+    "type": "culture",
+    "category": "archaeology",
+    "short_description": "Los podomorfos grabados en Tindaya convierten la montaña en uno de los grandes espacios simbólicos de la cultura aborigen.",
+    "description": "La Montaña de Tindaya conserva cientos de grabados con formas de pies, muchos de ellos orientados hacia puntos concretos del horizonte. La concentración de estos motivos y el carácter aislado de la montaña explican su enorme importancia arqueológica y cultural.",
+    "source_url": "https://www.visitfuerteventura.com/espacios-naturales/fuerteventura/monumento-natural-de-tindaya/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "tindaya",
+      "podomorphs",
+      "archaeology"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-fuerteventura-cabra-majorera",
+    "slug": "cultura-ganadera",
+    "name": "Cultura ganadera majorera",
+    "island": "fuerteventura",
+    "type": "culture",
+    "category": "rural-culture",
+    "short_description": "La cabra majorera ha condicionado alimentación, paisaje, trabajo y formas de vida durante generaciones.",
+    "description": "La ganadería caprina encontró en Fuerteventura un territorio difícil pero perfectamente aprovechable por una raza adaptada al clima seco. Leche, queso, carne, pieles y estiércol formaron parte de una economía circular rural que todavía puede conocerse en queserías y museos de la isla.",
+    "source_url": "https://www.visitfuerteventura.com/museos-y-visitas-de-interes/fuerteventura/museo-del-queso-majorero/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "goat",
+      "rural-culture",
+      "cheese"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-fuerteventura-gavias",
+    "slug": "gavias",
+    "name": "Gavias y agricultura del agua escasa",
+    "island": "fuerteventura",
+    "type": "culture",
+    "category": "agriculture",
+    "short_description": "Muros de tierra capturan la escorrentía de lluvia y permiten cultivar en una de las islas más secas del archipiélago.",
+    "description": "Las gavias son parcelas rodeadas por muros que recogen el agua que baja por el terreno después de las lluvias. Este ingenioso sistema permitió aprovechar episodios de precipitación escasa e irregular y cultivar cereales, legumbres y forraje en un paisaje aparentemente hostil.",
+    "source_url": "https://www.visitfuerteventura.com/rutas-gastronomicas/ruta-tradicion-y-cultura/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "gavias",
+      "agriculture",
+      "water",
+      "rural"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-fuerteventura-molinos",
+    "slug": "molinos-molinas",
+    "name": "Molinos y molinas",
+    "island": "fuerteventura",
+    "type": "culture",
+    "category": "rural-culture",
+    "short_description": "El viento majorero movió durante siglos molinos dedicados a transformar grano en gofio.",
+    "description": "Fuerteventura conserva numerosos molinos y molinas que recuerdan el peso histórico de la agricultura cerealista. El viento, tan presente en la vida de la isla, se convirtió en energía para moler trigo, cebada y millo destinados en gran parte a la elaboración de gofio.",
+    "source_url": "https://www.visitfuerteventura.com/museos-y-visitas-de-interes/fuerteventura/molino-de-tefia/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "mills",
+      "gofio",
+      "wind",
+      "agriculture"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-fuerteventura-alcogida",
+    "slug": "vida-rural-alcogida",
+    "name": "La vida rural de La Alcogida",
+    "island": "fuerteventura",
+    "type": "culture",
+    "category": "ethnography",
+    "short_description": "Casas, patios y talleres permiten reconstruir cómo vivían campesinos y artesanos majoreros hace pocas generaciones.",
+    "description": "El Ecomuseo de La Alcogida reúne varias viviendas tradicionales restauradas en Tefía. El conjunto muestra arquitectura doméstica, labores agrícolas y oficios artesanos, ofreciendo una lectura directa de la vida cotidiana anterior a la transformación turística de la isla.",
+    "source_url": "https://www.visitfuerteventura.com/experiencias/turismo-rural-en-fuerteventura/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "alcogida",
+      "ethnography",
+      "rural-life"
+    ],
+    "language": "es"
+  }
+]

@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial places catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.6425,
+          28.2724
+        ]
+      },
+      "properties": {
+        "id": "explore-tenerife-teide",
+        "name": "Parque Nacional del Teide",
+        "description": "Un paisaje volcánico de alta montaña alrededor del techo de España.",
+        "website": "https://www.webtenerife.com/que-visitar/parque-nacional-del-teide/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Teide,%20Roques%20de%20Garcia.jpg",
+        "image_credit": "Ingo Mehling / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "tenerife",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.224,
+          28.536
+        ]
+      },
+      "properties": {
+        "id": "explore-tenerife-anaga",
+        "name": "Parque Rural de Anaga",
+        "description": "Barrancos, laurisilva y carreteras que se abren entre montañas y océano.",
+        "website": "https://www.webtenerife.com/que-visitar/otros-espacios-naturales/parque-rural-de-anaga/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque%20rural%20de%20Anaga,%20Tenerife,%20Espa%C3%B1a,%202022-01-09,%20DD%2074-76%20HDR.jpg",
+        "image_credit": "Diego Delso / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "tenerife",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8403,
+          28.3059
+        ]
+      },
+      "properties": {
+        "id": "explore-tenerife-masca",
+        "name": "Masca",
+        "description": "Un caserío encajado entre barrancos y crestas del macizo de Teno.",
+        "website": "https://www.webtenerife.com/que-visitar/pueblos-y-caserios/masca/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Masca%20Tenerife.jpg",
+        "image_credit": "Zitumassin / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "tenerife",
+        "category": "village",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7646,
+          28.373
+        ]
+      },
+      "properties": {
+        "id": "explore-tenerife-garachico",
+        "name": "Garachico",
+        "description": "Puerto histórico, arquitectura canaria y una ciudad marcada por la erupción de 1706.",
+        "website": "https://www.webtenerife.com/tenerife/la-isla/municipios/garachico/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Garachico%20(32199).jpg",
+        "image_credit": "Karmelo26 / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "tenerife",
+        "category": "heritage",
+        "heritage_type": "historic",
+        "cc_curated": true,
+        "featured": true,
+        "priority": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5238,
+          28.3906
+        ]
+      },
+      "properties": {
+        "id": "explore-tenerife-orotava",
+        "name": "La Orotava",
+        "description": "Balcones de madera, calles históricas y vistas hacia el valle y el Teide.",
+        "website": "https://www.webtenerife.com/tenerife/la-isla/municipios/orotava/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Orotava%20(Tenerife).jpg",
+        "image_credit": "Karmelo26 / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "tenerife",
+        "category": "town",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.2518,
+          28.4564
+        ]
+      },
+      "properties": {
+        "id": "auditorio-tenerife",
+        "name": "Auditorio de Tenerife",
+        "category": "heritage",
+        "heritage_type": "architecture",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "tenerife",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3159,
+          28.4874
+        ]
+      },
+      "properties": {
+        "id": "la-laguna-historic-centre",
+        "name": "Centro Histórico de La Laguna",
+        "category": "heritage",
+        "heritage_type": "historic",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "tenerife",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3704,
+          28.3512
+        ]
+      },
+      "properties": {
+        "id": "basilica-candelaria",
+        "name": "Basílica de Nuestra Señora de Candelaria",
+        "category": "heritage",
+        "heritage_type": "church",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "tenerife",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5256,
+          28.3896
+        ]
+      },
+      "properties": {
+        "id": "casa-balcones",
+        "name": "Casa de los Balcones",
+        "category": "heritage",
+        "heritage_type": "historic",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "tenerife",
+        "cc_curated": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "product-fuerteventura-queso-majorero",
+    "slug": "queso-majorero",
+    "name": "Queso Majorero",
+    "island": "fuerteventura",
+    "type": "product",
+    "category": "cheese",
+    "short_description": "El gran producto gastronómico de Fuerteventura y el primer queso de cabra de España en obtener Denominación de Origen.",
+    "description": "El Queso Majorero se elabora principalmente con leche de cabra majorera y cuenta con Denominación de Origen desde 1996. Existen versiones tiernas, semicuradas y curadas, además de piezas tratadas con pimentón, gofio o aceite.",
+    "source_url": "https://www.visitfuerteventura.com/museos-y-visitas-de-interes/fuerteventura/museo-del-queso-majorero/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "queso-majorero",
+      "dop",
+      "goat-cheese"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-fuerteventura-cabra",
+    "slug": "cabra-majorera",
+    "name": "Cabra majorera",
+    "island": "fuerteventura",
+    "type": "product",
+    "category": "livestock",
+    "short_description": "Una raza perfectamente adaptada al clima seco que sostiene buena parte de la identidad ganadera de la isla.",
+    "description": "La cabra majorera produce la leche utilizada en el famoso queso de la isla y está adaptada a condiciones de aridez y escasez de pastos. Su presencia histórica explica buena parte del paisaje y de la economía rural de Fuerteventura.",
+    "source_url": "https://www.visitfuerteventura.com/museos-y-visitas-de-interes/fuerteventura/museo-del-queso-majorero/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "goat",
+      "livestock",
+      "majorera"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-fuerteventura-gofio",
+    "slug": "gofio",
+    "name": "Gofio",
+    "island": "fuerteventura",
+    "type": "product",
+    "category": "cereal",
+    "short_description": "Harina de cereal tostado estrechamente vinculada a los molinos y a la historia agrícola de Fuerteventura.",
+    "description": "El gofio fue durante generaciones un alimento fundamental para las familias majoreras. Los numerosos molinos de la isla recuerdan el pasado cerealista y la importancia de transformar trigo, cebada o millo en una harina nutritiva y fácil de conservar.",
+    "source_url": "https://www.visitfuerteventura.com/museos-y-visitas-de-interes/fuerteventura/molino-de-tefia/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "gofio",
+      "mills",
+      "cereal"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-fuerteventura-tomate",
+    "slug": "tomate-majorero",
+    "name": "Tomate majorero",
+    "island": "fuerteventura",
+    "type": "product",
+    "category": "agriculture",
+    "short_description": "El cultivo del tomate marcó durante décadas zonas agrícolas y exportadoras de la isla.",
+    "description": "El tomate tuvo un peso importante en la agricultura comercial de Fuerteventura durante el siglo XX. Su cultivo exigió sistemas de riego y una gestión muy precisa del agua, dejando una huella económica y paisajística todavía visible en algunas zonas.",
+    "source_url": "https://www.visitfuerteventura.com/rutas-gastronomicas/ruta-tradicion-y-cultura/",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "tomato",
+      "agriculture",
+      "export"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-fuerteventura-sal",
+    "slug": "sal-marina",
+    "name": "Sal marina",
+    "island": "fuerteventura",
+    "type": "product",
+    "category": "salt",
+    "short_description": "Las salinas históricas recuerdan la importancia de la sal para conservar pescado y abastecer a comunidades costeras.",
+    "description": "Fuerteventura conserva salinas históricas como las de El Carmen y Marrajo. La producción de sal marina tuvo una función práctica esencial antes de la refrigeración moderna y forma parte del patrimonio industrial y costero de la isla.",
+    "source_url": "https://www.visitfuerteventura.com/senderismo/fuerteventura/islote-de-lobos/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "salt",
+      "salinas",
+      "coast"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-fuerteventura-aloe",
+    "slug": "aloe-vera",
+    "name": "Aloe vera",
+    "island": "fuerteventura",
+    "type": "product",
+    "category": "agriculture",
+    "short_description": "El clima seco y soleado favorece el cultivo de aloe, hoy convertido en uno de los productos locales más visibles.",
+    "description": "El aloe vera se cultiva en distintas explotaciones de Fuerteventura y se transforma en geles, cremas y otros productos cosméticos. Aunque es un cultivo relativamente moderno frente a la tradición cerealista o ganadera, se ha integrado con fuerza en la oferta de productos de la isla.",
+    "source_url": "https://www.visitfuerteventura.com/conoce-fuerteventura/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "aloe",
+      "agriculture",
+      "local-product"
+    ],
+    "language": "es"
+  }
+]

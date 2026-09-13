@@ -1,0 +1,120 @@
+[
+  {
+    "id": "music-gran-canaria-timple",
+    "slug": "timple",
+    "name": "El timple",
+    "island": "gran-canaria",
+    "type": "music",
+    "category": "instrument",
+    "short_description": "El pequeño instrumento de cuerda más reconocible de Canarias sigue presente en parrandas, grupos folclóricos y nuevos proyectos musicales.",
+    "description": "El timple es un instrumento de cuerda pulsada asociado de forma inseparable a la música canaria. Su sonido agudo acompaña isas, folías, malagueñas y repertorios de parranda, pero también ha desarrollado una importante tradición solista. En Gran Canaria continúa construyéndose artesanalmente y formando parte de la enseñanza y la escena musical.",
+    "source_url": "https://www.grancanaria.com/turismo/en/the-island/municipios-de-gran-canaria/visit-valleseco/discover-valleseco/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "timple",
+      "instrument",
+      "folk",
+      "music"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-gran-canaria-isa",
+    "slug": "isa-gran-canaria",
+    "name": "Isa",
+    "island": "gran-canaria",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "Uno de los bailes más festivos de Canarias y una presencia habitual en romerías, tenderetes y actuaciones folclóricas.",
+    "description": "La isa es uno de los géneros musicales y de baile más extendidos del archipiélago. Su carácter alegre la hace especialmente habitual en fiestas populares y encuentros de parrandas. Gran Canaria desarrolló formas propias de interpretarla y coreografiarla, dentro de una tradición que continúa evolucionando en agrupaciones folclóricas de toda la isla.",
+    "source_url": "https://www3.gobiernodecanarias.org/medusa/wiki/index.php?title=Baile_tradicional",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "isa",
+      "dance",
+      "folklore",
+      "romeria"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-gran-canaria-folia",
+    "slug": "folia",
+    "name": "Folía",
+    "island": "gran-canaria",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "Una de las formas más antiguas y elegantes del repertorio tradicional canario.",
+    "description": "La folía canaria procede de antiguas formas europeas que fueron transformándose en las islas hasta adquirir carácter propio. Es un género más pausado y expresivo que la isa y se interpreta con instrumentos de cuerda como guitarra, laúd, bandurria y timple. Sigue formando parte del repertorio habitual de las agrupaciones folclóricas de Gran Canaria.",
+    "source_url": "https://www3.gobiernodecanarias.org/medusa/wiki/index.php?title=Baile_tradicional",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "folia",
+      "traditional-music",
+      "dance"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-gran-canaria-malaguena",
+    "slug": "malaguena-grancanaria",
+    "name": "Malagueña grancanaria",
+    "island": "gran-canaria",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "La versión grancanaria de la malagueña aporta un carácter más vivo a uno de los cantos melancólicos del folclore canario.",
+    "description": "La malagueña llegó al repertorio canario desde el fandango andaluz y evolucionó con variantes propias en cada isla. En Gran Canaria la tradición desarrolló una interpretación más animada que en otras islas, aunque mantiene su carácter melódico y sentimental. Se acompaña habitualmente con guitarra, laúd, bandurria y timple.",
+    "source_url": "https://www3.gobiernodecanarias.org/medusa/wiki/index.php?title=Malague%C3%B1a",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "malaguena",
+      "gran-canaria",
+      "folklore"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-gran-canaria-nestor-alamo",
+    "slug": "nestor-alamo",
+    "name": "Néstor Álamo",
+    "island": "gran-canaria",
+    "type": "music",
+    "category": "artist",
+    "short_description": "Escritor, investigador y compositor nacido en Guía, figura central en la recuperación y difusión de la música popular canaria.",
+    "description": "Néstor Álamo nació en Santa María de Guía en 1906 y desarrolló una intensa actividad como escritor, investigador y compositor. Su trabajo dejó una huella profunda en el repertorio popular de Canarias y en la forma de mirar el patrimonio cultural de Gran Canaria. Su casa natal en Guía conserva hoy un espacio dedicado a su figura y a la historia de la música canaria.",
+    "source_url": "https://www.grancanaria.com/turismo/multimedia/audioguias/contenidos-audio-guias/cascos-historicos/ruta-de-santa-maria-de-guia/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "nestor-alamo",
+      "composer",
+      "guia",
+      "folk"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-gran-canaria-alfredo-kraus",
+    "slug": "alfredo-kraus",
+    "name": "Alfredo Kraus",
+    "island": "gran-canaria",
+    "type": "music",
+    "category": "artist",
+    "short_description": "El gran tenor nacido en Las Palmas de Gran Canaria da nombre al auditorio situado frente al Atlántico en Las Canteras.",
+    "description": "Alfredo Kraus fue una de las grandes voces líricas españolas del siglo XX y nació en Las Palmas de Gran Canaria. Su nombre permanece estrechamente vinculado a la vida cultural de la capital, especialmente a través del Auditorio Alfredo Kraus, escenario de temporadas de ópera, conciertos y festivales junto a la playa de Las Canteras.",
+    "source_url": "https://www.grancanaria.com/turismo/en/meetings/centros-de-congresos/conference-centres-conference-centre-alfredo-kraus-auditorium/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "alfredo-kraus",
+      "opera",
+      "las-palmas",
+      "tenor"
+    ],
+    "language": "es"
+  }
+]

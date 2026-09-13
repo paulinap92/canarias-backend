@@ -1,0 +1,134 @@
+[
+  {
+    "id": "fiesta-la-gomera-guadalupe",
+    "slug": "bajada-virgen-guadalupe",
+    "name": "Bajada de la Virgen de Guadalupe",
+    "island": "la-gomera",
+    "type": "fiesta",
+    "category": "lustral-festival",
+    "when": "Cada cinco años, en octubre",
+    "location": "San Sebastián y distintos municipios",
+    "short_description": "La patrona llega por mar desde Puntallana y recorre la isla entre barcos, chácaras, tambores y procesiones.",
+    "description": "Cada cinco años, pescadores y marineros llevan a la Virgen de Guadalupe desde su ermita de Puntallana hasta San Sebastián en barcos decorados. Durante las semanas siguientes la imagen recorre la isla y las celebraciones combinan devoción, música tradicional y participación comunitaria.",
+    "source_url": "https://lagomera.travel/eventos/la-gomera/bajada-de-la-virgen-de-guadalupe/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "guadalupe",
+      "bajada",
+      "lustral",
+      "procession"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-gomera-san-marcos",
+    "slug": "hogueras-san-marcos",
+    "name": "Hogueras de San Marcos",
+    "island": "la-gomera",
+    "type": "fiesta",
+    "category": "fire-festival",
+    "when": "24 de abril",
+    "location": "Agulo",
+    "short_description": "Vecinos y visitantes saltan hogueras alrededor de la plaza al son de chácaras y tambores.",
+    "description": "La víspera de San Marcos, Agulo se llena de hogueras alrededor de la plaza. La procesión del santo, la música tradicional y los saltos sobre el fuego forman una de las celebraciones más antiguas y visuales de la isla.",
+    "source_url": "https://lagomera.travel/experiencias/la-gomera-nos-traslada-a-otros-tiempos-a-traves-de-sus-fiestas/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "san-marcos",
+      "agulo",
+      "fire",
+      "april"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-gomera-candelaria-chipude",
+    "slug": "candelaria-chipude",
+    "name": "Fiestas de Candelaria de Chipude",
+    "island": "la-gomera",
+    "type": "fiesta",
+    "category": "popular-tradition",
+    "when": "15 de agosto",
+    "location": "Chipude, Vallehermoso",
+    "short_description": "Una de las grandes reuniones del verano gomero, con procesión, romances, chácaras, tambores y comida popular.",
+    "description": "Chipude celebra en agosto a la Virgen de Candelaria y reúne a tocadores y bailadores de toda la isla. El encuentro combina actos religiosos con música tradicional y se desarrolla en un lugar de enorme importancia histórica y cultural.",
+    "source_url": "https://lagomera.travel/lugares-con-encanto/la-gomera/chipude/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "chipude",
+      "candelaria",
+      "august",
+      "folklore"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-gomera-el-cedro",
+    "slug": "fiesta-el-cedro",
+    "name": "Fiesta de El Cedro",
+    "island": "la-gomera",
+    "type": "fiesta",
+    "category": "forest-festival",
+    "when": "Agosto",
+    "location": "El Cedro, Hermigua",
+    "short_description": "Una procesión atraviesa la laurisilva acompañada de tambores y chácaras.",
+    "description": "La fiesta de Nuestra Señora de Lourdes se celebra en el entorno de El Cedro, dentro del bosque de laurisilva. La procesión por los caminos del monte acompañada de música tradicional convierte la celebración en una de las combinaciones más especiales de naturaleza y cultura de La Gomera.",
+    "source_url": "https://lagomera.travel/experiencias/fiestas-populares-mas-representativas-de-la-gomera/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "el-cedro",
+      "hermigua",
+      "forest",
+      "procession"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-gomera-carmen",
+    "slug": "fiestas-del-carmen",
+    "name": "Fiestas del Carmen",
+    "island": "la-gomera",
+    "type": "fiesta",
+    "category": "maritime-festival",
+    "when": "Julio",
+    "location": "Diversos núcleos costeros",
+    "short_description": "Procesiones marítimas recuerdan la relación de La Gomera con pescadores, puertos y comunidades costeras.",
+    "description": "Las fiestas de la Virgen del Carmen se celebran en distintos puntos de la isla con especial protagonismo de las procesiones marítimas. La imagen se lleva en barco acompañada por otras embarcaciones mientras la comunidad rinde homenaje a la patrona de los pescadores.",
+    "source_url": "https://lagomera.travel/eventos/la-gomera/fiestas-del-carmen/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "carmen",
+      "maritime",
+      "july",
+      "fishermen"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-gomera-ramo-arure",
+    "slug": "ramo-de-arure",
+    "name": "El Ramo de Arure",
+    "island": "la-gomera",
+    "type": "fiesta",
+    "category": "rural-tradition",
+    "when": "Calendario festivo local",
+    "location": "Arure, Valle Gran Rey",
+    "short_description": "Productos de la tierra se colocan cuidadosamente formando un ramo que funciona como ofrenda y obra colectiva.",
+    "description": "El Ramo de Arure se elabora con productos agrícolas dispuestos de manera decorativa. La tradición mezcla ofrenda, artesanía efímera y vida comunitaria, reflejando la estrecha relación entre fiestas y mundo rural.",
+    "source_url": "https://lagomera.travel/experiencias/la-gomera-nos-traslada-a-otros-tiempos-a-traves-de-sus-fiestas/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "arure",
+      "ramo",
+      "rural",
+      "tradition"
+    ],
+    "language": "es"
+  }
+]

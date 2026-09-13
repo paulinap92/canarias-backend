@@ -1,0 +1,337 @@
+{
+  "source": "Open-Meteo Marine",
+  "source_type": "model",
+  "island": "tenerife",
+  "hours": 48,
+  "navigation_warning": "Modeled sea-level height including tides. Coastal accuracy is limited; not suitable for coastal navigation.",
+  "points_count": 6,
+  "points": [
+    {
+      "id": "sc-tf",
+      "name": "Santa Cruz de Tenerife",
+      "island": "tenerife",
+      "latitude": 28.4723,
+      "longitude": -16.2414,
+      "turns": [
+        {
+          "type": "high",
+          "time": "2026-09-11T14:00",
+          "height_m": 1.09
+        },
+        {
+          "type": "low",
+          "time": "2026-09-11T20:00",
+          "height_m": -1.21
+        },
+        {
+          "type": "high",
+          "time": "2026-09-12T02:00",
+          "height_m": 0.89
+        },
+        {
+          "type": "low",
+          "time": "2026-09-12T08:00",
+          "height_m": -1.11
+        },
+        {
+          "type": "high",
+          "time": "2026-09-12T14:00",
+          "height_m": 1.07
+        },
+        {
+          "type": "low",
+          "time": "2026-09-12T21:00",
+          "height_m": -1.12
+        },
+        {
+          "type": "high",
+          "time": "2026-09-13T03:00",
+          "height_m": 0.89
+        }
+      ],
+      "next_high": {
+        "type": "high",
+        "time": "2026-09-11T14:00",
+        "height_m": 1.09
+      },
+      "next_low": {
+        "type": "low",
+        "time": "2026-09-11T20:00",
+        "height_m": -1.21
+      }
+    },
+    {
+      "id": "pc-tf",
+      "name": "Puerto de la Cruz",
+      "island": "tenerife",
+      "latitude": 28.416,
+      "longitude": -16.548,
+      "turns": [
+        {
+          "type": "high",
+          "time": "2026-09-11T14:00",
+          "height_m": 1.11
+        },
+        {
+          "type": "low",
+          "time": "2026-09-11T20:00",
+          "height_m": -1.25
+        },
+        {
+          "type": "high",
+          "time": "2026-09-12T02:00",
+          "height_m": 0.9
+        },
+        {
+          "type": "low",
+          "time": "2026-09-12T08:00",
+          "height_m": -1.14
+        },
+        {
+          "type": "high",
+          "time": "2026-09-12T14:00",
+          "height_m": 1.07
+        },
+        {
+          "type": "low",
+          "time": "2026-09-12T21:00",
+          "height_m": -1.17
+        },
+        {
+          "type": "high",
+          "time": "2026-09-13T03:00",
+          "height_m": 0.91
+        }
+      ],
+      "next_high": {
+        "type": "high",
+        "time": "2026-09-11T14:00",
+        "height_m": 1.11
+      },
+      "next_low": {
+        "type": "low",
+        "time": "2026-09-11T20:00",
+        "height_m": -1.25
+      }
+    },
+    {
+      "id": "lc-tf",
+      "name": "Los Cristianos",
+      "island": "tenerife",
+      "latitude": 28.0494,
+      "longitude": -16.7177,
+      "turns": [
+        {
+          "type": "high",
+          "time": "2026-09-11T14:00",
+          "height_m": 0.98
+        },
+        {
+          "type": "low",
+          "time": "2026-09-11T20:00",
+          "height_m": -1.1
+        },
+        {
+          "type": "high",
+          "time": "2026-09-12T02:00",
+          "height_m": 0.82
+        },
+        {
+          "type": "low",
+          "time": "2026-09-12T08:00",
+          "height_m": -0.99
+        },
+        {
+          "type": "high",
+          "time": "2026-09-12T14:00",
+          "height_m": 1.0
+        },
+        {
+          "type": "low",
+          "time": "2026-09-12T20:00",
+          "height_m": -1.02
+        },
+        {
+          "type": "high",
+          "time": "2026-09-13T03:00",
+          "height_m": 0.8
+        }
+      ],
+      "next_high": {
+        "type": "high",
+        "time": "2026-09-11T14:00",
+        "height_m": 0.98
+      },
+      "next_low": {
+        "type": "low",
+        "time": "2026-09-11T20:00",
+        "height_m": -1.1
+      }
+    },
+    {
+      "id": "lg-tf",
+      "name": "Los Gigantes",
+      "island": "tenerife",
+      "latitude": 28.2433,
+      "longitude": -16.8406,
+      "turns": [
+        {
+          "type": "high",
+          "time": "2026-09-11T14:00",
+          "height_m": 0.99
+        },
+        {
+          "type": "low",
+          "time": "2026-09-11T20:00",
+          "height_m": -1.14
+        },
+        {
+          "type": "high",
+          "time": "2026-09-12T02:00",
+          "height_m": 0.82
+        },
+        {
+          "type": "low",
+          "time": "2026-09-12T08:00",
+          "height_m": -1.03
+        },
+        {
+          "type": "high",
+          "time": "2026-09-12T14:00",
+          "height_m": 1.0
+        },
+        {
+          "type": "low",
+          "time": "2026-09-12T20:00",
+          "height_m": -1.05
+        },
+        {
+          "type": "high",
+          "time": "2026-09-13T03:00",
+          "height_m": 0.8
+        }
+      ],
+      "next_high": {
+        "type": "high",
+        "time": "2026-09-11T14:00",
+        "height_m": 0.99
+      },
+      "next_low": {
+        "type": "low",
+        "time": "2026-09-11T20:00",
+        "height_m": -1.14
+      }
+    },
+    {
+      "id": "ca-tf",
+      "name": "Costa Adeje",
+      "island": "tenerife",
+      "latitude": 28.0867,
+      "longitude": -16.7359,
+      "turns": [
+        {
+          "type": "high",
+          "time": "2026-09-11T14:00",
+          "height_m": 0.98
+        },
+        {
+          "type": "low",
+          "time": "2026-09-11T20:00",
+          "height_m": -1.1
+        },
+        {
+          "type": "high",
+          "time": "2026-09-12T02:00",
+          "height_m": 0.82
+        },
+        {
+          "type": "low",
+          "time": "2026-09-12T08:00",
+          "height_m": -0.99
+        },
+        {
+          "type": "high",
+          "time": "2026-09-12T14:00",
+          "height_m": 0.99
+        },
+        {
+          "type": "low",
+          "time": "2026-09-12T20:00",
+          "height_m": -1.01
+        },
+        {
+          "type": "high",
+          "time": "2026-09-13T03:00",
+          "height_m": 0.8
+        }
+      ],
+      "next_high": {
+        "type": "high",
+        "time": "2026-09-11T14:00",
+        "height_m": 0.98
+      },
+      "next_low": {
+        "type": "low",
+        "time": "2026-09-11T20:00",
+        "height_m": -1.1
+      }
+    },
+    {
+      "id": "em-tf",
+      "name": "El Médano",
+      "island": "tenerife",
+      "latitude": 28.0469,
+      "longitude": -16.5362,
+      "turns": [
+        {
+          "type": "high",
+          "time": "2026-09-11T14:00",
+          "height_m": 1.0
+        },
+        {
+          "type": "low",
+          "time": "2026-09-11T20:00",
+          "height_m": -1.1
+        },
+        {
+          "type": "high",
+          "time": "2026-09-12T02:00",
+          "height_m": 0.84
+        },
+        {
+          "type": "low",
+          "time": "2026-09-12T08:00",
+          "height_m": -0.99
+        },
+        {
+          "type": "high",
+          "time": "2026-09-12T14:00",
+          "height_m": 1.01
+        },
+        {
+          "type": "low",
+          "time": "2026-09-12T20:00",
+          "height_m": -1.01
+        },
+        {
+          "type": "high",
+          "time": "2026-09-13T03:00",
+          "height_m": 0.82
+        }
+      ],
+      "next_high": {
+        "type": "high",
+        "time": "2026-09-11T14:00",
+        "height_m": 1.0
+      },
+      "next_low": {
+        "type": "low",
+        "time": "2026-09-11T20:00",
+        "height_m": -1.1
+      }
+    }
+  ],
+  "available": true,
+  "status": "ok",
+  "updated_at": "2026-09-11T08:23:47.246545+00:00"
+}

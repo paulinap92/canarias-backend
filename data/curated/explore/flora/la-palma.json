@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.84,
+          28.65
+        ]
+      },
+      "properties": {
+        "id": "flora-la-palma-pino",
+        "common_name": "Pino canario",
+        "scientific_name": "Pinus canariensis",
+        "name": "Pino canario · Pinares de cumbre y dorsal volcánica",
+        "hotspot": "Pinares de cumbre y dorsal volcánica",
+        "best_season": "Todo el año",
+        "habitat": "Pinar de montaña",
+        "description": "El pino canario cubre grandes extensiones y acompaña muchos senderos volcánicos de La Palma.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "why_special": "Capacidad de rebrotar después del fuego."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.79,
+          28.8
+        ]
+      },
+      "properties": {
+        "id": "flora-la-palma-laurisilva",
+        "common_name": "Laurisilva de Los Tilos",
+        "scientific_name": null,
+        "name": "Laurisilva de Los Tilos · Bosque de Los Tilos",
+        "hotspot": "Bosque de Los Tilos",
+        "best_season": "Todo el año",
+        "habitat": "Monteverde húmedo",
+        "description": "Uno de los paisajes de laurisilva más conocidos de Canarias, alimentado por humedad de los alisios.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "why_special": "Bosque macaronésico de enorme valor ecológico."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.89,
+          28.75
+        ]
+      },
+      "properties": {
+        "id": "flora-la-palma-cumbre",
+        "common_name": "Flora de cumbre",
+        "scientific_name": null,
+        "name": "Flora de cumbre · Roque de los Muchachos y cumbres",
+        "hotspot": "Roque de los Muchachos y cumbres",
+        "best_season": "Primavera y verano",
+        "habitat": "Matorral de alta montaña",
+        "description": "La flora de cumbre soporta insolación, viento, frío y grandes cambios térmicos.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "why_special": "Incluye numerosos endemismos adaptados a condiciones extremas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.78,
+          28.6
+        ]
+      },
+      "properties": {
+        "id": "flora-la-palma-cardonal",
+        "common_name": "Cardonal-tabaibal",
+        "scientific_name": null,
+        "name": "Cardonal-tabaibal · Costa y zonas bajas secas",
+        "hotspot": "Costa y zonas bajas secas",
+        "best_season": "Todo el año",
+        "habitat": "Matorral xerófilo",
+        "description": "En las cotas bajas y secas aparecen comunidades de cardones y tabaibas.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "why_special": "Contrasta con la humedad de los bosques del noreste."
+      }
+    }
+  ]
+}

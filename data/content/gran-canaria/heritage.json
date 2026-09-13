@@ -1,0 +1,122 @@
+[
+  {
+    "id": "heritage-gran-canaria-risco-caido",
+    "slug": "risco-caido-montanas-sagradas",
+    "name": "Risco Caído y las Montañas Sagradas",
+    "island": "gran-canaria",
+    "type": "heritage",
+    "category": "world-heritage",
+    "short_description": "Un paisaje cultural de cuevas, santuarios y montañas inscrito en la Lista del Patrimonio Mundial de la UNESCO en 2019.",
+    "description": "El Paisaje Cultural de Risco Caído y las Montañas Sagradas de Gran Canaria reúne yacimientos, cuevas habitacionales y espacios rituales vinculados a la población indígena de la isla. Su valor no reside solo en cada enclave aislado, sino en la relación entre territorio, astronomía, espiritualidad y formas de vida de la cumbre.",
+    "source_url": "https://www.grancanaria.com/turismo/en/culture/archaeological-sites/centro-de-gestion-e-informacion-del-patrimonio-mundial-y-la-reserva-de-la-biosfera-de-gran-canaria/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "unesco",
+      "risco-caido",
+      "archaeology",
+      "sacred-mountains"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-gran-canaria-cueva-pintada",
+    "slug": "cueva-pintada-galdar",
+    "name": "Cueva Pintada de Gáldar",
+    "island": "gran-canaria",
+    "type": "heritage",
+    "category": "archaeological-site",
+    "short_description": "Uno de los grandes yacimientos arqueológicos de Canarias, célebre por su cámara decorada con motivos geométricos.",
+    "description": "El Museo y Parque Arqueológico Cueva Pintada protege un importante conjunto de estructuras prehispánicas en Gáldar. Su elemento más conocido es la cueva decorada con figuras geométricas rojas, negras y blancas. El yacimiento permite entender mejor la vida doméstica, el urbanismo y el mundo simbólico de los antiguos canarios.",
+    "source_url": "https://www.grancanaria.com/turismo/pl/kultura/zabytki/dziedzictwo-archeologiczne/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "galdar",
+      "cueva-pintada",
+      "archaeology",
+      "aboriginal"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-gran-canaria-cenobio",
+    "slug": "cenobio-valeron",
+    "name": "Cenobio de Valerón",
+    "island": "gran-canaria",
+    "type": "heritage",
+    "category": "archaeological-site",
+    "short_description": "Un enorme granero colectivo excavado en la roca que muestra la importancia de la agricultura en la sociedad prehispánica.",
+    "description": "El Cenobio de Valerón está formado por numerosas cavidades excavadas y acondicionadas para almacenar productos agrícolas. Su escala revela la importancia de la producción y organización de alimentos en la Gran Canaria prehispánica. El conjunto es uno de los ejemplos arqueológicos más espectaculares del norte de la isla.",
+    "source_url": "https://www.grancanaria.com/turismo/pl/kultura/zabytki/dziedzictwo-archeologiczne/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "valeron",
+      "granary",
+      "archaeology",
+      "guia"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-gran-canaria-vegueta",
+    "slug": "conjunto-historico-vegueta",
+    "name": "Conjunto histórico de Vegueta",
+    "island": "gran-canaria",
+    "type": "heritage",
+    "category": "historic-centre",
+    "short_description": "El barrio fundacional de Las Palmas reúne arquitectura civil y religiosa de más de cinco siglos.",
+    "description": "Vegueta conserva el núcleo donde comenzó a crecer Las Palmas de Gran Canaria a partir de 1478. La Catedral de Santa Ana, las Casas Consistoriales, la Casa de Colón, el Museo Canario y numerosas calles y plazas forman un conjunto histórico declarado y uno de los espacios urbanos patrimoniales más importantes de Canarias.",
+    "source_url": "https://www.grancanaria.com/turismo/isla-de-gran-canaria/municipios-de-gran-canaria/las-palmas-de-gran-canaria/recorrervegueta/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "vegueta",
+      "historic-centre",
+      "las-palmas",
+      "architecture"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-gran-canaria-casa-colon",
+    "slug": "casa-de-colon",
+    "name": "Casa de Colón",
+    "island": "gran-canaria",
+    "type": "heritage",
+    "category": "museum",
+    "short_description": "Un conjunto histórico en Vegueta dedicado a la historia de Canarias y sus relaciones con América.",
+    "description": "La Casa de Colón integra edificios del entorno fundacional de Las Palmas de Gran Canaria, incluida la antigua casa de los gobernadores. El museo estudia y difunde la historia de Canarias, los viajes colombinos y las relaciones atlánticas con América. Su arquitectura y sus patios forman parte de la imagen histórica de Vegueta.",
+    "source_url": "https://www.grancanaria.com/turismo/es/cultura/museos-en-gran-canaria/datos-de-museos-de-gran-canaria/?cHash=de9fbebdcd7c8baeedc5177d29fbb774&id_museo=3",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "casa-colon",
+      "museum",
+      "vegueta",
+      "atlantic"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-gran-canaria-bentayga",
+    "slug": "roque-bentayga",
+    "name": "Roque Bentayga",
+    "island": "gran-canaria",
+    "type": "heritage",
+    "category": "cultural-landscape",
+    "short_description": "Un gran roque de la cumbre asociado a espacios de habitación, enterramiento, arte rupestre y culto prehispánico.",
+    "description": "El Roque Bentayga ocupa una posición central dentro del paisaje cultural de las Montañas Sagradas. En su entorno se conservan cuevas, espacios rituales y vestigios arqueológicos que muestran la importancia simbólica de la cumbre para los antiguos canarios. El centro de interpretación ayuda a leer el lugar como paisaje natural y cultural a la vez.",
+    "source_url": "https://www.grancanaria.com/turismo/cultura/espacios-arqueologicos/centro-de-interpretacion-del-roque-bentayga/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "bentayga",
+      "archaeology",
+      "sacred-mountains",
+      "tejeda"
+    ],
+    "language": "es"
+  }
+]

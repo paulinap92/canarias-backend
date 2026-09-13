@@ -1,0 +1,116 @@
+[
+  {
+    "id": "product-la-gomera-miel-palma",
+    "slug": "miel-de-palma",
+    "name": "Miel de palma",
+    "island": "la-gomera",
+    "type": "product",
+    "category": "palm-product",
+    "short_description": "El producto estrella de La Gomera se obtiene concentrando el guarapo extraído de la palmera canaria.",
+    "description": "La miel de palma se produce a partir de la savia o guarapo de la palmera canaria. El palmero prepara cuidadosamente el cogollo, recoge durante la noche la savia que expulsa la planta y después la cocina hasta obtener un sirope oscuro y aromático.",
+    "source_url": "https://lagomera.travel/experiencias/gastronomia-de-la-gomera/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "palm-syrup",
+      "guarapo",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-gomera-almogrote",
+    "slug": "almogrote-producto",
+    "name": "Almogrote",
+    "island": "la-gomera",
+    "type": "product",
+    "category": "cheese-product",
+    "short_description": "Una pasta intensa de queso curado, ajo, aceite y pimienta reconocible al instante.",
+    "description": "El almogrote nació como una forma de aprovechar queso muy curado y hoy es uno de los productos más famosos de la isla. Se vende preparado en comercios y mercados, aunque muchas familias mantienen sus propias proporciones y recetas.",
+    "source_url": "https://lagomera.travel/gastronomia/la-gomera/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "almogrote",
+      "cheese",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-gomera-queso",
+    "slug": "queso-gomero",
+    "name": "Queso gomero",
+    "island": "la-gomera",
+    "type": "product",
+    "category": "cheese",
+    "short_description": "Quesos de cabra o mezcla, desde frescos y suaves hasta piezas intensamente curadas.",
+    "description": "La ganadería caprina y ovina sostiene una tradición quesera de larga historia en La Gomera. Los quesos frescos se consumen directamente y los más curados aportan el sabor potente necesario para elaborar almogrote.",
+    "source_url": "https://lagomera.travel/gastronomia/la-gomera/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "cheese",
+      "goat",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-gomera-forastera",
+    "slug": "forastera-gomera",
+    "name": "Forastera Gomera",
+    "island": "la-gomera",
+    "type": "product",
+    "category": "wine",
+    "short_description": "Una variedad de uva blanca prefiloxérica estrechamente asociada a los vinos de la isla.",
+    "description": "La Forastera Gomera es una de las variedades más características de la viticultura insular. Las viñas crecen con frecuencia en laderas aterrazadas de fuerte pendiente, lo que obliga a realizar buena parte del trabajo manualmente.",
+    "source_url": "https://lagomera.travel/experiencias/la-gomera-que-llevarte-de-recuerdo-en-tu-maleta/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "forastera-gomera",
+      "wine",
+      "vineyard"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-gomera-gofio",
+    "slug": "gofio-gomero",
+    "name": "Gofio",
+    "island": "la-gomera",
+    "type": "product",
+    "category": "cereal",
+    "short_description": "Harina de cereal tostado presente en potajes, desayunos y preparaciones tradicionales.",
+    "description": "El gofio mantiene una presencia cotidiana en la cocina gomera. Se sirve con el potaje de berros, se amasa o se incorpora a distintas recetas, conservando un alimento heredado de la cultura prehispánica y adaptado con el tiempo a nuevos cereales.",
+    "source_url": "https://lagomera.travel/experiencias/gastronomia-de-la-gomera/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "gofio",
+      "cereal",
+      "traditional-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-la-gomera-dulces",
+    "slug": "dulces-gomeros",
+    "name": "Dulces y galletas gomeras",
+    "island": "la-gomera",
+    "type": "product",
+    "category": "pastry",
+    "short_description": "Galletas, tortas, bizcochos y bollos mantienen viva una repostería artesanal muy reconocible.",
+    "description": "La repostería gomera reúne galletas, tortas, bizcochos y otros dulces elaborados artesanalmente. Son productos habituales en mercados y tiendas locales y funcionan como una de las formas más fáciles de llevarse a casa una parte de la gastronomía insular.",
+    "source_url": "https://lagomera.travel/gastronomia/la-gomera/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "pastry",
+      "cookies",
+      "local-product"
+    ],
+    "language": "es"
+  }
+]

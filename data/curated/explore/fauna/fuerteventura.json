@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.99,
+          28.59
+        ]
+      },
+      "properties": {
+        "id": "fauna-fuerteventura-hubara",
+        "common_name": "Hubara canaria",
+        "scientific_name": "Chlamydotis undulata fuertaventurae",
+        "name": "Hubara canaria · Llanos de La Oliva y zonas esteparias",
+        "hotspot": "Llanos de La Oliva y zonas esteparias",
+        "best_season": "Todo el año",
+        "habitat": "Llanos áridos y semidesérticos",
+        "description": "Una de las aves más características de los paisajes abiertos de Fuerteventura.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "conservation": "Observar a distancia y no abandonar pistas autorizadas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.06,
+          28.42
+        ]
+      },
+      "properties": {
+        "id": "fauna-fuerteventura-guirre",
+        "common_name": "Guirre",
+        "scientific_name": "Neophron percnopterus majorensis",
+        "name": "Guirre · Barrancos y riscos de Betancuria",
+        "hotspot": "Barrancos y riscos de Betancuria",
+        "best_season": "Todo el año",
+        "habitat": "Riscos, barrancos y espacios abiertos",
+        "description": "La subespecie canaria de alimoche tiene en Fuerteventura uno de sus principales refugios.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "conservation": "No acercarse a nidos ni puntos de alimentación."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.93,
+          28.35
+        ]
+      },
+      "properties": {
+        "id": "fauna-fuerteventura-corredor",
+        "common_name": "Corredor sahariano",
+        "scientific_name": "Cursorius cursor",
+        "name": "Corredor sahariano · Llanos áridos del centro y norte",
+        "hotspot": "Llanos áridos del centro y norte",
+        "best_season": "Todo el año",
+        "habitat": "Terrenos abiertos, pedregosos y arenosos",
+        "description": "Ave esteparia perfectamente adaptada a los paisajes áridos de la isla.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "conservation": "Observación con prismáticos desde caminos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.2,
+          28.1
+        ]
+      },
+      "properties": {
+        "id": "fauna-fuerteventura-cetaceos",
+        "common_name": "Delfines y cetáceos",
+        "scientific_name": null,
+        "name": "Delfines y cetáceos · Aguas de Jandía y costa oriental",
+        "hotspot": "Aguas de Jandía y costa oriental",
+        "best_season": "Todo el año",
+        "habitat": "Aguas oceánicas",
+        "description": "Las aguas de Fuerteventura forman parte de las rutas y áreas de alimentación de distintas especies de cetáceos.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "conservation": "Elegir salidas autorizadas y no perseguir animales."
+      }
+    }
+  ]
+}

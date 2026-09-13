@@ -1,0 +1,117 @@
+[
+  {
+    "id": "music-la-gomera-tambor",
+    "slug": "tambor-gomero",
+    "name": "Tambor gomero",
+    "island": "la-gomera",
+    "type": "music",
+    "category": "instrument",
+    "short_description": "El pulso del folclore gomero acompaña romances, procesiones y el Baile del Tambor.",
+    "description": "El tambor gomero marca un ritmo repetitivo y profundo que acompaña el canto y las chácaras. Más que un instrumento aislado, forma parte de una práctica colectiva ligada a romerías, fiestas y encuentros comunitarios.",
+    "source_url": "https://lagomera.travel/experiencias/al-son-de-la-gomera/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "drum",
+      "baile-del-tambor",
+      "folklore"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-gomera-chacaras",
+    "slug": "chacaras",
+    "name": "Chácaras",
+    "island": "la-gomera",
+    "type": "music",
+    "category": "instrument",
+    "short_description": "Grandes castañuelas de madera producen uno de los sonidos más reconocibles de La Gomera.",
+    "description": "Las chácaras gomeras son instrumentos de percusión de madera que se tocan por parejas. Su gran tamaño y sonido seco las distinguen de otras castañuelas y las convierten en compañeras inseparables del tambor en las fiestas tradicionales.",
+    "source_url": "https://lagomera.travel/experiencias/al-son-de-la-gomera/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "chacaras",
+      "percussion",
+      "wood",
+      "folklore"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-gomera-romances",
+    "slug": "romances-gomeros",
+    "name": "Romances gomeros",
+    "island": "la-gomera",
+    "type": "music",
+    "category": "oral-music",
+    "short_description": "Versos narrativos transmiten leyendas, historias y sucesos al ritmo de chácaras y tambores.",
+    "description": "Los romances forman parte del repertorio oral asociado al Baile del Tambor. Un cantor inicia los versos y el grupo responde, creando una estructura repetitiva capaz de acompañar largas procesiones y recorridos por caminos rurales.",
+    "source_url": "https://lagomera.travel/identidad/la-gomera/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "romances",
+      "oral-tradition",
+      "singing"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-gomera-baile-tambor",
+    "slug": "musica-del-baile-del-tambor",
+    "name": "Música del Baile del Tambor",
+    "island": "la-gomera",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "Canto responsorial, percusión y movimiento crean una música que puede acompañar procesiones durante kilómetros.",
+    "description": "La música del Baile del Tambor se interpreta al aire libre y en movimiento. Chácaras y tambores mantienen un ritmo constante mientras los cantadores alternan versos y respuestas, generando una experiencia musical muy distinta a la de un concierto convencional.",
+    "source_url": "https://lagomera.travel/experiencias/al-son-de-la-gomera/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "baile-del-tambor",
+      "traditional-music",
+      "procession"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-gomera-folclore-romerias",
+    "slug": "musica-de-romerias",
+    "name": "Música de romerías",
+    "island": "la-gomera",
+    "type": "music",
+    "category": "festival-music",
+    "short_description": "Las fiestas del calendario gomero mantienen vivo el repertorio tradicional en caminos, plazas y ermitas.",
+    "description": "Fiestas como Guadalupe, Candelaria de Chipude, El Cedro o San Marcos mantienen una presencia intensa de música tradicional. Los tocadores acompañan las procesiones durante largos recorridos y convierten la música en parte del propio ritual festivo.",
+    "source_url": "https://lagomera.travel/experiencias/al-son-de-la-gomera/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "romeria",
+      "festival",
+      "folk"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-gomera-silbo-sonoro",
+    "slug": "silbo-como-paisaje-sonoro",
+    "name": "El silbo como paisaje sonoro",
+    "island": "la-gomera",
+    "type": "music",
+    "category": "sound-culture",
+    "short_description": "Aunque es un lenguaje y no un género musical, el silbo forma una parte inconfundible del paisaje sonoro gomero.",
+    "description": "El Silbo Gomero no es música en sentido estricto, pero su potencia acústica y su adaptación al relieve lo convierten en una de las experiencias sonoras más singulares de la isla. Su presencia en demostraciones, escuelas y actos culturales mantiene vivo un modo de comunicación extraordinario.",
+    "source_url": "https://lagomera.travel/experiencias/el-silbo-gomero/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "silbo",
+      "soundscape",
+      "language"
+    ],
+    "language": "es"
+  }
+]

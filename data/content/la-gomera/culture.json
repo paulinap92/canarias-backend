@@ -1,0 +1,120 @@
+[
+  {
+    "id": "culture-la-gomera-primeros-pobladores",
+    "slug": "primeros-pobladores",
+    "name": "Los primeros gomeros",
+    "island": "la-gomera",
+    "type": "culture",
+    "category": "history",
+    "short_description": "La población aborigen de La Gomera se organizaba en cuatro grandes cantones y mantenía una economía principalmente ganadera.",
+    "description": "La teoría más aceptada relaciona a los primeros pobladores de La Gomera con grupos bereberes del norte de África. La isla se dividía en cuatro cantones: Mulagua, Hipalán, Orone y Agana, vinculados aproximadamente a grandes valles que todavía estructuran el territorio.",
+    "source_url": "https://lagomera.travel/identidad/la-gomera/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "aboriginal",
+      "cantons",
+      "history",
+      "identity"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-gomera-silbo",
+    "slug": "silbo-gomero",
+    "name": "Silbo Gomero",
+    "island": "la-gomera",
+    "type": "culture",
+    "category": "language",
+    "short_description": "Un lenguaje silbado capaz de transmitir mensajes entre barrancos y declarado Patrimonio Cultural Inmaterial de la Humanidad.",
+    "description": "El Silbo Gomero reproduce el lenguaje hablado mediante silbidos y permitió durante siglos comunicarse a gran distancia por el relieve abrupto de la isla. La UNESCO lo inscribió en 2009 en la Lista Representativa del Patrimonio Cultural Inmaterial de la Humanidad, y su enseñanza forma parte del sistema educativo insular.",
+    "source_url": "https://lagomera.travel/experiencias/el-silbo-gomero/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "silbo-gomero",
+      "unesco",
+      "language",
+      "identity"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-gomera-baile-tambor",
+    "slug": "baile-del-tambor",
+    "name": "Baile del Tambor",
+    "island": "la-gomera",
+    "type": "culture",
+    "category": "dance",
+    "short_description": "Chácaras, tambor, canto y danza forman una expresión musical única en el folclore de las islas.",
+    "description": "El Baile del Tambor acompaña romerías y fiestas populares en toda La Gomera. Hombres y mujeres cantan romances, responden en coro y bailan al ritmo del tambor y las grandes chácaras de madera, manteniendo una tradición profundamente comunitaria.",
+    "source_url": "https://lagomera.travel/identidad/la-gomera/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "baile-del-tambor",
+      "chacaras",
+      "drum",
+      "folklore"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-gomera-bancales",
+    "slug": "bancales",
+    "name": "La cultura de los bancales",
+    "island": "la-gomera",
+    "type": "culture",
+    "category": "rural-culture",
+    "short_description": "Muros de piedra convierten laderas imposibles en pequeñas superficies cultivables.",
+    "description": "Los bancales forman parte inseparable del paisaje gomero. Durante generaciones, los habitantes levantaron muros y rellenaron terrazas para crear suelo agrícola en barrancos muy inclinados. El resultado es un paisaje construido lentamente por el trabajo humano y adaptado a una orografía extrema.",
+    "source_url": "https://lagomera.travel/miradores/la-gomera/mirador-de-vallehermoso/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "terraces",
+      "agriculture",
+      "rural-culture"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-gomera-palmera",
+    "slug": "cultura-palmera",
+    "name": "La cultura de la palmera",
+    "island": "la-gomera",
+    "type": "culture",
+    "category": "rural-culture",
+    "short_description": "La palmera canaria proporciona guarapo, fibras, sombra y una larga lista de usos tradicionales.",
+    "description": "En La Gomera la palmera canaria no es solo un elemento del paisaje. El aprovechamiento de su savia para producir miel de palma, el uso de hojas en cestería y otros usos domésticos han creado una auténtica cultura vinculada al árbol.",
+    "source_url": "https://lagomera.travel/experiencias/gastronomia-de-la-gomera/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "palm",
+      "guarapo",
+      "rural-culture",
+      "identity"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "culture-la-gomera-salto-pastor",
+    "slug": "salto-del-pastor",
+    "name": "Salto del Pastor",
+    "island": "la-gomera",
+    "type": "culture",
+    "category": "traditional-sport",
+    "short_description": "Una larga vara permite descender y cruzar pendientes abruptas de forma rápida y controlada.",
+    "description": "El Salto del Pastor nació como una herramienta de movilidad en territorios de barrancos y fuertes desniveles. La práctica se relaciona con las necesidades del pastoreo tradicional y sigue conservándose hoy como actividad cultural y deportiva.",
+    "source_url": "https://lagomera.travel/identidad/la-gomera/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "salto-del-pastor",
+      "pastoralism",
+      "tradition"
+    ],
+    "language": "es"
+  }
+]

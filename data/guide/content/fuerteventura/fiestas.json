@@ -1,0 +1,131 @@
+[
+  {
+    "id": "fiesta-fuerteventura-pena",
+    "slug": "virgen-de-la-pena",
+    "name": "Romería de la Virgen de la Peña",
+    "island": "fuerteventura",
+    "type": "fiesta",
+    "category": "pilgrimage",
+    "when": "Septiembre",
+    "location": "Vega de Río Palmas, Betancuria",
+    "short_description": "La gran romería insular reúne peregrinos de toda Fuerteventura alrededor de su patrona.",
+    "description": "La Romería de la Virgen de la Peña es una de las celebraciones más importantes de Fuerteventura. Miles de personas llegan a Vega de Río Palmas, muchas a pie, para participar en actos religiosos, ofrendas, música, comida y convivencia. La romería está declarada Bien de Interés Cultural.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/fiestas-y-romeria-de-la-virgen-de-la-pena/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "virgen-de-la-pena",
+      "betancuria",
+      "romeria"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-fuerteventura-tamasite",
+    "slug": "tamasite-tuineje",
+    "name": "Batalla del Cuchillete y Tamasite",
+    "island": "fuerteventura",
+    "type": "fiesta",
+    "category": "historical-festival",
+    "when": "Octubre",
+    "location": "Tuineje",
+    "short_description": "Una recreación histórica recuerda la resistencia de los majoreros frente a ataques corsarios británicos en 1740.",
+    "description": "Tuineje revive cada año los enfrentamientos de 1740 mediante representaciones, música y actos comunitarios. Las herramientas agrícolas aparecen como símbolo de la defensa popular y la celebración mantiene vivo uno de los episodios históricos más conocidos de la isla.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/batalla-del-cuchillete-y-tamasite/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "tamasite",
+      "tuineje",
+      "1740",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-fuerteventura-san-miguel",
+    "slug": "fiestas-juradas-san-miguel",
+    "name": "Fiestas Juradas de San Miguel Arcángel",
+    "island": "fuerteventura",
+    "type": "fiesta",
+    "category": "historical-festival",
+    "when": "Septiembre y octubre",
+    "location": "Tuineje",
+    "short_description": "Procesiones y recreaciones históricas recuerdan los ataques corsarios de 1740 y la tradición de protección de San Miguel.",
+    "description": "Las Fiestas Juradas de San Miguel tienen sus raíces en los ataques corsarios sufridos por Fuerteventura en 1740. La celebración combina actos religiosos con representaciones históricas y ha sido reconocida como Bien de Interés Cultural.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/fiestas-juradas-de-san-miguel-arcangel/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "san-miguel",
+      "tuineje",
+      "corsairs",
+      "bic"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-fuerteventura-carnaval",
+    "slug": "carnaval-fuerteventura",
+    "name": "Carnavales de Fuerteventura",
+    "island": "fuerteventura",
+    "type": "fiesta",
+    "category": "carnival",
+    "when": "Febrero o marzo",
+    "location": "Diversos municipios",
+    "short_description": "Murgas, pasacalles, galas y disfraces toman pueblos y ciudades de la isla durante varias semanas.",
+    "description": "Los carnavales se celebran en distintos municipios de Fuerteventura con programas propios. Pasacalles, murgas, concursos, galas y actos en la calle convierten cada localidad en una fiesta con identidad local.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/carnaval-de-tuineje/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "carnival",
+      "murgas",
+      "street-party"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-fuerteventura-romeria-tuineje",
+    "slug": "romeria-tuineje",
+    "name": "Romería de Tuineje",
+    "island": "fuerteventura",
+    "type": "fiesta",
+    "category": "romeria",
+    "when": "Octubre",
+    "location": "Tuineje",
+    "short_description": "Trajes tradicionales, música, ofrendas y convivencia llenan las calles durante la romería.",
+    "description": "La Romería de Tuineje reúne vecinos y visitantes en una procesión acompañada por grupos folclóricos, bailes, comida y ofrendas. Es una celebración de fuerte carácter comunitario dentro del calendario festivo del municipio.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/romeria-de-tuineje/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "romeria",
+      "tuineje",
+      "folklore"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-fuerteventura-san-jose",
+    "slug": "san-jose-tesejerague",
+    "name": "Fiestas de San José de Tesejerague",
+    "island": "fuerteventura",
+    "type": "fiesta",
+    "category": "rural-festival",
+    "when": "Agosto",
+    "location": "Tesejerague, Tuineje",
+    "short_description": "Ganadería, postres, pan de leña y oficios rurales se convierten en protagonistas de una fiesta muy ligada al sector primario.",
+    "description": "Las fiestas de San José en Tesejerague incorporan muestras de ganado, talleres de queso, elaboración de pan, actividades ecuestres y degustaciones de postres tradicionales. El programa refleja de forma muy directa la cultura agrícola y ganadera majorera.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/fiestas-en-honor-a-san-jose/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "tesejerague",
+      "rural",
+      "livestock",
+      "august"
+    ],
+    "language": "es"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "heritage-la-graciosa-caleta-sebo",
+    "slug": "patrimonio-caleta-sebo",
+    "name": "Caleta de Sebo y su paisaje marinero",
+    "island": "la-graciosa",
+    "type": "heritage",
+    "category": "cultural-landscape",
+    "short_description": "Puerto, calles de arena, casas blancas y actividad pesquera forman un paisaje cultural excepcionalmente reconocible.",
+    "description": "El valor de Caleta de Sebo no depende de un único monumento. Su patrimonio está en la relación entre casas, muelle, calles sin asfaltar, embarcaciones, redes y una comunidad que todavía mantiene vínculos directos con el mar.",
+    "source_url": "https://turismolanzarote.com/lo-que-no-te-puedes-perder-de-la-graciosa/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "caleta-de-sebo",
+      "cultural-landscape",
+      "fishing",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-graciosa-iglesia-carmen",
+    "slug": "iglesia-virgen-carmen",
+    "name": "Iglesia de Nuestra Señora del Carmen",
+    "island": "la-graciosa",
+    "type": "heritage",
+    "category": "religious-heritage",
+    "short_description": "Construida en 1945, la iglesia incorpora símbolos marineros y un retablo principal con forma de barca.",
+    "description": "La iglesia de Caleta de Sebo está dedicada a la Virgen del Carmen, patrona de los marineros. Su decoración refuerza la identidad pesquera de la comunidad y el edificio funciona como centro espiritual de las fiestas más importantes de la isla.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-vacaciones-con-sombrera-y-pies-descalzos/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "church",
+      "carmen",
+      "1945",
+      "maritime"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-graciosa-pedro-barba",
+    "slug": "patrimonio-pedro-barba",
+    "name": "Pedro Barba",
+    "island": "la-graciosa",
+    "type": "heritage",
+    "category": "historic-settlement",
+    "short_description": "El segundo núcleo de la isla conserva la memoria de casas de pescadores y una antigua actividad salazonera.",
+    "description": "Pedro Barba tuvo vínculos con la pesca y con una pequeña fábrica de salazones. Hoy su escala, el embarcadero y las casas de temporada conservan la memoria de un asentamiento muy diferente a Caleta de Sebo.",
+    "source_url": "https://turismolanzarote.com/que-hacer-este-verano-en-la-graciosa/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "pedro-barba",
+      "fishing",
+      "salting",
+      "settlement"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-graciosa-chinijo",
+    "slug": "archipielago-chinijo",
+    "name": "Archipiélago Chinijo",
+    "island": "la-graciosa",
+    "type": "heritage",
+    "category": "natural-heritage",
+    "short_description": "La Graciosa forma parte de un conjunto insular y marino de gran biodiversidad con islotes, aves y fondos protegidos.",
+    "description": "La Graciosa se integra en el Archipiélago Chinijo junto a Montaña Clara, Alegranza y otros islotes. El entorno terrestre y marino está protegido por su biodiversidad, sus colonias de aves y la riqueza de sus fondos.",
+    "source_url": "https://turismolanzarote.com/las-fiestas-marineras-del-carmen-en-la-graciosa-una-celebracion-de-la-identidad/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "chinijo",
+      "natural-heritage",
+      "marine-reserve",
+      "birds"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-graciosa-arcos",
+    "slug": "arcos-caletones-patrimonio",
+    "name": "Arcos de los Caletones",
+    "island": "la-graciosa",
+    "type": "heritage",
+    "category": "geological-heritage",
+    "short_description": "Cuatro grandes arcos de basalto muestran el trabajo continuo de la erosión marina sobre la costa volcánica.",
+    "description": "Los Arcos de los Caletones son una formación geológica creada por la acción del oleaje sobre antiguas coladas. Su valor paisajístico y geomorfológico los convierte en uno de los hitos naturales más singulares del norte de la isla.",
+    "source_url": "https://turismolanzarote.com/lo-que-no-te-puedes-perder-de-la-graciosa/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "arcos",
+      "geology",
+      "basalt",
+      "heritage"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "heritage-la-graciosa-artesania",
+    "slug": "patrimonio-artesanal",
+    "name": "Patrimonio artesanal graciosero",
+    "island": "la-graciosa",
+    "type": "heritage",
+    "category": "intangible-heritage",
+    "short_description": "Sombreras, rosetas, redes y jareas forman un patrimonio de saberes más que de edificios.",
+    "description": "La escala de La Graciosa hace especialmente visible un patrimonio basado en conocimientos manuales. Trenzar palmito, elaborar rosetas, reparar redes o secar pescado al aire son prácticas que explican tanto como un museo la historia cotidiana de la comunidad.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-la-isla-para-disfrutar-con-los-pies-descalzos/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "craft",
+      "intangible-heritage",
+      "rosetas",
+      "fishing"
+    ],
+    "language": "es"
+  }
+]

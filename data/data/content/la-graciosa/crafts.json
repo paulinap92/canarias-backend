@@ -1,0 +1,122 @@
+[
+  {
+    "id": "craft-la-graciosa-sombrera",
+    "slug": "sombrera-palmito",
+    "name": "Sombrera de palmito",
+    "island": "la-graciosa",
+    "type": "craft",
+    "category": "fiber-craft",
+    "short_description": "El palmito se limpia, rasga y trenza hasta formar un sombrero ligero y muy característico.",
+    "description": "La elaboración de la sombrera exige preparar manualmente cada fibra y trabajarla cuando la humedad marina facilita el trenzado. La técnica se transmite de generación en generación y continúa siendo una de las artesanías más singulares de La Graciosa.",
+    "source_url": "https://turismolanzarote.com/que-hacer-este-verano-en-la-graciosa/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "palmito",
+      "sombrera",
+      "fiber",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-graciosa-roseta",
+    "slug": "roseta",
+    "name": "Roseta",
+    "island": "la-graciosa",
+    "type": "craft",
+    "category": "textile",
+    "short_description": "Aguja e hilo forman encajes geométricos que llegaron a sostener una pequeña industria local en los años cincuenta.",
+    "description": "La elaboración de rosetas tuvo un peso económico importante en La Graciosa a mediados del siglo XX. Hoy se mantiene a través de talleres y memoria familiar como uno de los oficios textiles tradicionales de la isla.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-la-isla-para-disfrutar-con-los-pies-descalzos/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "roseta",
+      "lace",
+      "textile",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-graciosa-redes",
+    "slug": "reparacion-redes",
+    "name": "Reparación de redes",
+    "island": "la-graciosa",
+    "type": "craft",
+    "category": "maritime-craft",
+    "short_description": "Remendar redes sigue formando parte de la imagen cotidiana del puerto y de la continuidad de la pesca artesanal.",
+    "description": "En Caleta de Sebo todavía es posible ver pescadores preparando y reparando redes junto a la costa. El oficio exige conocer nudos, mallas y aparejos y representa una artesanía directamente ligada al trabajo del mar.",
+    "source_url": "https://turismolanzarote.com/lo-que-no-te-puedes-perder-de-la-graciosa/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "fishing-nets",
+      "maritime",
+      "fishing",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-graciosa-jarea",
+    "slug": "jarea",
+    "name": "Jarea",
+    "island": "la-graciosa",
+    "type": "craft",
+    "category": "food-craft",
+    "short_description": "Limpiar, abrir y secar pescado al aire combina oficio pesquero y conocimiento de conservación.",
+    "description": "Jarear pescado requiere preparar correctamente la pieza y aprovechar las condiciones de aire y salinidad para secarla. Aunque nació como necesidad alimentaria, la práctica se ha convertido también en parte del patrimonio cultural del pueblo.",
+    "source_url": "https://turismolanzarote.com/potajes-enyesques-y-jareas-las-raices-de-la-cocina-de-lanzarote/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "jarea",
+      "fish",
+      "preservation",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-graciosa-banderas",
+    "slug": "banderas-fiestas-carmen",
+    "name": "Banderas de las Fiestas del Carmen",
+    "island": "la-graciosa",
+    "type": "craft",
+    "category": "festival-craft",
+    "short_description": "Las mujeres del pueblo confeccionaban a mano banderas y adornos para engalanar Caleta de Sebo durante las fiestas.",
+    "description": "La preparación de las Fiestas del Carmen incluía tradicionalmente trabajo manual realizado por vecinos y vecinas. Las banderas podían conservarse durante años y formaban parte del esfuerzo colectivo por transformar el pueblo para la celebración.",
+    "source_url": "https://turismolanzarote.com/las-fiestas-marineras-del-carmen-en-la-graciosa-una-celebracion-de-la-identidad/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "flags",
+      "carmen",
+      "sewing",
+      "festival-craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-la-graciosa-timple",
+    "slug": "lutheria-timple",
+    "name": "Luthería del timple",
+    "island": "la-graciosa",
+    "type": "craft",
+    "category": "instrument-making",
+    "short_description": "El Encuentro de Timples ha acercado a la isla las herramientas, materiales y saberes de los constructores del instrumento.",
+    "description": "La construcción de timples requiere seleccionar maderas, fabricar caja y mástil y ajustar cuidadosamente el instrumento. Exposiciones vinculadas al Encuentro de Timples han mostrado en Caleta de Sebo la historia y técnicas de este oficio canario.",
+    "source_url": "https://turismolanzarote.com/evento/encuentro-de-timples-de-la-graciosa-x-edicion/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "timple",
+      "lutherie",
+      "wood",
+      "instrument-making"
+    ],
+    "language": "es"
+  }
+]

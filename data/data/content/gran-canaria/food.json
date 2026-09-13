@@ -1,0 +1,121 @@
+[
+  {
+    "id": "food-gran-canaria-sancocho",
+    "slug": "sancocho-canario",
+    "name": "Sancocho canario",
+    "island": "gran-canaria",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Pescado salado cocido con papas y batata, servido normalmente con mojo y pella de gofio.",
+    "description": "El sancocho es uno de los platos de pescado más representativos de la cocina canaria. Se prepara con pescado salado, tradicionalmente cherne u otras especies similares, acompañado de papas y batata. El conjunto suele completarse con mojo y una pella de gofio, creando un plato sencillo, contundente y profundamente ligado a la cocina insular.",
+    "source_url": "https://www.grancanaria.com/turismo/es/gastronomia/recetas/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "fish",
+      "gofio",
+      "potatoes",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-gran-canaria-potaje-berros",
+    "slug": "potaje-de-berros",
+    "name": "Potaje de berros",
+    "island": "gran-canaria",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Un potaje de berros, papas, legumbres y verduras especialmente ligado a las medianías húmedas del norte.",
+    "description": "El potaje de berros combina berros frescos con papas, judías, ñame, piña de millo, cebolla, tomate y otros ingredientes que varían según cada casa. En municipios como Firgas y Valleseco forma parte de la cocina cotidiana y de la identidad agrícola local. Se acompaña con frecuencia de gofio y queso.",
+    "source_url": "https://www.grancanaria.com/turismo/es/isla-de-gran-canaria/municipios-de-gran-canaria/visita-firgas/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "watercress",
+      "stew",
+      "north",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-gran-canaria-gofio-escaldado",
+    "slug": "gofio-escaldado",
+    "name": "Gofio escaldado",
+    "island": "gran-canaria",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Gofio mezclado poco a poco con caldo caliente hasta formar una crema espesa y aromática.",
+    "description": "El gofio escaldado se prepara incorporando caldo caliente —a menudo de pescado, potaje o puchero— al gofio mientras se remueve para evitar grumos. Puede servirse con cebolla roja y hierbabuena o acompañado por un refrito de ajo. Es una de las formas más directas de entender el papel del gofio en la cocina de las islas.",
+    "source_url": "https://www.grancanaria.com/turismo/pl/gastronomia/przepisy/przepisy-pierwsze-dania/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "gofio",
+      "broth",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-gran-canaria-ropa-vieja",
+    "slug": "ropa-vieja",
+    "name": "Ropa vieja",
+    "island": "gran-canaria",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Garbanzos, carne y papas convertidos en un plato de aprovechamiento lleno de sabor.",
+    "description": "La ropa vieja canaria nació como una forma de aprovechar restos de carne y garbanzos del puchero. Los ingredientes se rehogan con cebolla, ajo y especias y se completan con papas fritas. Como ocurre con tantos platos domésticos, cada familia introduce pequeñas variaciones en proporciones y condimentos.",
+    "source_url": "https://www.grancanaria.com/turismo/pl/gastronomia/przepisy/przepisy-przekaski/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "chickpeas",
+      "meat",
+      "potatoes",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-gran-canaria-carajacas",
+    "slug": "carajacas",
+    "name": "Carajacas",
+    "island": "gran-canaria",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Hígado adobado con ajo, comino, pimentón, hierbas y vinagre, muy asociado a la cocina grancanaria.",
+    "description": "Las carajacas se preparan marinando hígado en un majado de ajo, comino, pimentón, hierbas aromáticas, sal y vinagre antes de cocinarlo en su propio adobo. Es una receta de sabor intenso que mantiene una presencia especial en Gran Canaria y que suele servirse en pequeñas raciones o acompañada de papas.",
+    "source_url": "https://www.grancanaria.com/turismo/pt/gastronomia/recipes-from-the-islandmix/recipes-from-an-islandmix-chef-carolina-diaz-bertrana-gran-canaria/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "liver",
+      "marinade",
+      "gran-canaria",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-gran-canaria-bienmesabe",
+    "slug": "bienmesabe-y-almendra",
+    "name": "Bienmesabe y dulces de almendra",
+    "island": "gran-canaria",
+    "type": "food",
+    "category": "dessert",
+    "short_description": "La almendra de la cumbre aparece en bienmesabe, mazapanes y una larga tradición de repostería.",
+    "description": "La almendra ocupa un lugar central en la repostería tradicional de Gran Canaria, especialmente en zonas de cumbre como Tejeda. Se utiliza en el bienmesabe, los mazapanes, polvorones y otros dulces que acompañan fiestas y celebraciones. La floración de los almendros es además uno de los grandes acontecimientos del invierno en la isla.",
+    "source_url": "https://www.grancanaria.com/turismo/es/gastronomia/productos-de-gran-canaria/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "almond",
+      "dessert",
+      "tejeda",
+      "bienmesabe"
+    ],
+    "language": "es"
+  }
+]

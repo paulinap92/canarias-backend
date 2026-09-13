@@ -1,0 +1,122 @@
+[
+  {
+    "id": "craft-lanzarote-alfareria",
+    "slug": "alfareria-tradicional",
+    "name": "Alfarería tradicional",
+    "island": "lanzarote",
+    "type": "craft",
+    "category": "pottery",
+    "short_description": "El barro trabajado a mano conserva técnicas y formas ligadas a la vida doméstica rural.",
+    "description": "La alfarería tradicional de Lanzarote utiliza técnicas manuales para producir recipientes y objetos de uso cotidiano o decorativo. Su presencia en espacios como la Casa Museo del Campesino recuerda la importancia de los oficios artesanales dentro de la economía rural de la isla.",
+    "source_url": "https://cactlanzarote.com/es/visita",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "pottery",
+      "clay",
+      "craft",
+      "rural"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-lanzarote-cesteria",
+    "slug": "cesteria-palma",
+    "name": "Cestería de palma y fibras vegetales",
+    "island": "lanzarote",
+    "type": "craft",
+    "category": "basketry",
+    "short_description": "Fibras vegetales se transforman en cestas, esteras y objetos ligados a las tareas del campo y la casa.",
+    "description": "La cestería aprovecha palma y otras fibras vegetales para crear objetos útiles en la agricultura y la vida doméstica. Como otros oficios tradicionales de Lanzarote, combina disponibilidad de materiales, necesidad práctica y un conocimiento transmitido de generación en generación.",
+    "source_url": "https://cactlanzarote.com/es/visita",
+    "featured": false,
+    "order": 2,
+    "tags": [
+      "basketry",
+      "palm",
+      "rural",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-lanzarote-rosetas",
+    "slug": "rosetas",
+    "name": "Rosetas y labores textiles",
+    "island": "lanzarote",
+    "type": "craft",
+    "category": "textile",
+    "short_description": "Encajes y labores de hilo conservan una parte importante del trabajo artesanal doméstico de las islas.",
+    "description": "Las rosetas y otras labores textiles formaron parte de una economía artesanal desarrollada durante generaciones en los hogares canarios. En Lanzarote siguen apareciendo en ferias, talleres y espacios dedicados a conservar oficios tradicionales.",
+    "source_url": "https://cactlanzarote.com/es/visita",
+    "featured": false,
+    "order": 3,
+    "tags": [
+      "rosetas",
+      "textile",
+      "lace",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-lanzarote-timple",
+    "slug": "construccion-timple",
+    "name": "Construcción de timples",
+    "island": "lanzarote",
+    "type": "craft",
+    "category": "instrument-making",
+    "short_description": "La fabricación artesanal del instrumento más representativo de Canarias sigue viva en talleres de Lanzarote.",
+    "description": "La construcción de un timple exige seleccionar maderas, dar forma a la caja, montar el mástil y ajustar el instrumento para conseguir su sonido característico. Teguise ha mantenido una tradición especialmente visible de artesanos dedicados a este oficio.",
+    "source_url": "https://memoriadelanzarote.com/categoria/musica?o=id&tipo=VIDEOS",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "timple",
+      "wood",
+      "instrument-making",
+      "teguise"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-lanzarote-muros-piedra",
+    "slug": "piedra-seca",
+    "name": "Trabajo en piedra seca",
+    "island": "lanzarote",
+    "type": "craft",
+    "category": "stonework",
+    "short_description": "Los muros de piedra volcánica protegen cultivos y forman una de las imágenes más características del paisaje agrario.",
+    "description": "En La Geria y otros paisajes agrícolas, los muros de piedra seca funcionan como protección frente al viento y como parte esencial de la estructura del cultivo. Su construcción exige conocer la forma y el equilibrio de cada piedra sin depender de morteros modernos.",
+    "source_url": "https://turismolanzarote.com/la-geria-ruta-de-vinos-y-festivales/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "dry-stone",
+      "la-geria",
+      "agriculture",
+      "stonework"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-lanzarote-cochinilla",
+    "slug": "trabajo-cochinilla",
+    "name": "Cochinilla y tintes naturales",
+    "island": "lanzarote",
+    "type": "craft",
+    "category": "natural-dye",
+    "short_description": "La obtención de colorante a partir de cochinilla conecta agricultura, oficio y memoria económica.",
+    "description": "La cochinilla cultivada sobre tuneras se utilizó para producir un tinte rojo de gran valor comercial. Aunque hoy su peso económico es mucho menor, el cultivo continúa formando parte del patrimonio agrícola y artesanal asociado al norte de Lanzarote.",
+    "source_url": "https://cactlanzarote.com/es/visita",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "cochineal",
+      "natural-dye",
+      "cactus",
+      "craft"
+    ],
+    "language": "es"
+  }
+]

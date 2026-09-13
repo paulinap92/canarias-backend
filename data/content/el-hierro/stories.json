@@ -1,0 +1,122 @@
+[
+  {
+    "id": "story-el-hierro-garoe",
+    "slug": "leyenda-garoe",
+    "name": "El árbol que daba agua",
+    "island": "el-hierro",
+    "type": "story",
+    "category": "legend",
+    "short_description": "El Garoé quedó unido a la supervivencia de los bimbaches y a la capacidad de captar agua de la niebla.",
+    "description": "La tradición cuenta que el Garoé condensaba la humedad de las nubes y proporcionaba agua a los antiguos habitantes de la isla. El árbol original fue derribado por un huracán en 1610, pero su memoria permaneció como uno de los grandes símbolos herreños.",
+    "source_url": "https://elhierro.travel/experiencias/que-ver-en-el-hierro-durante-la-escala-de-tu-crucero/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "garoe",
+      "legend",
+      "water",
+      "bimbaches"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-el-hierro-meridiano",
+    "slug": "meridiano-de-orchilla",
+    "name": "Cuando El Hierro fue el meridiano cero",
+    "island": "el-hierro",
+    "type": "story",
+    "category": "geographic-history",
+    "short_description": "Durante siglos, cartógrafos europeos utilizaron el meridiano de la isla como referencia occidental.",
+    "description": "Antes de que Greenwich se impusiera internacionalmente, el meridiano de El Hierro fue utilizado como referencia cartográfica por distintos países europeos. Punta de Orchilla quedó así asociada a la idea del fin del mundo conocido y al antiguo meridiano cero.",
+    "source_url": "https://elhierro.travel/experiencias/lo-que-no-te-puedes-perder-de-el-hierro/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "orchilla",
+      "meridian",
+      "cartography",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-el-hierro-voto-1741",
+    "slug": "voto-1741",
+    "name": "1741: el voto de la isla",
+    "island": "el-hierro",
+    "type": "story",
+    "category": "tradition-history",
+    "short_description": "Una gran sequía dio origen al compromiso de repetir La Bajada cada cuatro años.",
+    "description": "En 1741, tras una grave sequía, los herreños hicieron un voto a la Virgen de los Reyes. Según la tradición, la lluvia llegó después de la procesión y la comunidad se comprometió a repetir el traslado desde La Dehesa a Valverde cada cuatro años.",
+    "source_url": "https://elhierro.travel/experiencias/fiestas-tradicionales-el-hierro/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "1741",
+      "bajada",
+      "drought",
+      "virgen-reyes"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-el-hierro-carneros",
+    "slug": "carneros-tigaday-historia",
+    "name": "Los Carneros vuelven a Tigaday",
+    "island": "el-hierro",
+    "type": "story",
+    "category": "festival-history",
+    "short_description": "Una tradición carnavalesca rural sobrevivió hasta convertirse en uno de los símbolos festivos de La Frontera.",
+    "description": "Los Carneros de Tigaday conservan una tradición carnavalesca en la que jóvenes cubiertos con pieles persiguen y tiznan al público. La celebración mantiene un fuerte carácter comunitario y ha sido reconocida oficialmente como Bien de Interés Cultural.",
+    "source_url": "https://elhierro.travel/eventos/el-hierro/carnaval-los-carneros-de-tigaday/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "carneros",
+      "tigaday",
+      "carnival",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-el-hierro-erupcion-2011",
+    "slug": "erupcion-submarina-2011",
+    "name": "2011: el volcán bajo el mar",
+    "island": "el-hierro",
+    "type": "story",
+    "category": "volcanic-history",
+    "short_description": "Una erupción submarina frente a La Restinga recordó que la isla continúa geológicamente activa.",
+    "description": "En 2011 comenzó una erupción submarina al sur de La Restinga. Durante meses, la actividad sísmica y volcánica transformó temporalmente el mar y obligó a seguir de cerca la evolución del nuevo edificio volcánico bajo el agua.",
+    "source_url": "https://elhierro.travel/el-hierro/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "2011",
+      "submarine-volcano",
+      "la-restinga",
+      "geology"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-el-hierro-biosfera",
+    "slug": "reserva-biosfera",
+    "name": "Una isla entera como Reserva de la Biosfera",
+    "island": "el-hierro",
+    "type": "story",
+    "category": "conservation-history",
+    "short_description": "La protección ambiental y la transición energética han convertido El Hierro en un referente insular internacional.",
+    "description": "El Hierro forma parte de la Red Mundial de Reservas de Biosfera de la UNESCO. El reconocimiento incluye territorio terrestre y marino y ha reforzado una estrategia de conservación que convive con proyectos de energía renovable y desarrollo local.",
+    "source_url": "https://www.unesco.org/mab/50anniversary/es/el-hierro",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "unesco",
+      "biosphere",
+      "sustainability",
+      "energy"
+    ],
+    "language": "es"
+  }
+]

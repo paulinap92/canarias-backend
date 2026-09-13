@@ -1,0 +1,122 @@
+[
+  {
+    "id": "product-tenerife-papas-antiguas",
+    "slug": "papas-antiguas",
+    "name": "Papas antiguas de Canarias",
+    "island": "tenerife",
+    "type": "product",
+    "category": "agriculture",
+    "short_description": "Variedades históricas de papa cultivadas en las islas desde el siglo XVI y protegidas por una DOP.",
+    "description": "Tenerife conserva numerosas variedades de papas antiguas llegadas a Canarias después del contacto con América. Entre ellas se encuentran variedades como la papa negra, la bonita o la azucena. El suelo volcánico y la diversidad de microclimas de la isla favorecieron su cultivo y hoy forman parte esencial de la cocina local, especialmente en las papas arrugadas.",
+    "source_url": "https://www.webtenerife.com/tenerife/gastronomia/productos/papas/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "potatoes",
+      "dop",
+      "agriculture",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-tenerife-platano",
+    "slug": "platano-canarias",
+    "name": "Plátano de Canarias",
+    "island": "tenerife",
+    "type": "product",
+    "category": "agriculture",
+    "short_description": "Uno de los cultivos más reconocibles de Tenerife, favorecido por el clima suave y los suelos volcánicos.",
+    "description": "Tenerife es la isla con mayor producción de plátano del archipiélago. El cultivo se desarrolla tradicionalmente en pequeñas explotaciones, sobre todo en zonas costeras de clima estable. El Plátano de Canarias cuenta con Indicación Geográfica Protegida y se consume fresco, pero también aparece en postres, batidos, mermeladas y otras elaboraciones.",
+    "source_url": "https://www.webtenerife.com/tenerife/gastronomia/productos/platanos/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "banana",
+      "igp",
+      "agriculture",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-tenerife-gofio",
+    "slug": "gofio",
+    "name": "Gofio",
+    "island": "tenerife",
+    "type": "product",
+    "category": "cereal",
+    "short_description": "Harina de cereales tostados heredada de la alimentación aborigen y todavía presente en la cocina cotidiana.",
+    "description": "El gofio se obtiene tostando y moliendo cereales como trigo o millo. Su antecedente se remonta a la alimentación de los antiguos habitantes de Tenerife y con el tiempo incorporó nuevos cereales llegados después de la conquista. Se toma con leche, se amasa en pellas, acompaña potajes y pucheros y es la base del escaldón.",
+    "source_url": "https://www.webtenerife.com/tenerife/gastronomia/productos/el-gofio/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "gofio",
+      "cereal",
+      "guanche",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-tenerife-miel",
+    "slug": "miel-tenerife",
+    "name": "Miel de Tenerife",
+    "island": "tenerife",
+    "type": "product",
+    "category": "apiculture",
+    "short_description": "Mieles ligadas a la extraordinaria diversidad floral de la isla, desde costa y monte hasta las cumbres del Teide.",
+    "description": "Las mieles de Tenerife reflejan la diversidad de floraciones y pisos de vegetación de la isla. Entre las variedades más singulares se encuentran las de tajinaste o retama del Teide, además de mieles procedentes de castaño, aguacate, poleo o brezal. La apicultura tinerfeña mantiene una tradición de varios siglos.",
+    "source_url": "https://www.webtenerife.com/tenerife/gastronomia/productos/miel/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "honey",
+      "apiculture",
+      "teide",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-tenerife-vino",
+    "slug": "vinos-tenerife",
+    "name": "Vinos de Tenerife",
+    "island": "tenerife",
+    "type": "product",
+    "category": "wine",
+    "short_description": "Vinos atlánticos y volcánicos elaborados con variedades tradicionales, muchas de ellas cultivadas en viñedos prefiloxéricos.",
+    "description": "La vid llegó a Tenerife con los primeros europeos y se convirtió en uno de los grandes cultivos históricos de la isla. Hoy existen cinco denominaciones de origen insulares: Tacoronte-Acentejo, Ycoden-Daute-Isora, Valle de La Orotava, Valle de Güímar y Abona. Variedades como Listán Blanco, Listán Negro o Malvasía expresan paisajes y suelos muy distintos dentro de la misma isla.",
+    "source_url": "https://www.webtenerife.com/tenerife/gastronomia/vinos/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "wine",
+      "vineyards",
+      "volcanic",
+      "local-product"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "product-tenerife-quesos",
+    "slug": "quesos-tenerife",
+    "name": "Quesos de Tenerife",
+    "island": "tenerife",
+    "type": "product",
+    "category": "dairy",
+    "short_description": "Quesos frescos, oreados, ahumados y curados, con fuerte presencia de leche de cabra.",
+    "description": "La tradición quesera sigue muy presente en las zonas rurales de Tenerife. Predominan los quesos de cabra y las mezclas de cabra y oveja, con especial consumo de quesos frescos y blancos, aunque también se elaboran piezas curadas, ahumadas o recubiertas de pimentón o gofio. Zonas como Arico-Fasnia, Anaga, Teno y El Tanque mantienen una producción destacada.",
+    "source_url": "https://www.webtenerife.com/tenerife/gastronomia/productos/quesos/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "cheese",
+      "goat",
+      "rural",
+      "local-product"
+    ],
+    "language": "es"
+  }
+]

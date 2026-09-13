@@ -1,0 +1,133 @@
+[
+  {
+    "id": "fiesta-la-palma-bajada",
+    "slug": "bajada-virgen-nieves",
+    "name": "Bajada de la Virgen de las Nieves",
+    "island": "la-palma",
+    "type": "fiesta",
+    "category": "lustral-festival",
+    "when": "Cada cinco años, en verano",
+    "location": "Santa Cruz de La Palma",
+    "short_description": "La gran fiesta lustral de La Palma reúne durante semanas romería, música, teatro y tradiciones únicas.",
+    "description": "Cada cinco años, la Virgen de las Nieves baja desde su santuario hasta Santa Cruz de La Palma. Las fiestas incluyen actos religiosos, representaciones teatrales, música y números tradicionales que movilizan a toda la isla.",
+    "source_url": "https://visitlapalma.es/experiencias/fiestas-lustrales-de-la-bajada-de-la-virgen-de-las-nieves/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "bajada",
+      "virgen-de-las-nieves",
+      "lustral"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-palma-enanos",
+    "slug": "danza-de-los-enanos",
+    "name": "Danza de los Enanos",
+    "island": "la-palma",
+    "type": "fiesta",
+    "category": "festival-performance",
+    "when": "Durante la Bajada lustral",
+    "location": "Santa Cruz de La Palma",
+    "short_description": "Una transformación teatral seguida de una polca vertiginosa convierte a los Enanos en el gran símbolo festivo de la isla.",
+    "description": "La Danza de los Enanos forma parte de las Fiestas Lustrales y mantiene su estructura actual desde comienzos del siglo XX. Los bailarines representan primero distintos personajes y, tras entrar en una pequeña caseta, aparecen transformados en enanos para iniciar una rápida polca por las calles de la capital.",
+    "source_url": "https://visitlapalma.es/experiencias/fiestas-lustrales-de-la-bajada-de-la-virgen-de-las-nieves/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "enanos",
+      "bajada",
+      "polka",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-palma-indianos",
+    "slug": "los-indianos",
+    "name": "Los Indianos",
+    "island": "la-palma",
+    "type": "fiesta",
+    "category": "carnival",
+    "when": "Lunes de Carnaval",
+    "location": "Santa Cruz de La Palma",
+    "short_description": "Trajes blancos, música cubana y nubes de polvos de talco convierten la capital en una fiesta atlántica.",
+    "description": "Los Indianos recuerdan de forma festiva la emigración palmera a América y el regreso de quienes hicieron fortuna al otro lado del Atlántico. El centro de Santa Cruz se llena de ropa blanca, maletas antiguas, música caribeña y enormes cantidades de polvos de talco.",
+    "source_url": "https://visitlapalma.es/experiencias/fiestas-mas-populares-de-la-palma/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "indianos",
+      "carnival",
+      "cuba",
+      "santa-cruz"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-palma-diablo",
+    "slug": "diablo-de-tijarafe",
+    "name": "El Diablo de Tijarafe",
+    "island": "la-palma",
+    "type": "fiesta",
+    "category": "fire-festival",
+    "when": "Madrugada del 8 de septiembre",
+    "location": "Tijarafe",
+    "short_description": "Una figura gigante cargada de fuegos artificiales irrumpe entre la multitud en una de las noches más intensas de La Palma.",
+    "description": "La Fiesta del Diablo culmina cuando una enorme figura entra en la plaza rodeada de fuego y música. La tradición supera el medio siglo y se ha convertido en uno de los actos festivos más conocidos de Tijarafe.",
+    "source_url": "https://visitlapalma.es/experiencias/fiestas-mas-populares-de-la-palma/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "tijarafe",
+      "diablo",
+      "fireworks",
+      "september"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-palma-corpus",
+    "slug": "corpus-christi-mazo",
+    "name": "Corpus Christi de Villa de Mazo",
+    "island": "la-palma",
+    "type": "fiesta",
+    "category": "tradition",
+    "when": "Mayo o junio",
+    "location": "Villa de Mazo",
+    "short_description": "Arcos, tapices y alfombras elaborados con flores, semillas y vegetación transforman las calles durante días.",
+    "description": "El Corpus Christi de Villa de Mazo destaca por sus estructuras y alfombras creadas durante meses por vecinos del municipio. Flores, musgos, semillas y otros materiales naturales se utilizan para levantar composiciones efímeras de enorme complejidad.",
+    "source_url": "https://visitlapalma.es/experiencias/fiestas-mas-populares-de-la-palma/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "corpus",
+      "mazo",
+      "flowers",
+      "ephemeral-art"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-la-palma-cruces",
+    "slug": "fiesta-de-las-cruces",
+    "name": "Fiesta de las Cruces",
+    "island": "la-palma",
+    "type": "fiesta",
+    "category": "popular-tradition",
+    "when": "3 de mayo",
+    "location": "Santa Cruz de La Palma, Breña Alta, Breña Baja y Villa de Mazo",
+    "short_description": "Cruces decoradas con flores, telas, joyas y objetos artesanos aparecen por caminos, barrios y plazas.",
+    "description": "Cada 3 de mayo numerosos barrios engalanan sus cruces y montan pequeños escenarios alrededor de ellas. La celebración combina devoción, creatividad vecinal y una fuerte rivalidad amistosa por presentar la decoración más espectacular.",
+    "source_url": "https://visitlapalma.es/experiencias/fiestas-mas-populares-de-la-palma/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "crosses",
+      "may",
+      "flowers",
+      "tradition"
+    ],
+    "language": "es"
+  }
+]

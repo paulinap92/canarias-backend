@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.564,
+          29.118
+        ]
+      },
+      "properties": {
+        "id": "explore-lanzarote-famara",
+        "name": "Famara",
+        "description": "Una playa abierta al Atlántico bajo el gran risco de Famara, con viento, oleaje y una escala casi monumental.",
+        "website": "https://turismolanzarote.com/descubre-lanzarote/",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Famara%2C%20Lanzarote.jpg",
+        "image_credit": "Fernandezmoj / Wikimedia Commons",
+        "source": "curated_explore",
+        "island": "lanzarote",
+        "surface": "sand",
+        "access": "public",
+        "featured": true,
+        "tags": [
+          "famara",
+          "beach",
+          "cliffs",
+          "atlantic"
+        ]
+      }
+    }
+  ],
+  "available": true,
+  "status": "seed",
+  "updated_at": null,
+  "source": "curated_seed"
+}

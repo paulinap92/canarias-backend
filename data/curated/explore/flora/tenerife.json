@@ -1,0 +1,91 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-16.633, 28.267]},
+      "properties": {
+        "id": "flora-tenerife-tajinaste-rojo",
+        "common_name": "Tajinaste rojo",
+        "scientific_name": "Echium wildpretii",
+        "name": "Tajinaste rojo · Las Cañadas",
+        "hotspot": "Parque Nacional del Teide y Las Cañadas",
+        "best_season": "Principalmente primavera",
+        "habitat": "Alta montaña volcánica",
+        "description": "Una de las floraciones más llamativas de Tenerife. Sus inflorescencias rojas destacan sobre el paisaje volcánico de alta montaña.",
+        "why_special": "Endemismo canario emblemático del paisaje del Teide.",
+        "featured": true,
+        "verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-16.640, 28.285]},
+      "properties": {
+        "id": "flora-tenerife-violeta-teide",
+        "common_name": "Violeta del Teide",
+        "scientific_name": "Viola cheiranthifolia",
+        "name": "Violeta del Teide · alta montaña",
+        "hotspot": "Zonas altas del Teide",
+        "best_season": "Primavera y comienzo del verano",
+        "habitat": "Piso de alta montaña, pedregales y lavas",
+        "description": "Pequeña planta adaptada a condiciones extremas de altitud, frío, radiación y suelos volcánicos.",
+        "why_special": "Es uno de los endemismos botánicos más asociados a las cumbres de Tenerife.",
+        "featured": true,
+        "verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-16.550, 28.300]},
+      "properties": {
+        "id": "flora-tenerife-pinar-canario",
+        "common_name": "Pinar canario",
+        "scientific_name": "Pinus canariensis",
+        "name": "Pinar canario · Corona Forestal",
+        "hotspot": "Corona Forestal",
+        "best_season": "Todo el año",
+        "habitat": "Bosque de media y alta montaña",
+        "description": "El pino canario forma grandes masas forestales alrededor de las cumbres y está especialmente adaptado al fuego y al clima insular.",
+        "why_special": "Estructura buena parte del paisaje forestal de Tenerife.",
+        "featured": true,
+        "verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-16.270, 28.535]},
+      "properties": {
+        "id": "flora-tenerife-laurisilva-anaga",
+        "common_name": "Laurisilva de Anaga",
+        "scientific_name": null,
+        "name": "Laurisilva · Anaga",
+        "hotspot": "Macizo de Anaga",
+        "best_season": "Todo el año",
+        "habitat": "Monteverde húmedo influido por los alisios",
+        "description": "Bosque húmedo subtropical conservado en las vertientes expuestas a los alisios. Es uno de los paisajes vegetales más característicos del norte de Tenerife.",
+        "why_special": "Representa un tipo de bosque antiguo de la región macaronésica.",
+        "featured": true,
+        "verified": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-16.720, 28.100]},
+      "properties": {
+        "id": "flora-tenerife-cardonal-tabaibal",
+        "common_name": "Cardonal-tabaibal",
+        "scientific_name": null,
+        "name": "Cardonal-tabaibal · zonas bajas y secas",
+        "hotspot": "Sur y zonas bajas áridas de Tenerife",
+        "best_season": "Todo el año",
+        "habitat": "Matorral xerófilo de costa y medianías bajas",
+        "description": "Comunidad vegetal adaptada a sequedad, sol intenso y escasez de agua, dominada por cardones y tabaibas.",
+        "why_special": "Explica por qué el paisaje vegetal del sur es tan distinto al monteverde del norte.",
+        "featured": false,
+        "verified": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source": "Open-Meteo / CAMS",
+  "source_type": "model",
+  "island": "la-palma",
+  "points_count": 0,
+  "points": [],
+  "available": false,
+  "status": "not_initialized",
+  "updated_at": null
+}

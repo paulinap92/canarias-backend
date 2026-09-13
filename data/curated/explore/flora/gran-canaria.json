@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial flora catalog · Gran Canaria v2",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.61,
+          27.98
+        ]
+      },
+      "properties": {
+        "id": "flora-gran-canaria-pino",
+        "common_name": "Pino canario",
+        "scientific_name": "Pinus canariensis",
+        "name": "Pino canario · Pinares de cumbre y Tamadaba",
+        "hotspot": "Pinares de cumbre y Tamadaba",
+        "best_season": "Todo el año",
+        "habitat": "Pinar de montaña",
+        "description": "El pino canario estructura buena parte de los bosques de altura de Gran Canaria.",
+        "featured": true,
+        "verified": true,
+        "priority": 1,
+        "why_special": "Resiste sequía y fuego gracias a adaptaciones propias del archipiélago."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.59,
+          28.01
+        ]
+      },
+      "properties": {
+        "id": "flora-gran-canaria-tajinaste-azul",
+        "common_name": "Tajinaste azul de Gran Canaria",
+        "scientific_name": "Echium callithyrsum",
+        "name": "Tajinaste azul de Gran Canaria · Medianías y norte de la isla",
+        "hotspot": "Medianías y norte de la isla",
+        "best_season": "Primavera",
+        "habitat": "Laderas y matorral de medianías",
+        "description": "Tajinaste endémico conocido por sus inflorescencias azuladas en primavera.",
+        "featured": true,
+        "verified": true,
+        "priority": 2,
+        "why_special": "Uno de los endemismos botánicos más vistosos de la isla."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.58,
+          28.08
+        ]
+      },
+      "properties": {
+        "id": "flora-gran-canaria-laurisilva",
+        "common_name": "Laurisilva y monteverde",
+        "scientific_name": null,
+        "name": "Laurisilva y monteverde · Los Tilos de Moya y relictos del norte",
+        "hotspot": "Los Tilos de Moya y relictos del norte",
+        "best_season": "Todo el año",
+        "habitat": "Monteverde húmedo",
+        "description": "Los relictos de monteverde recuerdan la vegetación húmeda que ocupó áreas mucho mayores de Gran Canaria.",
+        "featured": true,
+        "verified": true,
+        "priority": 3,
+        "why_special": "Hábitat macaronésico de gran valor biogeográfico."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.58,
+          27.78
+        ]
+      },
+      "properties": {
+        "id": "flora-gran-canaria-cardonal",
+        "common_name": "Cardonal-tabaibal",
+        "scientific_name": null,
+        "name": "Cardonal-tabaibal · Zonas bajas y secas",
+        "hotspot": "Zonas bajas y secas",
+        "best_season": "Todo el año",
+        "habitat": "Matorral xerófilo",
+        "description": "Cardones y tabaibas dominan muchos paisajes cálidos y secos de la isla.",
+        "featured": false,
+        "verified": true,
+        "priority": 4,
+        "why_special": "Explica el fuerte contraste entre costa árida y medianías verdes."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.68,
+          27.87
+        ]
+      },
+      "properties": {
+        "id": "flora-gran-canaria-drago",
+        "common_name": "Drago de Gran Canaria",
+        "scientific_name": "Dracaena tamaranae",
+        "name": "Drago de Gran Canaria · Barrancos del suroeste — localización aproximada y no sensible",
+        "hotspot": "Barrancos del suroeste — localización aproximada y no sensible",
+        "best_season": "Todo el año",
+        "habitat": "Riscos y barrancos secos",
+        "description": "Especie de drago endémica de Gran Canaria y muy escasa. La aplicación evita señalar ejemplares concretos.",
+        "featured": false,
+        "verified": true,
+        "priority": 5,
+        "why_special": "Una de las plantas más singulares y amenazadas de la isla; se muestra por hábitat, no por ejemplar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.56,
+          27.9
+        ]
+      },
+      "properties": {
+        "id": "flora-gran-canaria-palmera",
+        "common_name": "Palmera canaria",
+        "scientific_name": "Phoenix canariensis",
+        "name": "Palmera canaria · Barrancos y palmerales de medianías",
+        "hotspot": "Barrancos y palmerales de medianías",
+        "best_season": "Todo el año",
+        "habitat": "Fondos de barranco y vegas con disponibilidad de agua",
+        "description": "La palmera canaria forma palmerales muy visibles en varios barrancos del interior y del sur.",
+        "featured": false,
+        "verified": true,
+        "priority": 6,
+        "why_special": "Elemento clave del paisaje cultural y natural de muchos barrancos grancanarios."
+      }
+    }
+  ]
+}

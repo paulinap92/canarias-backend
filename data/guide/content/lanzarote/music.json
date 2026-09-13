@@ -1,0 +1,119 @@
+[
+  {
+    "id": "music-lanzarote-timple",
+    "slug": "timple",
+    "name": "El timple",
+    "island": "lanzarote",
+    "type": "music",
+    "category": "instrument",
+    "short_description": "El instrumento de cuerda más reconocible de Canarias tiene una larga tradición de construcción e interpretación en Lanzarote.",
+    "description": "El timple acompaña buena parte del repertorio tradicional lanzaroteño y aparece en parrandas, folías, isas y Ranchos de Pascua. En Teguise y otros municipios se ha mantenido además una tradición artesanal de fabricación del instrumento.",
+    "source_url": "https://memoriadelanzarote.com/categoria/musica?o=id&tipo=VIDEOS",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "timple",
+      "instrument",
+      "folklore"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-lanzarote-rancho-teguise",
+    "slug": "rancho-de-pascua-teguise",
+    "name": "Rancho de Pascua de Teguise",
+    "island": "lanzarote",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "Una de las agrupaciones navideñas tradicionales más emblemáticas de Lanzarote.",
+    "description": "El Rancho de Pascua de Teguise conserva repertorios religiosos y populares vinculados al ciclo navideño. Las voces se acompañan con panderos, espadas, guitarras y timples, manteniendo una tradición documentada durante siglos y profundamente ligada a la antigua capital de la isla.",
+    "source_url": "https://turismolanzarote.com/navidad-bajo-el-sol-de-lanzarote/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "teguise",
+      "rancho-de-pascua",
+      "christmas",
+      "folk"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-lanzarote-buches",
+    "slug": "parranda-los-buches",
+    "name": "Parranda Marinera Los Buches",
+    "island": "lanzarote",
+    "type": "music",
+    "category": "maritime-music",
+    "short_description": "Habaneras y canciones marineras acompañan una de las tradiciones más características del Carnaval de Arrecife.",
+    "description": "La Parranda Marinera Los Buches mantiene vivo un repertorio ligado al antiguo ambiente portuario de Arrecife. Timples, guitarras, foritos y el peculiar pito de agua acompañan canciones marineras y habaneras durante el Carnaval tradicional.",
+    "source_url": "https://memoriadelanzarote.com/item/22346-pito-de-agua-de-manuel-perez",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "los-buches",
+      "habanera",
+      "arrecife",
+      "maritime"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-lanzarote-isa",
+    "slug": "isa-lanzarote",
+    "name": "Isa",
+    "island": "lanzarote",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "El carácter festivo de la isa la convierte en una pieza habitual de romerías y actuaciones folclóricas.",
+    "description": "La isa forma parte del repertorio compartido por las islas Canarias y en Lanzarote sigue apareciendo en agrupaciones folclóricas, romerías y celebraciones. Su ritmo vivo contrasta con formas más pausadas como la folía.",
+    "source_url": "https://turismolanzarote.com/navidad-bajo-el-sol-de-lanzarote/",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "isa",
+      "dance",
+      "folklore"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-lanzarote-folia",
+    "slug": "folia-lanzarote",
+    "name": "Folía",
+    "island": "lanzarote",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "Una forma melódica y pausada que continúa formando parte del repertorio folclórico de la isla.",
+    "description": "La folía canaria mantiene un carácter más lento y expresivo que la isa. En Lanzarote se interpreta con instrumentos de cuerda y aparece en repertorios de agrupaciones y encuentros dedicados a la música tradicional.",
+    "source_url": "https://memoriadelanzarote.com/categoria/musica?o=id&tipo=VIDEOS",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "folia",
+      "traditional-music",
+      "folk"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-lanzarote-acatife",
+    "slug": "acatife",
+    "name": "Acatife",
+    "island": "lanzarote",
+    "type": "music",
+    "category": "folk-group",
+    "short_description": "Una histórica agrupación de Teguise vinculada a la conservación y difusión del folclore lanzaroteño.",
+    "description": "La Agrupación Acatife está vinculada a la tradición musical y folclórica de Teguise y participa en conciertos y celebraciones insulares. Su repertorio ayuda a mantener vivas formas musicales y canciones transmitidas dentro de la cultura popular lanzaroteña.",
+    "source_url": "https://turismolanzarote.com/navidad-bajo-el-sol-de-lanzarote/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "acatife",
+      "teguise",
+      "folk-group",
+      "tradition"
+    ],
+    "language": "es"
+  }
+]

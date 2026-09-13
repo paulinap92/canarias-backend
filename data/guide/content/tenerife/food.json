@@ -1,0 +1,173 @@
+[
+  {
+    "id": "food-tenerife-papas-arrugadas",
+    "slug": "papas-arrugadas",
+    "name": "Papas arrugadas con mojo",
+    "island": "tenerife",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Papas cocidas con abundante sal, secadas hasta formar su característica piel arrugada y servidas con mojo.",
+    "description": "Las papas arrugadas son una de las preparaciones más reconocibles de la cocina canaria. Se cuecen sin pelar en agua con sal y, una vez tiernas, se escurren y se resecan en el mismo caldero hasta que la piel queda arrugada y ligeramente blanquecina. En Tenerife suelen servirse como acompañamiento o como plato para compartir junto a mojo rojo o verde.",
+    "ingredients": [
+      "papas pequeñas",
+      "sal gruesa",
+      "agua",
+      "mojo rojo o verde"
+    ],
+    "source_url": "https://www.webtenerife.com/tenerife/gastronomia/productos/recetas/papas-arrugadas/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "potatoes",
+      "mojo",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-tenerife-conejo-salmorejo",
+    "slug": "conejo-en-salmorejo",
+    "name": "Conejo en salmorejo",
+    "island": "tenerife",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Conejo marinado con ajo, pimienta, pimentón, vino y hierbas, después frito y terminado con su propio adobo.",
+    "description": "El conejo en salmorejo es uno de los platos más conocidos de la cocina canaria. La carne se deja varias horas en un adobo de ajo, sal, pimentón, pimienta, aceite, vinagre, vino blanco, laurel, romero y tomillo. Después se fríe y se termina con parte de la salsa del marinado, logrando un plato intenso que suele acompañarse con papas.",
+    "ingredients": [
+      "conejo",
+      "ajo",
+      "pimienta picona",
+      "pimentón",
+      "vino blanco",
+      "vinagre",
+      "laurel",
+      "romero",
+      "tomillo"
+    ],
+    "source_url": "https://www.webtenerife.com/tenerife/gastronomia/productos/recetas/conejo-en-salmorejo/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "rabbit",
+      "salmorejo",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-tenerife-puchero",
+    "slug": "puchero-canario",
+    "name": "Puchero canario",
+    "island": "tenerife",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Un guiso completo de carnes, garbanzos y una gran variedad de verduras y productos locales.",
+    "description": "El puchero canario es una de las ollas más completas de la cocina de las islas. Combina carnes, garbanzos, piña de millo, col, habichuelas, zanahoria, calabaza, bubango, batata, papas y otros ingredientes que pueden variar según la casa y la temporada. Su caldo también se aprovecha tradicionalmente para preparar sopa o un escaldón de gofio.",
+    "ingredients": [
+      "carne",
+      "garbanzos",
+      "piña de millo",
+      "col",
+      "calabaza",
+      "bubango",
+      "batata",
+      "papas",
+      "ajo",
+      "comino"
+    ],
+    "source_url": "https://www.webtenerife.com/tenerife/gastronomia/productos/recetas/puchero-canario/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "stew",
+      "vegetables",
+      "gofio",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-tenerife-costillas",
+    "slug": "costillas-papas-pina",
+    "name": "Costillas con papas y piña de millo",
+    "island": "tenerife",
+    "type": "food",
+    "category": "tenerife-specialty",
+    "short_description": "Costillas saladas, papas y mazorca cocidas juntas y servidas con mojo verde.",
+    "description": "Las costillas con papas y piña de millo son una especialidad especialmente vinculada a Tenerife. Las costillas saladas se desalan previamente y se cuecen junto a la piña de millo; las papas se incorporan más tarde para terminar la cocción. El plato se sirve habitualmente con mojo de cilantro, aceite y vinagre.",
+    "ingredients": [
+      "costillas saladas",
+      "papas",
+      "piña de millo",
+      "mojo verde",
+      "aceite",
+      "vinagre"
+    ],
+    "source_url": "https://www.webtenerife.com/tenerife/gastronomia/productos/recetas/costillas-con-papas-y-pi%C3%B1a-de-millo/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "pork",
+      "potatoes",
+      "corn",
+      "tenerife"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-tenerife-cazuela-pescado",
+    "slug": "cazuela-de-pescado",
+    "name": "Cazuela de pescado",
+    "island": "tenerife",
+    "type": "food",
+    "category": "seafood",
+    "short_description": "Un guiso marinero de pescado de roca, papas, verduras, hierbas y un majado aromático.",
+    "description": "La cazuela de pescado es uno de los grandes guisos marineros de Canarias y está especialmente presente en la cocina tradicional del norte de Tenerife. Se prepara con pescado de roca o especies similares, papas, cebolla, pimiento, tomate y un majado con ajo, comino, cilantro, perejil y especias. El caldo puede aprovecharse para preparar escaldón de gofio.",
+    "ingredients": [
+      "pescado de roca",
+      "papas",
+      "cebolla",
+      "pimiento",
+      "tomate",
+      "ajo",
+      "cilantro",
+      "comino"
+    ],
+    "source_url": "https://www.webtenerife.com/tenerife/gastronomia/productos/recetas/cazuela-de-pescado/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "fish",
+      "stew",
+      "coast",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-tenerife-bienmesabe",
+    "slug": "bienmesabe",
+    "name": "Bienmesabe",
+    "island": "tenerife",
+    "type": "food",
+    "category": "dessert",
+    "short_description": "Un postre dulce de almendra, azúcar, yema, limón y canela muy arraigado en la repostería canaria.",
+    "description": "El bienmesabe canario es una crema dulce elaborada a base de almendras molidas, almíbar y yemas, aromatizada con limón y canela. Suele servirse frío, solo o acompañando otros postres como helado. Aunque existen preparaciones con el mismo nombre en otros lugares, en Canarias ha adquirido una identidad propia dentro de la repostería tradicional.",
+    "ingredients": [
+      "almendras",
+      "azúcar",
+      "yemas",
+      "limón",
+      "canela"
+    ],
+    "source_url": "https://www.webtenerife.com/tenerife/gastronomia/productos/recetas/bienmesabe/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "dessert",
+      "almond",
+      "traditional-food"
+    ],
+    "language": "es"
+  }
+]

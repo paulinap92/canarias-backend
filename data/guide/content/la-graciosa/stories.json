@@ -1,0 +1,121 @@
+[
+  {
+    "id": "story-la-graciosa-primeros-pobladores",
+    "slug": "primeros-asentamientos",
+    "name": "Una isla habitada de forma permanente desde el siglo XIX",
+    "island": "la-graciosa",
+    "type": "story",
+    "category": "social-history",
+    "short_description": "La población permanente de La Graciosa es relativamente reciente y creció alrededor de la pesca.",
+    "description": "Aunque el territorio fue conocido y visitado durante siglos, los primeros asentamientos permanentes se consolidaron en el siglo XIX. La pesca se convirtió en el principal sustento y dio forma al crecimiento de Caleta de Sebo y a la identidad marinera de sus habitantes.",
+    "source_url": "https://turismolanzarote.com/wp-content/uploads/2017/03/Gu%C3%ADa-Enogastron%C3%B3mica-Saborea-Lanzarote.pdf",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "19th-century",
+      "settlement",
+      "fishing",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-graciosa-pedro-barba",
+    "slug": "historia-pedro-barba",
+    "name": "¿Quién fue Pedro Barba?",
+    "island": "la-graciosa",
+    "type": "story",
+    "category": "history",
+    "short_description": "El pequeño núcleo del norte lleva el nombre de un caballero sevillano relacionado con los primeros años del señorío canario.",
+    "description": "Pedro Barba fue un caballero sevillano que viajó a Lanzarote para investigar el gobierno de Maciot de Bethencourt. Su nombre quedó unido al pequeño asentamiento del norte de La Graciosa, que más tarde también albergó actividad pesquera y salazonera.",
+    "source_url": "https://turismolanzarote.com/que-hacer-este-verano-en-la-graciosa/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "pedro-barba",
+      "bethencourt",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-graciosa-gracioseras-risco",
+    "slug": "camino-pescado-famara",
+    "name": "Cestas de pescado por el Risco de Famara",
+    "island": "la-graciosa",
+    "type": "story",
+    "category": "social-history",
+    "short_description": "Mujeres de La Graciosa cruzaban El Río y subían el Risco cargadas con pescado para vender en Lanzarote.",
+    "description": "Antes de las comunicaciones modernas, parte de la economía familiar dependía de transportar pescado hasta Lanzarote. Las gracioseras cargaban cestas y afrontaban el duro ascenso del Risco de Famara, una imagen que todavía forma parte de la memoria colectiva de la isla.",
+    "source_url": "https://turismolanzarote.com/la-graciosa-vacaciones-con-sombrera-y-pies-descalzos/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "women",
+      "fishing",
+      "famara",
+      "memory"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-graciosa-sin-electricidad",
+    "slug": "electricidad-anos-80",
+    "name": "Cuando conservar comida era una necesidad diaria",
+    "island": "la-graciosa",
+    "type": "story",
+    "category": "everyday-history",
+    "short_description": "La electricidad llegó tarde y técnicas como secar pescado siguieron siendo esenciales durante buena parte del siglo XX.",
+    "description": "La Graciosa no dispuso de electricidad generalizada hasta la década de 1980. Durante mucho tiempo, secar, salar y conservar alimentos sin refrigeración formó parte de la vida cotidiana y explica la persistencia de técnicas como la jarea.",
+    "source_url": "https://turismolanzarote.com/wp-content/uploads/2017/03/Gu%C3%ADa-Enogastron%C3%B3mica-Saborea-Lanzarote.pdf",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "electricity",
+      "1980s",
+      "food-preservation",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-graciosa-ignacio-aldecoa",
+    "slug": "ignacio-aldecoa-1961",
+    "name": "1961: «He descubierto el paraíso»",
+    "island": "la-graciosa",
+    "type": "story",
+    "category": "literary-history",
+    "short_description": "El escritor Ignacio Aldecoa dejó una de las frases más citadas sobre La Graciosa después de conocer la isla.",
+    "description": "La tranquilidad, el paisaje volcánico y la sensación de aislamiento impresionaron a Ignacio Aldecoa durante su estancia en La Graciosa. Su conocida frase sobre haber descubierto el paraíso sigue utilizándose para expresar la fascinación que produce la isla.",
+    "source_url": "https://turismolanzarote.com/que-hacer-este-verano-en-la-graciosa/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "ignacio-aldecoa",
+      "1961",
+      "literature",
+      "travel"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-graciosa-octava-isla",
+    "slug": "reconocimiento-2018",
+    "name": "2018: reconocimiento de la Octava Isla",
+    "island": "la-graciosa",
+    "type": "story",
+    "category": "contemporary-history",
+    "short_description": "El reconocimiento institucional reforzó una identidad insular que los gracioseros ya sentían como propia.",
+    "description": "En 2018 La Graciosa recibió reconocimiento oficial como isla habitada dentro de la organización territorial canaria. El cambio tuvo un fuerte valor simbólico para una comunidad con identidad diferenciada y consolidó todavía más la expresión Octava Isla.",
+    "source_url": "https://www.visitlagraciosa.com/vacaciones-semana-santa-la-graciosa/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "2018",
+      "octava-isla",
+      "identity",
+      "history"
+    ],
+    "language": "es"
+  }
+]

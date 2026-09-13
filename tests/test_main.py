@@ -1,10 +1,6 @@
 from fastapi.testclient import TestClient
 
 from app.main import app
-from app.models.island import Island
-from app.models.region import Region
-from app.repositories.island import IslandRepository
-from app.repositories.region import RegionRepository
 
 
 client = TestClient(app)
@@ -12,104 +8,45 @@ client = TestClient(app)
 
 def test_root() -> None:
     response = client.get("/")
-
     assert response.status_code == 200
     assert response.json() == {"message": "Canarias API"}
 
 
-def test_get_regions(monkeypatch) -> None:
-    async def fake_find_all(self):
-        return [
-            Region(
-                id=1,
-                name="Canarias",
-                slug="canarias",
-            )
-        ]
-
-    monkeypatch.setattr(
-        RegionRepository,
-        "find_all",
-        fake_find_all,
-    )
-
-    response = client.get("/api/regions")
-
+def test_health() -> None:
+    response = client.get("/health")
     assert response.status_code == 200
-    assert response.json() == [
-        {
-            "id": 1,
-            "name": "Canarias",
-            "slug": "canarias",
-        }
-    ]
+    assert response.json()["api"] == "ok"
 
 
-def test_get_region_by_slug(monkeypatch) -> None:
-    async def fake_find_by_slug(self, slug: str):
-        return Region(
-            id=1,
-            name="Canarias",
-            slug=slug,
-        )
-
-    monkeypatch.setattr(
-        RegionRepository,
-        "find_by_slug",
-        fake_find_by_slug,
-    )
-
-    response = client.get("/api/regions/canarias")
-
-    assert response.status_code == 200
-    assert response.json()["slug"] == "canarias"
-
-
-def test_get_unknown_region(monkeypatch) -> None:
-    async def fake_find_by_slug(self, slug: str):
-        return None
-
-    monkeypatch.setattr(
-        RegionRepository,
-        "find_by_slug",
-        fake_find_by_slug,
-    )
-
-    response = client.get("/api/regions/mars")
-
+def test_unknown_island_capabilities() -> None:
+    response = client.get("/api/regions/canarias/islands/mars/capabilities")
     assert response.status_code == 404
-    assert response.json() == {
-        "detail": "Region not found",
-    }
+    assert response.json()["detail"] == "Unknown island"
 
 
-def test_get_islands_for_region(monkeypatch) -> None:
-    async def fake_find_by_region_slug(self, region_slug: str):
-        return [
-            Island(
-                id=1,
-                name="Tenerife",
-                slug="tenerife",
-                region_id=1,
-            )
-        ]
-
-    monkeypatch.setattr(
-        IslandRepository,
-        "find_by_region_slug",
-        fake_find_by_region_slug,
-    )
-
-    response = client.get(
-        "/api/regions/canarias/islands"
-    )
-
+def test_tenerife_capabilities() -> None:
+    response = client.get("/api/regions/canarias/islands/tenerife/capabilities")
     assert response.status_code == 200
-    assert response.json() == [
-        {
-            "id": 1,
-            "name": "Tenerife",
-            "slug": "tenerife",
-            "region_id": 1,
-        }
-    ]
+    features = response.json()["features"]
+    assert features["weather"] is True
+    assert features["air_quality"] is True
+    assert features["tides"] is True
+
+
+def test_la_graciosa_live_capabilities_match_point_data() -> None:
+    response = client.get("/api/regions/canarias/islands/la-graciosa/capabilities")
+    assert response.status_code == 200
+    features = response.json()["features"]
+    assert features["weather"] is True
+    assert features["air_quality"] is True
+    assert features["tides"] is True
+    assert features["monuments"] is False
+
+
+def test_invalid_content_section() -> None:
+    response = client.get(
+        "/api/regions/canarias/content/not-found",
+        params={"island": "tenerife", "section": "nope"},
+    )
+    assert response.status_code == 400
+    assert response.json()["detail"] == "Invalid content section"

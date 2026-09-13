@@ -1,0 +1,133 @@
+[
+  {
+    "id": "fiesta-el-hierro-bajada",
+    "slug": "bajada-virgen-reyes",
+    "name": "Bajada de la Virgen de los Reyes",
+    "island": "el-hierro",
+    "type": "fiesta",
+    "category": "lustral-festival",
+    "when": "Primer sábado de julio, cada cuatro años",
+    "location": "La Dehesa → Valverde",
+    "short_description": "La gran celebración herreña traslada a la patrona desde La Dehesa hasta Valverde atravesando la cumbre.",
+    "description": "La Bajada se celebra cada cuatro años desde el voto realizado en 1741. La imagen de la Virgen de los Reyes recorre el Camino de la Virgen mientras los pueblos se relevan por rayas y descansos acompañados por bailarines, pitos, tambores y chácaras.",
+    "source_url": "https://elhierro.travel/eventos/el-hierro/bajada-de-la-virgen-de-los-reyes/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "bajada",
+      "virgen-reyes",
+      "lustral",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-el-hierro-subida",
+    "slug": "subida-virgen-reyes",
+    "name": "Subida de la Virgen de los Reyes",
+    "island": "el-hierro",
+    "type": "fiesta",
+    "category": "lustral-festival",
+    "when": "Primer sábado de agosto, cada cuatro años",
+    "location": "Valverde → La Dehesa",
+    "short_description": "Un mes después de La Bajada, la patrona regresa a su santuario por el Camino de la Virgen.",
+    "description": "La Subida cierra el ciclo festivo lustral y devuelve a la Virgen de los Reyes a la ermita de La Dehesa. El recorrido conserva rayas, descansos y relevos entre pueblos y mantiene la misma intensidad comunitaria que La Bajada.",
+    "source_url": "https://elhierro.travel/eventos/el-hierro/subida-virgen-de-los-reyes/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "subida",
+      "virgen-reyes",
+      "lustral"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-el-hierro-carneros",
+    "slug": "carneros-de-tigaday",
+    "name": "Los Carneros de Tigaday",
+    "island": "el-hierro",
+    "type": "fiesta",
+    "category": "carnival-tradition",
+    "when": "Carnaval",
+    "location": "Tigaday, La Frontera",
+    "short_description": "Jóvenes cubiertos con pieles de carnero persiguen al público y lo manchan de negro en una tradición declarada BIC.",
+    "description": "Durante el Carnaval de La Frontera aparecen los Carneros de Tigaday. Vestidos con pieles resecas y cubiertos de polvo, recorren las calles persiguiendo a niños y adultos y manchándolos de negro. La tradición está reconocida como Bien de Interés Cultural.",
+    "source_url": "https://elhierro.travel/eventos/el-hierro/carnaval-los-carneros-de-tigaday/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "carneros",
+      "tigaday",
+      "carnival",
+      "bic"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-el-hierro-carmen",
+    "slug": "fiestas-del-carmen-la-restinga",
+    "name": "Fiestas del Carmen",
+    "island": "el-hierro",
+    "type": "fiesta",
+    "category": "maritime-festival",
+    "when": "Julio",
+    "location": "La Restinga",
+    "short_description": "La patrona de los marineros sale al mar en una procesión acompañada por embarcaciones del pueblo.",
+    "description": "La Restinga celebra en julio a la Virgen del Carmen con actos religiosos y populares. El momento central es la procesión marítima, cuando la imagen sale en barco acompañada por pescadores, familias y otras embarcaciones.",
+    "source_url": "https://elhierro.travel/eventos/el-hierro/fiestas-del-carmen/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "carmen",
+      "la-restinga",
+      "maritime",
+      "july"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-el-hierro-san-simon",
+    "slug": "san-simon-sabinosa",
+    "name": "Fiesta de San Simón",
+    "island": "el-hierro",
+    "type": "fiesta",
+    "category": "popular-tradition",
+    "when": "28 de octubre",
+    "location": "Sabinosa",
+    "short_description": "Sabinosa celebra a San Simón con procesión, comunidad y una fuerte identidad local.",
+    "description": "Cada 28 de octubre, vecinos y visitantes acompañan a San Simón por las calles de Sabinosa. La fiesta combina devoción, tradición y hospitalidad y continúa siendo una de las citas más queridas del pueblo.",
+    "source_url": "https://elhierro.travel/eventos/el-hierro/fiesta-de-san-simon/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "san-simon",
+      "sabinosa",
+      "october",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "fiesta-el-hierro-apanada",
+    "slug": "apanada-san-andres",
+    "name": "Fiesta de La Apañada",
+    "island": "el-hierro",
+    "type": "fiesta",
+    "category": "rural-festival",
+    "when": "Junio",
+    "location": "San Andrés",
+    "short_description": "Una feria ganadera mantiene viva la práctica de reunir el ganado y celebra el mundo rural herreño.",
+    "description": "La Apañada de San Andrés recuerda la tradición de concentrar el ganado que permanecía en el monte. La fiesta actual combina exposición y venta de animales, concursos y actividades ligadas a la ganadería y al sector primario.",
+    "source_url": "https://elhierro.travel/eventos/el-hierro/fiesta-de-la-apanada-en-san-andres/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "apanada",
+      "san-andres",
+      "livestock",
+      "rural"
+    ],
+    "language": "es"
+  }
+]

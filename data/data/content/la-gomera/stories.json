@@ -1,0 +1,119 @@
+[
+  {
+    "id": "story-la-gomera-cantones",
+    "slug": "cuatro-cantones",
+    "name": "La isla de los cuatro cantones",
+    "island": "la-gomera",
+    "type": "story",
+    "category": "prehistory",
+    "short_description": "Antes de la conquista, La Gomera se dividía en Mulagua, Hipalán, Orone y Agana.",
+    "description": "La organización territorial de los antiguos gomeros se estructuraba en cuatro cantones relacionados con los grandes valles de la isla. Esa geografía política ayuda a explicar por qué barrancos y divisorias naturales tuvieron tanta importancia en la vida prehispánica.",
+    "source_url": "https://lagomera.travel/identidad/la-gomera/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "cantons",
+      "prehistory",
+      "aboriginal"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-gomera-rebelion-1488",
+    "slug": "rebelion-gomeros-1488",
+    "name": "1488: la Rebelión de los Gomeros",
+    "island": "la-gomera",
+    "type": "story",
+    "category": "history",
+    "short_description": "La rebelión de 1488 quedó unida a figuras como Hupalupa y a la resistencia frente al poder señorial.",
+    "description": "La historia de Valle Gran Rey mantiene viva la memoria de Hupalupa, una de las figuras centrales de la Rebelión de los Gomeros de 1488. El episodio muestra la fuerte tensión entre la población indígena y el sistema señorial implantado tras la conquista.",
+    "source_url": "https://lagomera.travel/experiencias/valle-gran-rey/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "1488",
+      "hupalupa",
+      "rebellion",
+      "history"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-gomera-colon",
+    "slug": "colon-la-gomera",
+    "name": "La última escala antes del Atlántico",
+    "island": "la-gomera",
+    "type": "story",
+    "category": "atlantic-history",
+    "short_description": "San Sebastián quedó para siempre unido a Cristóbal Colón y a las escalas de sus viajes hacia América.",
+    "description": "La posición de La Gomera convirtió su puerto en escala para expediciones atlánticas a finales del siglo XV. San Sebastián conserva varios lugares vinculados a la memoria colombina y utiliza esa historia para explicar el papel estratégico de Canarias en las rutas hacia América.",
+    "source_url": "https://lagomera.travel/experiencias/conoce-la-gomera/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "columbus",
+      "atlantic",
+      "san-sebastian"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-gomera-gara-jonay",
+    "slug": "leyenda-gara-jonay",
+    "name": "Gara y Jonay",
+    "island": "la-gomera",
+    "type": "story",
+    "category": "legend",
+    "short_description": "La leyenda de dos jóvenes enamorados dio nombre, según la tradición popular, al gran bosque de la isla.",
+    "description": "La tradición cuenta la historia trágica de Gara, una joven gomera, y Jonay, llegado desde Tenerife. Aunque la leyenda fue reelaborada con el tiempo, terminó convirtiéndose en uno de los grandes relatos románticos de Canarias y quedó asociada al nombre de Garajonay.",
+    "source_url": "https://lagomera.travel/experiencias/garajonay-un-tesoro-de-otra-era/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "gara",
+      "jonay",
+      "legend",
+      "garajonay"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-gomera-silbo",
+    "slug": "barrancos-que-hablan",
+    "name": "Los barrancos que hablan",
+    "island": "la-gomera",
+    "type": "story",
+    "category": "cultural-history",
+    "short_description": "El relieve de La Gomera convirtió el silbo en una herramienta práctica capaz de salvar grandes distancias.",
+    "description": "Los profundos barrancos hacían lentos los desplazamientos entre caseríos que podían estar visualmente muy próximos. El Silbo Gomero permitió transmitir mensajes de una ladera a otra sin recorrer físicamente todo el camino, convirtiendo la geografía en parte de un sistema de comunicación único.",
+    "source_url": "https://lagomera.travel/experiencias/el-silbo-gomero/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "silbo",
+      "ravines",
+      "communication"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "story-la-gomera-garajonay-unesco",
+    "slug": "garajonay-patrimonio-mundial",
+    "name": "1986: Garajonay entra en la Lista del Patrimonio Mundial",
+    "island": "la-gomera",
+    "type": "story",
+    "category": "conservation-history",
+    "short_description": "La UNESCO reconoció el valor excepcional de uno de los mejores bosques de laurisilva del planeta.",
+    "description": "En 1986 el Parque Nacional de Garajonay fue inscrito en la Lista del Patrimonio Mundial. El reconocimiento ayudó a reforzar la protección internacional de un ecosistema relicto que conserva una biodiversidad extraordinaria y una red de cursos de agua excepcional dentro de Canarias.",
+    "source_url": "https://whc.unesco.org/en/list/380",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "1986",
+      "unesco",
+      "garajonay",
+      "conservation"
+    ],
+    "language": "es"
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "music-la-palma-sirinoque",
+    "slug": "sirinoque",
+    "name": "Sirinoque",
+    "island": "la-palma",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "Uno de los géneros tradicionales más identificados con La Palma, acompañado de canto, percusión y baile.",
+    "description": "El sirinoque es una de las formas musicales y de baile más características de La Palma. Combina canto responsorial, ritmo de percusión y baile, y continúa interpretándose dentro del repertorio folclórico de la isla.",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "sirinoque",
+      "dance",
+      "folk"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-palma-punto-cubano",
+    "slug": "punto-cubano",
+    "name": "Punto cubano",
+    "island": "la-palma",
+    "type": "music",
+    "category": "atlantic-music",
+    "short_description": "La improvisación en décimas refleja los profundos vínculos musicales entre La Palma y Cuba.",
+    "description": "El punto cubano y la décima improvisada encontraron en La Palma un territorio especialmente fértil. La emigración entre Canarias y el Caribe reforzó un repertorio compartido que aún aparece en encuentros, parrandas y celebraciones.",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "punto-cubano",
+      "decima",
+      "cuba",
+      "improvisation"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-palma-lo-divino",
+    "slug": "lo-divino",
+    "name": "Lo Divino",
+    "island": "la-palma",
+    "type": "music",
+    "category": "christmas-music",
+    "short_description": "Agrupaciones recorren calles y barrios durante la Navidad interpretando villancicos y repertorio tradicional.",
+    "description": "Las rondallas de Lo Divino forman parte del paisaje sonoro navideño de La Palma. Con guitarras, laúdes, timples y voces, grupos de vecinos recorren pueblos y barrios manteniendo una tradición comunitaria muy arraigada.",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "lo-divino",
+      "christmas",
+      "rondalla"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-palma-folias",
+    "slug": "folias",
+    "name": "Folías",
+    "island": "la-palma",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "Una de las formas melódicas clásicas del repertorio canario sigue muy presente en agrupaciones palmeras.",
+    "description": "Las folías forman parte del repertorio tradicional compartido por Canarias y se interpretan en La Palma con cuerdas y voces dentro de encuentros folclóricos y celebraciones populares.",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "folias",
+      "traditional-music",
+      "folk"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-palma-isas",
+    "slug": "isas",
+    "name": "Isas",
+    "island": "la-palma",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "El ritmo festivo de la isa acompaña romerías, bailes y actuaciones de grupos folclóricos.",
+    "description": "La isa ofrece una cara más animada del repertorio canario y suele acompañarse de baile. En La Palma continúa formando parte de las actuaciones tradicionales junto a sirinoques, folías y malagueñas.",
+    "source_url": "https://visitlapalma.es/la-palma/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "isas",
+      "dance",
+      "folk"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-la-palma-polca-enanos",
+    "slug": "polca-de-los-enanos",
+    "name": "Polca de los Enanos",
+    "island": "la-palma",
+    "type": "music",
+    "category": "festival-music",
+    "short_description": "La melodía de Domingo Santos Rodríguez acompaña desde comienzos del siglo XX el momento más esperado de la Bajada.",
+    "description": "La Danza de los Enanos alcanza su momento culminante cuando los personajes se transforman y comienzan a bailar una polca rápida e inmediatamente reconocible. La pieza está interpretada por la Banda Municipal de Música San Miguel y forma parte inseparable de la identidad festiva palmera.",
+    "source_url": "https://visitlapalma.es/experiencias/fiestas-lustrales-de-la-bajada-de-la-virgen-de-las-nieves/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "enanos",
+      "polka",
+      "bajada",
+      "festival"
+    ],
+    "language": "es"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "food-la-gomera-almogrote",
+    "slug": "almogrote",
+    "name": "Almogrote",
+    "island": "la-gomera",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Queso curado, ajo, aceite y pimienta se convierten en la crema más reconocible de la gastronomía gomera.",
+    "description": "El almogrote se prepara tradicionalmente con queso de cabra curado, ajo, aceite y pimienta picante. El resultado es una pasta intensa que suele servirse sobre pan tostado. Su sabor fuerte y su carácter claramente local lo convierten en uno de los productos gastronómicos más identificados con La Gomera.",
+    "source_url": "https://lagomera.travel/gastronomia/la-gomera/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "almogrote",
+      "cheese",
+      "spicy",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-gomera-potaje-berros",
+    "slug": "potaje-de-berros",
+    "name": "Potaje de berros",
+    "island": "la-gomera",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "Berros, papas y costillas forman un guiso muy ligado a las zonas altas y húmedas de la isla.",
+    "description": "El potaje de berros es uno de los grandes platos de cuchara de La Gomera. Se elabora con berros, papas y costillas de cerdo y se sirve tradicionalmente acompañado de gofio, queso blanco y cebolla picada.",
+    "source_url": "https://lagomera.travel/experiencias/gastronomia-de-la-gomera/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "watercress",
+      "stew",
+      "gofio",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-gomera-carne-cabra",
+    "slug": "carne-de-cabra",
+    "name": "Carne de cabra",
+    "island": "la-gomera",
+    "type": "food",
+    "category": "traditional-dish",
+    "short_description": "La ganadería caprina sigue presente en guisos y platos de cocina rural gomera.",
+    "description": "La carne de cabra forma parte de la cocina tradicional de la isla y refleja una economía rural en la que la ganadería tuvo durante siglos un papel esencial. Se prepara sobre todo en guisos de cocción lenta, con salsas y condimentos que suavizan e intensifican el sabor de la carne.",
+    "source_url": "https://lagomera.travel/experiencias/la-gomera-sientete-unico/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "goat",
+      "rural-food",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-gomera-pescado",
+    "slug": "pescado-gomero",
+    "name": "Pescado local",
+    "island": "la-gomera",
+    "type": "food",
+    "category": "seafood",
+    "short_description": "Vieja, cherne y corvina aparecen con frecuencia en una cocina marcada por el océano.",
+    "description": "El pescado forma una parte importante de la alimentación gomera. Especies como la vieja, el cherne o la corvina se preparan de forma sencilla, acompañadas de papas, mojo o ensalada, manteniendo una relación directa entre los pequeños núcleos costeros y el producto del mar.",
+    "source_url": "https://lagomera.travel/gastronomia/la-gomera/",
+    "featured": true,
+    "order": 4,
+    "tags": [
+      "fish",
+      "seafood",
+      "coast",
+      "traditional-food"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-gomera-bollo",
+    "slug": "bollo-gomero",
+    "name": "Bollo gomero",
+    "island": "la-gomera",
+    "type": "food",
+    "category": "dessert",
+    "short_description": "Un dulce tradicional elaborado con ingredientes sencillos y muy presente en la repostería de la isla.",
+    "description": "El bollo gomero forma parte de una tradición repostera basada en elaboraciones caseras y productos de larga conservación. Comparte espacio con galletas, tortas y otros dulces que continúan elaborándose artesanalmente en distintos municipios.",
+    "source_url": "https://lagomera.travel/experiencias/gastronomia-de-la-gomera/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "dessert",
+      "pastry",
+      "gomera"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "food-la-gomera-torta-vilana",
+    "slug": "torta-de-vilana",
+    "name": "Torta de vilana",
+    "island": "la-gomera",
+    "type": "food",
+    "category": "dessert",
+    "short_description": "Una elaboración dulce tradicional que forma parte del repertorio repostero gomero.",
+    "description": "La torta de vilana aparece entre los dulces tradicionales de La Gomera y forma parte de una repostería que combina recetas domésticas, productos locales y elaboraciones transmitidas entre generaciones.",
+    "source_url": "https://lagomera.travel/experiencias/gastronomia-de-la-gomera/",
+    "featured": false,
+    "order": 6,
+    "tags": [
+      "dessert",
+      "vilana",
+      "traditional-food"
+    ],
+    "language": "es"
+  }
+]

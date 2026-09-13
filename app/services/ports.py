@@ -9,6 +9,7 @@ PORTS: list[dict[str, Any]] = [
     {"id": "las-palmas", "name": "Puerto de Las Palmas", "island": "gran-canaria", "latitude": 28.1400, "longitude": -15.4255},
     {"id": "agaete", "name": "Puerto de Las Nieves (Agaete)", "island": "gran-canaria", "latitude": 28.1007, "longitude": -15.7102},
     {"id": "morro-jable", "name": "Puerto de Morro Jable", "island": "fuerteventura", "latitude": 28.0490, "longitude": -14.3617},
+    {"id": "puerto-del-rosario", "name": "Puerto de Puerto del Rosario", "island": "fuerteventura", "latitude": 28.4977, "longitude": -13.8560},
     {"id": "corralejo", "name": "Puerto de Corralejo", "island": "fuerteventura", "latitude": 28.7390, "longitude": -13.8638},
     {"id": "playa-blanca", "name": "Puerto de Playa Blanca", "island": "lanzarote", "latitude": 28.8578, "longitude": -13.8333},
     {"id": "arrecife", "name": "Puerto de Arrecife", "island": "lanzarote", "latitude": 28.9674, "longitude": -13.5265},

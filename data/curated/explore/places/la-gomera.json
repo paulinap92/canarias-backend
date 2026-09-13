@@ -1,0 +1,219 @@
+{
+  "type": "FeatureCollection",
+  "source": "Canarias Cerca editorial places catalog",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.238,
+          28.126
+        ]
+      },
+      "properties": {
+        "id": "explore-la-gomera-parque-nacional-de-garajonay",
+        "name": "Parque Nacional de Garajonay",
+        "description": "Laurisilva, niebla y senderos en el corazón verde de La Gomera.",
+        "website": "https://lagomera.travel/experiencias/conoce-la-gomera/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-gomera",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.334,
+          28.096
+        ]
+      },
+      "properties": {
+        "id": "explore-la-gomera-valle-gran-rey",
+        "name": "Valle Gran Rey",
+        "description": "Un gran valle de terrazas, palmeras y núcleos costeros abierto hacia el oeste.",
+        "website": "https://lagomera.travel/experiencias/valle-gran-rey/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-gomera",
+        "category": "village",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.196,
+          28.188
+        ]
+      },
+      "properties": {
+        "id": "explore-la-gomera-agulo",
+        "name": "Agulo",
+        "description": "Un casco histórico compacto bajo grandes paredes de roca en el norte de La Gomera.",
+        "website": "https://lagomera.travel/experiencias/agulo/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-gomera",
+        "category": "village",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.201,
+          28.187
+        ]
+      },
+      "properties": {
+        "id": "explore-la-gomera-mirador-de-abrante",
+        "name": "Mirador de Abrante",
+        "description": "Una pasarela de cristal suspendida sobre Agulo con Tenerife en el horizonte.",
+        "website": "https://lagomera.travel/miradores/la-gomera/mirador-de-abrante/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-gomera",
+        "category": "viewpoint",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.347,
+          28.216
+        ]
+      },
+      "properties": {
+        "id": "explore-la-gomera-los-organos",
+        "name": "Los Órganos",
+        "description": "Un gran acantilado volcánico cuyas columnas recuerdan los tubos de un órgano.",
+        "website": "https://lagomera.travel/experiencias/lo-que-no-puedes-perderte-en-tu-visita-a-la-gomera/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-gomera",
+        "category": "attraction",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.111,
+          28.091
+        ]
+      },
+      "properties": {
+        "id": "explore-la-gomera-san-sebastian-de-la-gomera",
+        "name": "San Sebastián de La Gomera",
+        "description": "La capital insular combina puerto, arquitectura tradicional y episodios de historia atlántica.",
+        "website": "https://lagomera.travel/municipios/san-sebastian-de-la-gomera/",
+        "image_url": null,
+        "image_credit": null,
+        "source": "curated_explore",
+        "island": "la-gomera",
+        "category": "town",
+        "heritage_type": null,
+        "cc_curated": true,
+        "featured": true,
+        "priority": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.1102,
+          28.0919
+        ]
+      },
+      "properties": {
+        "id": "torre-conde",
+        "name": "Torre del Conde",
+        "category": "heritage",
+        "heritage_type": "fort",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "la-gomera",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.1117,
+          28.0911
+        ]
+      },
+      "properties": {
+        "id": "iglesia-asuncion-gomera",
+        "name": "Iglesia de la Asunción",
+        "category": "heritage",
+        "heritage_type": "church",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "la-gomera",
+        "cc_curated": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.1126,
+          28.0915
+        ]
+      },
+      "properties": {
+        "id": "casa-colon-gomera",
+        "name": "Casa de Colón",
+        "category": "heritage",
+        "heritage_type": "museum",
+        "description": null,
+        "website": null,
+        "source": "curated_heritage",
+        "island": "la-gomera",
+        "cc_curated": true
+      }
+    }
+  ]
+}

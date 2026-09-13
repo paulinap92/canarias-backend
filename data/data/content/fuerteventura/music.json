@@ -1,0 +1,116 @@
+[
+  {
+    "id": "music-fuerteventura-timple",
+    "slug": "timple",
+    "name": "El timple",
+    "island": "fuerteventura",
+    "type": "music",
+    "category": "instrument",
+    "short_description": "El pequeño instrumento de cuerda acompaña parrandas y agrupaciones folclóricas por toda Fuerteventura.",
+    "description": "El timple forma parte del sonido cotidiano del folclore majorero junto a guitarras, laúdes y otros instrumentos de cuerda. Continúa presente en escuelas, agrupaciones y celebraciones populares de la isla.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/parranda-navidena/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "timple",
+      "instrument",
+      "folklore"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-fuerteventura-isa-majorera",
+    "slug": "isa-majorera",
+    "name": "Isa majorera",
+    "island": "fuerteventura",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "Una variante insular de la isa que forma parte del repertorio tradicional de grupos de Fuerteventura.",
+    "description": "La isa majorera adapta uno de los géneros más festivos de Canarias al repertorio propio de Fuerteventura. Se interpreta en actuaciones folclóricas y bailes tradicionales con acompañamiento de cuerdas y percusión.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/parranda-navidena/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "isa-majorera",
+      "dance",
+      "folklore"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-fuerteventura-folia",
+    "slug": "folia-majorera",
+    "name": "Folía",
+    "island": "fuerteventura",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "La folía aporta la parte más pausada y melódica del repertorio folclórico majorero.",
+    "description": "La folía es uno de los géneros compartidos por el archipiélago y continúa presente en el repertorio de agrupaciones de Fuerteventura. Su carácter expresivo contrasta con piezas más rápidas como la isa o la polka.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/parranda-navidena/",
+    "featured": false,
+    "order": 3,
+    "tags": [
+      "folia",
+      "traditional-music",
+      "folk"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-fuerteventura-polca",
+    "slug": "polca-majorera",
+    "name": "Polca majorera",
+    "island": "fuerteventura",
+    "type": "music",
+    "category": "traditional-music",
+    "short_description": "Las polcas adoptadas por el folclore canario siguen muy presentes en bailes y repertorios de Fuerteventura.",
+    "description": "La polca llegó a Canarias desde Europa y fue adaptándose al repertorio popular de las islas. En Fuerteventura sigue interpretándose dentro de agrupaciones folclóricas y bailes tradicionales, con variantes y estilos propios de la isla.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/festival-parranda-la-sebada/",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "polka",
+      "dance",
+      "folk"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-fuerteventura-tetir",
+    "slug": "agrupacion-folklorica-tetir",
+    "name": "Agrupación Folklórica de Tetir",
+    "island": "fuerteventura",
+    "type": "music",
+    "category": "folk-group",
+    "short_description": "Una de las agrupaciones históricas dedicadas a conservar y transmitir el folclore majorero.",
+    "description": "La Agrupación Folklórica de Tetir ha desarrollado durante décadas una labor de transmisión de música, baile, instrumentos y costumbres de Fuerteventura. Su actividad conecta escenario, educación y celebraciones populares.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/parranda-navidena/",
+    "featured": true,
+    "order": 5,
+    "tags": [
+      "tetir",
+      "folk-group",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "music-fuerteventura-maxorata",
+    "slug": "agrupacion-maxorata",
+    "name": "Agrupación Folklórica Maxorata",
+    "island": "fuerteventura",
+    "type": "music",
+    "category": "folk-group",
+    "short_description": "Un nombre histórico del folclore majorero ligado a Puerto del Rosario y a la difusión de la música tradicional.",
+    "description": "Maxorata forma parte de las agrupaciones veteranas que han mantenido vivo el repertorio tradicional de Fuerteventura. Su presencia en parrandas y actos culturales refleja la continuidad de la música popular dentro de la vida comunitaria.",
+    "source_url": "https://www.visitfuerteventura.com/eventos/fuerteventura/parranda-navidena/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "maxorata",
+      "folk-group",
+      "puerto-del-rosario"
+    ],
+    "language": "es"
+  }
+]

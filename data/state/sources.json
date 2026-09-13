@@ -1,0 +1,79 @@
+{
+  "explore:beaches:tenerife": {
+    "last_success": "2026-09-11T04:37:35.844900+00:00",
+    "last_error": null,
+    "count": 149
+  },
+  "explore:places:tenerife": {
+    "last_success": "2026-09-11T10:39:43.695874+00:00",
+    "last_error": null,
+    "count": 49
+  },
+  "explore:fauna:tenerife": {
+    "last_success": "2026-09-11T04:37:51.340207+00:00",
+    "last_error": null,
+    "count": 300
+  },
+  "explore:flora:tenerife": {
+    "last_success": "2026-09-11T04:38:47.906152+00:00",
+    "last_error": null,
+    "count": 86
+  },
+  "explore:routes:tenerife": {
+    "last_success": "2026-09-11T04:41:41.073722+00:00",
+    "last_error": null,
+    "count": 100
+  },
+  "live:weather:tenerife": {
+    "last_error": null,
+    "last_error_at": "2026-09-11T04:54:34.043505+00:00",
+    "last_success": "2026-09-11T08:22:28.984723+00:00",
+    "count": 8
+  },
+  "live:air-quality:tenerife": {
+    "last_error": null,
+    "last_error_at": "2026-09-11T04:54:52.184194+00:00",
+    "last_success": "2026-09-11T08:23:03.592488+00:00",
+    "count": 4
+  },
+  "live:seismic:tenerife": {
+    "last_success": "2026-09-11T08:26:12.956827+00:00",
+    "last_error": null,
+    "count": 24
+  },
+  "live:tides:tenerife": {
+    "last_error": null,
+    "last_error_at": "2026-09-11T04:55:15.670050+00:00",
+    "last_success": "2026-09-11T08:23:47.256583+00:00",
+    "count": 6
+  },
+  "live:seismic:gran-canaria": {
+    "last_success": "2026-09-11T04:55:41.365419+00:00",
+    "last_error": null,
+    "count": 16
+  },
+  "live:marine:tenerife": {
+    "last_success": "2026-09-11T08:23:32.841590+00:00",
+    "last_error": null,
+    "count": 6
+  },
+  "live:alerts:tenerife": {
+    "last_success": "2026-09-11T08:24:11.826680+00:00",
+    "last_error": null,
+    "count": 0
+  },
+  "live:volcanic:tenerife": {
+    "last_success": "2026-09-11T08:24:23.580899+00:00",
+    "last_error": null
+  },
+  "calendar:events:tenerife:2026-09": {
+    "last_success": "2026-09-11T08:27:18.041745+00:00",
+    "last_error": null,
+    "count": 19
+  },
+  "news:latest": {
+    "last_success": "2026-09-11T08:27:34.123204+00:00",
+    "last_error": null,
+    "count": 50
+  }
+}

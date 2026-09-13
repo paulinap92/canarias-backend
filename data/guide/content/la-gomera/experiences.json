@@ -1,0 +1,78 @@
+[
+  {
+    "id": "experience-la-gomera-1",
+    "slug": "experience-la-gomera-1",
+    "name": "Un día esencial",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por La Gomera: Parque Nacional de Garajonay · Valle Gran Rey · Agulo. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://lagomera.travel/experiencias/conoce-la-gomera/",
+    "ordered_stops": [
+      {
+        "id": "explore-la-gomera-parque-nacional-de-garajonay",
+        "name": "Parque Nacional de Garajonay",
+        "latitude": 28.126,
+        "longitude": -17.238,
+        "note": "Laurisilva, niebla y senderos en el corazón verde de La Gomera."
+      },
+      {
+        "id": "explore-la-gomera-valle-gran-rey",
+        "name": "Valle Gran Rey",
+        "latitude": 28.096,
+        "longitude": -17.334,
+        "note": "Un gran valle de terrazas, palmeras y núcleos costeros abierto hacia el oeste."
+      },
+      {
+        "id": "explore-la-gomera-agulo",
+        "name": "Agulo",
+        "latitude": 28.188,
+        "longitude": -17.196,
+        "note": "Un casco histórico compacto bajo grandes paredes de roca en el norte de La Gomera."
+      }
+    ],
+    "duration": "día completo",
+    "car_required": null
+  },
+  {
+    "id": "experience-la-gomera-2",
+    "slug": "experience-la-gomera-2",
+    "name": "Paisaje, pueblos y cultura",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por La Gomera: Mirador de Abrante · Los Órganos · San Sebastián de La Gomera. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://lagomera.travel/miradores/la-gomera/mirador-de-abrante/",
+    "ordered_stops": [
+      {
+        "id": "explore-la-gomera-mirador-de-abrante",
+        "name": "Mirador de Abrante",
+        "latitude": 28.187,
+        "longitude": -17.201,
+        "note": "Una pasarela de cristal suspendida sobre Agulo con Tenerife en el horizonte."
+      },
+      {
+        "id": "explore-la-gomera-los-organos",
+        "name": "Los Órganos",
+        "latitude": 28.216,
+        "longitude": -17.347,
+        "note": "Un gran acantilado volcánico cuyas columnas recuerdan los tubos de un órgano."
+      },
+      {
+        "id": "explore-la-gomera-san-sebastian-de-la-gomera",
+        "name": "San Sebastián de La Gomera",
+        "latitude": 28.091,
+        "longitude": -17.111,
+        "note": "La capital insular combina puerto, arquitectura tradicional y episodios de historia atlántica."
+      }
+    ],
+    "duration": "medio día / día",
+    "car_required": null
+  }
+]

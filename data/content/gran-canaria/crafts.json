@@ -1,0 +1,122 @@
+[
+  {
+    "id": "craft-gran-canaria-cuchillo",
+    "slug": "cuchillo-canario",
+    "name": "Cuchillo canario",
+    "island": "gran-canaria",
+    "type": "craft",
+    "category": "metalwork",
+    "short_description": "Una pieza de trabajo rural convertida en uno de los objetos artesanos más identificables de Gran Canaria.",
+    "description": "El cuchillo canario, también llamado cuchillo de cabo de piezas, se distingue por su mango construido con anillas de cuerno y pequeñas incrustaciones metálicas que forman dibujos geométricos. Su fabricación exige gran precisión y durante mucho tiempo estuvo ligada a los oficios de herrería y a las labores agrícolas.",
+    "source_url": "https://fondo.fedac.org/fondo-etnografico/cuchillo-canario-o-cuchillo-de-cabo-de-piezas-34/",
+    "featured": true,
+    "order": 1,
+    "tags": [
+      "knife",
+      "metalwork",
+      "horn",
+      "fedac"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-gran-canaria-calado",
+    "slug": "calado-canario",
+    "name": "Calado canario",
+    "island": "gran-canaria",
+    "type": "craft",
+    "category": "textile",
+    "short_description": "Una labor de hilo realizada sobre tela deshilada que exige paciencia, precisión y dominio del bastidor.",
+    "description": "El calado canario se realiza retirando hilos de trama y urdimbre para formar zonas abiertas sobre las que se ejecutan distintos puntos decorativos. El trabajo incluye marcar, deshilar, colocar la tela en bastidor y construir el diseño hilo a hilo. Gran Canaria mantiene talleres y cursos dedicados a conservar esta técnica.",
+    "source_url": "https://fondo.fedac.org/fondo-etnografico/centro-calado/",
+    "featured": true,
+    "order": 2,
+    "tags": [
+      "calado",
+      "textile",
+      "lace",
+      "fedac"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-gran-canaria-alfareria",
+    "slug": "alfareria-tradicional",
+    "name": "Alfarería tradicional",
+    "island": "gran-canaria",
+    "type": "craft",
+    "category": "pottery",
+    "short_description": "Barro local modelado a mano y cocido con técnicas que conservan una relación directa con la tradición preindustrial de la isla.",
+    "description": "Gran Canaria conserva centros loceros y talleres donde el barro se trabaja sin torno, utilizando herramientas sencillas y técnicas transmitidas durante generaciones. Lugares como Lugarejos, La Atalaya o Tunte mantienen una larga memoria alfarera, con piezas domésticas y decorativas que siguen elaborándose de forma artesanal.",
+    "source_url": "https://fedac.org/publicaciones/",
+    "featured": true,
+    "order": 3,
+    "tags": [
+      "pottery",
+      "clay",
+      "lugarejos",
+      "tradition"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-gran-canaria-cesteria",
+    "slug": "cesteria-cana-mimbre",
+    "name": "Cestería de caña y mimbre",
+    "island": "gran-canaria",
+    "type": "craft",
+    "category": "basketry",
+    "short_description": "Cestas, barquetas y objetos domésticos nacidos de las necesidades del campo y del transporte agrícola.",
+    "description": "La cestería se desarrolló en Gran Canaria como respuesta práctica a las tareas agrícolas y domésticas. Caña, mimbre y otras fibras vegetales se trenzaban para producir cestas, barquetas, bolsos y recipientes. El oficio sigue presente en talleres y ferias artesanas y mantiene una fuerte relación con la cultura rural.",
+    "source_url": "https://www.grancanaria.com/turismo/fileadmin/PDF/folletosturisticos/GranCanaria_GuiaDeOcio_ES.pdf",
+    "featured": false,
+    "order": 4,
+    "tags": [
+      "basketry",
+      "wicker",
+      "cane",
+      "rural"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-gran-canaria-canteria",
+    "slug": "canteria",
+    "name": "Cantería",
+    "island": "gran-canaria",
+    "type": "craft",
+    "category": "stonework",
+    "short_description": "La piedra volcánica trabajada por canteros aparece en fachadas, balaustres, escudos y grandes edificios históricos.",
+    "description": "La cantería ha dejado una huella muy visible en la arquitectura grancanaria, especialmente en municipios como Arucas y Firgas. Los artesanos trabajan la piedra para crear elementos constructivos y ornamentales, desde sillares y columnas hasta escudos, balcones y balaustradas. La FEDAC conserva estudios dedicados a los históricos labrantes de la isla.",
+    "source_url": "https://fedac.org/publicaciones/",
+    "featured": false,
+    "order": 5,
+    "tags": [
+      "stonework",
+      "arucas",
+      "architecture",
+      "craft"
+    ],
+    "language": "es"
+  },
+  {
+    "id": "craft-gran-canaria-instrumentos",
+    "slug": "instrumentos-cuerda",
+    "name": "Construcción de instrumentos de cuerda",
+    "island": "gran-canaria",
+    "type": "craft",
+    "category": "instrument-making",
+    "short_description": "Guitarras, timples y otros instrumentos unen carpintería especializada, música y transmisión artesanal.",
+    "description": "La fabricación de instrumentos tradicionales combina conocimientos de maderas, acústica y trabajo manual de precisión. En Gran Canaria existen artesanos dedicados a construir y reparar timples, guitarras y otros instrumentos utilizados por parrandas y agrupaciones folclóricas. El oficio mantiene un vínculo directo entre artesanía y música popular.",
+    "source_url": "https://www.grancanaria.com/turismo/es/isla-de-gran-canaria/municipios-de-gran-canaria/visita-firgas/",
+    "featured": true,
+    "order": 6,
+    "tags": [
+      "timple",
+      "guitar",
+      "wood",
+      "music"
+    ],
+    "language": "es"
+  }
+]

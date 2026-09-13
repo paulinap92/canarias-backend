@@ -1,0 +1,78 @@
+[
+  {
+    "id": "experience-lanzarote-1",
+    "slug": "experience-lanzarote-1",
+    "name": "Un día esencial",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por Lanzarote: Parque Nacional de Timanfaya · Jameos del Agua · Cueva de los Verdes. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 1,
+    "language": "es",
+    "source_url": "https://cactlanzarote.com/es/visita",
+    "ordered_stops": [
+      {
+        "id": "explore-lanzarote-timanfaya",
+        "name": "Parque Nacional de Timanfaya",
+        "latitude": 29.005,
+        "longitude": -13.829,
+        "note": "Cráteres, conos y coladas de lava forman el paisaje volcánico más emblemático de Lanzarote."
+      },
+      {
+        "id": "explore-lanzarote-jameos",
+        "name": "Jameos del Agua",
+        "latitude": 29.1572,
+        "longitude": -13.4318,
+        "note": "Un tramo del tubo volcánico de La Corona transformado por César Manrique en una obra donde roca, agua y arquitectura se funden."
+      },
+      {
+        "id": "explore-lanzarote-cueva-verdes",
+        "name": "Cueva de los Verdes",
+        "latitude": 29.1608,
+        "longitude": -13.4387,
+        "note": "Galerías subterráneas, pliegues de lava y mineralizaciones conservan el interior del tubo volcánico de La Corona."
+      }
+    ],
+    "duration": "día completo",
+    "car_required": null
+  },
+  {
+    "id": "experience-lanzarote-2",
+    "slug": "experience-lanzarote-2",
+    "name": "Paisaje, pueblos y cultura",
+    "type": "experience",
+    "category": "experience",
+    "short_description": "Plan curado para conectar varios lugares sin convertir la isla en una checklist.",
+    "description": "Una propuesta flexible por Lanzarote: Famara · Mirador del Río · La Geria. El orden es orientativo y debe adaptarse a horarios, carreteras, alertas y condiciones Live del día.",
+    "featured": true,
+    "order": 2,
+    "language": "es",
+    "source_url": "https://turismolanzarote.com/descubre-lanzarote/",
+    "ordered_stops": [
+      {
+        "id": "explore-lanzarote-famara",
+        "name": "Famara",
+        "latitude": 29.118,
+        "longitude": -13.564,
+        "note": "Una playa abierta al Atlántico bajo el gran risco de Famara, con viento, oleaje y una escala casi monumental."
+      },
+      {
+        "id": "explore-lanzarote-mirador-rio",
+        "name": "Mirador del Río",
+        "latitude": 29.2145,
+        "longitude": -13.4812,
+        "note": "Arquitectura semienterrada en el risco de Famara con La Graciosa y el Archipiélago Chinijo frente a los ventanales."
+      },
+      {
+        "id": "explore-lanzarote-la-geria",
+        "name": "La Geria",
+        "latitude": 28.984,
+        "longitude": -13.704,
+        "note": "Viñas hundidas en hoyos de picón y protegidas por muros de piedra convierten el paisaje volcánico en un enorme jardín agrícola."
+      }
+    ],
+    "duration": "medio día / día",
+    "car_required": null
+  }
+]
