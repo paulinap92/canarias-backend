@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "source": "canarias-cerca-editorial",
+  "features": [
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-18.1435,27.7285]},"properties":{"id":"beach-el-hierro-verodal","name":"El Verodal","description":"Playa remota de tonos volcánicos rojizos en el oeste de El Hierro.","source":"curated_explore","island":"el-hierro","type":"playa","featured":true,"priority":1,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-17.9155,27.7875]},"properties":{"id":"beach-el-hierro-timijiraque","name":"Timijiraque","description":"Playa de arena y callaos en la costa este, accesible desde la carretera entre Valverde y el puerto.","source":"curated_explore","island":"el-hierro","type":"playa","featured":true,"priority":2,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-18.137,27.746]},"properties":{"id":"beach-el-hierro-arenas-blancas","name":"Arenas Blancas","description":"Pequeña zona de baño del oeste con materiales claros que contrastan con la costa volcánica.","source":"curated_explore","island":"el-hierro","type":"playa","featured":true,"priority":3,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-18.006,27.673]},"properties":{"id":"beach-el-hierro-tacoron","name":"Tacorón","description":"Zona de baño del Mar de las Calmas apreciada por sus aguas resguardadas y paisaje volcánico.","source":"curated_explore","island":"el-hierro","type":"playa","featured":true,"priority":4,"cc_curated":true}}
+  ]
+}
