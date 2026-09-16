@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "source": "canarias-cerca-editorial",
+  "features": [
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-17.909,28.5852]},"properties":{"id":"beach-la-palma-puerto-naos","name":"Puerto Naos","description":"Playa de arena negra en la costa oeste, con paseo y uno de los principales núcleos de baño de la isla.","source":"curated_explore","island":"la-palma","type":"playa","featured":true,"priority":1,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-17.9457,28.6415]},"properties":{"id":"beach-la-palma-tazacorte","name":"Puerto de Tazacorte","description":"Playa protegida junto al puerto de Tazacorte, conocida por el clima suave de la costa oeste.","source":"curated_explore","island":"la-palma","type":"playa","featured":true,"priority":2,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-17.7587,28.65]},"properties":{"id":"beach-la-palma-los-cancajos","name":"Los Cancajos","description":"Conjunto de pequeñas playas volcánicas protegidas al este, populares para baño y snorkel.","source":"curated_explore","island":"la-palma","type":"playa","featured":true,"priority":3,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-17.7355,28.758]},"properties":{"id":"beach-la-palma-nogales","name":"Nogales","description":"Playa salvaje de arena negra bajo grandes acantilados en el nordeste de La Palma.","source":"curated_explore","island":"la-palma","type":"playa","featured":true,"priority":4,"cc_curated":true}}
+  ]
+}
