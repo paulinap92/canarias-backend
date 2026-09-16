@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "source": "canarias-cerca-editorial",
+  "features": [
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-17.3336,28.0966]},"properties":{"id":"beach-la-gomera-valle-gran-rey","name":"Valle Gran Rey","description":"Zona de baño principal del oeste de La Gomera, con varias playas y servicios junto al valle.","source":"curated_explore","island":"la-gomera","type":"playa","featured":true,"priority":1,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-17.197,28.029]},"properties":{"id":"beach-la-gomera-playa-santiago","name":"Playa de Santiago","description":"Amplia playa de callaos y arena oscura en el sur, junto al núcleo de Playa de Santiago.","source":"curated_explore","island":"la-gomera","type":"playa","featured":true,"priority":2,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-17.111,28.091]},"properties":{"id":"beach-la-gomera-san-sebastian","name":"San Sebastián","description":"Playa urbana junto a la capital y el puerto, práctica para combinar baño y visita cultural.","source":"curated_explore","island":"la-gomera","type":"playa","featured":true,"priority":3,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-17.1855,28.1875]},"properties":{"id":"beach-la-gomera-la-caleta","name":"La Caleta","description":"Playa del norte cerca de Hermigua, rodeada de acantilados y paisaje agrícola.","source":"curated_explore","island":"la-gomera","type":"playa","featured":true,"priority":4,"cc_curated":true}}
+  ]
+}
