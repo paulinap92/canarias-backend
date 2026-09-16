@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "source": "canarias-cerca-editorial",
+  "features": [
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-13.5289,29.2675]},"properties":{"id":"beach-la-graciosa-las-conchas","name":"Playa de Las Conchas","description":"Gran playa del norte frente a Montaña Clara, espectacular pero muy expuesta al océano.","source":"curated_explore","island":"la-graciosa","type":"playa","featured":true,"priority":1,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-13.5234,29.2065]},"properties":{"id":"beach-la-graciosa-la-francesa","name":"Playa de La Francesa","description":"Playa de arena clara al sur de Caleta de Sebo, con aguas habitualmente más protegidas.","source":"curated_explore","island":"la-graciosa","type":"playa","featured":true,"priority":2,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-13.544,29.2028]},"properties":{"id":"beach-la-graciosa-la-cocina","name":"Playa de La Cocina","description":"Pequeña cala al pie de Montaña Amarilla, uno de los rincones más característicos del sur de la isla.","source":"curated_explore","island":"la-graciosa","type":"playa","featured":true,"priority":3,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-13.5135,29.2205]},"properties":{"id":"beach-la-graciosa-el-salado","name":"El Salado","description":"Playa cercana a Caleta de Sebo, fácil de alcanzar a pie y con ambiente tranquilo.","source":"curated_explore","island":"la-graciosa","type":"playa","featured":true,"priority":4,"cc_curated":true}}
+  ]
+}
