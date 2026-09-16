@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "source": "canarias-cerca-editorial",
+  "features": [
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-13.564,29.118]},"properties":{"id":"beach-lanzarote-famara","name":"Famara","description":"Gran playa abierta bajo el risco de Famara, uno de los paisajes costeros más potentes de Lanzarote.","source":"curated_explore","island":"lanzarote","type":"playa","featured":true,"priority":1,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-13.789,28.839]},"properties":{"id":"beach-lanzarote-papagayo","name":"Papagayo","description":"Cala de arena clara y aguas protegidas dentro del espacio natural de Los Ajaches.","source":"curated_explore","island":"lanzarote","type":"playa","featured":true,"priority":2,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-13.8288,28.8623]},"properties":{"id":"beach-lanzarote-playa-dorada","name":"Playa Dorada","description":"Playa protegida de Playa Blanca, cómoda para familias y con servicios cercanos.","source":"curated_explore","island":"lanzarote","type":"playa","featured":true,"priority":3,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-13.836,28.8576]},"properties":{"id":"beach-lanzarote-flamingo","name":"Playa Flamingo","description":"Pequeña playa protegida en Playa Blanca, de acceso sencillo y mar habitualmente tranquilo.","source":"curated_explore","island":"lanzarote","type":"playa","featured":true,"priority":4,"cc_curated":true}}
+  ]
+}
