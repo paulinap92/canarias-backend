@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "source": "canarias-cerca-editorial",
+  "features": [
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-14.3899,28.1069]},"properties":{"id":"beach-fuerteventura-cofete","name":"Cofete","description":"Playa inmensa y remota en Jandía, rodeada de montañas y con fuerte sensación de naturaleza abierta.","source":"curated_explore","island":"fuerteventura","type":"playa","featured":true,"priority":1,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-13.8425,28.7127]},"properties":{"id":"beach-fuerteventura-grandes-playas","name":"Grandes Playas de Corralejo","description":"Kilómetros de arena clara junto a las dunas de Corralejo y vistas hacia Lobos.","source":"curated_explore","island":"fuerteventura","type":"playa","featured":true,"priority":2,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-14.2315,28.146]},"properties":{"id":"beach-fuerteventura-sotavento","name":"Sotavento","description":"Larga playa del sureste famosa por sus lagunas, el viento y los deportes de tabla.","source":"curated_explore","island":"fuerteventura","type":"playa","featured":true,"priority":3,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-14.3518,28.05]},"properties":{"id":"beach-fuerteventura-matorral","name":"Playa del Matorral","description":"Amplia playa de Morro Jable con arena clara, paseo y servicios.","source":"curated_explore","island":"fuerteventura","type":"playa","featured":true,"priority":4,"cc_curated":true}}
+  ]
+}
