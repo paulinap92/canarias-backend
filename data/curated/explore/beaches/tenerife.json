@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "source": "canarias-cerca-editorial",
+  "features": [
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-16.1855,28.5086]},"properties":{"id":"beach-tenerife-las-teresitas","name":"Las Teresitas","description":"Gran playa de arena dorada junto a San Andrés, protegida por un dique y cómoda para un día de baño.","source":"curated_explore","island":"tenerife","type":"playa","featured":true,"priority":1,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-16.186522,28.576014]},"properties":{"id":"beach-tenerife-benijo","name":"Playa de Benijo","description":"Playa salvaje de arena negra en Anaga, abierta al Atlántico y rodeada de paisaje volcánico.","source":"curated_explore","island":"tenerife","type":"playa","featured":true,"priority":2,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-16.5362,28.0469]},"properties":{"id":"beach-tenerife-el-medano","name":"El Médano","description":"Amplia playa del sur conocida por el viento, los deportes de tabla y el ambiente del núcleo de El Médano.","source":"curated_explore","island":"tenerife","type":"playa","featured":true,"priority":3,"cc_curated":true}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[-16.557,28.0316]},"properties":{"id":"beach-tenerife-la-tejita","name":"La Tejita","description":"Larga playa natural junto a Montaña Roja, con espacio abierto y paisaje protegido.","source":"curated_explore","island":"tenerife","type":"playa","featured":true,"priority":4,"cc_curated":true}}
+  ]
+}
