@@ -23,13 +23,15 @@ class ResourceSpec:
 
 RESOURCE_SPECS: tuple[ResourceSpec, ...] = (
     ResourceSpec("Rutas", "explore", "routes", require_nonempty=True),
+    ResourceSpec("Fauna", "explore", "fauna", require_nonempty=True),
+    ResourceSpec("Flora", "explore", "flora", require_nonempty=True),
     ResourceSpec("Weather", "live", "weather", require_nonempty=True),
     ResourceSpec("Air", "live", "air-quality", require_nonempty=True),
     ResourceSpec("Marine", "live", "marine", require_nonempty=True),
     ResourceSpec("Tides", "live", "tides", require_nonempty=True),
     ResourceSpec("Seismic", "live", "seismic"),
     ResourceSpec("Alerts", "live", "alerts"),
-    ResourceSpec("Calendar", "calendar", "events"),
+    ResourceSpec("Calendar", "calendar", "events", require_nonempty=True),
     ResourceSpec("Volcanic", "live", "volcanic", per_island=False),
     ResourceSpec("News", "news", "latest", per_island=False),
 )
