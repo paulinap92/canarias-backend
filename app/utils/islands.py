@@ -18,8 +18,6 @@ ISLAND_BBOXES: dict[str, tuple[float, float, float, float]] = {
 VALID_ISLANDS = tuple(ISLAND_BBOXES.keys())
 
 
-# A small polygon is needed only where coarse island bboxes overlap badly.
-# Coordinates are longitude/latitude and intentionally conservative.
 LA_GRACIOSA_POLYGON: tuple[tuple[float, float], ...] = (
     (-13.590, 29.240),
     (-13.580, 29.290),
@@ -29,6 +27,21 @@ LA_GRACIOSA_POLYGON: tuple[tuple[float, float], ...] = (
     (-13.490, 29.215),
     (-13.510, 29.190),
     (-13.560, 29.190),
+)
+
+# La Gomera is close to round but its bbox has large sea-only corners.  This
+# conservative outline prevents imported bbox points from appearing offshore.
+LA_GOMERA_POLYGON: tuple[tuple[float, float], ...] = (
+    (-17.365, 28.145),
+    (-17.340, 28.205),
+    (-17.255, 28.220),
+    (-17.165, 28.190),
+    (-17.095, 28.135),
+    (-17.090, 28.075),
+    (-17.155, 28.025),
+    (-17.245, 28.015),
+    (-17.325, 28.045),
+    (-17.365, 28.105),
 )
 
 
@@ -144,14 +157,13 @@ def point_is_on_island(
     if not inside:
         return False
 
-    # Lanzarote and La Graciosa overlap in a rectangular bbox. Use a
-    # conservative polygon for the smaller island so Órzola and Mirador del
-    # Río remain Lanzarote while Caleta de Sebo etc. remain La Graciosa.
     on_graciosa = _point_in_polygon(longitude, latitude, LA_GRACIOSA_POLYGON)
     if normalized == "la-graciosa":
         return on_graciosa
     if normalized == "lanzarote" and on_graciosa:
         return False
+    if normalized == "la-gomera":
+        return _point_in_polygon(longitude, latitude, LA_GOMERA_POLYGON)
 
     return True
 
