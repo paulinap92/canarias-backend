@@ -17,6 +17,7 @@ def _news_key(item: dict[str, Any]) -> str:
 @data_source("news", "latest")
 class NewsSource(DataSource):
     write_strategy = "append"
+
     def path(self, **params: Any) -> Path:
         return DATA_ROOT / "news" / "latest.json"
 
@@ -41,7 +42,6 @@ class NewsSource(DataSource):
         fetched_items = list(fetched.get("items", [])) if isinstance(fetched, dict) else []
 
         merged: dict[str, dict[str, Any]] = {}
-        order: list[str] = []
         previous_by_key = {
             _news_key(item): item
             for item in previous_items
@@ -51,9 +51,6 @@ class NewsSource(DataSource):
         updated = 0
         duplicates = 0
 
-        # Fresh feed comes first. Existing records survive if the RSS window is
-        # shorter than our local history. Fresh source fields win, while local
-        # enrichment that is absent in the new item is preserved.
         for item in fetched_items:
             if not isinstance(item, dict):
                 continue
@@ -70,21 +67,21 @@ class NewsSource(DataSource):
                 if combined != old:
                     updated += 1
                 merged[key] = combined
-            if key not in order:
-                order.append(key)
 
         for item in previous_items:
             if not isinstance(item, dict):
                 continue
             key = _news_key(item)
-            if not key:
-                continue
-            if key not in merged:
+            if key and key not in merged:
                 merged[key] = dict(item)
-            if key not in order:
-                order.append(key)
 
-        items = [merged[key] for key in order[:500]]
+        items = list(merged.values())
+        items.sort(
+            key=lambda item: str(item.get("published_at") or ""),
+            reverse=True,
+        )
+        items = items[:500]
+
         return {
             **(previous if isinstance(previous, dict) else {}),
             **(fetched if isinstance(fetched, dict) else {}),
