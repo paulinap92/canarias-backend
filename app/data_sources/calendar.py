@@ -28,8 +28,20 @@ CALENDAR_URL_OVERRIDES: dict[str, str] = {
     "la-palma": "https://visitlapalma.es/eventos/",
     "la-gomera": "https://lagomera.travel/eventos/",
     "el-hierro": "https://elhierro.travel/eventos/",
-    "lanzarote": "https://turismolanzarote.com/agenda-de-eventos/",
-    "la-graciosa": "https://www.visitlagraciosa.com/calendario-de-eventos/",
+    # CACT is an official Lanzarote public tourism/culture source and its agenda
+    # exposes real event cards and detail pages in server-rendered HTML.
+    "lanzarote": "https://cactlanzarote.com/es/eventos",
+    # The old calendar endpoint is protected by an anti-bot verification page.
+    # The official Eventos category remains accessible and acts as the listing.
+    "la-graciosa": "https://www.visitlagraciosa.com/category/eventos/",
+}
+
+# Some official listings are incomplete/dynamic. These are official event detail
+# pages used as safe seeds; they still pass the same month/date validation below.
+CALENDAR_DETAIL_SEEDS: dict[str, list[str]] = {
+    "la-graciosa": [
+        "https://www.visitlagraciosa.com/travesia-a-nado-el-rio-2026-la-prueba-de-aguas-abiertas-entre-lanzarote-y-la-graciosa/",
+    ],
 }
 
 BROWSER_HEADERS = {
@@ -176,7 +188,8 @@ async def _detail_page_events(
     limit: int,
 ) -> list[dict[str, Any]]:
     """Fetch official event detail pages when dates are not present in listing cards."""
-    urls = _detail_links(listing_html, base_url, limit=min(max(limit, 20), 80))
+    discovered = _detail_links(listing_html, base_url, limit=min(max(limit, 20), 80))
+    urls = list(dict.fromkeys([*discovered, *CALENDAR_DETAIL_SEEDS.get(island, [])]))
     if not urls:
         return []
 
@@ -297,6 +310,12 @@ class CalendarSource(DataSource):
 
         config = dict(EVENT_SOURCES[island])
         config["url"] = CALENDAR_URL_OVERRIDES.get(island, config["url"])
+        if island == "lanzarote":
+            config["source"] = "CACT Lanzarote"
+            config["id"] = "cact-lanzarote"
+        elif island == "la-graciosa":
+            config["source"] = "Visit La Graciosa"
+            config["id"] = "visit-la-graciosa"
 
         async with httpx.AsyncClient(
             timeout=30.0,
