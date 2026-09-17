@@ -1,3 +1,6 @@
+import asyncio
+import logging
+import os
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -29,6 +32,8 @@ from app.api.content import router as content_router
 from app.api.data import router as data_router
 from app.api.flora import router as flora_router
 from app.api.explore import router as explore_router
+
+logger = logging.getLogger("uvicorn.error")
 
 app = FastAPI(
     title="Canarias API",
@@ -68,6 +73,30 @@ app.include_router(content_router)
 app.include_router(explore_router)
 app.include_router(flora_router)
 app.include_router(data_router)
+
+
+async def _refresh_all_islands_once() -> None:
+    """Optional maintenance pass that runs against the mounted runtime volume.
+
+    Disabled by default. Railway can set CANARIAS_REFRESH_ON_START=1 for one
+    deployment; the API starts normally while the refresh proceeds in the
+    background, and the flag can be turned off immediately afterwards.
+    """
+    try:
+        from app.tools.refresh_all_islands import run
+
+        logger.info("[DATA MAINTENANCE] full refresh started")
+        result = await run(audit_only=False)
+        logger.info("[DATA MAINTENANCE] full refresh finished result=%s", result)
+    except Exception:
+        logger.exception("[DATA MAINTENANCE] full refresh crashed")
+
+
+@app.on_event("startup")
+async def schedule_optional_full_refresh() -> None:
+    if os.environ.get("CANARIAS_REFRESH_ON_START") == "1":
+        asyncio.create_task(_refresh_all_islands_once())
+
 
 @app.get("/")
 def root() -> dict[str, str]:
