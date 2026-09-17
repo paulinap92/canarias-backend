@@ -12,7 +12,7 @@ from app.services.wildlife import fetch_wildlife
 from app.utils.islands import filter_feature_collection_by_island, normalize_island
 
 from .base import IslandGeoJSONSource
-from .curation import curate_explore, feature_key
+from .curation_v2 import curate_explore, feature_key
 from .registry import data_source
 from .store import DATA_ROOT, read_json, update_source_state, utc_now, write_json_atomic
 
@@ -103,10 +103,6 @@ class CuratedExploreSource(IslandGeoJSONSource):
         path = self.path(**params)
         payload = read_json(path, self.empty_payload(**params)) if path.exists() else self.empty_payload(**params)
 
-        # Always pass stored Explore data through the current curation contract.
-        # This makes new editorial catalogs/ranking effective immediately after a
-        # code update without forcing the developer to overwrite their local RAW
-        # or published snapshots. It is read-only: persisted files are untouched.
         curated = self._curated_read(payload, **params)
         curated.setdefault("status", payload.get("status", "ok") if isinstance(payload, dict) else "ok")
         curated.setdefault("updated_at", payload.get("updated_at") if isinstance(payload, dict) else None)
@@ -151,8 +147,6 @@ class CuratedExploreSource(IslandGeoJSONSource):
                 "published": self.count(curated) or 0,
             }
             fresh = self.decorate(curated, status="ok")
-            # Fauna/flora may intentionally publish zero items on islands where
-            # no curated catalog exists. That is safer than random GBIF dots.
             if self.resource not in {"fauna", "flora"} and not self.is_valid(fresh):
                 raise ValueError("curation produced no publishable records")
 
@@ -201,7 +195,7 @@ class BeachesSource(CuratedExploreSource):
 class RoutesSource(CuratedExploreSource):
     async def fetch(self, **params: Any) -> dict[str, Any]:
         island = params.get("island")
-        data = await fetch_trails(limit=100, island=island)
+        data = await fetch_trails(limit=500, island=island)
         result = filter_feature_collection_by_island(data, island) if island else data
         result["available"] = True
         return result
@@ -211,7 +205,7 @@ class RoutesSource(CuratedExploreSource):
 class FaunaSource(CuratedExploreSource):
     async def fetch(self, **params: Any) -> dict[str, Any]:
         island = params.get("island")
-        data = await fetch_wildlife(limit=300, island=island)
+        data = await fetch_wildlife(limit=500, island=island)
         result = filter_feature_collection_by_island(data, island)
         result["available"] = True
         result["source"] = "GBIF candidates"
@@ -222,7 +216,7 @@ class FaunaSource(CuratedExploreSource):
 class FloraSource(CuratedExploreSource):
     async def fetch(self, **params: Any) -> dict[str, Any]:
         island = params.get("island")
-        data = await fetch_flora(limit=120, island=island)
+        data = await fetch_flora(limit=300, island=island)
         result = filter_feature_collection_by_island(data, island)
         result["available"] = True
         result["source"] = "GBIF candidates"
