@@ -3,7 +3,14 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from app.services.events import EVENT_SOURCES, current_month, fetch_island_events
+import httpx
+
+from app.services.events import (
+    EVENT_SOURCES,
+    current_month,
+    fetch_island_events,
+    parse_generic_events,
+)
 from app.utils.islands import normalize_island
 
 from .base import DataSource
@@ -11,9 +18,6 @@ from .registry import data_source
 from .store import DATA_ROOT
 
 
-# Several tourism sites changed their public agenda routes. Keep the source
-# registry centralized in services/events.py, but correct the production URLs
-# here before fetching so calendar refreshes do not keep hitting dead paths.
 CALENDAR_URL_OVERRIDES: dict[str, str] = {
     "fuerteventura": "https://www.visitfuerteventura.com/eventos/",
     "la-palma": "https://visitlapalma.es/eventos/",
@@ -21,6 +25,17 @@ CALENDAR_URL_OVERRIDES: dict[str, str] = {
     "el-hierro": "https://elhierro.travel/eventos/",
     "lanzarote": "https://www.holaislascanarias.com/eventos/lanzarote/",
     "la-graciosa": "https://www.holaislascanarias.com/eventos/la-graciosa/",
+}
+
+BROWSER_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/140.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.7",
+    "Cache-Control": "no-cache",
 }
 
 
@@ -35,7 +50,6 @@ def _event_key(item: dict[str, Any]) -> str:
 @data_source("calendar", "events")
 class CalendarSource(DataSource):
     write_strategy = "merge"
-    # An official agenda can legitimately have no matching events for one month.
     allow_empty = True
 
     def path(self, **params: Any) -> Path:
@@ -61,16 +75,44 @@ class CalendarSource(DataSource):
         if island is None:
             raise ValueError("Unknown island")
         month = params.get("month") or current_month()
+        limit = int(params.get("refresh_limit") or 200)
 
-        override = CALENDAR_URL_OVERRIDES.get(island)
-        if override and island in EVENT_SOURCES:
-            EVENT_SOURCES[island]["url"] = override
+        # Keep Tenerife's dedicated parser. For the other official tourism
+        # agendas use browser-like headers: several CDNs reject the old bot-like
+        # User-Agent even though the public page is available in a browser.
+        if island == "tenerife":
+            return await fetch_island_events(island, limit=limit, month=month)
 
-        return await fetch_island_events(
-            island,
-            limit=int(params.get("refresh_limit") or 200),
+        config = dict(EVENT_SOURCES[island])
+        config["url"] = CALENDAR_URL_OVERRIDES.get(island, config["url"])
+
+        async with httpx.AsyncClient(
+            timeout=30.0,
+            follow_redirects=True,
+            headers=BROWSER_HEADERS,
+        ) as client:
+            response = await client.get(config["url"])
+            response.raise_for_status()
+
+        items = parse_generic_events(
+            response.text,
+            base_url=config["url"],
+            source=config["source"],
+            source_id=config["id"],
+            island=island,
             month=month,
+            limit=limit,
         )
+        return {
+            "island": island,
+            "month": month,
+            "items": items,
+            "available": True,
+            "source": config["source"],
+            "source_url": config["url"],
+            "source_id": config["id"],
+            "calendar_ready": True,
+        }
 
     def merge_payload(self, previous: Any, fetched: Any, **params: Any) -> dict[str, Any]:
         previous_items = list(previous.get("items", [])) if isinstance(previous, dict) else []
