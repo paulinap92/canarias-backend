@@ -1,9 +1,10 @@
 from __future__ import annotations
 
+import asyncio
 import re
 from pathlib import Path
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 import httpx
 from bs4 import BeautifulSoup
@@ -137,6 +138,130 @@ def _fallback_listing_events(
     return items
 
 
+def _detail_links(html: str, base_url: str, limit: int = 80) -> list[str]:
+    """Return likely event detail URLs from an official calendar listing."""
+    soup = BeautifulSoup(html, "html.parser")
+    base = urlparse(base_url)
+    listing_path = base.path.rstrip("/")
+    links: list[str] = []
+    seen: set[str] = set()
+
+    for anchor in soup.find_all("a", href=True):
+        href = urljoin(base_url, anchor.get("href", ""))
+        parsed = urlparse(href)
+        path = parsed.path.rstrip("/")
+        if parsed.netloc != base.netloc or not path or path == listing_path:
+            continue
+        lowered = path.casefold()
+        if "/eventos/" not in lowered and "/agenda/" not in lowered and "evento" not in lowered:
+            continue
+        if href in seen:
+            continue
+        seen.add(href)
+        links.append(href)
+        if len(links) >= limit:
+            break
+    return links
+
+
+async def _detail_page_events(
+    client: httpx.AsyncClient,
+    listing_html: str,
+    *,
+    base_url: str,
+    source: str,
+    source_id: str,
+    island: str,
+    month: str,
+    limit: int,
+) -> list[dict[str, Any]]:
+    """Fetch official event detail pages when dates are not present in listing cards."""
+    urls = _detail_links(listing_html, base_url, limit=min(max(limit, 20), 80))
+    if not urls:
+        return []
+
+    semaphore = asyncio.Semaphore(6)
+    reference_year = int(month[:4])
+
+    async def parse_one(url: str) -> dict[str, Any] | None:
+        async with semaphore:
+            try:
+                response = await client.get(url)
+                response.raise_for_status()
+            except Exception:
+                return None
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        title_node = soup.find("h1") or soup.find("h2")
+        title = _clean(title_node.get_text(" ", strip=True)) if title_node is not None else ""
+        if not title or len(title) < 3:
+            return None
+
+        context = _clean(soup.get_text(" ", strip=True))
+        start_date, end_date, schedule_text = parse_event_dates(
+            context,
+            reference_year=reference_year,
+        )
+        if start_date is None:
+            return None
+        if not (start_date.startswith(month) or (end_date or "").startswith(month)):
+            return None
+
+        summary = context
+        if schedule_text:
+            summary = summary.replace(schedule_text, " ", 1)
+        summary = _clean(summary.replace(title, " ", 1))[:500] or None
+
+        image = soup.find("img")
+        image_url = None
+        if image is not None:
+            raw = image.get("src") or image.get("data-src") or image.get("data-lazy-src")
+            if raw and not str(raw).startswith("data:"):
+                image_url = urljoin(url, str(raw))
+
+        return {
+            "id": url.rstrip("/"),
+            "title": title[:250],
+            "start_date": start_date,
+            "end_date": end_date or start_date,
+            "schedule_text": schedule_text,
+            "start_at": None,
+            "end_at": None,
+            "all_day": True,
+            "category": "other",
+            "location_name": None,
+            "latitude": None,
+            "longitude": None,
+            "summary": summary,
+            "image_url": image_url,
+            "url": url,
+            "island": island,
+            "source": source,
+            "source_id": source_id,
+        }
+
+    results = await asyncio.gather(*(parse_one(url) for url in urls))
+    items = [item for item in results if item is not None]
+    items.sort(key=lambda item: (item["start_date"], item["title"]))
+    return items[:limit]
+
+
+def _merge_event_lists(*groups: list[dict[str, Any]], limit: int) -> list[dict[str, Any]]:
+    merged: dict[str, dict[str, Any]] = {}
+    for group in groups:
+        for item in group:
+            key = _event_key(item)
+            if not key:
+                continue
+            if key in merged:
+                merged[key] = {**merged[key], **{k: v for k, v in item.items() if v not in (None, "", [])}}
+            else:
+                merged[key] = dict(item)
+    items = list(merged.values())
+    items.sort(key=lambda item: (str(item.get("start_date") or "9999-99-99"), str(item.get("title") or "")))
+    return items[:limit]
+
+
 @data_source("calendar", "events")
 class CalendarSource(DataSource):
     write_strategy = "merge"
@@ -181,17 +306,7 @@ class CalendarSource(DataSource):
             response = await client.get(config["url"])
             response.raise_for_status()
 
-        items = parse_generic_events(
-            response.text,
-            base_url=config["url"],
-            source=config["source"],
-            source_id=config["id"],
-            island=island,
-            month=month,
-            limit=limit,
-        )
-        if not items:
-            items = _fallback_listing_events(
+            generic = parse_generic_events(
                 response.text,
                 base_url=config["url"],
                 source=config["source"],
@@ -200,6 +315,27 @@ class CalendarSource(DataSource):
                 month=month,
                 limit=limit,
             )
+            loose = _fallback_listing_events(
+                response.text,
+                base_url=config["url"],
+                source=config["source"],
+                source_id=config["id"],
+                island=island,
+                month=month,
+                limit=limit,
+            )
+            details = await _detail_page_events(
+                client,
+                response.text,
+                base_url=config["url"],
+                source=config["source"],
+                source_id=config["id"],
+                island=island,
+                month=month,
+                limit=limit,
+            )
+
+        items = _merge_event_lists(generic, loose, details, limit=limit)
 
         return {
             "island": island,
