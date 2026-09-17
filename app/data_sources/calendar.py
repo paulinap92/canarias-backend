@@ -3,12 +3,25 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from app.services.events import current_month, fetch_island_events
+from app.services.events import EVENT_SOURCES, current_month, fetch_island_events
 from app.utils.islands import normalize_island
 
 from .base import DataSource
 from .registry import data_source
 from .store import DATA_ROOT
+
+
+# Several tourism sites changed their public agenda routes. Keep the source
+# registry centralized in services/events.py, but correct the production URLs
+# here before fetching so calendar refreshes do not keep hitting dead paths.
+CALENDAR_URL_OVERRIDES: dict[str, str] = {
+    "fuerteventura": "https://www.visitfuerteventura.com/eventos/",
+    "la-palma": "https://visitlapalma.es/eventos/",
+    "la-gomera": "https://lagomera.travel/eventos/",
+    "el-hierro": "https://elhierro.travel/eventos/",
+    "lanzarote": "https://www.holaislascanarias.com/eventos/lanzarote/",
+    "la-graciosa": "https://www.holaislascanarias.com/eventos/la-graciosa/",
+}
 
 
 def _event_key(item: dict[str, Any]) -> str:
@@ -48,7 +61,16 @@ class CalendarSource(DataSource):
         if island is None:
             raise ValueError("Unknown island")
         month = params.get("month") or current_month()
-        return await fetch_island_events(island, limit=int(params.get("refresh_limit") or 200), month=month)
+
+        override = CALENDAR_URL_OVERRIDES.get(island)
+        if override and island in EVENT_SOURCES:
+            EVENT_SOURCES[island]["url"] = override
+
+        return await fetch_island_events(
+            island,
+            limit=int(params.get("refresh_limit") or 200),
+            month=month,
+        )
 
     def merge_payload(self, previous: Any, fetched: Any, **params: Any) -> dict[str, Any]:
         previous_items = list(previous.get("items", [])) if isinstance(previous, dict) else []
@@ -85,7 +107,12 @@ class CalendarSource(DataSource):
                 merged[key] = combined
 
         items = [merged[key] for key in order]
-        items.sort(key=lambda item: (str(item.get("start_date") or "9999-99-99"), str(item.get("title") or "")))
+        items.sort(
+            key=lambda item: (
+                str(item.get("start_date") or "9999-99-99"),
+                str(item.get("title") or ""),
+            )
+        )
         return {
             **(previous if isinstance(previous, dict) else {}),
             **(fetched if isinstance(fetched, dict) else {}),
