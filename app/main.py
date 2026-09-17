@@ -76,12 +76,7 @@ app.include_router(data_router)
 
 
 async def _refresh_all_islands_once() -> None:
-    """Optional maintenance pass that runs against the mounted runtime volume.
-
-    Disabled by default. Railway can set CANARIAS_REFRESH_ON_START=1 for one
-    deployment; the API starts normally while the refresh proceeds in the
-    background, and the flag can be turned off immediately afterwards.
-    """
+    """Optional maintenance pass against the mounted runtime volume."""
     try:
         from app.tools.refresh_all_islands import run
 
@@ -92,10 +87,49 @@ async def _refresh_all_islands_once() -> None:
         logger.exception("[DATA MAINTENANCE] full refresh crashed")
 
 
+async def _refresh_calendar_once() -> None:
+    """Refresh only current-month calendars for every island."""
+    try:
+        import app.data_sources.bootstrap  # noqa: F401
+        from app.data_sources import get_data_source
+        from app.services.events import current_month
+        from app.utils.islands import VALID_ISLANDS
+
+        source = get_data_source("calendar", "events")
+        month = current_month()
+        logger.info("[DATA MAINTENANCE] calendar refresh started month=%s", month)
+
+        failures = 0
+        for island in VALID_ISLANDS:
+            payload = await source.refresh(
+                island=island,
+                month=month,
+                refresh_limit=200,
+            )
+            items = payload.get("items", []) if isinstance(payload, dict) else []
+            status = payload.get("status") if isinstance(payload, dict) else "invalid"
+            error = payload.get("refresh_error") if isinstance(payload, dict) else None
+            if not items:
+                failures += 1
+            logger.info(
+                "[CALENDAR REFRESH] island=%s status=%s count=%s error=%s",
+                island,
+                status,
+                len(items),
+                error,
+            )
+
+        logger.info("[DATA MAINTENANCE] calendar refresh finished failures=%s", failures)
+    except Exception:
+        logger.exception("[DATA MAINTENANCE] calendar refresh crashed")
+
+
 @app.on_event("startup")
-async def schedule_optional_full_refresh() -> None:
+async def schedule_optional_maintenance() -> None:
     if os.environ.get("CANARIAS_REFRESH_ON_START") == "1":
         asyncio.create_task(_refresh_all_islands_once())
+    if os.environ.get("CANARIAS_CALENDAR_REFRESH_ON_START") == "1":
+        asyncio.create_task(_refresh_calendar_once())
 
 
 @app.get("/")
