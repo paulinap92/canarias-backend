@@ -124,12 +124,36 @@ async def _refresh_calendar_once() -> None:
         logger.exception("[DATA MAINTENANCE] calendar refresh crashed")
 
 
+async def _refresh_news_once() -> None:
+    """Refresh the merged official news snapshot without running all datasets."""
+    try:
+        import app.data_sources.bootstrap  # noqa: F401
+        from app.data_sources import get_data_source
+
+        source = get_data_source("news", "latest")
+        logger.info("[DATA MAINTENANCE] news refresh started")
+        payload = await source.refresh(refresh_limit=200)
+        items = payload.get("items", []) if isinstance(payload, dict) else []
+        status = payload.get("status") if isinstance(payload, dict) else "invalid"
+        error = payload.get("refresh_error") if isinstance(payload, dict) else None
+        logger.info(
+            "[NEWS REFRESH] status=%s count=%s error=%s",
+            status,
+            len(items),
+            error,
+        )
+    except Exception:
+        logger.exception("[DATA MAINTENANCE] news refresh crashed")
+
+
 @app.on_event("startup")
 async def schedule_optional_maintenance() -> None:
     if os.environ.get("CANARIAS_REFRESH_ON_START") == "1":
         asyncio.create_task(_refresh_all_islands_once())
     if os.environ.get("CANARIAS_CALENDAR_REFRESH_ON_START") == "1":
         asyncio.create_task(_refresh_calendar_once())
+    if os.environ.get("CANARIAS_NEWS_REFRESH_ON_START") == "1":
+        asyncio.create_task(_refresh_news_once())
 
 
 @app.get("/")
