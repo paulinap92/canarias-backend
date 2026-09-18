@@ -14,7 +14,10 @@ from app.services.content import (
     get_content,
     get_content_item,
 )
-from app.services.content_images import resolve_content_image_url
+from app.services.content_images import (
+    dev_remote_images_enabled,
+    resolve_content_image_url,
+)
 
 
 router = APIRouter(
@@ -32,6 +35,10 @@ def _with_resolved_image_route(
 ) -> dict[str, Any]:
     current = dict(item)
     if current.get("image_url"):
+        current.setdefault("image_origin", "curated")
+        return current
+
+    if not dev_remote_images_enabled():
         return current
 
     slug = current.get("slug")
@@ -56,6 +63,11 @@ def _with_resolved_image_route(
         )
     )
     current["image_resolved_from_source"] = True
+    current["image_origin"] = "dev-source-preview"
+    current["image_temporary"] = True
+    current["image_rights_status"] = "unverified"
+    current["image_credit"] = "DEV preview · imagen de la fuente"
+    current["image_source_url"] = str(source_url)
     return current
 
 
@@ -97,6 +109,12 @@ async def content_image(
     island: str = Query(...),
     section: str = Query(...),
 ):
+    if not dev_remote_images_enabled():
+        raise HTTPException(
+            status_code=404,
+            detail="Remote image previews are disabled",
+        )
+
     if section not in VALID_SECTIONS:
         raise HTTPException(
             status_code=400,

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from typing import Any
 from urllib.parse import urljoin, urlparse
 
@@ -8,6 +9,15 @@ from bs4 import BeautifulSoup
 
 
 _IMAGE_CACHE: dict[str, str | None] = {}
+
+
+def dev_remote_images_enabled() -> bool:
+    return os.environ.get("CANARIAS_DEV_REMOTE_IMAGES", "1").strip().casefold() in {
+        "1",
+        "true",
+        "yes",
+        "on",
+    }
 
 
 def extract_page_image_url(html: str, base_url: str) -> str | None:

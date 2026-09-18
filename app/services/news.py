@@ -9,6 +9,7 @@ from urllib.parse import urljoin
 import httpx
 from bs4 import BeautifulSoup
 
+from app.services.content_images import dev_remote_images_enabled
 from app.services.rss import fetch_rss
 
 
@@ -233,7 +234,7 @@ def parse_html_news(
                 value = _clean(paragraph.get_text(" ", strip=True))
                 if value and value != title:
                     summary = value[:600]
-            image_url = _image_url(parent, base_url)
+            image_url = _image_url(parent, base_url) if dev_remote_images_enabled() else None
 
         items.append(
             {

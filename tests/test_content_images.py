@@ -45,3 +45,17 @@ def test_extract_page_image_uses_meaningful_body_image_when_metadata_missing():
         extract_page_image_url(html, "https://example.com/recetas/conejo/")
         == "https://example.com/photos/conejo.jpg"
     )
+
+
+def test_dev_remote_image_flag_defaults_enabled(monkeypatch):
+    from app.services.content_images import dev_remote_images_enabled
+
+    monkeypatch.delenv("CANARIAS_DEV_REMOTE_IMAGES", raising=False)
+    assert dev_remote_images_enabled() is True
+
+
+def test_dev_remote_image_flag_can_be_disabled(monkeypatch):
+    from app.services.content_images import dev_remote_images_enabled
+
+    monkeypatch.setenv("CANARIAS_DEV_REMOTE_IMAGES", "0")
+    assert dev_remote_images_enabled() is False

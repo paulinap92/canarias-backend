@@ -5,6 +5,8 @@ from xml.etree import ElementTree
 import httpx
 from bs4 import BeautifulSoup
 
+from app.services.content_images import dev_remote_images_enabled
+
 
 def _rss_image_url(item: Any, description_html: str, base_url: str) -> str | None:
     for node in item.iter():
@@ -52,7 +54,11 @@ async def fetch_rss(url: str, limit: int = 20) -> list[dict[str, Any]]:
             "published_at": (item.findtext("pubDate") or "").strip() or None,
             "url": (item.findtext("link") or "").strip() or None,
             "summary": description[:400] or None,
-            "image_url": _rss_image_url(item, description_html, url),
+            "image_url": (
+                _rss_image_url(item, description_html, url)
+                if dev_remote_images_enabled()
+                else None
+            ),
         })
 
     return result
