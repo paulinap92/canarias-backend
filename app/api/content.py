@@ -26,19 +26,31 @@ router = APIRouter(
 )
 
 
+def _dev_source_counts(items: list[dict[str, Any]]) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for item in items:
+        if item.get("image_url"):
+            continue
+        source_url = str(item.get("source_url") or item.get("url") or "").strip()
+        if source_url:
+            counts[source_url] = counts.get(source_url, 0) + 1
+    return counts
+
+
 def _with_resolved_image_route(
     item: dict[str, Any],
     *,
     request: Request,
     island: str,
     section: str,
+    allow_dev_source: bool = True,
 ) -> dict[str, Any]:
     current = dict(item)
     if current.get("image_url"):
         current.setdefault("image_origin", "curated")
         return current
 
-    if not dev_remote_images_enabled():
+    if not dev_remote_images_enabled() or not allow_dev_source:
         return current
 
     slug = current.get("slug")
@@ -59,6 +71,7 @@ def _with_resolved_image_route(
             {
                 "island": island,
                 "section": section,
+                "preview": "strict-v2",
             }
         )
     )
@@ -91,14 +104,24 @@ async def content_list(
     )
 
     normalized_island = str(data.get("island") or island)
+    raw_items = list(data.get("items", []))
+    source_counts = _dev_source_counts(raw_items)
+
     data["items"] = [
         _with_resolved_image_route(
             item,
             request=request,
             island=normalized_island,
             section=section,
+            allow_dev_source=(
+                source_counts.get(
+                    str(item.get("source_url") or item.get("url") or "").strip(),
+                    0,
+                )
+                <= 1
+            ),
         )
-        for item in data.get("items", [])
+        for item in raw_items
     ]
     return data
 
@@ -142,7 +165,7 @@ async def content_image(
     return RedirectResponse(
         url=image_url,
         status_code=307,
-        headers={"Cache-Control": "public, max-age=21600"},
+        headers={"Cache-Control": "no-store"},
     )
 
 
@@ -171,9 +194,18 @@ async def content_detail(
             detail="Content item not found",
         )
 
+    section_items = get_content(
+        island=island,
+        section=section,
+        limit=1000,
+    ).get("items", [])
+    source_counts = _dev_source_counts(section_items)
+    source_url = str(item.get("source_url") or item.get("url") or "").strip()
+
     return _with_resolved_image_route(
         item,
         request=request,
         island=island,
         section=section,
+        allow_dev_source=source_counts.get(source_url, 0) <= 1,
     )

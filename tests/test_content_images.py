@@ -32,18 +32,36 @@ def test_extract_page_image_prefers_open_graph_image():
     )
 
 
-def test_extract_page_image_uses_meaningful_body_image_when_metadata_missing():
+def test_extract_page_image_does_not_guess_from_body_images():
     html = """
     <html>
       <body>
         <img src="/assets/logo.svg">
-        <img data-src="/photos/conejo.jpg">
+        <img data-src="/photos/random-tree.jpg">
       </body>
     </html>
     """
+    assert extract_page_image_url(html, "https://example.com/guide/item/") is None
+
+
+def test_extract_page_image_accepts_json_ld_item_image():
+    html = """
+    <html>
+      <head>
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "Recipe",
+            "name": "Papas arrugadas",
+            "image": ["/photos/papas.jpg"]
+          }
+        </script>
+      </head>
+    </html>
+    """
     assert (
-        extract_page_image_url(html, "https://example.com/recetas/conejo/")
-        == "https://example.com/photos/conejo.jpg"
+        extract_page_image_url(html, "https://example.com/recetas/papas/")
+        == "https://example.com/photos/papas.jpg"
     )
 
 
@@ -59,3 +77,17 @@ def test_dev_remote_image_flag_can_be_disabled(monkeypatch):
 
     monkeypatch.setenv("CANARIAS_DEV_REMOTE_IMAGES", "0")
     assert dev_remote_images_enabled() is False
+
+
+def test_duplicate_source_urls_are_detected():
+    from app.api.content import _dev_source_counts
+
+    items = [
+        {"slug": "one", "source_url": "https://example.com/generic"},
+        {"slug": "two", "source_url": "https://example.com/generic"},
+        {"slug": "three", "source_url": "https://example.com/specific"},
+    ]
+    assert _dev_source_counts(items) == {
+        "https://example.com/generic": 2,
+        "https://example.com/specific": 1,
+    }

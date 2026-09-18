@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import os
 from typing import Any
 from urllib.parse import urljoin, urlparse
@@ -20,12 +21,54 @@ def dev_remote_images_enabled() -> bool:
     }
 
 
+def _json_ld_image(value: Any) -> str | None:
+    if isinstance(value, str):
+        return value or None
+
+    if isinstance(value, list):
+        for item in value:
+            image = _json_ld_image(item)
+            if image:
+                return image
+        return None
+
+    if not isinstance(value, dict):
+        return None
+
+    image = value.get("image")
+    if image:
+        if isinstance(image, dict):
+            candidate = image.get("url") or image.get("contentUrl")
+            if candidate:
+                return str(candidate)
+        candidate = _json_ld_image(image)
+        if candidate:
+            return candidate
+
+    for key in ("thumbnailUrl", "contentUrl"):
+        candidate = value.get(key)
+        if isinstance(candidate, str) and candidate:
+            return candidate
+
+    graph = value.get("@graph")
+    if graph:
+        return _json_ld_image(graph)
+
+    return None
+
+
 def extract_page_image_url(html: str, base_url: str) -> str | None:
+    """Return only an image explicitly declared as page metadata.
+
+    Dev previews must never guess from arbitrary body <img> elements because
+    generic site heroes/logos were being reused for unrelated Guide cards.
+    """
     soup = BeautifulSoup(html, "html.parser")
 
     selectors = (
         ('meta[property="og:image"]', "content"),
         ('meta[property="og:image:url"]', "content"),
+        ('meta[property="og:image:secure_url"]', "content"),
         ('meta[name="twitter:image"]', "content"),
         ('meta[name="twitter:image:src"]', "content"),
         ('link[rel="image_src"]', "href"),
@@ -34,37 +77,21 @@ def extract_page_image_url(html: str, base_url: str) -> str | None:
     for selector, attribute in selectors:
         node = soup.select_one(selector)
         value = node.get(attribute) if node is not None else None
-        if value:
+        if value and not str(value).startswith("data:"):
             return urljoin(base_url, str(value))
 
-    for image in soup.find_all("img"):
-        value = (
-            image.get("src")
-            or image.get("data-src")
-            or image.get("data-lazy-src")
-            or image.get("data-original")
-        )
-
-        if not value and image.get("srcset"):
-            candidates = [
-                part.strip().split(" ")[0]
-                for part in image.get("srcset", "").split(",")
-                if part.strip()
-            ]
-            value = candidates[-1] if candidates else None
-
-        if not value:
+    for script in soup.select('script[type="application/ld+json"]'):
+        raw = script.string or script.get_text()
+        if not raw or not raw.strip():
+            continue
+        try:
+            payload = json.loads(raw)
+        except (TypeError, ValueError, json.JSONDecodeError):
             continue
 
-        value = str(value)
-        if value.startswith("data:"):
-            continue
-
-        lower = value.casefold()
-        if any(token in lower for token in ("logo", "icon", "avatar", "sprite", "favicon")):
-            continue
-
-        return urljoin(base_url, value)
+        value = _json_ld_image(payload)
+        if value and not value.startswith("data:"):
+            return urljoin(base_url, value)
 
     return None
 
