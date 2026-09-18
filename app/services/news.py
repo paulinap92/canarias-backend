@@ -160,6 +160,34 @@ def _government_island(item: dict[str, Any]) -> str | None:
     return matches[0] if len(matches) == 1 else None
 
 
+def _image_url(node: Any, base_url: str) -> str | None:
+    if node is None:
+        return None
+
+    image = node.find("img")
+    if image is None:
+        return None
+
+    value = (
+        image.get("src")
+        or image.get("data-src")
+        or image.get("data-lazy-src")
+        or image.get("data-original")
+    )
+    if not value and image.get("srcset"):
+        candidates = [
+            part.strip().split(" ")[0]
+            for part in image.get("srcset", "").split(",")
+            if part.strip()
+        ]
+        value = candidates[-1] if candidates else None
+
+    if not value or str(value).startswith("data:"):
+        return None
+
+    return urljoin(base_url, str(value))
+
+
 def parse_html_news(
     html: str,
     *,
@@ -198,18 +226,21 @@ def parse_html_news(
         published_at = _published_iso(context)
 
         summary = None
+        image_url = None
         if parent is not None:
             paragraph = parent.find("p")
             if paragraph is not None:
                 value = _clean(paragraph.get_text(" ", strip=True))
                 if value and value != title:
                     summary = value[:600]
+            image_url = _image_url(parent, base_url)
 
         items.append(
             {
                 "id": url,
                 "title": title[:300],
                 "summary": summary,
+                "image_url": image_url,
                 "url": url,
                 "published_at": published_at,
                 "source": source,
