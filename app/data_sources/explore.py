@@ -152,7 +152,11 @@ class CuratedExploreSource(IslandGeoJSONSource):
                 "published": self.count(curated) or 0,
             }
             fresh = self.decorate(curated, status="ok")
-            if self.resource not in {"fauna", "flora"} and not self.is_valid(fresh):
+            if (
+                not self.allow_empty
+                and self.resource not in {"fauna", "flora"}
+                and not self.is_valid(fresh)
+            ):
                 raise ValueError("curation produced no publishable records")
 
             write_json_atomic(published_path, fresh)
