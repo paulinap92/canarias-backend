@@ -10,6 +10,11 @@ from .registry import data_source
 from .store import DATA_ROOT
 
 
+NEWS_EDITORIAL_FIELDS = {
+    "title", "summary", "image_url", "scope", "island", "hidden", "editorial_override",
+}
+
+
 def _news_key(item: dict[str, Any]) -> str:
     return str(item.get("url") or item.get("id") or item.get("title") or "").strip()
 
@@ -64,6 +69,11 @@ class NewsSource(DataSource):
             else:
                 duplicates += 1
                 combined = {**old, **item}
+                if old.get("editorial_override") is True:
+                    for field in NEWS_EDITORIAL_FIELDS:
+                        if field in old:
+                            combined[field] = old[field]
+                    combined["editorial_override"] = True
                 if combined != old:
                     updated += 1
                 merged[key] = combined
