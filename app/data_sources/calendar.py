@@ -44,6 +44,12 @@ CALENDAR_DETAIL_SEEDS: dict[str, list[str]] = {
     ],
 }
 
+EVENT_EDITORIAL_FIELDS = {
+    "title", "summary", "category", "location_name", "latitude", "longitude",
+    "start_date", "end_date", "start_at", "end_at", "all_day", "schedule_text",
+    "image_url", "hidden", "editorial_override",
+}
+
 BROWSER_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -397,6 +403,11 @@ class CalendarSource(DataSource):
             else:
                 old = merged[key]
                 combined = {**old, **item}
+                if old.get("editorial_override") is True:
+                    for field in EVENT_EDITORIAL_FIELDS:
+                        if field in old:
+                            combined[field] = old[field]
+                    combined["editorial_override"] = True
                 if combined != old:
                     updated += 1
                 merged[key] = combined
