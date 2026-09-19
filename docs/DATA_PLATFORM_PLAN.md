@@ -434,6 +434,36 @@ LLM is useful, but it should not be the source of truth and should not sit in ev
    - prepare social-media drafts
    - all output can flow through the editor before publication
 
+### Translation workflow TODO
+
+Treat Spanish as the canonical editorial language and generate English from it with LLM assistance.
+
+Apply this to:
+- Guide
+- Explore descriptions
+- Events
+- News
+- Hoy / Este finde briefings
+- Canarias en datos stories
+- descriptive alert / transport-update text
+- other editorial content managed in the editor
+
+Recommended content model:
+- title_es / title_en
+- summary_es / summary_en
+- description_es / description_en
+
+Editor workflow:
+- show whether EN is current or outdated
+- mark EN as outdated whenever the canonical ES text changes
+- add a "Regenerate translation" action
+- allow manual correction of generated EN
+- never overwrite a manually edited translation without explicit confirmation
+- preserve names, source references, dates and structured factual fields
+- keep technical / numeric values outside the translation step where possible
+
+Initial supported languages: Spanish and English only.
+
 5. Search / Q&A later
    - a grounded Canarias Cerca assistant over curated Guide, Explore, Calendar, News and normalized datasets
    - retrieval should provide the source context
