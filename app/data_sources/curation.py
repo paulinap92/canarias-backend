@@ -431,6 +431,73 @@ def curate_natural_pools(
     return result
 
 
+def curate_external_points(
+    raw: dict[str, Any],
+    *,
+    resource: str,
+    island: str | None,
+    previous: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    raw_features = [
+        feature
+        for feature in raw.get("features") or []
+        if isinstance(feature, dict)
+        and _valid_point(feature)
+        and _norm((feature.get("properties") or {}).get("name"))
+    ]
+    previous_features = [
+        feature
+        for feature in (previous or {}).get("features") or []
+        if isinstance(feature, dict) and _valid_point(feature)
+    ]
+
+    selected = _merge_editorial_fields(raw_features, previous)
+    selected_keys = {_feature_key(feature) for feature in selected}
+
+    for feature in previous_features:
+        key = _feature_key(feature)
+        props = feature.get("properties") or {}
+        if key in selected_keys:
+            continue
+        if props.get("editorial_override") or props.get("cc_curated"):
+            selected.append(feature)
+            selected_keys.add(key)
+
+    selected = [
+        feature
+        for feature in selected
+        if not (feature.get("properties") or {}).get("hidden")
+    ]
+
+    selected.sort(
+        key=lambda feature: (
+            0 if (feature.get("properties") or {}).get("featured") else 1,
+            int((feature.get("properties") or {}).get("priority") or 9999),
+            -float((feature.get("properties") or {}).get("importance_score") or 0),
+            _norm((feature.get("properties") or {}).get("name")),
+        )
+    )
+
+    result = _geojson(
+        raw,
+        selected,
+        island=island,
+        curation=f"external-editorial:{resource}-v1",
+    )
+    for key in (
+        "source_url",
+        "official_discovered",
+        "mapped_count",
+        "unmapped_count",
+        "unmapped_items",
+        "reference_source",
+        "reference_url",
+    ):
+        if key in raw:
+            result[key] = raw[key]
+    return result
+
+
 def curate_catalog_resource(
     raw: dict[str, Any],
     *,
@@ -473,6 +540,13 @@ def curate_explore(
 ) -> dict[str, Any]:
     if resource in {"fauna", "flora"}:
         return curate_catalog_resource(raw, resource=resource, island=island, previous=previous)
+    if resource in {"marinas", "food-producers", "volcanoes", "summits"}:
+        return curate_external_points(
+            raw,
+            resource=resource,
+            island=island,
+            previous=previous,
+        )
     curator = CURATORS.get(resource)
     if curator is None:
         return raw
