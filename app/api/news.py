@@ -13,8 +13,13 @@ source = get_data_source("news", "latest")
 def items(payload: dict[str, Any], island: str | None, limit: int) -> list[dict[str, Any]]:
     # Island view means island-specific news only. Regional/archipelago-wide
     # items belong to the Canarias-wide view, not duplicated under every island.
+    visible = [
+        item
+        for item in payload.get("items", [])
+        if not item.get("hidden")
+    ]
     return filter_records_by_island(
-        payload.get("items", []),
+        visible,
         island,
         include_regional=False,
     )[:limit]
