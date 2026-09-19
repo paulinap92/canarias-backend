@@ -12,6 +12,7 @@ const AREA_LABELS = {
 const RESOURCE_LABELS = {
   places: "Lugares",
   beaches: "Playas",
+  "natural-pools": "Piscinas naturales",
   routes: "Rutas",
   fauna: "Fauna",
   flora: "Flora",
