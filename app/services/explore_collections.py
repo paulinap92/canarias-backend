@@ -24,11 +24,51 @@ SOURCE_BASE = "https://www.holaislascanarias.com"
 DIRECTORIES = {
     "marinas": {
         "section": "puertos-y-marinas",
+        "category": "marina",
         "source": "Hola Islas Canarias",
     },
     "food-producers": {
         "section": "bodegas-y-queserias",
+        "category": "food_producer",
         "source": "Hola Islas Canarias",
+    },
+    "diving-spots": {
+        "section": "puntos-de-inmersion",
+        "category": "diving_spot",
+        "source": "Hola Islas Canarias",
+    },
+    "leisure-centers": {
+        "section": "centros-de-ocio",
+        "category": "leisure_center",
+        "source": "Hola Islas Canarias",
+    },
+    "museums-visits": {
+        "section": "museos-y-visitas-de-interes",
+        "category": "museum_visit",
+        "source": "Hola Islas Canarias",
+    },
+    "natural-spaces": {
+        "section": "espacios-naturales",
+        "category": "natural_space",
+        "source": "Hola Islas Canarias",
+    },
+    "surf-spots": {
+        "section": "surf",
+        "category": "surf_spot",
+        "source": "Hola Islas Canarias",
+    },
+    "stargazing": {
+        "section": "observacion-de-estrellas",
+        "detail_section": "zonas-de-observacion-de-estrellas",
+        "category": "stargazing",
+        "source": "Hola Islas Canarias",
+    },
+    "markets": {
+        "section": "compras",
+        "category": "market",
+        "source": "Hola Islas Canarias",
+        "listing_path": "/compras/{island}/all/mercados-y-mercadillos/?limit=48",
+        "inline_cards": True,
     },
 }
 
@@ -76,12 +116,17 @@ def _match_score(left: str, right: str) -> float:
 
 
 def _listing_url(resource: str, island: str) -> str:
-    section = DIRECTORIES[resource]["section"]
+    config = DIRECTORIES[resource]
+    listing_path = config.get("listing_path")
+    if listing_path:
+        return SOURCE_BASE + str(listing_path).format(island=island)
+    section = config["section"]
     return f"{SOURCE_BASE}/{section}/{island}/?limit=48"
 
 
 def _listing_links(html: str, resource: str, island: str) -> list[str]:
-    section = DIRECTORIES[resource]["section"]
+    config = DIRECTORIES[resource]
+    section = str(config.get("detail_section") or config["section"])
     prefix = f"/{section}/{island}/"
     soup = BeautifulSoup(html, "html.parser")
     links: list[str] = []
@@ -195,6 +240,27 @@ def _food_category(title: str, text: str) -> str:
     return "winery"
 
 
+def _leisure_category(title: str, text: str) -> str:
+    haystack = _normalise(f"{title} {text}")
+    if "acuatico" in haystack or "water park" in haystack:
+        return "water_park"
+    if any(word in haystack for word in ("zoo", "acuario", "aquarium")):
+        return "zoo_aquarium"
+    if any(word in haystack for word in ("tematico", "atracciones", "theme park")):
+        return "theme_park"
+    if any(word in haystack for word in ("recreativa", "recreativo")):
+        return "recreation"
+    return "leisure_center"
+
+
+def _resource_category(resource: str, title: str, text: str) -> str:
+    if resource == "food-producers":
+        return _food_category(title, text)
+    if resource == "leisure-centers":
+        return _leisure_category(title, text)
+    return str(DIRECTORIES[resource].get("category") or resource)
+
+
 def parse_directory_detail(
     html: str,
     url: str,
@@ -210,9 +276,11 @@ def parse_directory_detail(
     subtitle, description = _description(soup)
     coordinates = _map_coordinates(soup)
 
-    category = "marina"
-    if resource == "food-producers":
-        category = _food_category(title, f"{subtitle or ''} {description or ''}")
+    category = _resource_category(
+        resource,
+        title,
+        f"{subtitle or ''} {description or ''}",
+    )
 
     image_url = (
         extract_page_image_url(html, url)
@@ -257,6 +325,47 @@ def _osm_query(resource: str, island: str) -> str:
   nwr["craft"="cheese"]["name"]({bbox});
   nwr["shop"="cheese"]["name"]({bbox});
   nwr["produce"~"wine|cheese",i]["name"]({bbox});
+"""
+    elif resource == "diving-spots":
+        selectors = f"""
+  nwr["sport"="scuba_diving"]["name"]({bbox});
+  nwr["scuba_diving"]["name"]({bbox});
+  nwr["shop"="scuba_diving"]["name"]({bbox});
+"""
+    elif resource == "leisure-centers":
+        selectors = f"""
+  nwr["tourism"="theme_park"]["name"]({bbox});
+  nwr["tourism"="zoo"]["name"]({bbox});
+  nwr["tourism"="aquarium"]["name"]({bbox});
+  nwr["leisure"="water_park"]["name"]({bbox});
+  nwr["leisure"="recreation_ground"]["name"]({bbox});
+"""
+    elif resource == "museums-visits":
+        selectors = f"""
+  nwr["tourism"="museum"]["name"]({bbox});
+  nwr["historic"]["name"]({bbox});
+  nwr["tourism"="attraction"]["name"]({bbox});
+"""
+    elif resource == "natural-spaces":
+        selectors = f"""
+  nwr["boundary"="protected_area"]["name"]({bbox});
+  nwr["boundary"="national_park"]["name"]({bbox});
+  nwr["leisure"="nature_reserve"]["name"]({bbox});
+"""
+    elif resource == "surf-spots":
+        selectors = f"""
+  nwr["sport"="surfing"]["name"]({bbox});
+  nwr["surfing"]["name"]({bbox});
+"""
+    elif resource == "stargazing":
+        selectors = f"""
+  nwr["man_made"="observatory"]["name"]({bbox});
+  nwr["tourism"="viewpoint"]["name"]({bbox});
+"""
+    elif resource == "markets":
+        selectors = f"""
+  nwr["amenity"="marketplace"]["name"]({bbox});
+  nwr["shop"="marketplace"]["name"]({bbox});
 """
     else:
         raise ValueError(f"Unsupported directory resource: {resource}")
@@ -324,6 +433,62 @@ def _best_candidate(
     return (best, best_score) if best_score >= 0.62 else (None, best_score)
 
 
+def _market_items_from_listing(
+    html: str,
+    island: str,
+) -> list[dict[str, Any]]:
+    soup = BeautifulSoup(html, "html.parser")
+    items: list[dict[str, Any]] = []
+    seen: set[str] = set()
+
+    for heading in soup.find_all("h3"):
+        name = _clean(heading.get_text(" ", strip=True))
+        if not name:
+            continue
+
+        card = heading
+        coordinates = None
+        website = None
+        for _ in range(7):
+            card = card.parent
+            if card is None:
+                break
+            coordinates = _map_coordinates(card)
+            external_links = []
+            for anchor in card.find_all("a", href=True):
+                href = str(anchor.get("href") or "").strip()
+                if not href.startswith("http"):
+                    continue
+                host = urlparse(href).netloc.casefold()
+                if "holaislascanarias.com" in host:
+                    continue
+                if "google." in host or "maps." in host:
+                    continue
+                external_links.append(href)
+            if external_links:
+                website = external_links[0]
+            if coordinates is not None:
+                break
+
+        key = _normalise(name)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+
+        items.append({
+            "id": f"markets:{island}:{re.sub(r'[^a-z0-9]+', '-', key).strip('-')}",
+            "name": name,
+            "category": "market",
+            "source": "Hola Islas Canarias",
+            "source_url": _listing_url("markets", island),
+            "website": website,
+            "island": island,
+            "coordinates": coordinates,
+        })
+
+    return items
+
+
 async def fetch_official_directory(
     resource: str,
     *,
@@ -350,30 +515,36 @@ async def fetch_official_directory(
     ) as client:
         listing = await client.get(listing_url)
         listing.raise_for_status()
-        detail_urls = _listing_links(
-            listing.text,
-            resource,
-            normalized,
-        )[:limit]
-
-        semaphore = asyncio.Semaphore(6)
-
-        async def fetch_detail(url: str) -> dict[str, Any] | None:
-            async with semaphore:
-                try:
-                    response = await client.get(url)
-                    response.raise_for_status()
-                except httpx.HTTPError:
-                    return None
-            return parse_directory_detail(
-                response.text,
-                str(response.url),
+        if DIRECTORIES[resource].get("inline_cards"):
+            official_items = _market_items_from_listing(
+                listing.text,
+                normalized,
+            )[:limit]
+        else:
+            detail_urls = _listing_links(
+                listing.text,
                 resource,
                 normalized,
-            )
+            )[:limit]
 
-        details = await asyncio.gather(*(fetch_detail(url) for url in detail_urls))
-        official_items = [item for item in details if item is not None]
+            semaphore = asyncio.Semaphore(6)
+
+            async def fetch_detail(url: str) -> dict[str, Any] | None:
+                async with semaphore:
+                    try:
+                        response = await client.get(url)
+                        response.raise_for_status()
+                    except httpx.HTTPError:
+                        return None
+                return parse_directory_detail(
+                    response.text,
+                    str(response.url),
+                    resource,
+                    normalized,
+                )
+
+            details = await asyncio.gather(*(fetch_detail(url) for url in detail_urls))
+            official_items = [item for item in details if item is not None]
 
         try:
             candidates = await _osm_candidates(client, resource, normalized)
