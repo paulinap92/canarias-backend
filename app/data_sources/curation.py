@@ -21,6 +21,24 @@ PROTECTED_EDITORIAL_FIELDS = {
     "access_notes",
     "for_whom",
     "priority",
+    "name",
+    "category",
+    "heritage_type",
+    "website",
+    "common_name",
+    "scientific_name",
+    "hotspot",
+    "best_season",
+    "habitat",
+    "conservation",
+    "why_special",
+    "difficulty",
+    "duration",
+    "hidden",
+    "editorial_override",
+    "image_license",
+    "image_license_url",
+    "image_origin",
 }
 
 
@@ -235,6 +253,10 @@ def curate_places(
                 break
 
     selected = _merge_editorial_fields(selected, previous)
+    selected = [
+        feature for feature in selected
+        if not (feature.get("properties") or {}).get("hidden")
+    ]
     return _geojson(raw, selected, island=island, curation="quality-gate:places-v2-editorial-first")
 
 
@@ -299,6 +321,10 @@ def curate_beaches(
     # shows a featured subset. This prevents incomplete amenity tags from
     # pretending to be authoritative classifications.
     selected = _merge_editorial_fields(selected, previous)
+    selected = [
+        feature for feature in selected
+        if not (feature.get("properties") or {}).get("hidden")
+    ]
     result = _geojson(raw, selected, island=island, curation="quality-gate:beaches-v2-editorial-first")
     if catalog is not None:
         result["catalog_source"] = catalog.get("source", "canarias-cerca-editorial")
@@ -343,6 +369,10 @@ def curate_routes(
 
     candidates.sort(key=lambda f: (-score(f)[0], score(f)[1]))
     selected = _merge_editorial_fields(candidates[:8], previous)
+    selected = [
+        feature for feature in selected
+        if not (feature.get("properties") or {}).get("hidden")
+    ]
     return _geojson(raw, selected, island=island, curation="quality-gate:routes-v1")
 
 
@@ -361,6 +391,10 @@ def curate_catalog_resource(
         [f for f in catalog.get("features") or [] if isinstance(f, dict) and _valid_point(f)],
         previous,
     )
+    selected = [
+        feature for feature in selected
+        if not (feature.get("properties") or {}).get("hidden")
+    ]
     result = _geojson(raw, selected, island=island, curation=f"curated-catalog:{resource}-v1")
     result["catalog_source"] = catalog.get("source", "canarias-cerca-editorial")
     result["status"] = "curated"
