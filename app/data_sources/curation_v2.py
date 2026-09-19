@@ -75,13 +75,16 @@ def _curate_all_routes(
             "description", "short_description", "featured", "verified",
             "editorial_tags", "why_go", "image", "image_url",
             "image_credit", "image_source_url", "access_notes", "for_whom",
-            "priority",
+            "priority", "name", "category", "difficulty", "duration",
+            "hidden", "editorial_override", "image_license",
+            "image_license_url", "image_origin",
         ):
             if old_props.get(field) not in (None, "", [], {}):
                 props[field] = old_props[field]
         props["status"] = "published"
         item["properties"] = props
-        selected.append(item)
+        if not props.get("hidden"):
+            selected.append(item)
 
     selected.sort(
         key=lambda item: (
