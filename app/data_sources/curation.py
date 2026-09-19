@@ -376,6 +376,61 @@ def curate_routes(
     return _geojson(raw, selected, island=island, curation="quality-gate:routes-v1")
 
 
+def curate_natural_pools(
+    raw: dict[str, Any],
+    *,
+    island: str | None,
+    previous: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    raw_features = [
+        feature
+        for feature in raw.get("features") or []
+        if isinstance(feature, dict) and _valid_point(feature)
+    ]
+    previous_features = [
+        feature
+        for feature in (previous or {}).get("features") or []
+        if isinstance(feature, dict) and _valid_point(feature)
+    ]
+
+    selected = _merge_editorial_fields(raw_features, previous)
+    selected_keys = {_feature_key(feature) for feature in selected}
+
+    # Keep editor-created pools even when they do not come from the automatic
+    # official-source + OSM discovery pipeline.
+    for feature in previous_features:
+        key = _feature_key(feature)
+        props = feature.get("properties") or {}
+        if key in selected_keys:
+            continue
+        if props.get("editorial_override") or props.get("cc_curated"):
+            selected.append(feature)
+            selected_keys.add(key)
+
+    selected = [
+        feature
+        for feature in selected
+        if not (feature.get("properties") or {}).get("hidden")
+    ]
+
+    result = _geojson(
+        raw,
+        selected,
+        island=island,
+        curation="official-discovery:natural-pools-v1",
+    )
+    for key in (
+        "source_url",
+        "official_discovered",
+        "mapped_count",
+        "unmapped_count",
+        "unmapped_items",
+    ):
+        if key in raw:
+            result[key] = raw[key]
+    return result
+
+
 def curate_catalog_resource(
     raw: dict[str, Any],
     *,
@@ -404,6 +459,7 @@ def curate_catalog_resource(
 CURATORS: dict[str, Callable[..., dict[str, Any]]] = {
     "places": curate_places,
     "beaches": curate_beaches,
+    "natural-pools": curate_natural_pools,
     "routes": curate_routes,
 }
 
