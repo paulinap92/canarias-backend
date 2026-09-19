@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Canarias Cerca · Content Editor</title>
+  <link rel="stylesheet" href="/editor/editor.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <span class="eyebrow">CANARIAS CERCA</span>
+      <h1>Content Editor</h1>
+    </div>
+    <div class="top-actions">
+      <input id="token" type="password" placeholder="Token remoto (opcional)" autocomplete="off">
+      <button id="reload" type="button">↻ Recargar</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="selectors">
+        <label>Isla<select id="island"></select></label>
+        <label>Sección<select id="section"></select></label>
+      </div>
+      <button id="new-item" class="primary" type="button">+ Nuevo contenido</button>
+      <div id="items" class="item-list"></div>
+    </aside>
+
+    <section class="workspace">
+      <div id="empty" class="empty-state">
+        <h2>Elige un contenido</h2>
+        <p>Edita textos, fuentes y metadatos sin tocar el JSON a mano.</p>
+      </div>
+
+      <form id="form" class="editor-form hidden">
+        <div class="form-head">
+          <div>
+            <span id="mode" class="eyebrow">EDITAR</span>
+            <h2 id="form-title">Contenido</h2>
+          </div>
+          <div class="actions">
+            <button id="delete" class="danger" type="button">Eliminar</button>
+            <button class="primary" type="submit">Guardar</button>
+          </div>
+        </div>
+
+        <div class="grid two">
+          <label>Slug<input id="slug" required pattern="[a-z0-9]+(?:-[a-z0-9]+)*"></label>
+          <label>Nombre / título<input id="name" required></label>
+          <label>Categoría<input id="category"></label>
+          <label>Orden<input id="order" type="number"></label>
+        </div>
+
+        <label>Descripción corta<textarea id="short_description" rows="3"></textarea></label>
+        <label>Descripción<textarea id="description" rows="7"></textarea></label>
+
+        <div class="grid two">
+          <label>Tags (separados por coma)<input id="tags"></label>
+          <label class="check"><input id="featured" type="checkbox"> Featured</label>
+          <label>Latitud<input id="latitude" type="number" step="any"></label>
+          <label>Longitud<input id="longitude" type="number" step="any"></label>
+        </div>
+
+        <section class="media-box">
+          <div>
+            <span class="eyebrow">IMAGEN</span>
+            <h3>Media</h3>
+          </div>
+          <div class="media-layout">
+            <div id="image-preview" class="image-preview">Sin imagen</div>
+            <div class="media-fields">
+              <label>Image URL<input id="image_url" type="url"></label>
+              <label>Crédito<input id="image_credit"></label>
+              <div class="grid two">
+                <label>Licencia<input id="image_license" placeholder="owned / CC BY-SA 4.0"></label>
+                <label>Origen<input id="image_origin" placeholder="own-photo / wikimedia"></label>
+              </div>
+              <label>URL de la fuente<input id="image_source_url" type="url"></label>
+              <label>URL de la licencia<input id="image_license_url" type="url"></label>
+              <div class="upload-row">
+                <input id="photo-file" type="file" accept="image/jpeg,image/png,image/webp,image/avif" disabled>
+                <button id="upload-photo" type="button" disabled>Subir a R2</button>
+                <small id="upload-status">R2 todavía no está configurado. Puedes usar Image URL mientras tanto.</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <label>Source URL<input id="source_url" type="url"></label>
+
+        <details class="advanced">
+          <summary>JSON avanzado</summary>
+          <p>Campos que todavía no tienen formulario, por ejemplo ingredients u ordered_stops. Se conservan al guardar.</p>
+          <textarea id="raw-json" rows="16" spellcheck="false"></textarea>
+        </details>
+
+        <p id="status" class="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="/editor/editor.js" defer></script>
+</body>
+</html>

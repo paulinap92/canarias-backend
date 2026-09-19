@@ -11,6 +11,7 @@ from app.api.beaches import router as beaches_router
 from app.api.capabilities import router as capabilities_router
 from app.api.cities import router as cities_router
 from app.api.events import router as events_router
+from app.api.editor import router as editor_router
 from app.api.ferries import router as ferries_router
 from app.api.health import router as health_router
 from app.api.live import router as live_router
@@ -63,6 +64,7 @@ app.include_router(beaches_router)
 app.include_router(transport_router)
 app.include_router(today_router)
 app.include_router(events_router)
+app.include_router(editor_router)
 app.include_router(webcams_router)
 app.include_router(ports_router)
 app.include_router(ferries_router)
