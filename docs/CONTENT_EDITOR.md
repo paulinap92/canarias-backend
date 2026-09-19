@@ -63,3 +63,18 @@ For now:
 - leave the image empty and use the temporary dev resolver.
 
 The R2 upload flow is the next media step: upload original → optimize → store → write metadata back to the content item.
+
+
+## Admin v2
+
+The editor now works as a small Canarias Cerca Admin:
+
+- Guide — create/edit/delete curated content.
+- Explore — edit published Places, Beaches, Routes, Fauna and Flora; create new point items except Routes.
+- Calendar — edit discovered events, add manual events, hide incorrect ones. Editorial overrides survive refreshes.
+- News — edit title/summary/image/scope/island or hide an item. Editorial overrides survive refreshes.
+- Live — read-only snapshots for Weather, Air quality, Marine, Tides, Alerts, Seismic, Volcanic and Webcams.
+- Media — image inventory with missing-image counts.
+
+Explore delete is implemented as an editorial hide so an external refresh cannot recreate an unwanted imported record.
+Live data stays read-only because it is external current-state data, not editorial content.
