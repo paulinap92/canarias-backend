@@ -11,6 +11,13 @@ RESOURCES = {
     "food-producers",
     "volcanoes",
     "summits",
+    "diving-spots",
+    "leisure-centers",
+    "museums-visits",
+    "natural-spaces",
+    "surf-spots",
+    "stargazing",
+    "markets",
 }
 
 router = APIRouter(
