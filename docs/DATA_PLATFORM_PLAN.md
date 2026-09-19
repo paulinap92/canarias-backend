@@ -337,3 +337,125 @@ A normalized internal transport model should eventually separate:
 - terminals
 - origin-destination flows
 - live/realtime observations when available
+
+
+---
+
+## I. Editorial content and CMS direction
+
+Guide is mostly evergreen content and should change relatively slowly after it is populated.
+
+The dynamic editorial layer should live around Actualidad and should be managed through the Canarias Cerca editor.
+
+### Dynamic content types
+
+- News — aggregate from multiple reliable local and official sources, not a single feed.
+- Events — multi-source event discovery with review before publication.
+- Alerts and closures — trails, roads, beaches, protected areas, weather-related closures and access restrictions.
+- Transport updates — diversions, service changes, road disruptions and special event transport.
+- Hoy / Este finde briefings — short editorial summaries combining weather, events, alerts and useful local context.
+- New openings / relevant changes — important new museums, public spaces, routes, viewpoints, cultural venues or major reopenings.
+- Nature updates — relevant environmental notices, seasonal phenomena, protected-area restrictions and significant observations.
+- Volcanic / seismic digest — calm, factual summaries when there is meaningful activity.
+- Canarias en datos stories — short explainers when ISTAC or another official source publishes meaningful new statistics.
+- Seasonal content — carnival, romerías, almond blossom, vendimia, meteor showers, wildlife seasons, tajinaste flowering, etc.
+- Editor picks — manually curated weekend / today / seasonal recommendations.
+
+### Actualidad product structure
+
+Possible frontend grouping:
+
+- Hoy
+- Noticias
+- Eventos
+- Alertas
+- Transporte
+- Cultura
+- Naturaleza
+- Datos
+
+### Editor as the operational CMS
+
+The editor should become the control center for editorial content rather than only a JSON form.
+
+Shared editorial states:
+
+- discovered
+- pending_review
+- published
+- hidden
+- rejected
+
+The editor should support:
+- approve
+- edit
+- hide
+- reject
+- feature
+- merge duplicates where applicable
+- source inspection
+- image / attribution review
+- draft vs published separation
+
+Dynamic sources should write to a discovered/review layer first. Published content should remain a separate, controlled layer.
+
+Live telemetry such as weather, tides, waves and seismic feeds should normally remain read-only in the editor.
+
+---
+
+## J. LLM role in Canarias Cerca
+
+LLM is useful, but it should not be the source of truth and should not sit in every pipeline.
+
+### Good LLM use cases
+
+1. News clustering and summarization
+   - group multiple articles about the same story
+   - produce a short neutral summary from supplied source material
+   - suggest category / tags
+   - create a draft for editor review
+
+2. Daily / weekend briefings
+   - turn already validated structured data into readable text
+   - e.g. weather + alerts + selected events + transport changes
+   - all factual values must come from trusted structured sources
+
+3. Data stories
+   - draft a human-readable explanation of new ISTAC / transport / environmental statistics
+   - calculations and indicators remain deterministic
+   - LLM explains the result; it does not compute authoritative metrics
+
+4. Editorial assistance
+   - rewrite descriptions
+   - shorten long source text
+   - propose titles
+   - translate ES/EN
+   - suggest tags
+   - prepare social-media drafts
+   - all output can flow through the editor before publication
+
+5. Search / Q&A later
+   - a grounded Canarias Cerca assistant over curated Guide, Explore, Calendar, News and normalized datasets
+   - retrieval should provide the source context
+   - the answer should cite / link the underlying Canarias Cerca source records
+
+### Where not to use LLM as the decision engine
+
+- weather values
+- tides / waves
+- seismic measurements
+- official alerts
+- transport schedules
+- event dates when a deterministic source provides them
+- statistical calculations
+- suitability scoring for ¿Qué hacer hoy? v1
+- factual geolocation
+- safety or closure state
+
+These remain deterministic and source-backed.
+
+### Principle
+
+DATA / SOURCES -> deterministic validation and calculations -> optional LLM presentation layer -> editor review where editorial content is published
+
+The LLM should mainly help Canarias Cerca write, summarize, organize and explain. It should not invent or replace the underlying data.
