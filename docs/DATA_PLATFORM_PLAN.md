@@ -262,3 +262,78 @@ Keep for later:
 - beach / hiking / surf / stargazing / sunset / swimming scores
 
 The aim is eventually to combine statistical context with place-level and live data, rather than treating these as isolated dashboards.
+
+
+---
+
+## G. Data access and licensing
+
+Prefer public/open datasets as the default foundation for Canarias en datos.
+
+Current working assumptions:
+- ISTAC is the primary source for demographic, economic, tourism, employment, housing and environmental statistics.
+- Gobierno de Canarias open-data datasets are generally reusable under their published open-data terms; verify the license on each dataset before production use.
+- Cabildo / municipal open-data portals should be treated the same way: record source URL, license, attribution text and last update.
+- External providers such as AENA, port authorities, transport operators and private ferry companies must be checked individually before integrating or redistributing their data.
+
+For every dataset store:
+- source
+- dataset_id / canonical source URL
+- license
+- attribution
+- geographic coverage
+- update frequency
+- last source update
+- last Canarias Cerca ingestion
+- raw snapshot version
+
+The target is to keep the core data platform close to zero data-acquisition cost by preferring official open data whenever possible.
+
+---
+
+## H. Transport layer — future direction
+
+Treat transport as two related products:
+
+### 1. Transport map / practical mobility
+
+Possible layers:
+- bus / guagua stops
+- tram stops
+- public transport lines
+- ferry terminals
+- airports
+- ports / marinas
+- taxi ranks
+- park-and-ride
+- public parking
+- EV charging
+- bike infrastructure / shared bikes where open data exists
+- road incidents / closures where an official feed exists
+
+### 2. Mobility intelligence
+
+Possible datasets:
+- GTFS schedules and route geometries
+- origin-destination public-transport flows
+- monthly passenger volumes
+- transfers
+- busiest stops / corridors
+- travel-time and accessibility indicators
+- inter-island ferry and air connectivity
+- seasonality
+- service frequency by area / time of day
+
+Avoid claiming real-time vehicle position unless a reliable GTFS-Realtime or equivalent official feed is actually available.
+
+A normalized internal transport model should eventually separate:
+- operators
+- stops
+- routes
+- trips
+- schedules
+- service calendars
+- transport modes
+- terminals
+- origin-destination flows
+- live/realtime observations when available
