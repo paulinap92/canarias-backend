@@ -16,6 +16,25 @@ from app.services.content_editor import (
     read_items,
     update_item,
 )
+from app.services.admin_editor import (
+    AdminEditorError,
+    EXPLORE_RESOURCES,
+    LIVE_RESOURCES,
+    create_event,
+    create_explore,
+    hide_event,
+    hide_explore,
+    hide_news,
+    media_inventory,
+    read_events,
+    read_explore,
+    read_live,
+    read_news,
+    update_event,
+    update_explore,
+    update_news,
+)
+from app.services.events import current_month
 from app.utils.islands import VALID_ISLANDS
 
 
@@ -89,6 +108,10 @@ async def editor_options(request: Request) -> dict[str, Any]:
     return {
         "islands": list(VALID_ISLANDS),
         "sections": sorted(VALID_SECTIONS),
+        "explore_resources": list(EXPLORE_RESOURCES),
+        "live_resources": list(LIVE_RESOURCES),
+        "current_month": current_month(),
+        "areas": ["guide", "explore", "calendar", "news", "live", "media"],
         "media_upload_enabled": all(os.environ.get(key) for key in r2_keys),
     }
 
@@ -158,3 +181,105 @@ async def editor_delete(
     except ContentEditorError as exc:
         status = 404 if "not found" in str(exc) else 400
         raise HTTPException(status_code=status, detail=str(exc)) from exc
+
+
+@router.get("/api/editor/explore")
+async def editor_explore(request: Request, island: str = Query(...), resource: str = Query(...)) -> dict[str, Any]:
+    _require_editor(request)
+    try:
+        return read_explore(island, resource)
+    except AdminEditorError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+@router.post("/api/editor/explore", status_code=201)
+async def editor_explore_create(request: Request, island: str = Query(...), resource: str = Query(...), item: dict[str, Any] = Body(...)) -> dict[str, Any]:
+    _require_editor(request)
+    try:
+        return {"saved": create_explore(island, resource, item)}
+    except AdminEditorError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+@router.put("/api/editor/explore/{editor_key}")
+async def editor_explore_update(editor_key: str, request: Request, island: str = Query(...), resource: str = Query(...), item: dict[str, Any] = Body(...)) -> dict[str, Any]:
+    _require_editor(request)
+    try:
+        return {"saved": update_explore(island, resource, editor_key, item)}
+    except AdminEditorError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+@router.delete("/api/editor/explore/{editor_key}")
+async def editor_explore_hide(editor_key: str, request: Request, island: str = Query(...), resource: str = Query(...)) -> dict[str, Any]:
+    _require_editor(request)
+    try:
+        return {"saved": hide_explore(island, resource, editor_key)}
+    except AdminEditorError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+@router.get("/api/editor/events")
+async def editor_events(request: Request, island: str = Query(...), month: str = Query(..., pattern=r"^\d{4}-\d{2}$")) -> dict[str, Any]:
+    _require_editor(request)
+    try:
+        return read_events(island, month)
+    except AdminEditorError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+@router.post("/api/editor/events", status_code=201)
+async def editor_event_create(request: Request, island: str = Query(...), month: str = Query(..., pattern=r"^\d{4}-\d{2}$"), item: dict[str, Any] = Body(...)) -> dict[str, Any]:
+    _require_editor(request)
+    try:
+        return {"saved": create_event(island, month, item)}
+    except AdminEditorError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+@router.put("/api/editor/events/{editor_key}")
+async def editor_event_update(editor_key: str, request: Request, island: str = Query(...), month: str = Query(..., pattern=r"^\d{4}-\d{2}$"), item: dict[str, Any] = Body(...)) -> dict[str, Any]:
+    _require_editor(request)
+    try:
+        return {"saved": update_event(island, month, editor_key, item)}
+    except AdminEditorError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+@router.delete("/api/editor/events/{editor_key}")
+async def editor_event_hide(editor_key: str, request: Request, island: str = Query(...), month: str = Query(..., pattern=r"^\d{4}-\d{2}$")) -> dict[str, Any]:
+    _require_editor(request)
+    try:
+        return {"saved": hide_event(island, month, editor_key)}
+    except AdminEditorError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+@router.get("/api/editor/news")
+async def editor_news(request: Request, island: str | None = Query(None)) -> dict[str, Any]:
+    _require_editor(request)
+    return read_news(island)
+
+@router.put("/api/editor/news/{editor_key}")
+async def editor_news_update(editor_key: str, request: Request, item: dict[str, Any] = Body(...)) -> dict[str, Any]:
+    _require_editor(request)
+    try:
+        return {"saved": update_news(editor_key, item)}
+    except AdminEditorError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+@router.delete("/api/editor/news/{editor_key}")
+async def editor_news_hide(editor_key: str, request: Request) -> dict[str, Any]:
+    _require_editor(request)
+    try:
+        return {"saved": hide_news(editor_key)}
+    except AdminEditorError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+@router.get("/api/editor/live")
+async def editor_live(request: Request, island: str = Query(...), resource: str = Query(...)) -> dict[str, Any]:
+    _require_editor(request)
+    try:
+        return read_live(island, resource)
+    except (AdminEditorError, KeyError) as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+@router.get("/api/editor/media")
+async def editor_media(request: Request, island: str = Query(...)) -> dict[str, Any]:
+    _require_editor(request)
+    try:
+        return media_inventory(island)
+    except AdminEditorError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
