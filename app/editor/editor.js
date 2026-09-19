@@ -1,261 +1,449 @@
 const $ = (id) => document.getElementById(id);
 
-const state = {
-  items: [],
-  selected: null,
-  isNew: false,
-  mediaUploadEnabled: false,
+const AREA_LABELS = {
+  guide: "Guide",
+  explore: "Explore",
+  calendar: "Calendar",
+  news: "News",
+  live: "Live",
+  media: "Media"
 };
 
-const fields = [
-  "slug","name","category","order","short_description","description",
-  "latitude","longitude","image_url","image_credit","image_license",
-  "image_origin","image_source_url","image_license_url","source_url"
-];
+const RESOURCE_LABELS = {
+  places: "Lugares",
+  beaches: "Playas",
+  routes: "Rutas",
+  fauna: "Fauna",
+  flora: "Flora",
+  weather: "Weather",
+  "air-quality": "Air quality",
+  marine: "Marine",
+  tides: "Tides",
+  alerts: "Alerts",
+  seismic: "Seismic",
+  volcanic: "Volcanic",
+  webcams: "Webcams"
+};
 
-function token() {
-  return $("token").value.trim() || localStorage.getItem("canarias-editor-token") || "";
-}
+const state = {area:"guide",items:[],selected:null,isNew:false,options:null};
 
-async function api(url, options = {}) {
-  const headers = new Headers(options.headers || {});
-  const t = token();
-  if (t) headers.set("Authorization", `Bearer ${t}`);
-  if (options.body && !headers.has("Content-Type")) headers.set("Content-Type", "application/json");
-  const response = await fetch(url, {...options, headers});
-  if (response.status === 204) return null;
-  const body = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(body.detail || `HTTP ${response.status}`);
+function token(){return $("token").value.trim() || localStorage.getItem("canarias-editor-token") || "";}
+
+async function api(url,options){
+  options=options||{};
+  const headers=new Headers(options.headers||{});
+  const t=token();
+  if(t) headers.set("Authorization","Bearer "+t);
+  if(options.body && !headers.has("Content-Type")) headers.set("Content-Type","application/json");
+  const response=await fetch(url,Object.assign({},options,{headers}));
+  if(response.status===204) return null;
+  const body=await response.json().catch(()=>({}));
+  if(!response.ok) throw new Error(body.detail || ("HTTP "+response.status));
   return body;
 }
 
-function setStatus(message, error = false) {
-  $("status").textContent = message || "";
-  $("status").classList.toggle("error", error);
-}
-
-function currentScope() {
-  return {
-    island: $("island").value,
-    section: $("section").value,
-  };
-}
-
-function qs(scope = currentScope()) {
-  return new URLSearchParams(scope).toString();
-}
-
-function renderList() {
-  const root = $("items");
-  root.innerHTML = "";
-  state.items.forEach((item) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "item" + (state.selected?.slug === item.slug && !state.isNew ? " active" : "");
-    button.innerHTML = `<strong>${escapeHtml(item.name || item.title || item.slug)}</strong><small>${escapeHtml(item.slug || "")}</small>`;
-    button.addEventListener("click", () => editItem(item));
-    root.appendChild(button);
-  });
-}
-
-function escapeHtml(value) {
-  return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+function escapeHtml(value){
+  return String(value==null?"":value).replace(/[&<>"']/g,(char)=>({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
   })[char]);
 }
 
-function setValue(id, value) {
-  const element = $(id);
-  if (!element) return;
-  element.value = value ?? "";
+function setStatus(message,error){
+  $("status").textContent=message||"";
+  $("status").classList.toggle("error",Boolean(error));
+}
+function setVisible(id,visible){$(id).classList.toggle("hidden",!visible);}
+function fillSelect(el,values,labels){
+  el.innerHTML="";
+  values.forEach(value=>el.add(new Option((labels&&labels[value])||value,value)));
 }
 
-function editItem(item) {
-  state.selected = structuredClone(item);
-  state.isNew = false;
-  $("empty").classList.add("hidden");
-  $("form").classList.remove("hidden");
-  $("mode").textContent = "EDITAR";
-  $("form-title").textContent = item.name || item.title || item.slug;
-  $("slug").disabled = true;
-  $("delete").classList.remove("hidden");
-
-  fields.forEach((field) => setValue(field, item[field]));
-  $("featured").checked = item.featured === true;
-  $("tags").value = Array.isArray(item.tags) ? item.tags.join(", ") : "";
-  $("raw-json").value = JSON.stringify(item, null, 2);
-  updateImagePreview();
-  renderList();
-  setStatus("");
+function renderTabs(){
+  const root=$("area-tabs");
+  root.innerHTML="";
+  state.options.areas.forEach(area=>{
+    const button=document.createElement("button");
+    button.type="button";
+    button.textContent=AREA_LABELS[area]||area;
+    button.className=area===state.area?"active":"";
+    button.addEventListener("click",()=>{
+      state.area=area;
+      renderTabs();
+      configureArea();
+      loadArea();
+    });
+    root.appendChild(button);
+  });
 }
 
-function newItem() {
-  state.selected = {};
-  state.isNew = true;
-  $("empty").classList.add("hidden");
-  $("form").classList.remove("hidden");
-  $("mode").textContent = "NUEVO";
-  $("form-title").textContent = "Nuevo contenido";
-  $("slug").disabled = false;
-  $("delete").classList.add("hidden");
-  $("form").reset();
-  $("raw-json").value = "{}";
-  updateImagePreview();
-  renderList();
-  setStatus("");
+function configureArea(){
+  const area=state.area;
+  fillSelect($("island"),state.options.islands);
+  $("island").value=state.options.islands.includes("tenerife")?"tenerife":state.options.islands[0];
+  setVisible("resource-row",["guide","explore","live"].includes(area));
+  setVisible("month-row",area==="calendar");
+
+  if(area==="guide") fillSelect($("resource"),state.options.sections);
+  if(area==="explore") fillSelect($("resource"),state.options.explore_resources,RESOURCE_LABELS);
+  if(area==="live") fillSelect($("resource"),state.options.live_resources,RESOURCE_LABELS);
+  if(area==="calendar") $("month").value=state.options.current_month;
+
+  $("new-item").classList.toggle("hidden",!["guide","explore","calendar"].includes(area));
+  $("new-item").textContent=area==="calendar"?"+ Nuevo evento":"+ Nuevo";
+  $("search").value="";
+  state.items=[];
+  state.selected=null;
+  state.isNew=false;
+  hideEditors();
 }
 
-function slugify(value) {
-  return String(value || "")
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase().trim()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+function scopeQuery(){
+  const params=new URLSearchParams();
+  params.set("island",$("island").value);
+  if(state.area==="guide") params.set("section",$("resource").value);
+  if(state.area==="explore" || state.area==="live") params.set("resource",$("resource").value);
+  if(state.area==="calendar") params.set("month",$("month").value);
+  return params.toString();
 }
 
-function buildItem() {
-  let base = {};
-  const raw = $("raw-json").value.trim();
-  if (raw) {
-    try {
-      base = JSON.parse(raw);
-    } catch (error) {
-      throw new Error("JSON avanzado no es válido.");
-    }
+function endpoint(){
+  if(state.area==="guide") return "/api/editor/content";
+  if(state.area==="explore") return "/api/editor/explore";
+  if(state.area==="calendar") return "/api/editor/events";
+  if(state.area==="news") return "/api/editor/news";
+  if(state.area==="live") return "/api/editor/live";
+  return "/api/editor/media";
+}
+
+function hideEditors(){
+  $("form").classList.add("hidden");
+  $("readonly-panel").classList.add("hidden");
+  $("empty").classList.remove("hidden");
+}
+
+function itemName(item){
+  return item.name || item.title || item.common_name || item.slug || item.id || item.key || "Sin nombre";
+}
+function itemSubtitle(item){
+  if(state.area==="calendar") return item.start_date||"";
+  if(state.area==="news") return item.source||item.published_at||"";
+  if(state.area==="media") return (item.area||"")+" · "+(item.resource||"");
+  return item.slug||item.category||item.id||"";
+}
+
+function renderList(){
+  const root=$("items");
+  const query=$("search").value.trim().toLowerCase();
+  root.innerHTML="";
+  let visible=0;
+  state.items.forEach(item=>{
+    const haystack=(itemName(item)+" "+itemSubtitle(item)).toLowerCase();
+    if(query && !haystack.includes(query)) return;
+    visible+=1;
+    const button=document.createElement("button");
+    button.type="button";
+    const selectedKey=state.selected&&(state.selected._editor_key||state.selected.slug||state.selected.key);
+    const key=item._editor_key||item.slug||item.key;
+    button.className="item"+(selectedKey===key&&!state.isNew?" active":"");
+    let badges="";
+    if(item.hidden) badges+='<span class="badge warn">OCULTO</span>';
+    if(item.missing) badges+='<span class="badge warn">SIN FOTO</span>';
+    if(item.editorial_override) badges+='<span class="badge">EDITADO</span>';
+    button.innerHTML="<strong>"+escapeHtml(itemName(item))+"</strong><small>"+escapeHtml(itemSubtitle(item))+"</small>"+(badges?'<span class="badges">'+badges+"</span>":"");
+    button.addEventListener("click",()=>selectItem(item));
+    root.appendChild(button);
+  });
+  $("summary").textContent=visible+" / "+state.items.length+" elementos";
+}
+
+function value(id,newValue){
+  const el=$(id);
+  if(arguments.length>1) el.value=newValue==null?"":newValue;
+  return el.value;
+}
+function checked(id,newValue){
+  const el=$(id);
+  if(arguments.length>1) el.checked=Boolean(newValue);
+  return el.checked;
+}
+
+function resetFormVisibility(){
+  const area=state.area;
+  setVisible("date-fields",area==="calendar");
+  setVisible("order-row",area==="guide");
+  setVisible("category-row",["guide","explore","calendar"].includes(area));
+  setVisible("tags-row",["guide","explore"].includes(area));
+  setVisible("featured-row",["guide","explore"].includes(area));
+  setVisible("verified-row",area==="explore");
+  setVisible("hidden-row",["explore","calendar","news"].includes(area));
+  setVisible("lat-row",["explore","calendar"].includes(area));
+  setVisible("lon-row",["explore","calendar"].includes(area));
+  setVisible("media-box",["guide","explore","calendar","news"].includes(area));
+  setVisible("source-row",["guide","explore","calendar","news"].includes(area));
+  $("identity").disabled=!state.isNew||area!=="guide";
+}
+
+function selectItem(item){
+  if(["live","media"].includes(state.area)){
+    state.selected=item;
+    showReadonly(itemName(item),item);
+    renderList();
+    return;
   }
 
-  const assign = (key, value) => {
-    if (value === "" || value == null) delete base[key];
-    else base[key] = value;
+  state.selected=JSON.parse(JSON.stringify(item));
+  state.isNew=false;
+  $("empty").classList.add("hidden");
+  $("readonly-panel").classList.add("hidden");
+  $("form").classList.remove("hidden");
+  resetFormVisibility();
+
+  $("mode").textContent=(AREA_LABELS[state.area]||state.area).toUpperCase();
+  $("form-title").textContent=itemName(item);
+  const identity=state.area==="guide"?item.slug:(item.id||item.url||item._identity||item._editor_key||"");
+  value("identity",identity);
+  value("name",item.name||item.title||item.common_name||"");
+  value("category",item.category||"");
+  value("order",item.order||"");
+  value("description",item.description||item.summary||"");
+  value("tags",Array.isArray(item.tags)?item.tags.join(", "):(Array.isArray(item.editorial_tags)?item.editorial_tags.join(", "):""));
+  checked("featured",item.featured===true);
+  checked("verified",item.verified===true);
+  checked("hidden-item",item.hidden===true);
+  value("latitude",item.latitude);
+  value("longitude",item.longitude);
+  value("start_date",item.start_date);
+  value("end_date",item.end_date);
+  value("location_name",item.location_name);
+  checked("all_day",item.all_day!==false);
+  value("image_url",item.image_url||item.image||"");
+  value("image_credit",item.image_credit||"");
+  value("image_license",item.image_license||"");
+  value("image_origin",item.image_origin||"");
+  value("image_source_url",item.image_source_url||"");
+  value("image_license_url",item.image_license_url||"");
+  value("source_url",item.source_url||item.website||item.url||"");
+  value("raw-json",JSON.stringify(item,null,2));
+  updateImagePreview();
+  $("delete").classList.remove("hidden");
+  setStatus("");
+  renderList();
+}
+
+function newItem(){
+  if(state.area==="explore" && $("resource").value==="routes"){
+    alert("Las rutas necesitan geometría real. Puedes editar rutas existentes, pero no crear una línea desde este formulario.");
+    return;
+  }
+  state.selected={};
+  state.isNew=true;
+  $("empty").classList.add("hidden");
+  $("readonly-panel").classList.add("hidden");
+  $("form").classList.remove("hidden");
+  $("form").reset();
+  resetFormVisibility();
+  $("mode").textContent="NUEVO";
+  $("form-title").textContent=state.area==="calendar"?"Nuevo evento":"Nuevo contenido";
+  value("raw-json","{}");
+  $("delete").classList.add("hidden");
+  updateImagePreview();
+  setStatus("");
+}
+
+function buildItem(){
+  let base={};
+  const raw=value("raw-json").trim();
+  if(raw){
+    try{base=JSON.parse(raw);}
+    catch(error){throw new Error("JSON avanzado no es válido.");}
+  }
+
+  const assign=(key,val)=>{
+    if(val===""||val==null) delete base[key];
+    else base[key]=val;
   };
+  const area=state.area;
 
-  assign("slug", $("slug").value.trim());
-  assign("name", $("name").value.trim());
-  assign("category", $("category").value.trim());
-  assign("short_description", $("short_description").value.trim());
-  assign("description", $("description").value.trim());
-  assign("source_url", $("source_url").value.trim());
-  assign("image_url", $("image_url").value.trim());
-  assign("image_credit", $("image_credit").value.trim());
-  assign("image_license", $("image_license").value.trim());
-  assign("image_origin", $("image_origin").value.trim());
-  assign("image_source_url", $("image_source_url").value.trim());
-  assign("image_license_url", $("image_license_url").value.trim());
+  if(area==="guide"){
+    assign("slug",value("identity").trim());
+    assign("name",value("name").trim());
+  }else if(area==="calendar"||area==="news"){
+    assign("title",value("name").trim());
+  }else{
+    assign("name",value("name").trim());
+  }
 
-  const order = $("order").value.trim();
-  if (order) base.order = Number(order); else delete base.order;
+  assign("category",value("category").trim());
+  if(area==="calendar"||area==="news") assign("summary",value("description").trim());
+  else assign("description",value("description").trim());
 
-  const latitude = $("latitude").value.trim();
-  if (latitude) base.latitude = Number(latitude); else delete base.latitude;
-  const longitude = $("longitude").value.trim();
-  if (longitude) base.longitude = Number(longitude); else delete base.longitude;
+  if(area==="guide"){
+    const order=value("order").trim();
+    if(order) base.order=Number(order); else delete base.order;
+  }
 
-  const tags = $("tags").value.split(",").map((value) => value.trim()).filter(Boolean);
-  if (tags.length) base.tags = tags; else delete base.tags;
+  if(["guide","explore"].includes(area)){
+    const tags=value("tags").split(",").map(v=>v.trim()).filter(Boolean);
+    if(tags.length) base.tags=tags; else delete base.tags;
+    base.featured=checked("featured");
+  }
+  if(area==="explore") base.verified=checked("verified");
+  if(["explore","calendar","news"].includes(area)) base.hidden=checked("hidden-item");
 
-  base.featured = $("featured").checked;
+  if(["explore","calendar"].includes(area)){
+    const lat=value("latitude").trim();
+    const lon=value("longitude").trim();
+    if(lat) base.latitude=Number(lat); else delete base.latitude;
+    if(lon) base.longitude=Number(lon); else delete base.longitude;
+  }
+
+  if(area==="calendar"){
+    assign("start_date",value("start_date"));
+    assign("end_date",value("end_date"));
+    assign("location_name",value("location_name").trim());
+    base.all_day=checked("all_day");
+  }
+
+  if(["guide","explore","calendar","news"].includes(area)){
+    assign("image_url",value("image_url").trim());
+    assign("image_credit",value("image_credit").trim());
+    assign("image_license",value("image_license").trim());
+    assign("image_origin",value("image_origin").trim());
+    assign("image_source_url",value("image_source_url").trim());
+    assign("image_license_url",value("image_license_url").trim());
+
+    const source=value("source_url").trim();
+    if(area==="explore") assign("website",source);
+    else if(area==="calendar"||area==="news"){
+      if(state.isNew&&area==="calendar") assign("url",source);
+    }else assign("source_url",source);
+  }
+
   return base;
 }
 
-function updateImagePreview() {
-  const url = $("image_url").value.trim();
-  const root = $("image-preview");
-  root.innerHTML = "";
-  if (!url) {
-    root.textContent = "Sin imagen";
-    return;
-  }
-  const img = document.createElement("img");
-  img.src = url;
-  img.alt = "";
-  img.onerror = () => { root.textContent = "No se pudo cargar la imagen"; };
+function updateImagePreview(){
+  const url=value("image_url").trim();
+  const root=$("image-preview");
+  root.innerHTML="";
+  if(!url){root.textContent="Sin imagen";return;}
+  const img=document.createElement("img");
+  img.src=url;
+  img.alt="";
+  img.onerror=()=>{root.textContent="No se pudo cargar la imagen";};
   root.appendChild(img);
 }
 
-async function loadContent() {
-  setStatus("Cargando…");
-  try {
-    const data = await api(`/api/editor/content?${qs()}`);
-    state.items = data.items || [];
-    state.selected = null;
-    state.isNew = false;
-    $("form").classList.add("hidden");
+function showReadonly(title,payload){
+  $("empty").classList.add("hidden");
+  $("form").classList.add("hidden");
+  $("readonly-panel").classList.remove("hidden");
+  $("readonly-title").textContent=title;
+  $("readonly-label").textContent=state.area==="live"?"LIVE · READ ONLY":"MEDIA";
+  $("readonly-json").textContent=JSON.stringify(payload,null,2);
+}
+
+async function loadArea(){
+  hideEditors();
+  $("summary").textContent="Cargando…";
+  try{
+    const data=await api(endpoint()+"?"+scopeQuery());
+
+    if(state.area==="live"){
+      state.items=[{name:RESOURCE_LABELS[$("resource").value]||$("resource").value,snapshot:data.payload}];
+      $("summary").textContent="Snapshot read-only";
+      showReadonly(RESOURCE_LABELS[$("resource").value]||$("resource").value,data.payload);
+      renderList();
+      return;
+    }
+
+    state.items=data.items||[];
+    state.selected=null;
+    state.isNew=false;
     $("empty").classList.remove("hidden");
+    $("readonly-panel").classList.add("hidden");
+    $("form").classList.add("hidden");
+
+    if(state.area==="media"){
+      $("summary").textContent=data.with_image+" con foto · "+data.missing+" sin foto";
+    }
     renderList();
-    setStatus(`${state.items.length} elementos`);
-  } catch (error) {
-    setStatus(error.message, true);
+  }catch(error){
+    $("summary").textContent=error.message;
+    $("empty").innerHTML="<h2>Error</h2><p>"+escapeHtml(error.message)+"</p>";
+    $("empty").classList.remove("hidden");
   }
 }
 
-async function save(event) {
+async function save(event){
   event.preventDefault();
   setStatus("Guardando…");
-  try {
-    const item = buildItem();
-    if (!item.slug) throw new Error("Falta slug.");
-    if (!item.name && !item.title) throw new Error("Falta nombre.");
+  try{
+    const item=buildItem();
+    let url=endpoint()+"?"+scopeQuery();
+    let method="POST";
 
-    const url = state.isNew
-      ? `/api/editor/content?${qs()}`
-      : `/api/editor/content/${encodeURIComponent(state.selected.slug)}?${qs()}`;
-    const method = state.isNew ? "POST" : "PUT";
-    await api(url, {method, body: JSON.stringify(item)});
-    await loadContent();
-    const saved = state.items.find((value) => value.slug === item.slug);
-    if (saved) editItem(saved);
-    setStatus("Guardado ✓");
-  } catch (error) {
-    setStatus(error.message, true);
-  }
-}
-
-async function removeItem() {
-  if (!state.selected?.slug || state.isNew) return;
-  if (!confirm(`¿Eliminar "${state.selected.name || state.selected.slug}"?`)) return;
-  setStatus("Eliminando…");
-  try {
-    await api(`/api/editor/content/${encodeURIComponent(state.selected.slug)}?${qs()}`, {method:"DELETE"});
-    await loadContent();
-    setStatus("Eliminado.");
-  } catch (error) {
-    setStatus(error.message, true);
-  }
-}
-
-async function init() {
-  const savedToken = localStorage.getItem("canarias-editor-token") || "";
-  $("token").value = savedToken;
-
-  try {
-    const options = await api("/api/editor/options");
-    options.islands.forEach((value) => $("island").add(new Option(value, value)));
-    options.sections.forEach((value) => $("section").add(new Option(value, value)));
-    $("island").value = "tenerife";
-    $("section").value = "food";
-    state.mediaUploadEnabled = Boolean(options.media_upload_enabled);
-    if (state.mediaUploadEnabled) {
-      $("upload-status").textContent = "R2 configurado; endpoint de upload będzie dodany w następnym kroku.";
+    if(!state.isNew){
+      method="PUT";
+      if(state.area==="guide") url=endpoint()+"/"+encodeURIComponent(state.selected.slug)+"?"+scopeQuery();
+      else url=endpoint()+"/"+encodeURIComponent(state.selected._editor_key)+"?"+scopeQuery();
     }
-    await loadContent();
-  } catch (error) {
-    $("empty").innerHTML = `<h2>No se pudo abrir el editor</h2><p>${escapeHtml(error.message)}</p>`;
+
+    const result=await api(url,{method,body:JSON.stringify(item)});
+    await loadArea();
+    const saved=result&&result.saved;
+    if(saved){
+      const key=saved._editor_key||saved.slug;
+      const found=state.items.find(x=>(x._editor_key||x.slug)===key);
+      if(found) selectItem(found);
+    }
+    setStatus("Guardado ✓");
+  }catch(error){
+    setStatus(error.message,true);
   }
 }
 
-$("token").addEventListener("change", () => {
-  localStorage.setItem("canarias-editor-token", $("token").value.trim());
-  loadContent();
+async function removeItem(){
+  if(!state.selected||state.isNew) return;
+  const verb=state.area==="guide"?"Eliminar":"Ocultar";
+  if(!confirm(verb+' "'+itemName(state.selected)+'"?')) return;
+
+  try{
+    let url;
+    if(state.area==="guide") url=endpoint()+"/"+encodeURIComponent(state.selected.slug)+"?"+scopeQuery();
+    else url=endpoint()+"/"+encodeURIComponent(state.selected._editor_key)+"?"+scopeQuery();
+    await api(url,{method:"DELETE"});
+    await loadArea();
+  }catch(error){
+    setStatus(error.message,true);
+  }
+}
+
+async function init(){
+  $("token").value=localStorage.getItem("canarias-editor-token")||"";
+  try{
+    state.options=await api("/api/editor/options");
+    renderTabs();
+    configureArea();
+    if(state.options.media_upload_enabled) $("upload-status").textContent="R2 configurado; falta conectar el endpoint de upload.";
+    await loadArea();
+  }catch(error){
+    $("empty").innerHTML="<h2>No se pudo abrir el admin</h2><p>"+escapeHtml(error.message)+"</p>";
+  }
+}
+
+$("token").addEventListener("change",()=>{localStorage.setItem("canarias-editor-token",$("token").value.trim());loadArea();});
+$("reload").addEventListener("click",loadArea);
+$("island").addEventListener("change",loadArea);
+$("resource").addEventListener("change",()=>{
+  $("new-item").classList.toggle("hidden",state.area==="explore"&&$("resource").value==="routes");
+  loadArea();
 });
-$("reload").addEventListener("click", loadContent);
-$("island").addEventListener("change", loadContent);
-$("section").addEventListener("change", loadContent);
-$("new-item").addEventListener("click", newItem);
-$("delete").addEventListener("click", removeItem);
-$("form").addEventListener("submit", save);
-$("image_url").addEventListener("input", updateImagePreview);
-$("name").addEventListener("input", () => {
-  if (state.isNew && !$("slug").value.trim()) $("slug").value = slugify($("name").value);
-});
+$("month").addEventListener("change",loadArea);
+$("search").addEventListener("input",renderList);
+$("new-item").addEventListener("click",newItem);
+$("delete").addEventListener("click",removeItem);
+$("form").addEventListener("submit",save);
+$("image_url").addEventListener("input",updateImagePreview);
 
 init();
