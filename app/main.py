@@ -34,6 +34,7 @@ from app.api.content import router as content_router
 from app.api.data import router as data_router
 from app.api.flora import router as flora_router
 from app.api.explore import router as explore_router
+from app.api.explore_collections import router as explore_collections_router
 
 logger = logging.getLogger("uvicorn.error")
 
@@ -75,6 +76,7 @@ app.include_router(live_router)
 app.include_router(health_router)
 app.include_router(content_router)
 app.include_router(explore_router)
+app.include_router(explore_collections_router)
 app.include_router(flora_router)
 app.include_router(data_router)
 
