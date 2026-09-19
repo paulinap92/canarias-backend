@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import Any
 
 from app.services.alerts import fetch_active_alerts
+from app.services.beach_conditions import fetch_beach_conditions
 from app.services.open_meteo_live import (
     fetch_air_quality_points,
     fetch_marine_points,
@@ -15,7 +16,7 @@ from app.services.webcams import fetch_tenerife_webcams
 from app.utils.islands import filter_feature_collection_by_island, normalize_island
 
 from .base import DataSource
-from .registry import data_source
+from .registry import data_source, get_data_source
 from .store import DATA_ROOT, read_json
 
 
@@ -43,6 +44,35 @@ class WeatherSource(IslandSnapshotSource):
     async def fetch(self, **params: Any):
         result = await fetch_weather_points(params.get("island"))
         result["available"] = True
+        return result
+
+
+@data_source("live", "beaches")
+class BeachConditionsSource(IslandSnapshotSource):
+    allow_empty = True
+
+    def empty_payload(self, **params: Any):
+        island = normalize_island(params.get("island"))
+        return {
+            "source": "Canarias Cerca beaches + Open-Meteo + Open-Meteo Marine",
+            "source_type": "model",
+            "island": island,
+            "points_count": 0,
+            "points": [],
+            "available": False,
+            "status": "not_initialized",
+            "updated_at": None,
+        }
+
+    async def fetch(self, **params: Any):
+        island = normalize_island(params.get("island"))
+        beaches = get_data_source("explore", "beaches").read(island=island)
+        result = await fetch_beach_conditions(
+            beaches,
+            island=island,
+            hours=int(params.get("hours") or 48),
+        )
+        result["available"] = bool(result.get("points"))
         return result
 
 
