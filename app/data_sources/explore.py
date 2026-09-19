@@ -281,6 +281,41 @@ class FoodProducersSource(_OfficialDirectorySource):
     pass
 
 
+@data_source("explore", "markets")
+class MarketsSource(_OfficialDirectorySource):
+    pass
+
+
+@data_source("explore", "stargazing")
+class StargazingSource(_OfficialDirectorySource):
+    pass
+
+
+@data_source("explore", "surf-spots")
+class SurfSpotsSource(_OfficialDirectorySource):
+    pass
+
+
+@data_source("explore", "natural-spaces")
+class NaturalSpacesSource(_OfficialDirectorySource):
+    pass
+
+
+@data_source("explore", "museums-visits")
+class MuseumsVisitsSource(_OfficialDirectorySource):
+    pass
+
+
+@data_source("explore", "leisure-centers")
+class LeisureCentersSource(_OfficialDirectorySource):
+    pass
+
+
+@data_source("explore", "diving-spots")
+class DivingSpotsSource(_OfficialDirectorySource):
+    pass
+
+
 class _TerrainPointSource(CuratedExploreSource):
     allow_empty = True
 
