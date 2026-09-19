@@ -77,7 +77,7 @@ def _match_score(left: str, right: str) -> float:
 
 def _listing_url(resource: str, island: str) -> str:
     section = DIRECTORIES[resource]["section"]
-    return f"{SOURCE_BASE}/{section}/{island}/all/?limit=48"
+    return f"{SOURCE_BASE}/{section}/{island}/?limit=48"
 
 
 def _listing_links(html: str, resource: str, island: str) -> list[str]:
@@ -92,7 +92,10 @@ def _listing_links(html: str, resource: str, island: str) -> list[str]:
         path = urlparse(href).path
         if not path.startswith(prefix):
             continue
-        if path.rstrip("/") == f"{prefix}all".rstrip("/"):
+        parts = [part for part in path.strip("/").split("/") if part]
+        if len(parts) != 3:
+            continue
+        if parts[-1] == "all":
             continue
         if href in seen:
             continue
