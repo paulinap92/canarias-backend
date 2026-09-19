@@ -489,3 +489,134 @@ These remain deterministic and source-backed.
 DATA / SOURCES -> deterministic validation and calculations -> optional LLM presentation layer -> editor review where editorial content is published
 
 The LLM should mainly help Canarias Cerca write, summarize, organize and explain. It should not invent or replace the underlying data.
+
+
+---
+
+## K. Natural calendar and biodiversity
+
+Add a dedicated "Naturaleza ahora" / "Natural Calendar" layer inspired by seasonal natural phenomena, but built from official biodiversity knowledge, recent observations and Canarias Cerca live data.
+
+### BIOTA as a core biodiversity source
+
+Use BIOTA — Banco de Datos de Biodiversidad de Canarias — as a primary official reference for:
+- species present in the Canary Islands
+- island / geographic distribution
+- taxonomic identity
+- conservation / biodiversity context where available
+- validated scientific and technical occurrence information
+
+BIOTA should be treated as the authoritative baseline for "what exists where", not as a real-time indicator of what is happening today.
+
+Store source metadata and licensing / reuse conditions for any BIOTA-derived record before production publication.
+
+### Natural Calendar content types
+
+- flowering seasons
+- seasonal landscapes
+- bird migration / breeding periods
+- cetacean seasonality where supported by reliable sources
+- marine / intertidal phenomena
+- meteor showers and other astronomy events
+- moon phases / eclipses when relevant
+- seasonal wildlife observations
+- recurring natural phenomena specific to islands / altitude zones
+
+Example records:
+- Tajinaste rojo flowering
+- Almond blossom in Santiago del Teide
+- Retama flowering
+- seasonal whale / dolphin presence
+- low-tide / spring-tide windows
+- meteor showers
+
+### Separate baseline from current status
+
+Do not confuse:
+- "typically flowers in May-June"
+with
+- "is flowering now".
+
+Each natural phenomenon should keep both:
+
+- typical_window
+- current_status
+- status_confidence
+- last_verified
+- sources
+
+Possible statuses:
+- upcoming
+- active
+- fading
+- finished
+- year_round
+- unknown
+
+### Phenology / current-status engine
+
+Future deterministic workflow:
+
+OFFICIAL BASELINE
++ recent observations
++ island / altitude / area
++ relevant weather context
+= current seasonal status
+
+Potential observation sources:
+- official environmental monitoring
+- BIOTA where temporally suitable
+- GBIF occurrence data
+- iNaturalist observations, only as observational evidence and not as the sole authoritative source
+
+Do not infer precise flowering dates from climate alone.
+
+### Suggested model
+
+- id
+- title
+- type
+- species_id / taxon where applicable
+- island
+- area
+- altitude_min / altitude_max where useful
+- typical_start
+- typical_end
+- recurring_yearly
+- status
+- confidence
+- recent_observation_count
+- last_observation_at
+- source_baseline
+- source_observations
+- last_verified
+- editor_status
+
+### Product integration
+
+Possible frontend blocks:
+- Está pasando ahora
+- Próximamente
+- Todo el año
+
+Integrate with:
+- Explore / Flora / Fauna
+- Qué hacer hoy
+- Hoy / Este finde briefings
+- seasonal editorial content
+- map highlights
+
+Examples:
+- "Tajinaste en flor ahora"
+- "Mejor momento para ver almendros"
+- "Marea viva este fin de semana"
+- "Lluvia de estrellas esta noche"
+
+The editor should be able to:
+- approve / correct seasonal windows
+- override current status when an official bulletin provides better information
+- add source notes
+- feature a phenomenon
+- hide unreliable records
+
+The long-term goal is to build a Canarias Cerca Natural Calendar dataset that combines official biodiversity knowledge with timely observations and live environmental context.
