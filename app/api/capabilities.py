@@ -35,6 +35,7 @@ async def island_capabilities(
             "monuments": normalized != "la-graciosa",
             "places": True,
             "beaches": True,
+            "natural_pools": True,
             "trails": True,
             "wildlife": True,
             "flora": True,

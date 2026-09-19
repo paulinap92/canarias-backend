@@ -16,7 +16,7 @@ from app.services.content_editor import content_root
 from app.services.events import current_month
 from app.utils.islands import normalize_island
 
-EXPLORE_RESOURCES = ("places", "beaches", "routes", "fauna", "flora")
+EXPLORE_RESOURCES = ("places", "beaches", "natural-pools", "routes", "fauna", "flora")
 LIVE_RESOURCES = ("weather", "air-quality", "marine", "tides", "alerts", "seismic", "volcanic", "webcams")
 
 
@@ -331,7 +331,7 @@ def media_inventory(island: str) -> dict[str, Any]:
                     "missing": not bool(item.get("image_url")),
                 })
 
-    for resource in ("places", "beaches", "fauna", "flora"):
+    for resource in ("places", "beaches", "natural-pools", "fauna", "flora"):
         payload = _load_object(_explore_path(normalized, resource), {"features": []})
         for feature in payload.get("features", []):
             if not isinstance(feature, dict):

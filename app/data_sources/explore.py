@@ -7,6 +7,7 @@ from typing import Any
 from app.services.beaches import fetch_beaches
 from app.services.flora import fetch_flora
 from app.services.places import fetch_places
+from app.services.natural_pools import fetch_natural_pools
 from app.services.trails import fetch_trails
 from app.services.wildlife import fetch_wildlife
 from app.utils.islands import filter_feature_collection_by_island, normalize_island
@@ -220,4 +221,21 @@ class FloraSource(CuratedExploreSource):
         result = filter_feature_collection_by_island(data, island)
         result["available"] = True
         result["source"] = "GBIF candidates"
+        return result
+
+
+
+@data_source("explore", "natural-pools")
+class NaturalPoolsSource(CuratedExploreSource):
+    async def fetch(self, **params: Any) -> dict[str, Any]:
+        island = params.get("island")
+        data = await fetch_natural_pools(limit=200, island=island)
+        result = filter_feature_collection_by_island(data, island)
+        result["available"] = True
+        result["source"] = data.get("source", "Hola Islas Canarias")
+        result["source_url"] = data.get("source_url")
+        result["official_discovered"] = data.get("official_discovered", 0)
+        result["mapped_count"] = data.get("mapped_count", 0)
+        result["unmapped_count"] = data.get("unmapped_count", 0)
+        result["unmapped_items"] = data.get("unmapped_items", [])
         return result

@@ -17,3 +17,6 @@ Refresh strategy:
 - News = append + deduplicate; a short RSS window does not erase older locally stored items.
 
 Failed refreshes keep the last valid JSON and are logged as `DATA REFRESH FAIL`.
+
+
+Explore also includes `natural-pools`: official discovery comes from Hola Islas Canarias and geometry is matched against OpenStreetMap. Unmatched official records remain visible in refresh metadata for later editorial geocoding instead of being guessed.

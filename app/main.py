@@ -17,6 +17,7 @@ from app.api.health import router as health_router
 from app.api.live import router as live_router
 from app.api.marine import router as marine_router
 from app.api.monuments import router as monuments_router
+from app.api.natural_pools import router as natural_pools_router
 from app.api.news import router as news_router
 from app.api.places import router as places_router
 from app.api.ports import router as ports_router
@@ -52,6 +53,7 @@ app.include_router(weather_router)
 app.include_router(air_quality_router)
 app.include_router(seismic_router)
 app.include_router(monuments_router)
+app.include_router(natural_pools_router)
 app.include_router(marine_router)
 app.include_router(wildlife_router)
 app.include_router(places_router)
