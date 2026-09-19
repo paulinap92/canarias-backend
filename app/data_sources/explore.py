@@ -10,6 +10,10 @@ from app.services.places import fetch_places
 from app.services.natural_pools import fetch_natural_pools
 from app.services.trails import fetch_trails
 from app.services.wildlife import fetch_wildlife
+from app.services.explore_collections import (
+    fetch_official_directory,
+    fetch_terrain_features,
+)
 from app.utils.islands import filter_feature_collection_by_island, normalize_island
 
 from .base import IslandGeoJSONSource
@@ -239,3 +243,67 @@ class NaturalPoolsSource(CuratedExploreSource):
         result["unmapped_count"] = data.get("unmapped_count", 0)
         result["unmapped_items"] = data.get("unmapped_items", [])
         return result
+
+
+
+class _OfficialDirectorySource(CuratedExploreSource):
+    allow_empty = True
+
+    async def fetch(self, **params: Any) -> dict[str, Any]:
+        island = params.get("island")
+        data = await fetch_official_directory(
+            self.resource,
+            island=island,
+            limit=200,
+        )
+        result = filter_feature_collection_by_island(data, island)
+        result["available"] = True
+        for key in (
+            "source",
+            "source_url",
+            "official_discovered",
+            "mapped_count",
+            "unmapped_count",
+            "unmapped_items",
+        ):
+            if key in data:
+                result[key] = data[key]
+        return result
+
+
+@data_source("explore", "marinas")
+class MarinasSource(_OfficialDirectorySource):
+    pass
+
+
+@data_source("explore", "food-producers")
+class FoodProducersSource(_OfficialDirectorySource):
+    pass
+
+
+class _TerrainPointSource(CuratedExploreSource):
+    allow_empty = True
+
+    async def fetch(self, **params: Any) -> dict[str, Any]:
+        island = params.get("island")
+        data = await fetch_terrain_features(
+            self.resource,
+            island=island,
+            limit=50,
+        )
+        result = filter_feature_collection_by_island(data, island)
+        result["available"] = True
+        for key in ("source", "reference_source", "reference_url"):
+            if key in data:
+                result[key] = data[key]
+        return result
+
+
+@data_source("explore", "volcanoes")
+class VolcanoesSource(_TerrainPointSource):
+    pass
+
+
+@data_source("explore", "summits")
+class SummitsSource(_TerrainPointSource):
+    pass
