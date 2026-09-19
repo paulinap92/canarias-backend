@@ -540,7 +540,19 @@ def curate_explore(
 ) -> dict[str, Any]:
     if resource in {"fauna", "flora"}:
         return curate_catalog_resource(raw, resource=resource, island=island, previous=previous)
-    if resource in {"marinas", "food-producers", "volcanoes", "summits"}:
+    if resource in {
+        "marinas",
+        "food-producers",
+        "diving-spots",
+        "leisure-centers",
+        "museums-visits",
+        "natural-spaces",
+        "surf-spots",
+        "stargazing",
+        "markets",
+        "volcanoes",
+        "summits",
+    }:
         return curate_external_points(
             raw,
             resource=resource,
