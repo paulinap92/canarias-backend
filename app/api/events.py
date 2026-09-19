@@ -24,7 +24,11 @@ def _invalid(island: str) -> dict[str, Any]:
 
 
 def _filtered(payload: dict[str, Any], category: str | None, limit: int) -> dict[str, Any]:
-    values = list(payload.get("items", []))
+    values = [
+        item
+        for item in payload.get("items", [])
+        if not item.get("hidden")
+    ]
     if category:
         values = [item for item in values if item.get("category") == category]
     visible = values[:limit]
